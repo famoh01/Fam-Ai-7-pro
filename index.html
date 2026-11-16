@@ -3553,17 +3553,16 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   /* =======================================================
      14) EXPORT
      ======================================================= */
-  // Chrome on Android can report MP4 support but create a fragmented MP4 that Gallery reads as 0.1 sec.
-  // WebM/VP8 is a single, standards-compliant stream in Chrome and uploads directly to YouTube.
+  // YouTube mobile preview is most compatible with a finalized MP4 (H.264/AAC).
+  // We record ONE finalized file at stop(), never short 200 ms fragments, so Android keeps the true duration.
   const MIME_CANDIDATES = [
-    'video/webm;codecs=vp8,opus',
-    'video/webm;codecs=vp9,opus',
-    'video/webm',
-    // Safari and a few non-Chrome browsers may need one of these MP4 fallbacks.
     'video/mp4;codecs=avc1.42E01E,mp4a.40.2',
     'video/mp4;codecs=avc1.4D401E,mp4a.40.2',
     'video/mp4;codecs=h264',
-    'video/mp4'
+    'video/mp4',
+    'video/webm;codecs=vp8,opus',
+    'video/webm;codecs=vp9,opus',
+    'video/webm'
   ];
 
   function pickMime() {
@@ -3775,6 +3774,10 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     }
 
     const mime = pickMime();
+    if (mime && !mime.includes('mp4')) {
+      toast('เบราว์เซอร์นี้ไม่รองรับการสร้าง MP4 โดยตรง — อัปเดต Chrome แล้วลองอีกครั้ง', 'err', 6000);
+      return;
+    }
     if (mime === null) {
       toast('เบราว์เซอร์นี้ไม่รองรับการเรนเดอร์วิดีโอ — ลองใช้ Chrome หรือ Edge เวอร์ชันใหม่', 'err', 5000);
       return;
@@ -3842,9 +3845,10 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     /* ---- เริ่มลำดับเสียงของคลิปนี้ ---- */
     try { startSceneSound(dur); } catch (e) { /* noop */ }
 
-    const opts = { videoBitsPerSecond: 9000000 };
+    // 1080×1920 H.264 at 12 Mbps: visibly crisp text and news images for YouTube Shorts.
+    const opts = { videoBitsPerSecond: 12000000 };
     if (mime) opts.mimeType = mime;
-    if (stream.getAudioTracks().length) opts.audioBitsPerSecond = 128000;
+    if (stream.getAudioTracks().length) opts.audioBitsPerSecond = 160000;
 
     let recorder;
     try {
@@ -3941,7 +3945,7 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
 
   exportNote.textContent = inIframe
     ? 'พรีวิวแบบฝังอาจบล็อกการดาวน์โหลด — เปิดหน้านี้ในแท็บใหม่เพื่อบันทึกไฟล์'
-    : 'เรนเดอร์ในเบราว์เซอร์ของคุณ • 1080×1920 • Chrome Android จะบันทึกเป็น WEBM เพื่อความยาววิดีโอที่ถูกต้อง (อัป YouTube ได้โดยตรง)';
+    : 'เรนเดอร์ในเบราว์เซอร์ของคุณ • 1080×1920 • จะสร้าง MP4 H.264/AAC ความคมชัดสูงสำหรับ YouTube Shorts';
 
   [resultOverlay, helpOverlay].forEach(ov => {
     ov.addEventListener('click', e => { if (e.target === ov) closeOverlay(ov); });
