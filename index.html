@@ -1,0 +1,2894 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fam Ai — ข่าวสด & Auto Reels Studio</title>
+<meta name="description" content="Fam Ai อ่านข่าวสด แล้วตัดต่อเป็นคลิป Reels แนวตั้ง 9:16 พร้อมซับไตเติลอัตโนมัติ ดาวน์โหลดลงเครื่องได้ทันที">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Kanit:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   Fam Ai — Stylesheet
+   ========================================================= */
+:root {
+  --primary-red: #e60000;
+  --primary-hover: #b30000;
+  --dark-bg: #0b0b0e;
+  --dark-bg-2: #0f0f13;
+  --card-bg: #16161a;
+  --border-color: #2a2a35;
+  --text-light: #ffffff;
+  --text-gray: #9ca3af;
+  --accent-yellow: #ffeb3b;
+  --accent-green: #00e676;
+  --accent-cyan: #22e6ff;
+  --radius: 16px;
+  --shadow-lg: 0 32px 80px rgba(0, 0, 0, .6);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+
+body {
+  background:
+    radial-gradient(1200px 600px at 85% -10%, rgba(230, 0, 0, .13), transparent 60%),
+    radial-gradient(900px 500px at 5% 0%, rgba(34, 120, 255, .08), transparent 60%),
+    var(--dark-bg);
+  color: var(--text-light);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Prompt', 'Noto Sans Thai', 'Sarabun', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, video, canvas { display: block; max-width: 100%; }
+button, input, select, textarea { font: inherit; color: inherit; }
+a { color: inherit; text-decoration: none; }
+
+/* ================= HEADER ================= */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 26px;
+  background: rgba(0, 0, 0, .82);
+  backdrop-filter: blur(14px);
+  border-bottom: 2px solid rgba(230, 0, 0, .85);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .55);
+}
+
+.logo { display: flex; align-items: center; gap: 10px; flex: 0 0 auto; }
+.logo-mark {
+  width: 34px; height: 34px;
+  display: grid; place-items: center;
+  background: linear-gradient(140deg, #ff2b2b, var(--primary-red) 60%, #940000);
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  box-shadow: 0 0 18px rgba(230, 0, 0, .55);
+}
+.logo-mark.small { width: 22px; height: 22px; font-size: 13px; border-radius: 7px; }
+.logo-text { font-size: 22px; font-weight: 700; letter-spacing: .5px; font-family: 'Kanit', sans-serif; }
+.logo-ai { color: var(--primary-red); }
+
+.main-nav { display: flex; gap: 6px; flex: 1 1 auto; }
+.nav-link {
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: var(--text-gray);
+  font-weight: 500;
+  transition: .18s;
+  white-space: nowrap;
+}
+.nav-link:hover { color: #fff; background: rgba(255, 255, 255, .06); }
+.nav-link.active { color: #fff; background: rgba(230, 0, 0, .16); box-shadow: inset 0 0 0 1px rgba(230, 0, 0, .4); }
+
+.header-right { display: flex; align-items: center; gap: 10px; flex: 0 0 auto; }
+
+.search-box {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--dark-bg-2);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0 10px;
+  height: 40px;
+  transition: .2s;
+}
+.search-box:focus-within { border-color: var(--primary-red); box-shadow: 0 0 0 3px rgba(230, 0, 0, .15); }
+.search-icon { font-size: 13px; opacity: .7; }
+.search-box input {
+  background: none; border: none; outline: none;
+  width: 210px; font-size: 13.5px;
+}
+.search-box input::placeholder { color: #6b7280; }
+.search-clear { background: none; border: none; cursor: pointer; color: var(--text-gray); font-size: 13px; padding: 4px; }
+.search-clear:hover { color: #fff; }
+
+.btn-ghost {
+  width: 40px; height: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  background: var(--dark-bg-2);
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text-gray);
+  transition: .2s;
+}
+.btn-ghost:hover { color: #fff; border-color: #4b5563; }
+
+/* ================= TICKER ================= */
+.ticker {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 9px 26px;
+  background: linear-gradient(90deg, var(--primary-red), #ff2d2d 55%, var(--primary-red));
+  font-size: 13.5px;
+  font-weight: 600;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, .25), 0 8px 26px rgba(230, 0, 0, .18);
+  overflow: hidden;
+}
+.live-badge {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: #fff; color: var(--primary-red);
+  padding: 4px 11px; border-radius: 999px;
+  font-size: 11px; font-weight: 800; letter-spacing: .4px;
+  flex: 0 0 auto;
+  text-transform: uppercase;
+}
+.live-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--primary-red);
+  animation: pulse 1.4s infinite;
+}
+@keyframes pulse {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: .35; transform: scale(.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.ticker-viewport { flex: 1 1 auto; min-width: 0; overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
+.ticker-track {
+  display: inline-flex; gap: 44px;
+  white-space: nowrap;
+  animation: ticker-scroll 42s linear infinite;
+  will-change: transform;
+}
+.ticker-viewport:hover .ticker-track { animation-play-state: paused; }
+.ticker-track span::before { content: '◆'; color: #ffe9e9; margin-right: 12px; font-size: 9px; vertical-align: middle; }
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.ticker-time {
+  flex: 0 0 auto;
+  font-variant-numeric: tabular-nums;
+  background: rgba(0, 0, 0, .22);
+  padding: 3px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+/* ================= LAYOUT ================= */
+.page { flex: 1; width: 100%; }
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(0, 1.38fr) minmax(0, 1fr);
+  gap: 30px;
+  padding: 30px;
+  max-width: 1480px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: start;
+}
+
+/* ================= NEWS COLUMN ================= */
+.section-head { margin-bottom: 16px; }
+.section-title { font-size: 26px; font-weight: 700; font-family: 'Kanit', sans-serif; letter-spacing: .3px; }
+.section-title .dot { color: var(--primary-red); }
+.section-sub { color: var(--text-gray); font-size: 13.5px; margin-top: 6px; line-height: 1.6; overflow-wrap: anywhere; }
+
+.filter-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 14px; flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip {
+  background: var(--dark-bg-2);
+  border: 1px solid var(--border-color);
+  color: var(--text-gray);
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: .18s;
+  font-weight: 500;
+}
+.chip:hover { color: #fff; border-color: #4b5563; }
+.chip.active {
+  background: linear-gradient(135deg, var(--primary-red), #ff3b3b);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(230, 0, 0, .35);
+}
+.result-count { font-size: 12.5px; color: #6b7280; }
+
+.news-grid { display: flex; flex-direction: column; gap: 24px; min-width: 0; }
+.news-card { min-width: 0; }
+
+.news-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .35);
+  position: relative;
+}
+.news-card:hover { border-color: #4b5563; transform: translateY(-3px); box-shadow: 0 18px 44px rgba(0, 0, 0, .5); }
+.news-card.is-active { border-color: var(--primary-red); box-shadow: 0 0 0 1px var(--primary-red), 0 18px 44px rgba(230, 0, 0, .2); }
+
+.news-video-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #05050a;
+  overflow: hidden;
+  cursor: pointer;
+}
+.news-video-thumb video {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+.news-card:hover .news-video-thumb video { transform: scale(1.02); }
+
+.thumb-overlay-tag {
+  position: absolute; top: 14px; left: 14px;
+  background: rgba(0, 0, 0, .68);
+  backdrop-filter: blur(6px);
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 11.5px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, .12);
+  pointer-events: none;
+}
+.thumb-duration {
+  position: absolute; bottom: 12px; right: 12px;
+  background: rgba(0, 0, 0, .72);
+  padding: 3px 9px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+}
+.thumb-play {
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  background: rgba(0, 0, 0, .18);
+  opacity: 1;
+  transition: .22s;
+  pointer-events: none;
+}
+.thumb-play span {
+  width: 58px; height: 58px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: rgba(230, 0, 0, .9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .55);
+  font-size: 20px;
+  padding-left: 4px;
+  transform: scale(.92);
+  transition: .22s;
+}
+.news-card.playing .thumb-play { opacity: 0; }
+.news-card:hover .thumb-play span { transform: scale(1); }
+
+.thumb-mute {
+  position: absolute; bottom: 12px; left: 12px;
+  width: 34px; height: 34px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, .16);
+  background: rgba(0, 0, 0, .6);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  font-size: 13px;
+  display: grid; place-items: center;
+  z-index: 3;
+}
+.thumb-mute:hover { background: rgba(0, 0, 0, .85); }
+
+.news-content { padding: 22px 24px 24px; }
+.news-tag {
+  color: var(--primary-red);
+  font-size: 12.5px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+}
+.news-title { font-size: 20px; font-weight: 600; line-height: 1.45; margin-bottom: 10px; overflow-wrap: anywhere; }
+.news-desc { color: var(--text-gray); font-size: 14px; line-height: 1.65; margin-bottom: 16px; overflow-wrap: anywhere; }
+.news-meta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; color: #6b7280; margin-bottom: 18px; }
+.news-meta b { color: #9ca3af; font-weight: 500; }
+
+.news-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.btn-edit-reels {
+  background: linear-gradient(135deg, var(--primary-red), #ff3b3b);
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 11px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex; align-items: center; gap: 9px;
+  transition: .2s;
+  box-shadow: 0 6px 18px rgba(230, 0, 0, .32);
+}
+.btn-edit-reels:hover { background: linear-gradient(135deg, var(--primary-hover), var(--primary-red)); box-shadow: 0 10px 26px rgba(230, 0, 0, .5); transform: translateY(-1px); }
+.btn-edit-reels:active { transform: translateY(0); }
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-gray);
+  padding: 12px 18px;
+  border-radius: 11px;
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .2s;
+}
+.btn-outline:hover { color: #fff; border-color: #4b5563; background: rgba(255, 255, 255, .04); }
+
+.empty-state {
+  text-align: center;
+  color: var(--text-gray);
+  font-size: 14px;
+  padding: 50px 20px;
+  border: 1px dashed var(--border-color);
+  border-radius: var(--radius);
+}
+
+/* ================= STUDIO PANEL ================= */
+.studio-panel {
+  background: linear-gradient(180deg, #191920, #14141a);
+  border-radius: var(--radius);
+  padding: 22px;
+  border: 1px solid var(--border-color);
+  position: sticky;
+  top: 92px;
+  height: fit-content;
+  box-shadow: var(--shadow-lg);
+}
+@media (min-width: 1025px) {
+  /* ให้แผงสตูดิโอเลื่อนภายในได้ ถ้าจอเตี้ยกว่าเนื้อหา */
+  .studio-panel { max-height: calc(100vh - 112px); overflow-y: auto; scrollbar-width: thin; scrollbar-color: #3f3f46 transparent; }
+  .studio-panel::-webkit-scrollbar { width: 8px; }
+  .studio-panel::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 999px; }
+  .studio-panel::-webkit-scrollbar-track { background: transparent; }
+}
+.studio-header {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  margin-bottom: 18px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid var(--border-color);
+}
+.studio-header h3 { font-size: 16.5px; font-weight: 600; display: flex; align-items: center; gap: 8px; font-family: 'Kanit', sans-serif; }
+.ratio { font-size: 11px; background: rgba(255, 255, 255, .08); padding: 2px 7px; border-radius: 6px; color: #cbd5e1; font-weight: 600; }
+.badge-ready {
+  font-size: 11px;
+  background: rgba(0, 200, 83, .14);
+  color: var(--accent-green);
+  padding: 4px 10px;
+  border-radius: 7px;
+  font-weight: 600;
+  border: 1px solid rgba(0, 200, 83, .3);
+  white-space: nowrap;
+}
+.badge-ready.busy { background: rgba(255, 214, 0, .14); color: #ffd600; border-color: rgba(255, 214, 0, .35); }
+
+/* preview */
+.reels-preview-wrap { margin-bottom: 18px; }
+.reels-preview-box {
+  width: min(272px, 100%);
+  aspect-ratio: 9 / 16;
+  margin: 0 auto 10px;
+  background: #000;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #3f3f46;
+  box-shadow: 0 16px 44px rgba(0, 0, 0, .75), 0 0 0 1px rgba(255, 255, 255, .04) inset;
+}
+.reels-preview-box canvas { width: 100%; height: 100%; }
+.preview-tap { position: absolute; inset: 0; background: transparent; border: none; cursor: pointer; }
+
+.preview-meta {
+  display: flex; justify-content: space-between; gap: 10px;
+  font-size: 11.5px; color: #6b7280;
+  padding: 0 4px 8px;
+}
+.preview-meta span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.preview-time { font-variant-numeric: tabular-nums; flex: 0 0 auto; }
+
+.scrubber {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: #2a2a35;
+  outline: none;
+  cursor: pointer;
+}
+.scrubber::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  background: var(--primary-red);
+  border: 2px solid #fff;
+  box-shadow: 0 2px 10px rgba(230, 0, 0, .6);
+}
+.scrubber::-moz-range-thumb {
+  width: 13px; height: 13px;
+  border-radius: 50%;
+  background: var(--primary-red);
+  border: 2px solid #fff;
+}
+
+/* controls */
+.options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.control-group { margin-bottom: 14px; }
+.control-group label {
+  display: block;
+  font-size: 12.5px;
+  color: var(--text-gray);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.control-group input[type="text"],
+.control-group textarea,
+.control-group select {
+  width: 100%;
+  background: var(--dark-bg-2);
+  border: 1px solid var(--border-color);
+  color: #fff;
+  padding: 11px 12px;
+  border-radius: 10px;
+  font-size: 13.5px;
+  transition: border-color .18s, box-shadow .18s;
+}
+.control-group textarea { resize: vertical; line-height: 1.55; min-height: 74px; }
+.control-group input:focus, .control-group textarea:focus, .control-group select:focus {
+  outline: none;
+  border-color: var(--primary-red);
+  box-shadow: 0 0 0 3px rgba(230, 0, 0, .13);
+}
+.control-group select {
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #9ca3af 50%), linear-gradient(135deg, #9ca3af 50%, transparent 50%);
+  background-position: calc(100% - 17px) 50%, calc(100% - 12px) 50%;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 32px;
+}
+
+.hint-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 8px; }
+.hint { font-size: 11.5px; color: #6b7280; }
+.btn-mini {
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid var(--border-color);
+  color: #cbd5e1;
+  padding: 6px 11px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .18s;
+  white-space: nowrap;
+}
+.btn-mini:hover { background: rgba(255, 255, 255, .12); color: #fff; }
+.btn-mini.danger { background: rgba(230, 0, 0, .16); border-color: rgba(230, 0, 0, .5); color: #ff8080; margin-top: 14px; }
+
+.toggles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  padding: 12px;
+  background: rgba(255, 255, 255, .025);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.switch {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12.5px; color: #cbd5e1; cursor: pointer;
+  user-select: none;
+}
+.switch input { position: absolute; opacity: 0; pointer-events: none; }
+.switch span {
+  width: 32px; height: 18px;
+  border-radius: 999px;
+  background: #34343f;
+  position: relative;
+  flex: 0 0 auto;
+  transition: .2s;
+}
+.switch span::after {
+  content: '';
+  position: absolute; top: 2px; left: 2px;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s;
+}
+.switch input:checked + span { background: var(--primary-red); box-shadow: 0 0 12px rgba(230, 0, 0, .5); }
+.switch input:checked + span::after { transform: translateX(14px); }
+.switch input:focus-visible + span { outline: 2px solid #fff; outline-offset: 2px; }
+
+.btn-group { display: grid; grid-template-columns: 1fr 1.25fr; gap: 12px; }
+.btn-action {
+  padding: 14px;
+  border: none;
+  border-radius: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  transition: .2s;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  text-decoration: none;
+}
+.btn-action:disabled { opacity: .45; cursor: not-allowed; }
+.btn-preview { background: #27272a; color: #fff; border: 1px solid #3f3f46; }
+.btn-preview:hover:not(:disabled) { background: #3f3f46; }
+.btn-download {
+  background: linear-gradient(135deg, #00c853, #00e676);
+  color: #04120a;
+  box-shadow: 0 6px 18px rgba(0, 200, 83, .3);
+}
+.btn-download:hover:not(:disabled) { background: linear-gradient(135deg, #00b048, #00c853); box-shadow: 0 10px 26px rgba(0, 200, 83, .5); transform: translateY(-1px); }
+
+.status-text { text-align: center; font-size: 12.5px; color: var(--accent-green); margin-top: 11px; min-height: 20px; font-weight: 500; }
+.status-text.warn { color: #ffd600; }
+.status-text.err { color: #ff7676; }
+.export-note { font-size: 11px; color: #6b7280; text-align: center; line-height: 1.5; margin-top: 4px; }
+
+/* ================= HOWTO / FOOTER ================= */
+.howto { max-width: 1480px; margin: 0 auto; padding: 20px 30px 10px; width: 100%; }
+.howto h2 { font-size: 21px; font-weight: 700; margin-bottom: 16px; font-family: 'Kanit', sans-serif; }
+.howto-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.howto-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 26px 20px 20px;
+  position: relative;
+}
+.howto-card .step {
+  position: absolute; top: -12px; left: 18px;
+  width: 26px; height: 26px;
+  display: grid; place-items: center;
+  border-radius: 8px;
+  background: var(--primary-red);
+  font-size: 13px; font-weight: 700;
+  box-shadow: 0 6px 16px rgba(230, 0, 0, .45);
+}
+.howto-card h4 { font-size: 15px; margin: 0 0 8px; font-weight: 600; }
+.howto-card p { font-size: 13px; color: var(--text-gray); line-height: 1.65; }
+
+.site-footer {
+  max-width: 1480px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px;
+  border-top: 1px solid var(--border-color);
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.footer-brand { display: flex; align-items: center; gap: 8px; font-size: 13.5px; }
+.footer-note { font-size: 11.5px; color: #6b7280; max-width: 640px; line-height: 1.6; }
+
+/* ================= MODALS ================= */
+.export-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0, 0, 0, .82);
+  backdrop-filter: blur(6px);
+  display: none;
+  align-items: center; justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+.export-overlay.open { display: flex; }
+.export-modal {
+  background: linear-gradient(180deg, #1b1b22, #14141a);
+  border: 1px solid var(--border-color);
+  padding: 28px;
+  border-radius: 18px;
+  text-align: center;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, .85);
+  max-height: 92vh;
+  overflow: auto;
+}
+.export-modal h4 { font-size: 18px; margin-bottom: 10px; font-weight: 600; }
+.export-modal p { color: var(--text-gray); font-size: 13px; line-height: 1.6; }
+.export-modal.result { max-width: 420px; }
+.export-modal.help { max-width: 520px; text-align: left; }
+.help-list { margin: 14px 0; padding-left: 20px; color: var(--text-gray); font-size: 13.5px; line-height: 1.8; }
+.help-list b { color: #fff; }
+.help-tip { background: rgba(255, 255, 255, .05); border-radius: 10px; padding: 10px 12px; font-size: 12.5px; }
+
+.spinner {
+  width: 46px; height: 46px;
+  border: 4px solid var(--border-color);
+  border-top-color: var(--primary-red);
+  border-radius: 50%;
+  animation: spin .9s linear infinite;
+  margin: 0 auto 18px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.progress-track {
+  height: 7px;
+  border-radius: 999px;
+  background: #2a2a35;
+  overflow: hidden;
+  margin-top: 16px;
+}
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--primary-red), #ff6b6b, #00e676);
+  transition: width .18s linear;
+}
+
+.result-video {
+  width: 100%;
+  max-height: 380px;
+  border-radius: 12px;
+  background: #000;
+  margin: 16px 0 10px;
+  border: 1px solid var(--border-color);
+}
+.result-meta { font-size: 12px; color: #9ca3af !important; margin-bottom: 16px; }
+.result-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+
+/* ================= TOASTS ================= */
+.toast-stack {
+  position: fixed;
+  right: 20px; bottom: 20px;
+  display: flex; flex-direction: column; gap: 10px;
+  z-index: 2000;
+  pointer-events: none;
+}
+.toast {
+  background: rgba(22, 22, 26, .97);
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent-green);
+  padding: 12px 16px;
+  border-radius: 11px;
+  font-size: 13px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .6);
+  animation: toast-in .25s ease;
+  max-width: 320px;
+}
+.toast.err { border-left-color: #ff5252; }
+.toast.warn { border-left-color: #ffd600; }
+@keyframes toast-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 1180px) {
+  .search-box input { width: 150px; }
+  .main-nav { display: none; }
+}
+@media (max-width: 1024px) {
+  .container { grid-template-columns: minmax(0, 1fr); padding: 18px; }
+  .news-column, .studio-panel { min-width: 0; }
+  .studio-panel { position: static; }
+  .howto-grid { grid-template-columns: 1fr; }
+  .reels-preview-box { width: min(250px, 70vw); }
+  .site-header { padding: 10px 16px; gap: 12px; }
+  .ticker { padding: 8px 16px; }
+  .ticker-time { display: none; }
+  .howto, .site-footer { padding-left: 18px; padding-right: 18px; }
+}
+@media (max-width: 640px) {
+  .logo-text { font-size: 19px; }
+  .site-header { padding: 10px 12px; gap: 8px; }
+  .header-right { flex: 1 1 auto; min-width: 0; }
+  .search-box { flex: 1 1 auto; min-width: 0; padding: 0 8px; }
+  .search-box input { width: 100%; min-width: 0; }
+  .btn-ghost { flex: 0 0 auto; width: 36px; height: 36px; }
+  .options-grid { grid-template-columns: 1fr; }
+  .toggles { grid-template-columns: 1fr; }
+  .news-title { font-size: 18px; }
+  .btn-group { grid-template-columns: 1fr; }
+  .result-actions { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; }
+  * { scroll-behavior: auto !important; }
+}
+
+/* วิดีโอต้นทางของสตูดิโอ (ซ่อนไว้แต่ยังเล่น/ถอดรหัสได้) */
+.studio-source {
+  position: fixed;
+  left: -9999px;
+  top: 0;
+  width: 4px;
+  height: 4px;
+  opacity: .01;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* =========================================================
+   LIVE NEWS ADDITIONS
+   ========================================================= */
+.header-note {
+  font-size: 12.5px;
+  color: var(--text-gray);
+  padding: 6px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, .03);
+}
+@media (max-width: 900px) { .header-note { display: none; } }
+
+.section-title-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.data-badge {
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid var(--border-color);
+  color: var(--text-gray);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.data-badge.live {
+  background: rgba(0, 200, 83, .12);
+  border-color: rgba(0, 200, 83, .4);
+  color: var(--accent-green);
+}
+.data-badge.live::before {
+  content: '';
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--accent-green);
+  box-shadow: 0 0 10px rgba(0, 230, 118, .9);
+  animation: pulse 1.6s infinite;
+}
+
+.feed-tools { display: flex; align-items: center; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+.btn-mini.refresh { padding: 7px 13px; font-size: 12.5px; }
+.btn-mini.refresh.loading { opacity: .6; pointer-events: none; }
+.btn-mini.refresh.loading::after { content: ' …'; }
+.updated-label { font-size: 11.5px; color: #6b7280; }
+
+.news-source { color: #6b7280; font-weight: 500; text-transform: none; letter-spacing: 0; }
+.news-meta a { color: #8ab4ff; font-size: 12px; }
+.news-meta a:hover { text-decoration: underline; }
+
+/* การ์ดที่เป็นภาพข่าว */
+.news-video-thumb img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+.news-card:hover .news-video-thumb img { transform: scale(1.03); }
+
+/* การ์ดที่ไม่มีภาพ */
+.thumb-fallback {
+  position: absolute; inset: 0;
+  display: none;
+  align-items: center; justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+  background:
+    radial-gradient(600px 300px at 20% 10%, rgba(230, 0, 0, .35), transparent 60%),
+    linear-gradient(135deg, #1b1b24, #101018 60%, #240a10);
+}
+.thumb-fallback span {
+  font-family: 'Kanit', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .92);
+  letter-spacing: .5px;
+}
+.thumb-fallback small { font-size: 11px; color: rgba(255, 255, 255, .45); letter-spacing: 2px; text-transform: uppercase; }
+.no-img .thumb-fallback { display: flex; }
+.no-img .thumb-play { opacity: .85; }
+
+</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e60000'/%3E%3Ctext x='32' y='44' font-size='30' font-family='sans-serif' font-weight='700' fill='%23fff' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <a class="logo" href="#top" aria-label="Fam Ai">
+    <span class="logo-mark">F</span>
+    <span class="logo-text">Fam<span class="logo-ai">Ai</span></span>
+  </a>
+
+  <nav class="main-nav">
+    <a href="#feed" class="nav-link active">ฟีดข่าวสด</a>
+    <a href="#studio" class="nav-link">Reels Studio</a>
+    <a href="#howto" class="nav-link">วิธีใช้</a>
+  </nav>
+
+  <div class="header-note">ข่าวสดจริง • AI Reels Studio</div>
+  <div class="header-right">
+    <div class="search-box">
+      <span class="search-icon">🔎</span>
+      <input id="searchInput" type="search" placeholder="ค้นหาข่าว เช่น AI, ท่องเที่ยว, EV" autocomplete="off" aria-label="ค้นหาข่าว">
+      <button id="searchClear" class="search-clear" title="ล้างคำค้น" hidden>✕</button>
+    </div>
+    <button class="btn-ghost" id="btnHelp" title="วิธีใช้งาน">?</button>
+  </div>
+</header>
+
+<!-- ================= BREAKING TICKER ================= -->
+<div class="ticker" aria-label="ข่าวด่วน">
+  <span class="live-badge"><span class="live-dot"></span>LIVE ข่าวสด</span>
+  <div class="ticker-viewport">
+    <div class="ticker-track" id="tickerTrack"></div>
+  </div>
+  <span class="ticker-time" id="tickerClock">--:--</span>
+</div>
+
+<div class="page" id="top">
+
+  <!-- ================= MAIN ================= -->
+  <main class="container">
+
+    <!-- ---------- LEFT : NEWS FEED ---------- -->
+    <section class="news-column" id="feed">
+      <div class="section-head">
+        <div class="section-title-row">
+          <h1 class="section-title">ข่าวสดออนไลน์<span class="dot">.</span></h1>
+          <span class="data-badge" id="dataBadge">กำลังเชื่อมต่อข่าว…</span>
+        </div>
+        <p class="section-sub">พาดหัวล่าสุดจากสำนักข่าวไทย อัปเดตอัตโนมัติ — เลือกข่าวที่สนใจ แล้วกด “นำไปตัดต่อ Reels” เพื่อสร้างคลิปแนวตั้ง 9:16 พร้อมซับไตเติล</p>
+        <div class="feed-tools">
+          <button class="btn-mini refresh" id="btnRefresh">🔄 รีเฟรชข่าว</button>
+          <span class="updated-label" id="updatedLabel">—</span>
+        </div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="chips" id="categoryChips"></div>
+        <span class="result-count" id="resultCount"></span>
+      </div>
+
+      <div class="news-grid" id="newsFeed"><!-- การ์ดข่าวถูกสร้างจาก js/news-data.js --></div>
+      <p class="empty-state" id="emptyState" hidden>ไม่พบข่าวที่ตรงกับคำค้น — ลองพิมพ์คำอื่น หรือกด “ทั้งหมด”</p>
+    </section>
+
+    <!-- ---------- RIGHT : REELS STUDIO ---------- -->
+    <aside class="studio-panel" id="studio">
+      <div class="studio-header">
+        <h3>🎬 Reels Auto-Editor <span class="ratio">9:16</span></h3>
+        <span class="badge-ready" id="studioBadge">พร้อมเรนเดอร์</span>
+      </div>
+
+      <!-- 9:16 preview -->
+      <div class="reels-preview-wrap">
+        <div class="reels-preview-box" id="previewBox">
+          <canvas id="reelsCanvas" width="1080" height="1920"></canvas>
+          <button class="preview-tap" id="previewTap" title="เล่น / หยุด" aria-label="เล่นหรือหยุดพรีวิว"></button>
+        </div>
+        <div class="preview-meta">
+          <span id="previewSourceLabel">— ยังไม่ได้เลือกข่าว —</span>
+          <span class="preview-time" id="previewTime">0.0 / 0.0 วิ</span>
+        </div>
+        <input type="range" id="scrubber" class="scrubber" min="0" max="10" step="0.05" value="0" aria-label="เลื่อนดูคลิป">
+      </div>
+
+      <div class="options-grid">
+        <div class="control-group">
+          <label for="categoryInput">หมวดหมู่หัวข้อข่าว</label>
+          <input type="text" id="categoryInput" value="ข่าวด่วน • ทันสถานการณ์">
+        </div>
+        <div class="control-group">
+          <label for="subtitleStyle">สไตล์คำบรรยาย</label>
+          <select id="subtitleStyle">
+            <option value="yellow">เหลืองทองเด่น (Reels Style)</option>
+            <option value="white">ขาวสว่างสะอาดตา</option>
+            <option value="cyan">ฟ้าอมเขียวไซเบอร์</option>
+            <option value="news">แดงข่าวสด (News Red)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="fitSelect">จัดภาพ</label>
+          <select id="fitSelect">
+            <option value="cover">เต็มจอ (Cover)</option>
+            <option value="contain">พอดีภาพ (Contain + เบลอพื้นหลัง)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="musicSelect">เพลงประกอบ</label>
+          <select id="musicSelect">
+            <option value="none">ไม่มีเพลง</option>
+            <option value="calm">เบาสบาย (Calm Bed)</option>
+            <option value="beat">จังหวะข่าว (News Beat)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label for="subtitleInput">คำบรรยายในคลิป (Auto-Subtitle — แก้ไขได้)</label>
+        <textarea id="subtitleInput" rows="3" placeholder="พิมพ์คำบรรยาย... ระบบจะแบ่งเป็นท่อน ๆ ให้อัตโนมัติ"></textarea>
+        <div class="hint-row">
+          <span class="hint" id="chunkInfo">0 ท่อน</span>
+          <button class="btn-mini" id="btnAutoScript" title="สร้างคำบรรยายจากพาดหัวข่าว">✨ สร้างซับจากพาดหัว</button>
+        </div>
+      </div>
+
+      <div class="toggles">
+        <label class="switch"><input type="checkbox" id="toggleChunk" checked><span></span>แบ่งซับอัตโนมัติ</label>
+        <label class="switch"><input type="checkbox" id="toggleBanner" checked><span></span>แบนเนอร์ + โลโก้</label>
+        <label class="switch"><input type="checkbox" id="toggleCaption" checked><span></span>แสดงคำบรรยาย</label>
+        <label class="switch"><input type="checkbox" id="toggleAudioPreview"><span></span>ฟังเพลงในพรีวิว</label>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn-action btn-preview" id="btnPlay">⏯️ เล่น / หยุด</button>
+        <button class="btn-action btn-download" id="btnDownload">⬇️ โหลดคลิปลงเครื่อง</button>
+      </div>
+      <div class="status-text" id="statusText" role="status"></div>
+      <p class="export-note" id="exportNote"></p>
+    </aside>
+  </main>
+
+  <!-- ================= HOW TO ================= -->
+  <section class="howto" id="howto">
+    <h2>ใช้งานยังไงใน 3 ขั้นตอน</h2>
+    <div class="howto-grid">
+      <div class="howto-card"><span class="step">1</span><h4>เลือกข่าว</h4><p>เลื่อนฟีดข่าวด้านซ้าย หรือค้นหาด้วยคำสำคัญ แล้วกด “นำข่าวนี้ไปตัดต่อลง Reels”</p></div>
+      <div class="howto-card"><span class="step">2</span><h4>ปรับคลิป</h4><p>แก้คำบรรยาย เลือกสไตล์ซับ เพลงประกอบ และการจัดภาพ ดูผลลัพธ์ได้ทันทีในกรอบ 9:16</p></div>
+      <div class="howto-card"><span class="step">3</span><h4>ดาวน์โหลด</h4><p>กด “โหลดคลิปลงเครื่อง” ระบบจะเรนเดอร์วิดีโอจริงให้ไฟล์พร้อมโพสต์ลงโซเชียล</p></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><span class="logo-mark small">F</span> <strong>Fam Ai</strong> — News • AI • Reels</div>
+    <p class="footer-note">พาดหัวข่าวดึงสดจาก RSS ของสำนักข่าวไทย (ข่าวสด · มติชน · ประชาชาติธุรกิจ · ไทยพับลิก้า · Blognone · ไทยโพสต์ · อีจัน · Techsauce · Google News) · ลิขสิทธิ์ข่าวและภาพเป็นของสำนักข่าวนั้น ๆ · การเรนเดอร์วิดีโอทำในเบราว์เซอร์ของคุณ 100%</p>
+  </footer>
+</div>
+
+<!-- ================= EXPORT PROGRESS ================= -->
+<div class="export-overlay" id="exportOverlay" role="dialog" aria-modal="true" aria-labelledby="exportTitle">
+  <div class="export-modal">
+    <div class="spinner"></div>
+    <h4 id="exportTitle">กำลังเรนเดอร์คลิป Reels</h4>
+    <p id="exportProgressText">กำลังประมวลผลวิดีโอ 9:16 พร้อมซับไตเติล…</p>
+    <div class="progress-track"><div class="progress-fill" id="exportProgressFill"></div></div>
+    <button class="btn-mini danger" id="btnCancelExport" hidden>ยกเลิก</button>
+  </div>
+</div>
+
+<!-- ================= RESULT MODAL ================= -->
+<div class="export-overlay" id="resultOverlay" role="dialog" aria-modal="true" aria-labelledby="resultTitle">
+  <div class="export-modal result">
+    <h4 id="resultTitle">✅ เรนเดอร์คลิปเสร็จแล้ว</h4>
+    <video id="resultVideo" controls playsinline class="result-video"></video>
+    <p id="resultMeta" class="result-meta"></p>
+    <div class="result-actions">
+      <a id="resultDownload" class="btn-action btn-download" download>⬇️ ดาวน์โหลดไฟล์</a>
+      <button class="btn-action btn-preview" id="resultClose">ปิด</button>
+    </div>
+    <p class="export-note" id="resultHint"></p>
+  </div>
+</div>
+
+<!-- ================= HELP MODAL ================= -->
+<div class="export-overlay" id="helpOverlay" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+  <div class="export-modal help">
+    <h4 id="helpTitle">วิธีใช้ Fam Ai</h4>
+    <ol class="help-list">
+      <li><b>เลือกข่าว</b> จากฟีดซ้ายมือ (พาดหัวสดจากสำนักข่าวไทย) หรือใช้ช่องค้นหาด้านบน — กรองตามหมวดข่าวได้ด้วย</li>
+      <li><b>กด “นำข่าวนี้ไปตัดต่อลง Reels”</b> วิดีโอจะถูกโหลดเข้าสตูดิโอทางขวาทันที</li>
+      <li><b>แก้คำบรรยาย</b> หรือกด “สร้างซับจากพาดหัว” ให้ระบบสร้างให้ ระบบจะแบ่งคำบรรยายเป็นท่อน ๆ ตามความยาวคลิป</li>
+      <li><b>เลือกสไตล์ซับ / เพลง / การจัดภาพ</b> แล้วดูผลในกรอบ 9:16</li>
+      <li><b>กด “โหลดคลิปลงเครื่อง”</b> ระบบจะเรนเดอร์เป็นไฟล์วิดีโอจริง (MP4 ถ้าเบราว์เซอร์รองรับ ไม่เช่นนั้นเป็น WebM) แล้วดาวน์โหลดให้</li>
+      <li><b>ข่าวอัปเดตเองทุก 3 นาที</b> หรือกดปุ่ม “รีเฟรชข่าว” เพื่อดึงพาดหัวล่าสุดทันที</li>
+    </ol>
+    <p class="help-tip">⌨️ คีย์ลัด: <b>Space</b> = เล่น/หยุดพรีวิว, <b>/</b> = โฟกัสช่องค้นหา, <b>Esc</b> = ปิดหน้าต่าง</p>
+    <div class="result-actions"><button class="btn-action btn-preview" id="helpClose">เข้าใจแล้ว</button></div>
+  </div>
+</div>
+
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+<script>window.FAM_AI_SINGLE = true; window.FAM_AI_DATA = true;</script>
+<script>
+const DEMO_NEWS = [{"id": "demo-ai", "topic": "เทคโนโลยี", "category": "เทคโนโลยี", "tag": "ตัวอย่าง • เทคโนโลยี", "title": "เปิดตัวระบบ AI ตัดต่อข่าวอัตโนมัติ ช่วยทำคลิป Reels ไวขึ้น 10 เท่า", "desc": "นวัตกรรมใหม่ที่ดึงภาพข่าวสดมาจัดสัดส่วนแนวตั้ง พร้อมใส่คำบรรยายอัตโนมัติ ดาวน์โหลดลงเครื่องและโพสต์ได้ทันที", "caption": "AI ตัดต่อข่าวอัตโนมัติ ทำคลิป Reels ไวขึ้น 10 เท่า", "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%233b0d0d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23121018%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%233b0d0d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23121018%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "poster": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%233b0d0d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23121018%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "video": "", "link": "#", "source": "Fam Ai Newsroom", "time": "ตัวอย่าง"}, {"id": "demo-travel", "topic": "ท่องเที่ยว", "category": "ท่องเที่ยว", "tag": "ตัวอย่าง • ท่องเที่ยว", "title": "นักท่องเที่ยวแห่สัมผัสธรรมชาติช่วงวันหยุดยาว บรรยากาศคึกคักเงินสะพัด", "desc": "บรรยากาศการท่องเที่ยวตามอุทยานแห่งชาติคึกคักตั้งแต่ช่วงเช้า เจ้าหน้าที่ดูแลความปลอดภัยเต็มที่", "caption": "วันหยุดยาว นักท่องเที่ยวแห่ขึ้นอุทยาน เงินสะพัดกว่าพันล้าน", "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%230d2f1d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%230b1a12%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%230d2f1d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%230b1a12%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "poster": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%230d2f1d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%230b1a12%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "video": "", "link": "#", "source": "Fam Ai Newsroom", "time": "ตัวอย่าง"}, {"id": "demo-ev", "topic": "ยานยนต์", "category": "ยานยนต์", "tag": "ตัวอย่าง • ยานยนต์", "title": "ตลาดรถยนต์ไฟฟ้าเติบโตพุ่งสูง ค่ายดังทยอยเปิดตัวรุ่นใหม่เอาใจคนรุ่นใหม่", "desc": "กระแสความนิยมรถยนต์ไฟฟ้าในประเทศไทยพุ่งสูงต่อเนื่อง ค่ายรถชั้นนำจัดโปรโมชั่นกระตุ้นยอดขาย", "caption": "ตลาด EV ไทยโตพุ่ง ค่ายรถเปิดตัวรุ่นใหม่ เอาใจคนรุ่นใหม่", "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%23101a3d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%230a0e1a%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%23101a3d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%230a0e1a%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "poster": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271280%27%20height%3D%27720%27%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%0A%3Cstop%20offset%3D%270%27%20stop-color%3D%27%23101a3d%27%2F%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%230a0e1a%27%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%271280%27%20height%3D%27720%27%20fill%3D%27url%28%23g%29%27%2F%3E%0A%3Ccircle%20cx%3D%271050%27%20cy%3D%27120%27%20r%3D%27220%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.07%27%2F%3E%0A%3Ccircle%20cx%3D%27180%27%20cy%3D%27640%27%20r%3D%27260%27%20fill%3D%27%23000000%27%20opacity%3D%270.25%27%2F%3E%0A%3Ctext%20x%3D%2770%27%20y%3D%27600%27%20font-family%3D%27sans-serif%27%20font-size%3D%2776%27%20font-weight%3D%27bold%27%20fill%3D%27%23ffffff%27%3E%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%3C%2Ftext%3E%0A%3Ctext%20x%3D%2772%27%20y%3D%27660%27%20font-family%3D%27sans-serif%27%20font-size%3D%2734%27%20fill%3D%27%23ffffff%27%20opacity%3D%270.7%27%3EFam%20Ai%20%E2%80%A2%20%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%3C%2Ftext%3E%0A%3C%2Fsvg%3E", "video": "", "link": "#", "source": "Fam Ai Newsroom", "time": "ตัวอย่าง"}];
+const TICKER_ITEMS = [
+  'Fam Ai กำลังเชื่อมต่อข่าวสดออนไลน์…',
+  'ระบบจะดึงพาดหัวล่าสุดจากสำนักข่าวไทยมาแสดงอัตโนมัติ'
+];
+</script>
+<script>window.FAM_AI_SNAPSHOT = {"updated": "2026-11-16T00:32:45.754975+00:00", "items": [{"id": "44da6de5f04f", "title": "‘ข้อตกลง DEFA’ ดันธุรกิจไทยเจาะตลาดอาเซียน สร้างมาตรฐานการเงิน-ภาษี", "desc": "นายกฯ ชูข้อตกลง DEFA หนุนธุรกิจไทยเจาะตลาดอาเซียน สร้างมาตรฐานระบบการเงิน-ภาษี ยกระดับเป็น One Stop Service ลดต้นทุนผู้ประกอบการและขั้นตอนราชการ เผยไทยชงตั้งคณะทำงานอาเซียน เร่งแก้ปมฝุ่นควัน-สารพิษ บอก ปลื้ม ‘ผจก.ไอเอ็มเอฟ’ สวมผ้าไหมไทยร่ …", "topic": "เศรษฐกิจ", "source": "ประชาชาติธุรกิจ", "link": "https://www.prachachat.net/politics/news-2096860", "image": "https://www.prachachat.net/wp-content/uploads/2026/11/20261115153831_4857-1.jpg", "published": 1794789142.0}, {"id": "ab7a8c5b29c5", "title": "สีหศักดิ์ ซัด ‘ฮุน มาเนต’ พูดอย่างทำอย่าง ลากปมขัดแย้งไทย-เขมรเข้าเวที OIF", "desc": "สีหศักดิ์ สวน “ฮุน มาเนต” พูดอย่างทำอย่าง หลังดึงปมขัดแ", "topic": "ต่างประเทศ", "source": "มติชน", "link": "https://www.matichon.co.th/foreign/news_5976897", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/suddd1.jpg", "published": 1794788937.0}, {"id": "fb27b567f0b8", "title": "อดีตผู้พิพากษาฯ มองสะท้อนปมร้อน ‘ธปท.’ เมื่อความเห็นต่างภายใน ถูกนำออกมาตำหนิผ่านสื่อ", "desc": "วัส ติงสมิตร ชี้สิ่งที่ประชาชนต้องการ ไม่ใช่การเห็นประธานกรรมการกับผู้ว่าการและผู้บริหาร ธปท. โต้แย้งกันว่าใครทำงานดีกว่าใคร แต่คือการได้เห็น ธปท. ทำงานอย่างมีประสิทธิภาพ โปร่งใส รับผิดชอบ The post อดีตผู้พิพากษาฯ มองสะท้อนปมร้อน ‘ธปท.’ เมื่อความเห็นต่างภาย…", "topic": "ข่าวทั่วไป", "source": "ไทยโพสต์", "link": "https://www.thaipost.net/x-cite-news/1109359/", "image": "https://storage-wp.thaipost.net/2026/11/yl.webp", "published": 1794788526.0}, {"id": "0868c380d805", "title": "ระทึก ไฟไหม้ ร้านรถเช่า ลามวอด 5 คูหา รถเสียหายเพียบ เจ็บ38ราย", "desc": "ระทึก ไฟไหม้ ร้านรถเช่า ลามวอด 5 คูหา รถเสียหายเพียบ บาดเจ็บ 38 ราย ประกายไฟฟ้าลัดวงจรปะทุเป็นระยะ เพลิงโหมรุนแรง เจ้าหน้าที่เร่งช่วยเหลือ เมื่อเวลา 03.20 น. วันที่ 16 พ.ย.2569 ร.ต.อ.วิษณุ บุญมี รองสารวัตร(สอบสวน) สภ.ป่าตอง รับแจ้งเหตุเพลิงไหม้ ตู้น้ำมันหยอ…", "topic": "เศรษฐกิจ", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/breaking-news/news_10473769", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Car-rental-shop.jpg", "published": 1794788051.0}, {"id": "efb35be074ad", "title": "เลขเด็ด โปเตโต้ มาแล้ว เลขท้าย 2 ตัว เลขวิ่ง รีบกันหน่อยนักเสี่ยงโชค เลขนี้ที่รอคอย", "desc": "เลขเด็ด โปเตโต้ มาแล้ว เลขท้าย 2 ตัว เลขวิ่ง วันนี้รวยรีบกันหน่อยนักเสี่ยงโชค เลขนี้ที่รอคอย ให้โชคแฟนๆกันเป็นประจำ ให้โชคกันอยู่บ่อยๆ งวดนี้มายามดึกก่อนวันหวยออก มาตามนัด สำหรับเลขเด็ดที่คอหวยรอคอย เลขเด็ด โปเตโต้ เฟซบุ๊ก วงดนตรีดังขวัญใจนักเสี่ยงโชค POTAT…", "topic": "ข่าวทั่วไป", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/lottery/news_10473770", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/potatolotto1611699998.jpg", "published": 1794787886.0}, {"id": "c05696bc271c", "title": "ราคาบิตคอยน์วันนี้ (16 พ.ย. 69) ขยับขึ้น 1.77% อยู่ที่ 65,292 เหรียญสหรัฐ", "desc": "ราคาบิตคอยน์วันนี้ (16 พ.ย. 69) ขยับขึ้น 1.77% ในช่วง 24 ชั่วโมงที่ผ่านมา ราคาอยู่ที่ 65,292 เหรียญสหรัฐ หรือราว 2,211,765.39 บาท เปลี่ยนแปลง 12.39% ในช่วงเวลา 7 วัน ตามข้อมูลอัพเดต เมื่อเวลา 7.01 น. ของวันนี้ สำหรับเหรียญดิจิทัลอื่นๆ ETH ขยับขึ้น 3. …", "topic": "ต่างประเทศ", "source": "ประชาชาติธุรกิจ", "link": "https://www.prachachat.net/finance/news-2096858", "image": "https://www.prachachat.net/wp-content/uploads/2026/10/bitcoin-5-1-1.webp", "published": 1794787855.0}, {"id": "64a8d30c2196", "title": "ราคาน้ำมันวันนี้ (16 พ.ย. 69) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด", "desc": "ราคาน้ำมันวันนี้ (16 พ.ย. 69) ตามข้อมูลจาก บมจ.บางจากฯ แก๊สโซฮอล์ 95 จำหน่ายที่ราคาลิตรละ 39.34 บาท ส่วนแก๊สโซฮอล์ 91 จำหน่ายที่ราคาลิตรละ 38.97 บาท รายงานราคาดีเซลล่าสุด มีราคา ณ จุดจำหน่ายที่ 40.79 บาท ขณะที่ดีเซล B20 จำหน่ายอยู่ที่ลิตรละ 33.5 บาท …", "topic": "เศรษฐกิจ", "source": "ประชาชาติธุรกิจ", "link": "https://www.prachachat.net/economic/news-2096855", "image": "https://www.prachachat.net/wp-content/uploads/2026/09/Oil-1.png", "published": 1794787712.0}, {"id": "395bb3d26215", "title": "CEO Strive มองว่า Bitcoin ราคาถูกและอยากสะสมเพิ่ม จากที่ถืออยู่กว่า 43,000 BTC", "desc": "CEO Strive มองว่า Bitcoin ราคาถูกและอยากสะสมเพิ่ม จากที่ถืออยู่กว่า 43,000 BTC Siam Blockchain CEO Strive ยืนยันซื้อเพิ่ม Bitcoin ยังไม่สั่งซื้อจริง Head Topics", "topic": "เทคโนโลยี", "source": "Siam Blockchain", "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOVBOM0N5VTZsOGZvSVJyWTZibFIwWUlsdG9mcl9rR0V6M1V3bnpVQmJmcjBIOGdhVTY0cW52elpQTW15dGZMNXVLaGtoUnQxeWRZNGVFU1NWS2sxS3JyRlJKYkQ4WHJQdWs1X2V5bkQ2UmlXYmxVT0FDWVlnbXFMR1VTcTJVX19hTkJsTmE2MlNtYm5TV1E?oc=5", "image": "", "published": 1794787479.0}, {"id": "6e668b4ac947", "title": "‘สีหศักดิ์’ ฟาด ‘ฮุน มาเนต’ พูดอย่างทำอย่าง ลากปมขัดแย้งไทย-เขมรเข้าเวที OIF", "desc": "'สีหศักดิ์' โต้ 'ฮุน มาเนต' ลากปมขัดแย้งไทย - กัมพูชา พูดในเวที OIF ซัดเบี่ยงเบนวัตถุประสงค์ประชุม ทำผู้ร่วมประชุมอึดอัด พูดอย่างทำอย่าง สวนทางมาตรการสร้างความไว้เนื้อเชื่อใจ The post ‘สีหศักดิ์’ ฟาด ‘ฮุน มาเนต’ พูดอย่างทำอย่าง ลากปมขัดแย้งไทย-เขมรเข้าเวที…", "topic": "การเมือง", "source": "ไทยโพสต์", "link": "https://www.thaipost.net/politics-news/1109354/", "image": "https://storage-wp.thaipost.net/2026/11/seehasak3-crop.jpg", "published": 1794787398.0}, {"id": "1da604e2dd92", "title": "Apple เร่งพัฒนา Face ID สำหรับหน้าจอด้านนอกของ iPhone Duo 2 แต่อาจเปิดตัวไม่ทัน", "desc": "Apple เร่งพัฒนา Face ID สำหรับหน้าจอด้านนอกของ iPhone Duo 2 แต่อาจเปิดตัวไม่ทัน iMoD", "topic": "ข่าวทั่วไป", "source": "iMoD", "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vR0pjVFg0aHZ2UldFUkVuVllwZlUxeTF2ZnQtWEhES2xtN2tZTnFkeHJ2Qm96bFBRdjJXa2ViWnc5cHJKOEk5VW5QUXlYWEtyM0dhTU5FNDBtZnRJZTVKYUpsZzJJRTVqOGFDN2dyZndLdWdlV1dxanRR?oc=5", "image": "", "published": 1794787294.0}, {"id": "ae0a60d5cb15", "title": "กรมอุตุฯ ประกาศฉบับ3 เตือน ฝนตกหนักถึงหนักมาก 5 วัน ระวังอันตราย", "desc": "กรมอุตุฯ ประกาศฉบับที่ 3 เปิดชื่อจังหวัดไหนได้รับผลกระทบบ้าง ฝนตกหนักถึงหนักมาก 5 วันดังนี้ น้ำท่วมฉับพลัน น้ำป่าไหลหลาก หลังจากนั้น อุณหภูมิลดฮวบ ลมแรง วันที่ 16 พ.ย.2569 กรมอุตุนิยมวิทยา ประกาศ เรื่อง ฝนตกหนักถึงหนักมากบริเวณภาคใต้ (มีผลกระทบในช่วงวันที่…", "topic": "ข่าวทั่วไป", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/breaking-news/news_10473740", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Thai-Meteorological-Department-9.jpg", "published": 1794787012.0}, {"id": "f60930b42a1d", "title": "ไตรกีฬาโลก เผยแฮกเกอร์โจมตีทำให้ข้อมูลนักกีฬาและเจ้าหน้าที่หลายชาติรั่วไหล", "desc": "ไตรกีฬาโลก เปิดเผยว่าเกิดเหตุการณ์โจมตีทางออนไลน์ที่ทำให้ข้อมูลสำคัญของนักกีฬา, ผู้ฝึกสอน และเจ้าหน้าที่ของสหพันธ์แห่งชาติหลายประเทศรั่วไหล ไตรกีฬาโลก เปิดเผยว่าเมื่อสัปดาห์ที่แล้วได้เกิดเหตุการณ์โจมตีทางออนไลน์ที่ทำให้ข้อมูลสำคัญของนักกีฬา, ผู้ฝึกสอน และเจ…", "topic": "กีฬา", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/sports/news_10473742", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-05T142011Z_2090186659_RC2OHOA6IOOR_RTRMADP_3_OLYMPICS-YOUTH.jpg", "published": 1794786892.0}, {"id": "b56f5f16ac99", "title": "เปิด 3 ทางเลือก ‘เงินประกันสังคม’ ฉบับครม. ชูผูัประกันตนออกแบบชีวิตเกษียณได้เอง", "desc": "ที่ปรึกษารมว.แรงงาน เปิด 3 ไฮไลท์ร่างแก้ไข พ.ร.บ. ประกันสังคม (ฉบับ ครม.) ชูแนวคิดออกแบบชีวิตเกษียณได้เอง รับมือสังคมผู้สูงวัย The post เปิด 3 ทางเลือก ‘เงินประกันสังคม’ ฉบับครม. ชูผูัประกันตนออกแบบชีวิตเกษียณได้เอง appeared first on .", "topic": "การเมือง", "source": "ไทยโพสต์", "link": "https://www.thaipost.net/general-news/1109352/", "image": "https://storage-wp.thaipost.net/2026/11/6Ipdi.jpg", "published": 1794786425.0}, {"id": "ffd8c72c4f29", "title": "รวมหวย เลขเรือแห่หลวงพ่อปาน เลขเบลล่า น้องพายุ ปฏิทินคำชะโนด เลขบุ๋ม", "desc": "รวมหวย เลขมงคล งวดนี้แรง เลขเรือแห่หลวงพ่อปาน เลขเบลล่างานบุญกฐินใหญ่ เลขน้องพายุที่อิตาลี เลขปฏิทินคำชะโนด เลขบุ๋ม ปนัดดา นักเสี่ยงโชคไม่พลาด เลขสูญเสียดาราอาวุโส ลุ้นรวยกันอีกงวดใกล้สิ้นปี วันที่ 16 พ.ย.69 สำนักงานสลากกินแบ่งรัฐบาล ออกผลสลากฯ ให้ได้ลุ้นเฮ…", "topic": "ข่าวทั่วไป", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/lottery/news_10473737", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/lottoall1611699998.jpg", "published": 1794786314.0}, {"id": "935fdd578cd2", "title": "รัฐบาลเยเมนร่อแร่!ฮูตีฮึกเหิมสุดขีดรุกคืบทุกขณะ อยู่ห่างจากฐานที่มั่นเมืองเอเดนแค่60กม.", "desc": "รัฐบาลเยเมนร่อแร่!ฮูตีฮึกเหิมสุดขีดรุกคืบทุกขณะ อยู่ห่างจากฐานที่มั่นเมืองเอเดนแค่60กม. ผู้จัดการออนไลน์ กองกำลังพันธมิตรที่นำโดยซาอุดีอาระเบียได้ทำลายขีปนาวุธ 2 ลูกที่มุ่งหน้าไปยังริยาด Vietnam.vn กลุ่มฮูตีในเยเมนโจมตีซาอุดีอาระเบียอีกครั้ง หลังคณะมนตรีควา…", "topic": "การเมือง", "source": "ผู้จัดการออนไลน์", "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51VzVsNzhNWnlVVDhoUmF6d182cXpHM19meEZOLTVIUVJQTVRCX1hYclFoWnVHRzFyb1pHWTBZdVQtbFNMbFZDbVRSdTA1dFE4ai1lS3oyTGRnQzNYZWc?oc=5", "image": "", "published": 1794786000.0}, {"id": "6895deff1b29", "title": "สภาพอากาศวันนี้ กรมอุตุฯ เปิดชื่อ 21 จังหวัด เตือน ฝนตกหนัก น้ำท่วม", "desc": "สภาพอากาศวันนี้ กรมอุตุฯ เปิดชื่อ 21 จังหวัด เตือน ฝนตกหนัก ร้อยละ 60 ของพื้นที่ ไทยตอนบนเจอ ฝนฟ้าคะนอง ลมกระโชกแรง ภาคใต้ น้ำท่วมฉับพลัน น้ำป่าไหลหลาก วันที่ 16 พ.ย.2569 กรมอุตุนิยมวิทยา พยากรณ์อากาศ 24 ชั่วโมงข้างหน้า ภาคใต้มีฝนตกหนักบางแห่ง ส่วนประเทศไทย…", "topic": "ข่าวทั่วไป", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/breaking-news/news_10473732", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Todays-weather-11.jpg", "published": 1794785681.0}, {"id": "a6dd55f3d4c7", "title": "กูรู 54% มองทองคำขาลง จับตาประชุมเอเปก-ตัวเลขเศรษฐกิจสหรัฐฯ", "desc": "ศูนย์วิจัยทองคำ เปิดผลสำรวจ GRC Gold Survey สัปดาห์ 16-20 พ.ย. 2569 พบผู้เชี่ยวชาญตลาดทองคำ 54% คาดราคาทองคำปรับลดลง ขณะที่นักลงทุน 49% มองทิศทางเดียวกัน หลังสัปดาห์ก่อนราคาทองคำแท่งร่วง 2,350 บาทต่อบาททองคำ จับตาผลประชุมผู้นำเอเปกและข้อมูลเศรษฐกิจสหรัฐฯ ชี…", "topic": "เศรษฐกิจ", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/economics/news_10473721", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/09/Todays-gold-price-14.jpg", "published": 1794785379.0}, {"id": "ac26662368d5", "title": "อุตุฯ เตือนฝนฟ้าคะนอง 24 จังหวัด ‘เหนือ-อีสาน’ อากาศเย็นมีหมอกตอนเช้า", "desc": "กรมอุตุนิยมวิทยา พยากรณ์อากาศ 24 ชั่วโมงข้างหน้าว่า ภาคใต้มีฝนตกหนักบางแห่ง ส่วนประเทศไทยตอนบนมีฝนฟ้าคะนองเกิดขึ้นได้บางพื้นที่ โดยภาคเหนือและภาคตะวันออกเฉียงเหนือ The post อุตุฯ เตือนฝนฟ้าคะนอง 24 จังหวัด ‘เหนือ-อีสาน’ อากาศเย็นมีหมอกตอนเช้า appeared first…", "topic": "ข่าวทั่วไป", "source": "ไทยโพสต์", "link": "https://www.thaipost.net/general-news/1109348/", "image": "https://storage-wp.thaipost.net/2026/11/daily-16-november-2026-0600.png", "published": 1794785132.0}, {"id": "0efc0175dd27", "title": "ชาวเช็ก 4 แสนคน ประท้วงต้านแผนเปลี่ยนระบบงบประมาณสื่อสาธารณะ", "desc": "ชาวเช็ก 4 แสนคน ประท้วงต้านแผนเปลี่ยนระบบงบประมาณสื่อสาธารณะ thairath.co.th", "topic": "เทคโนโลยี", "source": "thairath.co.th", "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02TlctVXh2NWFveXI5RTgwOFROTjhMNE5OaGNqdlZQRFhPcjNzcTVRLW8wdFVwaEtfV0ZlQmlRcHR4ZWFXdDB5Mk9QdU9Id3NDTHlYOHdqSHltc3c?oc=5", "image": "", "published": 1794784981.0}, {"id": "6e5e8067e30d", "title": "ตลาดโลกเผชิญแรงกดดันรอบด้าน น้ำมันกลับมาพุ่ง–หุ้นเทค สะดุดจากข่าว Nvidia", "desc": "ตลาดโลกเผชิญแรงกดดันรอบด้าน น้ำมันกลับมาพุ่ง–หุ้นเทค สะดุดจากข่าว Nvidia Thunhoon Nvidia: เปิดเส้นธุรกิจเอ็นวิเดีย-บริษัทเมกะสปีดในสิงคโปร์ หลังเหตุอื้อฉาวเจนเซน หวง กับหญิงต้องสงสัยสายลับจีน BBC Megaspeed ตั้งสอบภายใน หลังถูกโยงปมสายลับจีน-อดีตซีอีโอ Nvidi…", "topic": "เศรษฐกิจ", "source": "Thunhoon", "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5BVTFhbFZKTzZhS3BVZ2lrNWU2dG9NVjN2WUt5aHJsLU05cWdQd3pudno2SXAtT2RjdExxdXRUYy1DTk4zcXdv?oc=5", "image": "", "published": 1794784504.0}, {"id": "b55dd1c37971", "title": "อ.เชน นำคณะลุยตรวจสารหนูแม่สาย โชว์นวัตกรรมเอ็ม-เซนส์ ชงศปช.เหนืออนุมัติ หวังกรองพิษปนเปื้อน", "desc": "อ.เชน นำคณะลุยตรวจสารหนูแม่สาย โชว์นวัตกรรมเอ็ม-เซนส์ ผ", "topic": "การเมือง", "source": "มติชน", "link": "https://www.matichon.co.th/politics/news_5976780", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/vivi19-wed.jpg", "published": 1794784347.0}, {"id": "d03aa124553a", "title": "สภาพอากาศวันนี้ เหนือ-อีสานอากาศเย็น - กทม.เจอฝน 30%", "desc": "สภาพอากาศวันนี้ เหนือ-อีสานอากาศเย็น - กทม.เจอฝน 30% Thai PBS พยากรณ์อากาศ ประจำวันที่ 16 พฤศจิกายน 2569 กรุงเทพและปริมณฑล มีฝนฟ้าคะนองร้อยละ 30 ของพื้นที่ LINE TODAY กรมอุตุฯ ประกาศ ฉ.3 ภาคใต้รับมือฝนตกหนัก เสี่ยงน้ำท่วม 18-22 พ.ย. Thai PBS หนาวระลอกใหม่!…", "topic": "เทคโนโลยี", "source": "Thai PBS", "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBud1FicTFMUENuQmdGUVJkaUZFTjVFYXIyOTI5bXBmT1VPNFhmQTZMYmpIbDdPSnZvXzlsc1VTTGFmWW1mQWgtRnp2bDJNX0ZOWWNwTXFEcFk?oc=5", "image": "", "published": 1794784317.0}, {"id": "439a2ae801a4", "title": "อนุทิน โชว์วิชั่นเวทีอาเซียน ชูปชช.ศูนย์กลาง ดัน 3 ข้อขับเคลื่อนภูมิภาค ยันฟื้นสัมพันธ์ไทย-กัมพูชา", "desc": "อนุทิน โชว์วิชั่นเวทีอาเซียน ชูปชช.ศูนย์กลาง ดัน 3 ข้อข", "topic": "การเมือง", "source": "มติชน", "link": "https://www.matichon.co.th/politics/news_5976801", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/vivi20-wed.jpg", "published": 1794783718.0}, {"id": "6e5262d11e20", "title": "สีหศักดิ์ ย้ำภาษีสหรัฐจบแล้ว ลุ้นนายกฯ-ทรัมป์ลงนาม 17 พ.ย. ในเวทีอาเซียน-สหรัฐที่มะนิลา", "desc": "สีหศักดิ์ ย้ำภาษีสหรัฐจบแล้ว ลุ้นนายกฯ-ทรัมป์ลงนาม 17 พ", "topic": "เศรษฐกิจ", "source": "มติชน", "link": "https://www.matichon.co.th/politics/news_5976745", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/vivi16-wed.jpg", "published": 1794783702.0}, {"id": "ccddeb46ee0e", "title": "ช้างศึก ยู17 แก้ไขข้อผิดพลาด เตรียมดวลฮ่องกง คัดเอเชีย", "desc": "ช้างศึก ยู17 แก้ไขข้อผิดพลาด เตรียมดวลฮ่องกง คัดเอเชีย", "topic": "กีฬา", "source": "มติชน", "link": "https://www.matichon.co.th/sport/footballlocal/news_5976870", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/43211.jpg", "published": 1794783658.0}, {"id": "5c2263ce141b", "title": "โรนัลดินโญ หวนคืนสู่แมตช์อาชีพในรอบ 11 ปี หลังได้ลงเล่นให้ราเวนนา", "desc": "ตำนานกองหน้าบราซิล โรนัลดินโญ คืนสู่สนามแมตช์อาชีพอีกครั้งในวัย 46 ปี หลังลงเล่นให้ราเวนนา แห่งเซเรีย ซี โดยอยู่ในสนามแบบเต็ม 45 นาทีช่วงครึ่งแรก โรนัลดินโญ ตำนานกองหน้าชาวบราซิล ได้ลงสนามแมตช์อาชีพอีกครั้งในวัย 46 ปี หลังลงเล่นให้ราเวนนา สโมสรแห่งเซเรีย ซี…", "topic": "กีฬา", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/sports/news_10473729", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-15T172241Z_867125054_UP1EMBF1C9RMG_RTRMADP_3_SOCCER-ITALY-RAV-FOR.jpg", "published": 1794783130.0}, {"id": "66f2547c7047", "title": "อังกฤษ หยุดสถิติไร้พ่ายสเปน เฉือนหวิว 3-2 คว้าแชมป์กลุ่มยูฟ่า เนชั่นส์ ลีก", "desc": "อังกฤษ หยุดสถิติไร้พ่ายสเปน เฉือนหวิว 3-2 คว้าแชมป์กลุ่", "topic": "กีฬา", "source": "มติชน", "link": "https://www.matichon.co.th/sport/footballinter/news_5976891", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1212.jpg", "published": 1794782493.0}, {"id": "3fe36b269fb4", "title": "The Weeknd กวาดรายได้ทะลุ 1.3 พันล้านดอลลาร์! ขึ้นแท่นศิลปินชายทัวร์รายได้สูงสุดตลอดกาล", "desc": "The Weeknd กวาดรายได้ทะลุ 1.3 พันล้านดอลลาร์! ขึ้นแท่นศิลปินชายทัวร์รายได้สูงสุดตลอดกาล ททบ. 5 \"The Weeknd\" ปิดฉากสเตเดียมทัวร์ 4 ปี 176 รอบ ขึ้นแท่นเป็นศิลปินชายที่ทำทัวร์ทำรายได้สูงตลอดกาล เดลินิวส์ เฟย์ หว่อง และ เหอ เมิ่งเหยา ร่วมงานกันในมิวสิกวิดีโอเพล…", "topic": "บันเทิง", "source": "ททบ. 5", "link": "https://news.google.com/rss/articles/CBMioAdBVV95cUxOWE5zZVljLWoxdE9ZckhkLWo0WmNEU2NLZU1xQnY2U1JpdGlncUNQZDZWMElDUUtVRXMwOUNOZ1BrVURUQUxYZmdoYzhISXAyUUREeFZvbXZMSWVMbndzeE9nNmxJVlVVdUtCVFl6a0pxeGh0TW1UNnJzUXZDcG10THh0bjhKeWd5dEduSHpiOVBhTjRwazFkWXFxSEJIOVhYdmNVVHlHVTNVdWZIeDJPS0VrNmhHM2NYZFRIQ2tQQmstR2lGZ3R1YjE1NmNtcGY2bzNVQUFqRXMtR1QxemN1VkN1WHVNaGotNlZGQktyZGNsaGpwTnU3eXdQNEExNXBZS3RHZTZma0J5S0lYX3FuQ0xPNTdmRjc0a1RNSkg2V1RjejFQeHdxMnhzTW9RdnJ3QmNtT2tGRzB3M0tqNVZ3UndQTl9UQ3lPR0hnX052ODY4dlZxZ09mUTg3SzhLc3lkVlNzOE8zbF90SXRObjdpdjl1YThKTXVMRGNhRVNibkZzUUk5ODFtcGtkZVNJRFNlMHJVcnRBR0xOVG8xYWtpSktybGdNQTFFQ09vdTJ6VkRJdU13dmxWWVRaVWstWmFveng2RzV0UWlCRllMZU82OS14M3JNQjJlMXVmNHBRNlRSOUpEWmdXYXlFVmRBYTNGUGZSRGs5a3h1clE5bktRMHhNZzZva205N2tNTlB1NlJzZGU1VHhvQkF6X1VsbUc2Um5GUVk1QnZOZUpBeWRhZ1ZTRUZFaXVTcmhybmZheFBIRFBjQldkVGRIY3g2cVd1RUhCeVhoTFUzMVgyQzViaUtJa25WUnlCT180cnRoM3c5dkwyRkl0cmtqU3dxS2xicnJIeXAyclFpZTUyS3NmX2xudklpbUN2cUNRNm5DNVZWSVNtX0JTbWRRdWh6aEVTNGRqOE83dkZNRDJiQmlabklvckptSEFsLTVfZW9TN1ozUEtpUmEzcmdMRUZ5ck1PblpzVDZ1NUdWNTZSWXlCQm9NSmdjMFNpMVpHMno4ZHJyUjVBTG1ILUgwTlhyTTZKOHFUWlhTc1dmdTNFT2lJZXE5RUlpM0p1T1Zxc0RzZFhlYkg4UjFHZWRFNlRqelp3clFvOVg2a0V3M0kwQXpTcHpUcjdFV3RlR3dObjVKOXFEc2pXY3ZES1A0WkRTVzkwVncwdk4xdXBnc0pYeWxJOExiTTlBQ2tTWXBlN0MtSEU2T1V4R3l0NnRuOVhzRC0x?oc=5", "image": "", "published": 1794782400.0}, {"id": "91f81124ca8e", "title": "หน้า 1 หนังสือพิมพ์มติชน วันนี้", "desc": "หน้า 1 หนังสือพิมพ์มติชน วันนี้ สีหศักดิ์ย้ำภาษีสหรัฐจบ", "topic": "ข่าวทั่วไป", "source": "มติชน", "link": "https://www.matichon.co.th/newspaper-cover/news_5976841", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/MCB011711FAH-scaled.jpg", "published": 1794781134.0}, {"id": "c2b6da7fc37d", "title": "อังกฤษเฉือนชัยแซงคว้าแชมป์กลุ่มยูฟ่า เนชันส์ ลีก พร้อมหยุดสถิติไร้พ่ายของสเปน", "desc": "อังกฤษบุกเฉือนชนะสเปนแบบที่เกมมาเดือดเอาตอนท้าย ทำให้อังกฤษแซงคว้าแชมป์กลุ่มยูฟ่า เนชันส์ ลีก แถมสเปนยังถูกหยุดสถิติไร้พ่ายต่อเนื่องด้วย การแข่งขันฟุตบอลยูฟ่า เนชันส์ ลีก 2026-27 เมื่อวันที่ 13 พฤศจิกายน ลีกเอ กลุ่ม 3 “กระทิงดุ”สเปน แชมป์ฟุตบอลโลก 2026 และร…", "topic": "กีฬา", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/sports/news_10473722", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-15T211002Z_2114046147_UP1EMBF1MSPV5_RTRMADP_3_SOCCER-UEFANATIONS-ESP-ENG.jpg", "published": 1794781046.0}, {"id": "f86d088f2b71", "title": "ดวงรายสัปดาห์ 15-21 พฤศจิกายน 2569", "desc": "ผู้เขียน : ปุสาคโม ลัคนา (ลั) ราศีเมษ ในรอบสัปดาห์นี้ ท่านจะกังวลในเรื่องความขัดแย้งของเพื่อนร่วมงาน หรือเรื่องที่สำนักงานทำให้ท่านเดือดเนื้อร้อนใจอย่างใดอย่างหนึ่ง ควรระวังปัญหาเรื่องผลประโยชน์เกี่ยวกับที่ดินหรืออสังหาริมทรัพย์ที่เกี่ยวข้องกับบุตรหล …", "topic": "ข่าวทั่วไป", "source": "ประชาชาติธุรกิจ", "link": "https://www.prachachat.net/horoscope/news-2096819", "image": "https://www.prachachat.net/wp-content/uploads/2024/04/Horoscope.jpg", "published": 1794780180.0}, {"id": "aca5ec289300", "title": "การบินสหรัฐฯ ยังปั่นป่วน ยกเลิก-ล่าช้าหลายพันเที่ยว หลังระบบขัดข้อง", "desc": "การบินสหรัฐฯ ยังปั่นป่วน ยกเลิก-ล่าช้าหลายพันเที่ยว หลังระบบขัดข้อง thairath.co.th คำสั่งระงับเที่ยวบินทั่วสหรัฐฯ สาเหตุเกิดจากอะไร ? BBC เปิดสาเหตุเบื้องต้น FAA สั่งหยุดบินทั่วสหรัฐฯ โยงเปลี่ยนสายทองแดงเป็นไฟเบอร์ Thai PBS ‘พิพัฒน์’ สั่งเฝ้าระวังระบบการบิน…", "topic": "เทคโนโลยี", "source": "thairath.co.th", "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84aFRNV3lYOC1kcmxtT2t3VThjZHlMZFBQcDRGR09INnYteGdrME51c2FnTTBkNDhrZnZ6QnJMVE1qUEttMjVDbUliTWNtTGp4MVlvUGVqZGVqdjA?oc=5", "image": "", "published": 1794779186.0}, {"id": "40b1b30885f6", "title": "โปรแกรมถ่ายทอดสดประจำวันจันทร์ที่ 16 พฤศจิกายน 69", "desc": "โปรแกรมถ่ายทอดสดประจำวันจันทร์ที่ 16 พฤศจิกายน 69 TrueVisions โปรแกรมกีฬาวันนี้ พร้อมช่องถ่ายทอดสด วันจันทร์ที่ 16 พฤศจิกายน 69 TNN Thailand โปรแกรมบอลวันนี้ 14 พ.ย. 69 ดูบอลสด ดูเนชั่นส์ลีก นอร์เวย์ พบ เวลส์, โปรตุเกส พบ เดนมาร์ก พร้อมช่องถ่ายทอดสด Siamspo…", "topic": "ยานยนต์", "source": "TrueVisions", "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RUXF5Wk13MWRwaVZWb0JrRG16MTAzNk9NWjVsNThrV0M3ZGR2NmZwNkFNRzEyWE0yNjI5N1RtUU5GRG1YUmhNdFpaZnBvbERm?oc=5", "image": "", "published": 1794777462.0}, {"id": "7285214ebd74", "title": "ช้างศึก ยู23 เดินทางกลับถึงไทย โค้ชวัง กำชับ ยกมาตรฐานกับสโมสร", "desc": "ช้างศึก ยู23 เดินทางกลับถึงไทย โค้ชวัง กำชับ ยกมาตรฐานก", "topic": "กีฬา", "source": "มติชน", "link": "https://www.matichon.co.th/sport/footballlocal/news_5976863", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/432-1.jpg", "published": 1794776414.0}, {"id": "858bcafe8d46", "title": "ล่าแชมป์เต็มสูบ! สาวนครนนท์วิทยา 6 ตั้งเป้าผงาดเจ้าลูกยาง PMYC U15", "desc": "ล่าแชมป์เต็มสูบ! สาวนครนนท์วิทยา 6 ตั้งเป้าผงาดเจ้าลูกย", "topic": "กีฬา", "source": "มติชน", "link": "https://www.matichon.co.th/sport/thai-sport/news_5976781", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/43-1.jpg", "published": 1794769225.0}, {"id": "5a986cf963f0", "title": "Path of Exile 2 จัดงานเวิลด์ทัวร์โปรโมต 1.0 ในไทย พร้อมความรู้สึกหลังลองเล่น", "desc": "Path of Exile 2 จัดงานเวิลด์ทัวร์โปรโมต 1.0 ในไทย พร้อมความรู้สึกหลังลองเล่น Online Station Path of Exile 2 - คุยกับผู้กำกับ ตอบทุกข้อสงสัยที่ผู้เล่นในไทยควรรู้ Online Station", "topic": "ข่าวทั่วไป", "source": "Online Station", "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fcmkwSV9UWWUwNW9QUG9oWlVUYWxtaDZ1cUp6RnRMQXZNV1RpRzE1WGNBXzF5SlAyeTdoRmVQcFFKa3hMY1V2bEFCYTRUQmRyY2xZMlNhM2x1eGwydTIwWXJ1RnI?oc=5", "image": "", "published": 1794766690.0}, {"id": "18a19e905966", "title": "ฮิปฮอป-เชียร์-ปอม ชิงแชมป์ 3 ภาค ทีมชาติฉายแวว ประชันฝีมือ 102 ทีม", "desc": "ฮิปฮอป-เชียร์-ปอม ชิงแชมป์ 3 ภาค ทีมชาติฉายแวว ประชันฝี", "topic": "กีฬา", "source": "มติชน", "link": "https://www.matichon.co.th/sport/thai-sport/news_5976725", "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/534-1.jpg", "published": 1794766009.0}, {"id": "84c0814ad433", "title": "สุดระทึก ตร.ไล่จับเก๋งชนรถชาวบ้าน 7 คันจากวิภาฯซิ่งไฟลุกล้อหนีไปถึงคูคตอ้างตกใจ เจอซุกผงสีขาว", "desc": "ตำรวจจราจรกลาง ไล่ล่าสุดระทึก เก๋งขับชนรถชาวบ้าน 7 คันรวดตั้งแต่แยกเกษตรมาจนถึงดอนเมืองไม่ยอมจอด ซิ่งข้ามไปฝั่งลำลูกกา ต้องประสานตำรวจคูคตสกัดจับ อาสากู้ภัยตัดสินใจปาดหน้า อ้างตกใจกลัวโดนรุม ค้นตัวเจอผงสีขาวซุกข้างขา เมื่อเวลา 21.30 น. วันที่ 15 พ.ย. 2569 เ…", "topic": "ยานยนต์", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/breaking-news/news_10473708", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/car-2.jpg", "published": 1794764912.0}, {"id": "7833cd03edf8", "title": "“อนุทิน” ยกขบวนเยี่ยมม็อบกำนัน นี่คือการแสดงล้วนๆ!!", "desc": "“อนุทิน” ยกขบวนเยี่ยมม็อบกำนัน นี่คือการแสดงล้วนๆ!! ผู้จัดการออนไลน์ \"กำนันมะโน\" เมินเจรจาพลังงาน จี้ลดดีเซล 10 บาท เตรียมเดินเท้าบุกกระทรวงฯ Thai PBS นายกฯ เผยตั้งใจขอบคุณม็อบกำนันมะโนให้ความร่วมมือดี บอกเป็นสิทธิปักหลัก LINE TODAY พลังงานหารือ นปผ. ก่อนเค…", "topic": "ข่าวทั่วไป", "source": "ผู้จัดการออนไลน์", "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZV1h5SDRkZDQwdmhMai03eU85QlBFb2VVUzdGcFNwWlp6TjZUbjRpdDQzMEFDbFBMQW9WNTFiV1lSRmx1N0tUeGlXUlpmNDV4ZHJ6MEYwR3ZUNFlvYmFnQg?oc=5", "image": "", "published": 1794763800.0}, {"id": "934d2cecee2c", "title": "พิรุธหลบตา-มือสั่น หนุ่มนั่งนิ่งเบาะ D7 เจอตร.ล็อกคารถทัวร์ ซุกฝิ่นดิบมาอื้อไปไม่ถึงกรุงเทพฯ", "desc": "ตำรวจด่านตรวจยาเสพติดสบปราบ จับหนุ่มผู้โดยสารรถทัวร์ กรุงเทพฯ-เชียงใหม่ นั่งนิ่งเบาะD7 ท่าทางพิรุธ หลบตา มือสั่น ขอค้นเจอฝิ่นดิบอื้อ รับจะเอาไปขายต่อที่นครปฐม วันที่ 15 พ.ย.2569 เจ้าหน้าที่ตำรวจ สภ.สบปราบ จ.ลำปาง ประจำด่านตรวจยาเสพติด ร่วมกันจับกุมนายหนานตา…", "topic": "ยานยนต์", "source": "ข่าวสด", "link": "https://www.khaosod.co.th/around-thailand/news_10473699", "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Sop-Prap.jpg", "published": 1794762340.0}]};</script>
+<script>
+/* =========================================================
+   Fam Ai — ข่าวสดออนไลน์ & Reels Auto-Editor
+   ---------------------------------------------------------
+   • ดึงข่าวจริงจาก /api/news (เซิร์ฟเวอร์รวม RSS ของสำนักข่าวไทย)
+   • ถ้าดึงไม่ได้ จะใช้ข่าวตัวอย่างใน js/news-data.js แทน
+   • เรนเดอร์คลิป 9:16 จากภาพข่าว/วิดีโอ + ซับไตเติล แล้วดาวน์โหลดได้จริง
+   • ทุกอย่างเรนเดอร์ในเบราว์เซอร์ 100%
+   ========================================================= */
+(() => {
+  'use strict';
+
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+
+  /* =======================================================
+     1) STATE
+     ======================================================= */
+  const STYLE_KEYS = ['yellow', 'white', 'cyan', 'news'];
+
+  const state = {
+    topic: 'ทั้งหมด',
+    query: '',
+    style: 'yellow',
+    fit: 'cover',
+    chunking: true,
+    banner: true,
+    caption: true,
+    audioPreview: false,
+    music: 'none',
+    playing: true,
+    exporting: false,
+    activeId: null
+  };
+
+  // DEMO_NEWS ถูกประกาศแบบ const ในสคริปต์อื่น → อ้างอิงตรง ๆ ผ่าน typeof
+  const demoNews = () => (typeof DEMO_NEWS !== 'undefined' && Array.isArray(DEMO_NEWS) ? DEMO_NEWS : []);
+  const demoTicker = () => (typeof TICKER_ITEMS !== 'undefined' && Array.isArray(TICKER_ITEMS) ? TICKER_ITEMS : ['Fam Ai']);
+
+  let NEWS = demoNews().slice();
+  let liveMode = false;
+  let lastUpdatedAt = null;
+  let loadingNews = false;
+  let activeNews = null;
+
+  const CLIP_DURATION = 10;              // ความยาวคลิปสำหรับข่าวที่เป็นภาพ
+  const studio = { mode: 'image', image: null, imageLoading: false };
+  const clock = { t: 0, duration: CLIP_DURATION, playing: true, freeze: false, lastTs: 0 };
+  let imgToken = 0;
+
+  /* =======================================================
+     2) DOM REFS
+     ======================================================= */
+  const feedEl = $('#newsFeed');
+  const chipsEl = $('#categoryChips');
+  const resultCountEl = $('#resultCount');
+  const emptyStateEl = $('#emptyState');
+  const searchInput = $('#searchInput');
+  const searchClear = $('#searchClear');
+  const tickerTrack = $('#tickerTrack');
+  const tickerClock = $('#tickerClock');
+  const btnRefresh = $('#btnRefresh');
+  const updatedLabel = $('#updatedLabel');
+  const dataBadge = $('#dataBadge');
+
+  const canvas = $('#reelsCanvas');
+  const ctx = canvas.getContext('2d', { alpha: false });
+  const W = canvas.width;
+  const H = canvas.height;
+
+  const categoryInput = $('#categoryInput');
+  const subtitleInput = $('#subtitleInput');
+  const subtitleStyleSelect = $('#subtitleStyle');
+  const fitSelect = $('#fitSelect');
+  const musicSelect = $('#musicSelect');
+  const toggleChunk = $('#toggleChunk');
+  const toggleBanner = $('#toggleBanner');
+  const toggleCaption = $('#toggleCaption');
+  const toggleAudioPreview = $('#toggleAudioPreview');
+  const chunkInfo = $('#chunkInfo');
+  const statusText = $('#statusText');
+  const exportNote = $('#exportNote');
+  const previewSourceLabel = $('#previewSourceLabel');
+  const previewTime = $('#previewTime');
+  const scrubber = $('#scrubber');
+  const previewTap = $('#previewTap');
+  const studioBadge = $('#studioBadge');
+
+  const exportOverlay = $('#exportOverlay');
+  const exportProgressText = $('#exportProgressText');
+  const exportProgressFill = $('#exportProgressFill');
+  const btnCancelExport = $('#btnCancelExport');
+
+  const resultOverlay = $('#resultOverlay');
+  const resultVideo = $('#resultVideo');
+  const resultMeta = $('#resultMeta');
+  const resultDownload = $('#resultDownload');
+  const resultHint = $('#resultHint');
+
+  const helpOverlay = $('#helpOverlay');
+  const toastStack = $('#toastStack');
+
+  /* =======================================================
+     3) STUDIO SOURCE MEDIA
+     ======================================================= */
+  const studioVideo = document.createElement('video');
+  studioVideo.className = 'studio-source';
+  studioVideo.muted = true;
+  studioVideo.playsInline = true;
+  studioVideo.preload = 'auto';
+  studioVideo.loop = true;
+  studioVideo.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(studioVideo);
+
+  /* =======================================================
+     4) UTILITIES
+     ======================================================= */
+  const THAI_FONT = "'Prompt','Noto Sans Thai','Sarabun',sans-serif";
+  const HEAD_FONT = "'Kanit','Prompt','Noto Sans Thai',sans-serif";
+
+  function fmtTime(sec) {
+    if (!isFinite(sec) || sec < 0) sec = 0;
+    return `${Math.floor(sec / 60)}:${String(Math.floor(sec % 60)).padStart(2, '0')}`;
+  }
+
+  function timeAgo(ts) {
+    if (!ts) return '';
+    const diff = Date.now() / 1000 - ts;
+    if (diff < 90) return 'เมื่อสักครู่';
+    if (diff < 3600) return `${Math.round(diff / 60)} นาทีที่แล้ว`;
+    if (diff < 86400) return `${Math.round(diff / 3600)} ชั่วโมงที่แล้ว`;
+    const d = new Date(ts * 1000);
+    return d.toLocaleDateString('th-TH', { day: 'numeric', month: 'short' }) + ' • ' +
+      d.toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' }) + ' น.';
+  }
+
+  function clockText(d = new Date()) {
+    return d.toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' });
+  }
+
+  function toast(msg, type = 'ok', ms = 3200) {
+    const el = document.createElement('div');
+    el.className = 'toast' + (type === 'ok' ? '' : ' ' + type);
+    el.textContent = msg;
+    toastStack.appendChild(el);
+    setTimeout(() => {
+      el.style.transition = 'opacity .3s, transform .3s';
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(8px)';
+      setTimeout(() => el.remove(), 320);
+    }, ms);
+  }
+
+  function setStatus(msg, type = '') {
+    statusText.textContent = msg || '';
+    statusText.className = 'status-text' + (type ? ' ' + type : '');
+  }
+
+  let statusTimer = null;
+  function flashStatus(msg, type = '', ms = 2600) {
+    setStatus(msg, type);
+    clearTimeout(statusTimer);
+    if (ms) statusTimer = setTimeout(() => setStatus(''), ms);
+  }
+
+  const segmenter = (() => {
+    try {
+      if (typeof Intl !== 'undefined' && Intl.Segmenter) return new Intl.Segmenter('th', { granularity: 'word' });
+    } catch (e) { /* noop */ }
+    return null;
+  })();
+
+  function tokenize(text) {
+    if (segmenter) {
+      try { return Array.from(segmenter.segment(text), s => s.segment); } catch (e) { /* fallback */ }
+    }
+    return Array.from(text);
+  }
+
+  function wrapText(text, maxWidth, font) {
+    ctx.font = font;
+    const tokens = tokenize(text);
+    const lines = [];
+    let line = '';
+    const pushLine = () => { if (line.trim()) lines.push(line.trim()); line = ''; };
+
+    for (const tk of tokens) {
+      if (tk === '\n') { pushLine(); continue; }
+      const test = line + tk;
+      if (ctx.measureText(test.trim()).width > maxWidth && line.trim()) {
+        pushLine();
+        line = tk;
+      } else {
+        line = test;
+      }
+      while (ctx.measureText(line.trim()).width > maxWidth && line.trim().length > 1) {
+        let i = line.length - 1;
+        while (i > 1 && ctx.measureText(line.slice(0, i).trim()).width > maxWidth) i--;
+        lines.push(line.slice(0, i).trim());
+        line = line.slice(i);
+      }
+    }
+    pushLine();
+    return lines.length ? lines : [''];
+  }
+
+  function roundRect(x, y, w, h, r) {
+    const rr = Math.min(r, w / 2, h / 2);
+    ctx.beginPath();
+    ctx.moveTo(x + rr, y);
+    ctx.arcTo(x + w, y, x + w, y + h, rr);
+    ctx.arcTo(x + w, y + h, x, y + h, rr);
+    ctx.arcTo(x, y + h, x, y, rr);
+    ctx.arcTo(x, y, x + w, y, rr);
+    ctx.closePath();
+  }
+
+  /** escape ข้อความจากภายนอกก่อนใส่ innerHTML (กัน XSS/HTML พัง) */
+  function esc(str) {
+    return String(str == null ? '' : str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function safeUrl(url) {
+    const u = String(url || '').trim();
+    return /^https?:\/\//i.test(u) ? u : (u.startsWith('assets/') || u.startsWith('api/') ? u : '');
+  }
+
+  /* =======================================================
+     5) SUBTITLE CHUNKING
+     ======================================================= */
+  function currentCaptionText() {
+    return subtitleInput.value.replace(/\s+/g, ' ').trim();
+  }
+
+  function splitToChunks(text, target = 34) {
+    const clean = text.replace(/\s+/g, ' ').trim();
+    if (!clean) return [];
+    const tokens = tokenize(clean);
+    const chunks = [];
+    let cur = '';
+    for (const tk of tokens) {
+      if ((cur + tk).trim().length > target && cur.trim()) {
+        chunks.push(cur.trim());
+        cur = tk;
+      } else {
+        cur += tk;
+      }
+      while (cur.trim().length > target * 1.9) {
+        chunks.push(cur.trim().slice(0, target));
+        cur = cur.trim().slice(target);
+      }
+    }
+    if (cur.trim()) chunks.push(cur.trim());
+    return chunks;
+  }
+
+  function getChunks() {
+    const text = currentCaptionText();
+    if (!state.chunking) return text ? [text] : [];
+    if (!text) return [];
+    if (activeNews && activeNews.script && activeNews.script.length &&
+        text === (activeNews.caption || '').replace(/\s+/g, ' ').trim()) {
+      return activeNews.script.slice();
+    }
+    return splitToChunks(text);
+  }
+
+  function refreshChunkInfo() {
+    const n = getChunks().length;
+    chunkInfo.textContent = n ? `แบ่งเป็น ${n} ท่อน ตามความยาวคลิป` : 'ยังไม่มีคำบรรยาย';
+  }
+
+  /* =======================================================
+     6) DRAW — STYLE PRESETS
+     ======================================================= */
+  const STYLES = {
+    yellow: { text: '#FFEB3B', key: '#FFFFFF', box: 'rgba(8,8,12,.74)', border: 'rgba(255,235,59,.55)', bar: '#FFEB3B' },
+    white:  { text: '#FFFFFF', key: '#FFEB3B', box: 'rgba(0,0,0,.66)',  border: 'rgba(255,255,255,.32)', bar: '#FFFFFF' },
+    cyan:   { text: '#7CF7FF', key: '#FFFFFF', box: 'rgba(2,20,26,.78)', border: 'rgba(34,230,255,.6)',  bar: '#22E6FF' },
+    news:   { text: '#FFFFFF', key: '#FFEB3B', box: 'rgba(230,0,0,.92)', border: 'rgba(255,255,255,.5)', bar: '#FFEB3B' }
+  };
+
+  /* =======================================================
+     7) TIME / MEDIA
+     ======================================================= */
+  function videoReady() {
+    return studio.mode === 'video' && studioVideo.readyState >= 2 && studioVideo.videoWidth > 0;
+  }
+
+  function clipDuration() {
+    if (studio.mode === 'video') {
+      const d = studioVideo.duration;
+      return isFinite(d) && d > 0 ? d : CLIP_DURATION;
+    }
+    return clock.duration;
+  }
+
+  function currentTime() {
+    return studio.mode === 'video' ? (studioVideo.currentTime || 0) : clock.t;
+  }
+
+  function drawVideoFill() {
+    const vw = studioVideo.videoWidth;
+    const vh = studioVideo.videoHeight;
+
+    if (state.fit === 'contain') {
+      const sc = Math.max(W / vw, H / vh);
+      ctx.save();
+      ctx.filter = 'blur(38px) brightness(.45) saturate(1.15)';
+      ctx.drawImage(studioVideo, (W - vw * sc) / 2, (H - vh * sc) / 2, vw * sc, vh * sc);
+      ctx.restore();
+      const s = Math.min(W / vw, H / vh);
+      ctx.drawImage(studioVideo, (W - vw * s) / 2, (H - vh * s) / 2, vw * s, vh * s);
+    } else {
+      const s = Math.max(W / vw, H / vh);
+      ctx.drawImage(studioVideo, (W - vw * s) / 2, (H - vh * s) / 2, vw * s, vh * s);
+    }
+  }
+
+  function kenBurnsTransform(img, p) {
+    // p = 0..1 ของความยาวคลิป → ซูมเข้า/ออกช้า ๆ พร้อมแพนเบา ๆ
+    const dir = (activeNews && (activeNews.id || '').charCodeAt(0) % 2) ? -1 : 1;
+    const z = dir > 0 ? 1.05 + 0.13 * p : 1.18 - 0.13 * p;
+    const base = Math.max(W / img.naturalWidth, H / img.naturalHeight);
+    const s = base * z;
+    const dw = img.naturalWidth * s;
+    const dh = img.naturalHeight * s;
+    const fx = 0.5 + 0.28 * (p - 0.5) * dir;
+    const fy = 0.5 + 0.12 * (p - 0.5);
+    return { dx: -(dw - W) * Math.min(1, Math.max(0, fx)), dy: -(dh - H) * Math.min(1, Math.max(0, fy)), dw, dh };
+  }
+
+  function drawImageFill() {
+    const img = studio.image;
+    if (!img) return false;
+    const p = Math.min(1, Math.max(0, clock.t / (clock.duration || CLIP_DURATION)));
+
+    if (state.fit === 'contain') {
+      const sc = Math.max(W / img.naturalWidth, H / img.naturalHeight);
+      ctx.save();
+      ctx.filter = 'blur(38px) brightness(.45) saturate(1.15)';
+      ctx.drawImage(img, (W - img.naturalWidth * sc) / 2, (H - img.naturalHeight * sc) / 2,
+        img.naturalWidth * sc, img.naturalHeight * sc);
+      ctx.restore();
+      const s = Math.min(W / img.naturalWidth, H / img.naturalHeight);
+      ctx.drawImage(img, (W - img.naturalWidth * s) / 2, (H - img.naturalHeight * s) / 2,
+        img.naturalWidth * s, img.naturalHeight * s);
+    } else {
+      const t = kenBurnsTransform(img, p);
+      ctx.drawImage(img, t.dx, t.dy, t.dw, t.dh);
+    }
+    return true;
+  }
+
+  function drawPlaceholder() {
+    const g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, '#141420');
+    g.addColorStop(.5, '#0b0b12');
+    g.addColorStop(1, '#1a0a0e');
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+
+    ctx.save();
+    ctx.textAlign = 'center';
+    ctx.fillStyle = 'rgba(255,255,255,.10)';
+    ctx.font = `800 190px ${HEAD_FONT}`;
+    ctx.fillText('Fam', W / 2, H / 2 - 40);
+    ctx.fillStyle = 'rgba(230,0,0,.85)';
+    ctx.fillText('Ai', W / 2, H / 2 + 140);
+    ctx.fillStyle = 'rgba(255,255,255,.55)';
+    ctx.font = `500 38px ${THAI_FONT}`;
+    ctx.fillText(studio.imageLoading ? 'กำลังโหลดภาพข่าว…' : 'เลือกข่าวเพื่อเริ่มตัดต่อ', W / 2, H / 2 + 250);
+    ctx.restore();
+  }
+
+  /* =======================================================
+     8) DRAW — OVERLAYS
+     ======================================================= */
+  function drawTopBar() {
+    const pad = 46;
+    const t = performance.now() / 1000;
+
+    roundRect(pad, pad, 84, 84, 22);
+    ctx.fillStyle = '#e60000';
+    ctx.shadowColor = 'rgba(230,0,0,.55)';
+    ctx.shadowBlur = 26;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+
+    ctx.fillStyle = '#fff';
+    ctx.textAlign = 'center';
+    ctx.font = `800 52px ${HEAD_FONT}`;
+    ctx.fillText('F', pad + 42, pad + 60);
+
+    ctx.textAlign = 'left';
+    ctx.font = `700 46px ${HEAD_FONT}`;
+    ctx.fillStyle = '#fff';
+    ctx.shadowColor = 'rgba(0,0,0,.75)';
+    ctx.shadowBlur = 18;
+    ctx.fillText('Fam', pad + 104, pad + 58);
+    const famW = ctx.measureText('Fam').width;
+    ctx.fillStyle = '#ff5a5a';
+    ctx.fillText('Ai', pad + 104 + famW + 4, pad + 58);
+    ctx.shadowBlur = 0;
+
+    const liveText = 'LIVE';
+    ctx.font = `700 26px ${THAI_FONT}`;
+    const liveW = ctx.measureText(liveText).width + 62;
+    const liveX = pad + 104;
+    const liveY = pad + 84 - 4;
+    roundRect(liveX, liveY, liveW, 40, 20);
+    ctx.fillStyle = 'rgba(0,0,0,.55)';
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,.18)';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    const pulse = .55 + .45 * Math.abs(Math.sin(t * 2.2));
+    ctx.beginPath();
+    ctx.arc(liveX + 22, liveY + 20, 7, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(255,60,60,${pulse})`;
+    ctx.fill();
+    ctx.fillStyle = '#fff';
+    ctx.font = `700 24px ${THAI_FONT}`;
+    ctx.fillText(liveText, liveX + 40, liveY + 29);
+
+    const cat = (categoryInput.value || '').trim() || 'ข่าวด่วน';
+    ctx.font = `600 30px ${THAI_FONT}`;
+    const catW = Math.min(ctx.measureText(cat).width + 56, W - pad * 2 - 260);
+    const catX = W - pad - catW;
+    roundRect(catX, pad, catW, 62, 16);
+    ctx.fillStyle = 'rgba(0,0,0,.6)';
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,.16)';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    ctx.save();
+    roundRect(catX, pad, catW, 62, 16);
+    ctx.clip();
+    ctx.fillStyle = '#e60000';
+    ctx.fillRect(catX, pad, 8, 62);
+    ctx.restore();
+
+    ctx.fillStyle = '#fff';
+    ctx.textAlign = 'left';
+    ctx.save();
+    ctx.beginPath();
+    ctx.rect(catX + 18, pad, catW - 26, 62);
+    ctx.clip();
+    ctx.fillText(cat, catX + 24, pad + 41);
+    ctx.restore();
+  }
+
+  function drawHeadline(bottomY) {
+    const title = (activeNews && activeNews.title) || '';
+    if (!title) return;
+
+    const maxWidth = W - 120;
+    let fontSize = 58;
+    let lines = [];
+    for (let i = 0; i < 5; i++) {
+      const font = `700 ${fontSize}px ${HEAD_FONT}`;
+      lines = wrapText(title, maxWidth, font);
+      if (lines.length <= 3) break;
+      fontSize -= 6;
+    }
+    lines = lines.slice(0, 3);
+    ctx.font = `700 ${fontSize}px ${HEAD_FONT}`;
+
+    const lh = fontSize * 1.34;
+    const blockH = lines.length * lh;
+    let y = bottomY - blockH + fontSize;
+
+    ctx.save();
+    ctx.textAlign = 'left';
+    ctx.fillStyle = '#e60000';
+    roundRect(56, bottomY - blockH - 6, 10, blockH + 12, 5);
+    ctx.fill();
+
+    ctx.shadowColor = 'rgba(0,0,0,.85)';
+    ctx.shadowBlur = 22;
+    ctx.shadowOffsetY = 3;
+    for (const ln of lines) {
+      ctx.fillStyle = '#fff';
+      ctx.fillText(ln, 92, y);
+      y += lh;
+    }
+    ctx.restore();
+  }
+
+  function drawCaption(t, dur) {
+    if (!state.caption) return false;
+    const chunks = getChunks();
+    if (!chunks.length) return false;
+
+    const st = STYLES[state.style] || STYLES.yellow;
+    const idx = Math.min(chunks.length - 1, Math.floor((t / dur) * chunks.length));
+    const chunk = chunks[idx];
+
+    const segDur = dur / chunks.length;
+    const localT = Math.max(0, t - idx * segDur);
+    const appear = Math.min(1, localT / .22);          // 0..1 — ซับค่อย ๆ ปรากฏ
+
+    const maxTextW = W - 220;
+    let fontSize = 46;
+    let lines = [];
+    for (let i = 0; i < 4; i++) {
+      ctx.font = `600 ${fontSize}px ${THAI_FONT}`;
+      lines = wrapText(chunk, maxTextW, ctx.font);
+      if (lines.length <= 3) break;
+      fontSize -= 5;
+    }
+    if (lines.length > 3) {
+      lines = lines.slice(0, 3);
+      lines[2] = lines[2].slice(0, Math.max(1, lines[2].length - 1)) + '…';
+    }
+    ctx.font = `600 ${fontSize}px ${THAI_FONT}`;
+
+    const lh = fontSize * 1.42;
+    const padX = 42, padY = 30;
+
+    let textW = 0;
+    for (const ln of lines) textW = Math.max(textW, ctx.measureText(ln).width);
+    const boxW = Math.min(W - 120, textW + padX * 2);
+    const boxH = lines.length * lh + padY * 2 - (lh - fontSize);
+    const boxX = (W - boxW) / 2;
+    const boxY = H - 190 - boxH;
+
+    ctx.save();
+    const pop = .975 + .025 * appear;
+    const slideY = (1 - appear) * 26;
+    ctx.globalAlpha = .25 + .75 * appear;
+    ctx.translate(W / 2, boxY + boxH / 2 + slideY);
+    ctx.scale(pop, pop);
+    ctx.translate(-W / 2, -(boxY + boxH / 2));
+
+    roundRect(boxX, boxY, boxW, boxH, 26);
+    ctx.fillStyle = st.box;
+    ctx.shadowColor = 'rgba(0,0,0,.55)';
+    ctx.shadowBlur = 30;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+    ctx.strokeStyle = st.border;
+    ctx.lineWidth = 3;
+    ctx.stroke();
+
+    ctx.save();
+    roundRect(boxX, boxY, boxW, boxH, 26);
+    ctx.clip();
+    ctx.fillStyle = st.bar;
+    ctx.fillRect(boxX, boxY, 10, boxH);
+    ctx.restore();
+
+    let ty = boxY + padY + fontSize * 1.02;
+    for (const ln of lines) {
+      let tx = boxX + padX;
+      const parts = ln.split(/(\d[\d.,%\/]*|[A-Za-z][A-Za-z0-9.+-]*)/g).filter(p => p !== '');
+      for (const part of parts) {
+        const isKey = /\d/.test(part) || /^[A-Za-z]/.test(part);
+        ctx.fillStyle = isKey ? st.key : st.text;
+        ctx.fillText(part, tx, ty);
+        tx += ctx.measureText(part).width;
+      }
+      ty += lh;
+    }
+    ctx.restore();
+    return true;
+  }
+
+  function drawBottom(t, dur) {
+    ctx.fillStyle = 'rgba(255,255,255,.22)';
+    ctx.fillRect(0, H - 14, W, 14);
+    const p = Math.min(1, dur ? t / dur : 0);
+    const grad = ctx.createLinearGradient(0, 0, W, 0);
+    grad.addColorStop(0, '#e60000');
+    grad.addColorStop(.55, '#ff6b6b');
+    grad.addColorStop(1, '#ffffff');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, H - 14, W * p, 14);
+
+    const y = H - 78;
+    ctx.textAlign = 'left';
+    ctx.font = `700 32px ${HEAD_FONT}`;
+    ctx.fillStyle = 'rgba(255,255,255,.92)';
+    ctx.fillText('Fam', 52, y);
+    const w1 = ctx.measureText('Fam').width;
+    ctx.fillStyle = '#ff5a5a';
+    ctx.fillText('Ai', 52 + w1 + 2, y);
+    const w2 = ctx.measureText('Ai').width;
+    ctx.font = `500 26px ${THAI_FONT}`;
+    ctx.fillStyle = 'rgba(255,255,255,.6)';
+    ctx.fillText('• AI REELS', 52 + w1 + w2 + 20, y);
+
+    ctx.textAlign = 'right';
+    ctx.font = `600 28px ${THAI_FONT}`;
+    ctx.fillStyle = 'rgba(255,255,255,.78)';
+    ctx.fillText(`${fmtTime(t)} / ${fmtTime(dur)}`, W - 52, y);
+    ctx.textAlign = 'left';
+  }
+
+  function drawOverlays(t, dur) {
+    const topG = ctx.createLinearGradient(0, 0, 0, H * 0.3);
+    topG.addColorStop(0, 'rgba(0,0,0,.72)');
+    topG.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = topG;
+    ctx.fillRect(0, 0, W, H * 0.3);
+
+    const botG = ctx.createLinearGradient(0, H * 0.42, 0, H);
+    botG.addColorStop(0, 'rgba(0,0,0,0)');
+    botG.addColorStop(.45, 'rgba(0,0,0,.55)');
+    botG.addColorStop(1, 'rgba(0,0,0,.94)');
+    ctx.fillStyle = botG;
+    ctx.fillRect(0, H * 0.42, W, H * 0.58);
+
+    if (state.banner) drawTopBar();
+
+    const hasCaption = drawCaption(t, dur || CLIP_DURATION);
+    const headlineBottom = hasCaption ? H - 486 : H - 250;
+    drawHeadline(headlineBottom);
+    drawBottom(t, dur || CLIP_DURATION);
+  }
+
+  let scrubbing = false;
+
+  function draw() {
+    ctx.fillStyle = '#08080c';
+    ctx.fillRect(0, 0, W, H);
+
+    const dur = clipDuration();
+    const t = currentTime();
+
+    let painted = false;
+    if (studio.mode === 'video' && videoReady()) { drawVideoFill(); painted = true; }
+    else if (studio.mode === 'image') { painted = drawImageFill(); }
+    if (!painted) drawPlaceholder();
+
+    drawOverlays(t, dur);
+
+    if (scrubber.max !== String(dur)) scrubber.max = dur;
+    if (!scrubbing) scrubber.value = String(Math.min(t, dur));
+    previewTime.textContent = `${t.toFixed(1)} / ${dur.toFixed(1)} วิ`;
+  }
+
+  function loop(ts) {
+    // ใช้เวลาจริงเป็นหลัก เพื่อให้ความยาวคลิปตรงเวลาแม้เฟรมจะตก
+    const now = (typeof ts === 'number' ? ts : performance.now());
+    const dt = clock.lastTs ? Math.min(1, (now - clock.lastTs) / 1000) : 0;
+    clock.lastTs = now;
+    if (studio.mode === 'image' && clock.playing) {
+      clock.t += dt;
+      if (!clock.freeze && clock.t >= clock.duration) clock.t = clock.t % clock.duration;
+    }
+    draw();
+    requestAnimationFrame(loop);
+  }
+
+  /* =======================================================
+     9) NEWS DATA (LIVE)
+     ======================================================= */
+  const SINGLE = !!window.FAM_AI_SINGLE;
+
+  function proxyImage(url) {
+    if (!url) return '';
+    if (url.startsWith('assets/') || url.startsWith('/') || url.startsWith('data:')) return url;
+    if (SINGLE) {
+      // บน static host (GitHub Pages) ใช้ image proxy ที่รองรับ CORS → วาดลง canvas ได้
+      return 'https://wsrv.nl/?url=' + encodeURIComponent(url) + '&w=1280&output=jpg&q=85';
+    }
+    return 'api/img?u=' + encodeURIComponent(url);
+  }
+
+  function normalizeItem(raw) {
+    const image = raw.image || raw.poster || '';
+    const topic = raw.topic || raw.category || 'ข่าวทั่วไป';
+    const desc = (raw.desc || '').replace(/\s+/g, ' ').trim();
+    return {
+      id: raw.id || ('n-' + Math.random().toString(36).slice(2, 9)),
+      topic,
+      category: topic,
+      tag: `${raw.source || 'Fam Ai'} • ${topic}`,
+      title: raw.title || '(ไม่มีพาดหัว)',
+      desc: desc || raw.title || '',
+      caption: raw.caption || desc || raw.title || '',
+      script: raw.script || null,
+      image: image,
+      thumb: proxyImage(image),
+      poster: proxyImage(raw.poster || image),
+      video: raw.video || '',
+      link: raw.link || '#',
+      source: raw.source || 'Fam Ai Newsroom',
+      published: raw.published || null,
+      time: raw.published ? timeAgo(raw.published) : (raw.time || '')
+    };
+  }
+
+  /* ---------- โหมด static (GitHub Pages): ดึง RSS ผ่าน CORS proxy ---------- */
+  const STATIC_FEEDS = [
+    { id: 'khaosod',    name: 'ข่าวสด',          url: 'https://www.khaosod.co.th/feed' },
+    { id: 'matichon',   name: 'มติชน',           url: 'https://www.matichon.co.th/feed' },
+    { id: 'prachachat', name: 'ประชาชาติธุรกิจ', url: 'https://www.prachachat.net/feed' },
+    { id: 'blognone',   name: 'Blognone',        url: 'https://www.blognone.com/node/feed' },
+    { id: 'thaipublica',name: 'ไทยพับลิก้า',     url: 'https://thaipublica.org/feed/' },
+    { id: 'thaipost',   name: 'ไทยโพสต์',        url: 'https://www.thaipost.net/feed/' },
+    { id: 'ejan',       name: 'อีจัน',           url: 'https://www.ejan.co/feed' },
+    { id: 'techsauce',  name: 'Techsauce',       url: 'https://www.techsauce.co/feed' },
+    { id: 'google',     name: 'Google News',     url: 'https://news.google.com/rss?hl=th&gl=TH&ceid=TH:th' }
+  ];
+
+  const TOPIC_RULES = [
+    ['กีฬา', ['กีฬา', 'ฟุตบอล', 'บอล', 'มวย', 'โอลิมปิก', 'วอลเลย์', 'บาส', 'เทนนิส', 'ufc', 'เนชันส์']],
+    ['เศรษฐกิจ', ['เศรษฐกิจ', 'หุ้น', 'ธุรกิจ', 'การเงิน', 'ตลาด', 'ลงทุน', 'เงินบาท', 'ภาษี', 'ธนาคาร', 'ส่งออก', 'ค้าปลีก', 'อสังหา', 'พลังงาน', 'น้ำมัน']],
+    ['เทคโนโลยี', ['เทคโนโลยี', 'ไอที', 'ai', 'เอไอ', 'มือถือ', 'เกม', 'คอมพิว', 'ซอฟต์แวร์', 'สตาร์ทอัพ', 'ดิจิทัล', 'หุ่นยนต์', 'อวกาศ', 'tech', 'bitcoin']],
+    ['การเมือง', ['การเมือง', 'รัฐบาล', 'เลือกตั้ง', 'สภาฯ', 'นายก', 'ครม', 'พรรค', 'รัฐสภา', 'รัฐมนตรี']],
+    ['ต่างประเทศ', ['ต่างประเทศ', 'ต่างชาติ', 'โลก', 'อาเซียน', 'สหรัฐ', 'จีน', 'ยูโรป', 'ตะวันออกกลาง', 'รัสเซีย', 'ยูเครน', 'อิสราเอล']],
+    ['บันเทิง', ['บันเทิง', 'ดารา', 'ซีรีส์', 'เพลง', 'ภาพยนตร์', 'ละคร', 'คอนเสิร์ต', 'ศิลปิน', 'netflix']],
+    ['สุขภาพ', ['สุขภาพ', 'แพทย์', 'อนามัย', 'วัคซีน', 'โรงพยาบาล', 'อาหารเสริม']],
+    ['ท่องเที่ยว', ['ท่องเที่ยว', 'เที่ยว', 'โรงแรม', 'สายการบิน', 'อุทยาน']],
+    ['ยานยนต์', ['ยานยนต์', 'รถยนต์', 'รถไฟฟ้า', 'ev', 'มอเตอร์ไซค์', 'รถ']],
+    ['อาชญากรรม', ['อาชญากรรม', 'ตำรวจ', 'จับกุม', 'คดี', 'ฆ่า', 'ยาเสพติด', 'อุบัติเหตุ', 'ไฟไหม้', 'โจร']]
+  ];
+
+  function detectTopic(categories, title) {
+    const hay = ((categories || []).join(' ') + ' ' + (title || '')).toLowerCase();
+    for (const [topic, keys] of TOPIC_RULES) {
+      for (const k of keys) if (hay.includes(k)) return topic;
+    }
+    return 'ข่าวทั่วไป';
+  }
+
+  function stripHtml(html) {
+    if (!html) return '';
+    const tmp = document.createElement('div');
+    tmp.innerHTML = String(html).replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ');
+    tmp.querySelectorAll('img,figure,figcaption').forEach(n => n.remove());
+    return (tmp.textContent || '')
+      .replace(/\[\s*(?:…|\.\.\.|&#8230;)\s*\]/g, ' ')
+      .replace(/(อ่านข่าวต้นฉบับ|อ่านต่อ|ที่มา\s*:)[\s\S]*$/, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function firstImgFromHtml(html) {
+    const m = /<img[^>]+src=["']([^"']+)["']/i.exec(html || '');
+    if (!m) return '';
+    let u = m[1].trim();
+    if (u.startsWith('//')) u = 'https:' + u;
+    return /^https?:/i.test(u) ? u : '';
+  }
+
+  function localTag(el) {
+    return el.tagName ? el.tagName.split(':').pop().toLowerCase() : '';
+  }
+
+  function parseFeedXml(text, feed) {
+    const doc = new DOMParser().parseFromString(text, 'application/xml');
+    if (doc.querySelector('parsererror')) throw new Error('xml parse error');
+    const items = [];
+    doc.querySelectorAll('item, entry').forEach(el => {
+      const get = name => {
+        let out = '';
+        el.childNodes.forEach(ch => {
+          if (ch.nodeType === 1 && localTag(ch) === name && !out) out = (ch.textContent || '').trim();
+        });
+        return out;
+      };
+      const title = stripHtml(get('title'));
+      let link = get('link');
+      if (!link) {
+        const linkEl = Array.from(el.getElementsByTagName('link')).find(a => a.getAttribute('href'));
+        if (linkEl) link = linkEl.getAttribute('href');
+      }
+      const descHtml = get('description') || get('summary') || get('encoded') || '';
+      const cats = Array.from(el.querySelectorAll('category')).map(c => stripHtml(c.textContent || '')).filter(Boolean);
+      const dateRaw = get('pubdate') || get('published') || get('updated') || get('date');
+
+      let image = '';
+      Array.from(el.getElementsByTagName('*')).forEach(node => {
+        const t = localTag(node);
+        const url = node.getAttribute && (node.getAttribute('url') || node.getAttribute('href'));
+        const type = (node.getAttribute && node.getAttribute('type')) || '';
+        if (!image && url && /^https?:/i.test(url) &&
+            (t === 'content' || t === 'thumbnail' || t === 'enclosure') &&
+            (type.startsWith('image') || /\.(jpe?g|png|webp|gif|avif)(\?|$)/i.test(url))) {
+          image = url;
+        }
+      });
+      if (!image) image = firstImgFromHtml(descHtml);
+
+      if (!title || !link) return;
+      const ts = Date.parse(dateRaw) / 1000 || (Date.now() / 1000);
+      let sourceName = feed.name;
+      let finalTitle = title;
+      if (feed.id === 'google') {
+        const m = /\s+-\s+([^-]{3,40})$/.exec(finalTitle);
+        if (m) { sourceName = m[1].trim(); finalTitle = finalTitle.slice(0, m.index).trim(); }
+      }
+      items.push({
+        title: finalTitle,
+        desc: stripHtml(descHtml).slice(0, 240),
+        link: link,
+        image: image,
+        topic: detectTopic(cats, finalTitle),
+        source: sourceName,
+        published: ts
+      });
+    });
+    return items;
+  }
+
+  function fetchWithTimeout(url, opts = {}, ms = 12000) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), ms);
+    return fetch(url, Object.assign({ signal: ctrl.signal, cache: 'no-store' }, opts))
+      .finally(() => clearTimeout(timer));
+  }
+
+  async function feedViaRss2Json(feed) {
+    const url = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(feed.url) + '&count=20';
+    const res = await fetchWithTimeout(url, {}, 9000);
+    const data = await res.json();
+    if (data.status !== 'ok' || !Array.isArray(data.items) || !data.items.length) throw new Error('rss2json ' + data.status);
+    return data.items.map(it => {
+      const image = it.thumbnail || (it.enclosure && it.enclosure.link) || firstImgFromHtml(it.content || it.description || '');
+      let sourceName = feed.name;
+      let title = stripHtml(it.title || '');
+      if (feed.id === 'google') {
+        const m = /\s+-\s+([^-]{3,40})$/.exec(title);
+        if (m) { sourceName = m[1].trim(); title = title.slice(0, m.index).trim(); }
+      }
+      return {
+        title,
+        desc: stripHtml(it.description || it.content || '').slice(0, 240),
+        link: it.link,
+        image: /^https?:/i.test(image) ? image : '',
+        topic: detectTopic(it.categories || [], title),
+        source: sourceName,
+        published: Date.parse(it.pubDate) / 1000 || Date.now() / 1000
+      };
+    }).filter(it => it.title && it.link);
+  }
+
+  async function feedViaProxy(feed) {
+    const proxies = [
+      'https://api.allorigins.win/raw?url=',
+      'https://api.codetabs.com/v1/proxy?quest='
+    ];
+    let lastErr;
+    for (const base of proxies) {
+      try {
+        const res = await fetchWithTimeout(base + encodeURIComponent(feed.url), {}, 9000);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const text = await res.text();
+        const items = parseFeedXml(text, feed);
+        if (items.length) return items;
+        throw new Error('no items');
+      } catch (e) { lastErr = e; }
+    }
+    throw lastErr || new Error('proxy failed');
+  }
+
+  async function fetchNewsStatic() {
+    const results = await Promise.allSettled(STATIC_FEEDS.map(async feed => {
+      try {
+        return await feedViaRss2Json(feed);
+      } catch (e) {
+        try { return await feedViaProxy(feed); } catch (e2) { return []; }
+      }
+    }));
+    let items = [];
+    results.forEach(r => { if (r.status === 'fulfilled' && r.value) items.push(...r.value); });
+    if (!items.length) throw new Error('no live items');
+
+    // dedupe + เรียงใหม่
+    const seenT = new Set(), seenL = new Set(), out = [];
+    items.sort((a, b) => b.published - a.published);
+    for (const it of items) {
+      const key = it.title.replace(/[\s\W_]+/g, '').slice(0, 60);
+      if (seenT.has(key) || seenL.has(it.link)) continue;
+      seenT.add(key); seenL.add(it.link);
+      out.push(it);
+      if (out.length >= 60) break;
+    }
+    out.forEach(it => { it.id = 'live-' + Math.abs(hashCode(it.link)).toString(36); });
+    return out;
+  }
+
+  function hashCode(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+    return h;
+  }
+
+  function applyNewsList(items, meta) {
+    NEWS = items.map(normalizeItem);
+    liveMode = !!meta.live;
+    lastUpdatedAt = new Date(meta.updated || Date.now());
+    if (dataBadge) {
+      dataBadge.textContent = meta.label;
+      dataBadge.classList.toggle('live', !!meta.live);
+    }
+    if (updatedLabel) updatedLabel.textContent = meta.updatedLabel || `อัปเดตล่าสุด ${clockText(lastUpdatedAt)} น.`;
+    renderChips();
+    renderFeed();
+    renderTicker();
+    if (activeNews) {
+      const still = NEWS.find(n => n.id === activeNews.id);
+      if (!still && NEWS[0]) loadToStudio(NEWS[0].id, false);
+    }
+  }
+
+  async function loadNewsInner(opts = {}) {
+    if (loadingNews) return;
+    loadingNews = true;
+    const silent = !!opts.silent;
+    if (btnRefresh) btnRefresh.classList.add('loading');
+    if (!silent && dataBadge) dataBadge.textContent = 'กำลังอัปเดตข่าว…';
+
+    const errors = [];
+
+    // 1) เซิร์ฟเวอร์ Python (ถ้ารันด้วย server.py)
+    if (!SINGLE) {
+      try {
+        const res = await fetchWithTimeout('api/news?limit=60&t=' + Date.now(), { cache: 'no-store' }, 20000);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        if (!data.items || !data.items.length) throw new Error('ไม่มีข่าว');
+        const okSources = (data.sources || []).filter(s => s.ok);
+        applyNewsList(data.items, {
+          live: true,
+          updated: data.updated,
+          label: `ข่าวสดจริง • ${okSources.length || 9} แหล่ง`,
+          updatedLabel: `อัปเดตล่าสุด ${clockText(new Date(data.updated || Date.now()))} น.`
+        });
+        if (!silent) toast(`โหลดข่าวสดแล้ว ${NEWS.length} ข่าว จาก ${okSources.length} สำนักข่าว`);
+        return;
+      } catch (e) {
+        errors.push('server: ' + e.message);
+      }
+    }
+
+    // 2) ไฟล์ news.json ที่เตรียมไว้ (ถ้ามี — ใช้กับ GitHub Actions)
+    if (window.FAM_AI_DATA) try {
+      const res = await fetchWithTimeout('news.json?t=' + Date.now(), { cache: 'no-store' }, 8000);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      if (!data.items || !data.items.length) throw new Error('ว่าง');
+      applyNewsList(data.items, {
+        live: true,
+        updated: data.updated,
+        label: 'ข่าวสด • news.json',
+        updatedLabel: `อัปเดตล่าสุด ${clockText(new Date(data.updated || Date.now()))} น.`
+      });
+      if (!silent) toast(`โหลดข่าว ${NEWS.length} ข่าวจาก data/news.json`);
+      return;
+    } catch (e) {
+      errors.push('data.json: ' + e.message);
+    }
+
+    // 3) ดึง RSS สดผ่าน CORS proxy (โหมด GitHub Pages)
+    try {
+      const items = await fetchNewsStatic();
+      applyNewsList(items, { live: true, label: 'ข่าวสดจริง • RSS' });
+      if (!silent) toast(`อัปเดตข่าวสดแล้ว ${NEWS.length} ข่าว`);
+      return;
+    } catch (e) {
+      errors.push('static: ' + e.message);
+    }
+
+    // 4) snapshot ข่าวจริงที่ฝังมากับไฟล์
+    if (window.FAM_AI_SNAPSHOT && window.FAM_AI_SNAPSHOT.items && window.FAM_AI_SNAPSHOT.items.length) {
+      applyNewsList(window.FAM_AI_SNAPSHOT.items, {
+        live: false,
+        updated: window.FAM_AI_SNAPSHOT.updated,
+        label: 'ข่าวชุดล่าสุด (บันทึกไว้ในไฟล์)',
+        updatedLabel: `ชุดข่าว ณ ${clockText(new Date(window.FAM_AI_SNAPSHOT.updated || Date.now()))} น. — อัปเดตสดไม่ได้ขณะนี้`
+      });
+      if (!silent) toast('อัปเดตสดไม่สำเร็จ — แสดงข่าวชุดล่าสุดที่ฝังไว้', 'warn', 3600);
+      console.warn('[Fam Ai] live news unavailable:', errors);
+      return;
+    }
+
+    // 5) ข่าวตัวอย่างในตัว
+    NEWS = demoNews().slice().map(normalizeItem);
+    renderChips();
+    renderFeed();
+    renderTicker();
+    if (dataBadge) { dataBadge.textContent = 'โหมดตัวอย่าง'; dataBadge.classList.remove('live'); }
+    if (updatedLabel) updatedLabel.textContent = 'กำลังโหลดข่าว…';
+    if (!activeNews && NEWS[0]) loadToStudio(NEWS[0].id, false);
+    toast('เชื่อมต่อข่าวสดไม่ได้ ใช้ข่าวตัวอย่างแทนชั่วคราว', 'warn', 4200);
+  }
+
+  async function loadNews(opts = {}) {
+    try {
+      await loadNewsInner(opts);
+    } finally {
+      loadingNews = false;
+      if (btnRefresh) btnRefresh.classList.remove('loading');
+    }
+  }
+
+  /* =======================================================
+     10) FEED RENDERING
+     ======================================================= */
+  function topics() {
+    const set = new Set(NEWS.map(n => n.topic));
+    return ['ทั้งหมด', ...Array.from(set)];
+  }
+
+  function filteredNews() {
+    const q = state.query.toLowerCase().trim();
+    return NEWS.filter(n => {
+      if (state.topic !== 'ทั้งหมด' && n.topic !== state.topic) return false;
+      if (!q) return true;
+      return `${n.title} ${n.desc} ${n.topic} ${n.source}`.toLowerCase().includes(q);
+    });
+  }
+
+  function renderChips() {
+    chipsEl.innerHTML = topics().map(c =>
+      `<button class="chip${c === state.topic ? ' active' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`
+    ).join('');
+  }
+
+  function thumbHTML(n) {
+    if (n.video) {
+      return `<video data-src="${esc(safeUrl(n.video))}" poster="${esc(safeUrl(n.poster))}" muted loop playsinline preload="none"></video>`;
+    }
+    if (n.thumb) {
+      return `<img src="${esc(safeUrl(n.thumb) || n.thumb)}" alt="" loading="lazy" decoding="async"
+        onerror="this.style.display='none';this.parentNode.classList.add('no-img')">`;
+    }
+    return '';
+  }
+
+  function cardHTML(n) {
+    const active = n.id === state.activeId ? ' is-active' : '';
+    const isImg = !n.video;
+    const media = thumbHTML(n);
+    const link = safeUrl(n.link);
+    return `
+      <article class="news-card${active}${media ? '' : ' no-img'}" data-id="${esc(n.id)}">
+        <div class="news-video-thumb" data-action="select" title="คลิกเพื่อนำไปตัดต่อใน Reels Studio">
+          ${media}
+          <div class="thumb-fallback"><span>${esc(n.topic)}</span><small>Fam Ai</small></div>
+          <div class="thumb-overlay-tag">${esc(n.tag)}</div>
+          <div class="thumb-duration" data-dur>${isImg ? 'ภาพข่าว' : '--:--'}</div>
+          ${n.video ? '<button class="thumb-mute" data-action="mute" title="เปิด/ปิดเสียง" aria-label="เปิดหรือปิดเสียง">🔇</button>' : ''}
+          <div class="thumb-play"><span>${isImg ? '✂️' : '▶'}</span></div>
+        </div>
+        <div class="news-content">
+          <div class="news-tag">${esc(n.topic)} <span class="news-source">• ${esc(n.source)}</span></div>
+          <h2 class="news-title">${esc(n.title)}</h2>
+          <p class="news-desc">${esc(n.desc)}</p>
+          <div class="news-meta">
+            <span>🕒 ${esc(n.time)}</span>
+            ${link ? `<a href="${esc(link)}" target="_blank" rel="noopener noreferrer">🔗 อ่านข่าวต้นฉบับ</a>` : ''}
+          </div>
+          <div class="news-actions">
+            <button class="btn-edit-reels" data-action="select">✂️ นำข่าวนี้ไปตัดต่อลง Reels</button>
+          </div>
+        </div>
+      </article>`;
+  }
+
+  let io = null;
+  if ('IntersectionObserver' in window) {
+    io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        const v = e.target;
+        const card = v.closest('.news-card');
+        if (e.isIntersecting) {
+          if (v.preload !== 'auto') v.preload = 'auto';
+          v.play().then(() => card && card.classList.add('playing')).catch(() => {});
+        } else {
+          v.pause();
+          card && card.classList.remove('playing');
+        }
+      });
+    }, { threshold: 0.35 });
+  }
+
+  function renderFeed() {
+    const list = filteredNews();
+    feedEl.innerHTML = list.map(cardHTML).join('');
+    emptyStateEl.hidden = list.length > 0;
+    const extra = liveMode ? '' : ' (ตัวอย่าง)';
+    resultCountEl.textContent = `แสดง ${list.length} จาก ${NEWS.length} ข่าว${extra}`;
+
+    const videos = $$('.news-card video', feedEl);
+    videos.forEach(v => { v.src = v.dataset.src; });
+    if (io) videos.forEach(v => io.observe(v));
+    else videos.forEach(v => v.play().catch(() => {}));
+
+    videos.forEach(v => {
+      v.addEventListener('loadedmetadata', () => {
+        const card = v.closest('.news-card');
+        const el = card && card.querySelector('[data-dur]');
+        if (el) el.textContent = fmtTime(v.duration);
+      }, { once: true });
+    });
+  }
+
+  feedEl.addEventListener('click', (e) => {
+    const card = e.target.closest('.news-card');
+    if (!card) return;
+    const action = (e.target.closest('[data-action]') || {}).dataset?.action;
+    const id = card.dataset.id;
+
+    if (action === 'mute') {
+      const v = card.querySelector('video');
+      if (v) {
+        v.muted = !v.muted;
+        e.target.closest('.thumb-mute').textContent = v.muted ? '🔇' : '🔊';
+      }
+      return;
+    }
+    if (e.target.closest('a')) return;   // คลิกลิงก์ข่าวต้นฉบับ
+    loadToStudio(id, true);
+  });
+
+  chipsEl.addEventListener('click', (e) => {
+    const chip = e.target.closest('.chip');
+    if (!chip) return;
+    state.topic = chip.dataset.cat;
+    renderChips();
+    renderFeed();
+  });
+
+  searchInput.addEventListener('input', () => {
+    state.query = searchInput.value;
+    searchClear.hidden = !state.query;
+    renderFeed();
+  });
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    state.query = '';
+    searchClear.hidden = true;
+    renderFeed();
+    searchInput.focus();
+  });
+
+  if (btnRefresh) {
+    btnRefresh.addEventListener('click', () => loadNews({ silent: false }));
+  }
+
+  /* =======================================================
+     11) LOAD NEWS → STUDIO
+     ======================================================= */
+  function loadStudioImage(url) {
+    const my = ++imgToken;
+    studio.image = null;
+    studio.imageLoading = !!url;
+    if (!url) { studio.imageLoading = false; return; }
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = () => { if (my === imgToken) { studio.image = img; studio.imageLoading = false; } };
+    img.onerror = () => { if (my === imgToken) { studio.image = null; studio.imageLoading = false; } };
+    img.src = url;
+  }
+
+  function resetClock(duration) {
+    clock.t = 0;
+    clock.duration = duration || CLIP_DURATION;
+    clock.playing = true;
+    clock.freeze = false;
+    clock.lastTs = 0;
+  }
+
+  function loadToStudio(id, shouldScroll) {
+    const n = NEWS.find(x => x.id === id);
+    if (!n) return;
+
+    activeNews = n;
+    state.activeId = n.id;
+
+    $$('.news-card', feedEl).forEach(c => c.classList.toggle('is-active', c.dataset.id === id));
+
+    if (n.video) {
+      studio.mode = 'video';
+      studio.image = null;
+      studio.imageLoading = false;
+      studioVideo.loop = true;
+      studioVideo.pause();
+      studioVideo.src = n.video;
+      studioVideo.load();
+      studioVideo.addEventListener('loadeddata', () => {
+        if (activeNews === n) studioVideo.play().catch(() => {});
+      }, { once: true });
+    } else {
+      studio.mode = 'image';
+      studioVideo.pause();
+      resetClock(CLIP_DURATION);
+      loadStudioImage(n.thumb);
+    }
+
+    if (n.video) resetClock(CLIP_DURATION);
+
+    subtitleInput.value = n.caption || n.title;
+    categoryInput.value = `ข่าวด่วน • ${n.topic}`;
+    refreshChunkInfo();
+    previewSourceLabel.textContent = `${n.source} • ${n.title}`;
+    scrubber.value = '0';
+    state.playing = true;
+
+    flashStatus(`✨ โหลดข่าว “${n.topic}” เข้าสตูดิโอแล้ว พร้อมเรนเดอร์`);
+    if (shouldScroll && window.innerWidth <= 1024) {
+      setTimeout(() => $('#studio').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
+    }
+  }
+
+  /* =======================================================
+     12) STUDIO CONTROLS
+     ======================================================= */
+  function togglePlay() {
+    if (!activeNews) { toast('เลือกข่าวก่อนเพื่อเล่นพรีวิว', 'warn'); return; }
+    if (studio.mode === 'video') {
+      if (studioVideo.paused) {
+        studioVideo.play().then(() => flashStatus('▶ เล่นวิดีโอพรีวิว')).catch(() => {});
+        state.playing = true;
+      } else {
+        studioVideo.pause();
+        state.playing = false;
+        flashStatus('⏸ หยุดวิดีโอพรีวิวชั่วคราว');
+      }
+    } else {
+      clock.playing = !clock.playing;
+      state.playing = clock.playing;
+      flashStatus(clock.playing ? '▶ เล่นพรีวิว' : '⏸ หยุดพรีวิวชั่วคราว');
+    }
+  }
+
+  $('#btnPlay').addEventListener('click', togglePlay);
+  previewTap.addEventListener('click', togglePlay);
+
+  scrubber.addEventListener('input', () => {
+    scrubbing = true;
+    const v = parseFloat(scrubber.value) || 0;
+    if (studio.mode === 'video') studioVideo.currentTime = v;
+    else clock.t = v;
+  });
+  ['change', 'mouseup', 'touchend', 'blur'].forEach(ev =>
+    scrubber.addEventListener(ev, () => { scrubbing = false; })
+  );
+
+  subtitleInput.addEventListener('input', refreshChunkInfo);
+  subtitleStyleSelect.addEventListener('change', () => {
+    state.style = STYLE_KEYS.includes(subtitleStyleSelect.value) ? subtitleStyleSelect.value : 'yellow';
+    flashStatus('เปลี่ยนสไตล์คำบรรยายแล้ว');
+  });
+  fitSelect.addEventListener('change', () => { state.fit = fitSelect.value; });
+  toggleChunk.addEventListener('change', () => { state.chunking = toggleChunk.checked; refreshChunkInfo(); });
+  toggleBanner.addEventListener('change', () => { state.banner = toggleBanner.checked; });
+  toggleCaption.addEventListener('change', () => { state.caption = toggleCaption.checked; });
+
+  $('#btnAutoScript').addEventListener('click', () => {
+    if (!activeNews) return;
+    const base = (activeNews.title || '').replace(/[!?•"“”]/g, '').trim();
+    subtitleInput.value = `${base} อัปเดตจาก Fam Ai Newsroom`;
+    refreshChunkInfo();
+    flashStatus(`✨ สร้างคำบรรยายอัตโนมัติ ${getChunks().length} ท่อน`);
+  });
+
+  /* =======================================================
+     13) MUSIC
+     ======================================================= */
+  const MUSIC = { calm: 'assets/audio/calm.m4a', beat: 'assets/audio/beat.m4a' };
+  const musicEl = new Audio();
+  musicEl.loop = true;
+  musicEl.preload = 'auto';
+  musicEl.crossOrigin = 'anonymous';
+
+  let audioCtx = null, musicSource = null, musicGain = null, musicStreamDest = null;
+  const synth = { nodes: [], timer: null, next: 0, step: 0, noiseBuf: null };
+
+  function ensureAudioGraph() {
+    if (audioCtx) return true;
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return false;
+    try {
+      audioCtx = new AC();
+      musicGain = audioCtx.createGain();
+      musicGain.gain.value = state.audioPreview ? 0.9 : 0;
+      musicStreamDest = audioCtx.createMediaStreamDestination();
+      musicGain.connect(audioCtx.destination);
+      return true;
+    } catch (e) {
+      console.warn('Audio graph unavailable', e);
+      return false;
+    }
+  }
+
+  function ensureElementSource() {
+    if (musicSource || !audioCtx) return;
+    musicSource = audioCtx.createMediaElementSource(musicEl);
+    musicSource.connect(musicGain);
+    musicSource.connect(musicStreamDest);
+  }
+
+  /* ---------- เพลงสังเคราะห์ (ใช้ในโหมดไฟล์เดียว ไม่ต้องมีไฟล์เสียง) ---------- */
+  function noiseBuffer() {
+    if (synth.noiseBuf) return synth.noiseBuf;
+    const len = Math.floor(audioCtx.sampleRate * 0.4);
+    const buf = audioCtx.createBuffer(1, len, audioCtx.sampleRate);
+    const d = buf.getChannelData(0);
+    for (let i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+    synth.noiseBuf = buf;
+    return buf;
+  }
+
+  function stopSynth() {
+    if (synth.timer) { clearInterval(synth.timer); synth.timer = null; }
+    synth.nodes.forEach(n => {
+      try { if (n.stop) n.stop(); } catch (e) { /* noop */ }
+      try { n.disconnect(); } catch (e) { /* noop */ }
+    });
+    synth.nodes = [];
+  }
+
+  function startSynth(kind) {
+    if (!audioCtx) return;
+    stopSynth();
+    const now = audioCtx.currentTime;
+
+    if (kind === 'calm') {
+      const master = audioCtx.createGain();
+      master.gain.setValueAtTime(0.0001, now);
+      master.gain.linearRampToValueAtTime(0.5, now + 2.5);
+      master.connect(musicGain);
+      master.connect(musicStreamDest);
+
+      const lp = audioCtx.createBiquadFilter();
+      lp.type = 'lowpass';
+      lp.frequency.value = 1100;
+      lp.Q.value = 0.6;
+      lp.connect(master);
+
+      [110, 164.81, 220, 329.63].forEach((f, i) => {
+        const o = audioCtx.createOscillator();
+        o.type = i % 2 ? 'triangle' : 'sine';
+        o.frequency.value = f;
+        o.detune.value = (i - 1.5) * 5;
+        const g = audioCtx.createGain();
+        g.gain.value = 0.26 / (i + 1);
+        o.connect(g);
+        g.connect(lp);
+        o.start();
+        synth.nodes.push(o, g);
+      });
+
+      const lfo = audioCtx.createOscillator();
+      lfo.frequency.value = 0.11;
+      const lfoGain = audioCtx.createGain();
+      lfoGain.gain.value = 0.16;
+      lfo.connect(lfoGain);
+      lfoGain.connect(master.gain);
+      lfo.start();
+      synth.nodes.push(lfo, lfoGain, master, lp);
+      return;
+    }
+
+    // จังหวะข่าว (news beat)
+    const master = audioCtx.createGain();
+    master.gain.value = 0.55;
+    master.connect(musicGain);
+    master.connect(musicStreamDest);
+    synth.nodes.push(master);
+
+    const kick = when => {
+      const o = audioCtx.createOscillator();
+      const g = audioCtx.createGain();
+      o.type = 'sine';
+      o.frequency.setValueAtTime(150, when);
+      o.frequency.exponentialRampToValueAtTime(46, when + 0.18);
+      g.gain.setValueAtTime(0.9, when);
+      g.gain.exponentialRampToValueAtTime(0.001, when + 0.3);
+      o.connect(g); g.connect(master);
+      o.start(when); o.stop(when + 0.32);
+    };
+    const hat = (when, amp) => {
+      const src = audioCtx.createBufferSource();
+      src.buffer = noiseBuffer();
+      const hp = audioCtx.createBiquadFilter();
+      hp.type = 'highpass';
+      hp.frequency.value = 6500;
+      const g = audioCtx.createGain();
+      g.gain.setValueAtTime(amp, when);
+      g.gain.exponentialRampToValueAtTime(0.001, when + 0.06);
+      src.connect(hp); hp.connect(g); g.connect(master);
+      src.start(when); src.stop(when + 0.09);
+    };
+    const bass = (when, freq) => {
+      const o = audioCtx.createOscillator();
+      const g = audioCtx.createGain();
+      const lp = audioCtx.createBiquadFilter();
+      o.type = 'sawtooth';
+      o.frequency.value = freq;
+      lp.type = 'lowpass';
+      lp.frequency.value = 430;
+      g.gain.setValueAtTime(0.0001, when);
+      g.gain.linearRampToValueAtTime(0.22, when + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0005, when + 0.45);
+      o.connect(lp); lp.connect(g); g.connect(master);
+      o.start(when); o.stop(when + 0.5);
+    };
+
+    synth.next = audioCtx.currentTime + 0.08;
+    synth.step = 0;
+    const schedule = () => {
+      if (!audioCtx) return;
+      const t = audioCtx.currentTime;
+      while (synth.next < t + 0.7) {
+        const s = synth.step % 16;
+        if (s % 4 === 0) kick(synth.next);
+        if (s % 2 === 1) hat(synth.next, s % 4 === 3 ? 0.14 : 0.08);
+        if (s === 0 || s === 8) bass(synth.next, 55);
+        if (s === 6 || s === 14) bass(synth.next, 73.42);
+        synth.next += 0.25;
+        synth.step++;
+      }
+    };
+    schedule();
+    synth.timer = setInterval(schedule, 220);
+  }
+
+  function applyMusic() {
+    if (SINGLE) {
+      if (state.music === 'none') { stopSynth(); return; }
+      if (!ensureAudioGraph()) return;
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      startSynth(state.music);
+      return;
+    }
+    if (state.music === 'none') {
+      musicEl.pause();
+      musicEl.removeAttribute('src');
+      return;
+    }
+    const src = MUSIC[state.music];
+    if (!src) return;
+    if (!ensureAudioGraph()) return;
+    ensureElementSource();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    if (!musicEl.src.endsWith(src)) {
+      musicEl.src = src;
+      musicEl.currentTime = 0;
+    }
+    musicEl.play().catch(() => toast('แตะหน้าเว็บก่อนเพื่อให้เบราว์เซอร์อนุญาตเล่นเพลง', 'warn'));
+  }
+
+  musicSelect.addEventListener('change', () => {
+    state.music = musicSelect.value;
+    applyMusic();
+    flashStatus(state.music === 'none' ? 'ปิดเพลงประกอบ' : 'เพิ่มเพลงประกอบในคลิปแล้ว');
+  });
+
+  toggleAudioPreview.addEventListener('change', () => {
+    state.audioPreview = toggleAudioPreview.checked;
+    if (!ensureAudioGraph()) return;
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    musicGain.gain.value = state.audioPreview ? 0.9 : 0;
+    if (state.music !== 'none') applyMusic();
+  });
+
+  /* =======================================================
+     14) EXPORT
+     ======================================================= */
+  const MIME_CANDIDATES = [
+    'video/mp4;codecs=avc1.42E01E,mp4a.40.2',
+    'video/mp4;codecs=avc1.4D401E,mp4a.40.2',
+    'video/mp4;codecs=h264',
+    'video/mp4',
+    'video/webm;codecs=vp9,opus',
+    'video/webm;codecs=vp8,opus',
+    'video/webm'
+  ];
+
+  function pickMime() {
+    if (typeof MediaRecorder === 'undefined') return null;
+    for (const m of MIME_CANDIDATES) {
+      if (MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(m)) return m;
+    }
+    return '';
+  }
+
+  let currentRecorder = null;
+  let currentStream = null;
+  let stopWatcher = null;
+  let lastBlobUrl = null;
+
+  const openOverlay = el => el.classList.add('open');
+  const closeOverlay = el => el.classList.remove('open');
+
+  function waitForVideoReady(v, minState = 3, timeout = 6000) {
+    if (v.readyState >= minState) return Promise.resolve(true);
+    return new Promise(res => {
+      let done = false;
+      const finish = ok => { if (!done) { done = true; clearTimeout(timer); res(ok); } };
+      const timer = setTimeout(() => finish(v.readyState >= 2), timeout);
+      v.addEventListener('canplay', () => finish(true), { once: true });
+      v.addEventListener('loadeddata', () => finish(v.readyState >= 2), { once: true });
+    });
+  }
+
+  function seekTo(v, time) {
+    return new Promise(res => {
+      if (Math.abs(v.currentTime - time) < 0.01) return res();
+      let done = false;
+      const finish = () => { if (!done) { done = true; res(); } };
+      const t = setTimeout(finish, 700);
+      v.addEventListener('seeked', () => { clearTimeout(t); finish(); }, { once: true });
+      try { v.currentTime = time; } catch (e) { clearTimeout(t); finish(); }
+    });
+  }
+
+  const nextFrame = () => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+
+  /** รอให้ภาพข่าวโหลดเสร็จก่อนเรนเดอร์ (ผู้ใช้อาจกดดาวน์โหลดเร็วเกินไป) */
+  function waitForStudioImage(timeout = 12000) {
+    if (studio.image) return Promise.resolve(true);
+    if (!studio.imageLoading) return Promise.resolve(false);
+    return new Promise(res => {
+      const started = performance.now();
+      const iv = setInterval(() => {
+        if (studio.image) { clearInterval(iv); res(true); }
+        else if (!studio.imageLoading || performance.now() - started > timeout) { clearInterval(iv); res(false); }
+      }, 120);
+    });
+  }
+
+  async function sniffCodec(blob) {
+    try {
+      const buf = await blob.slice(0, 65536).arrayBuffer();
+      const txt = new TextDecoder('latin1').decode(new Uint8Array(buf));
+      if (txt.includes('avc1') || txt.includes('avc3')) return 'H.264';
+      if (txt.includes('hvc1') || txt.includes('hev1')) return 'HEVC';
+      if (txt.includes('vp09')) return 'VP9';
+      if (txt.includes('vp08')) return 'VP8';
+      if (txt.includes('av01')) return 'AV1';
+    } catch (e) { /* noop */ }
+    return '';
+  }
+
+  const inIframe = (() => { try { return window.self !== window.top; } catch (e) { return true; } })();
+
+  function finishExport(blob, ext, mime, codec) {
+    if (!blob || !blob.size) {
+      closeOverlay(exportOverlay);
+      setStatus('เรนเดอร์ไม่สำเร็จ ลองอีกครั้ง', 'err');
+      toast('เรนเดอร์ไม่สำเร็จ', 'err');
+      return;
+    }
+    if (lastBlobUrl) URL.revokeObjectURL(lastBlobUrl);
+    lastBlobUrl = URL.createObjectURL(blob);
+
+    const now = new Date();
+    const pad2 = n => String(n).padStart(2, '0');
+    const name = `fam-ai-reels-${(activeNews && activeNews.id) || 'clip'}-${now.getFullYear()}${pad2(now.getMonth() + 1)}${pad2(now.getDate())}-${pad2(now.getHours())}${pad2(now.getMinutes())}.${ext}`;
+
+    resultVideo.src = lastBlobUrl;
+    resultDownload.href = lastBlobUrl;
+    resultDownload.setAttribute('download', name);
+    resultMeta.textContent = `${name} • ${(blob.size / 1048576).toFixed(2)} MB • 1080×1920 • ${mime.split(';')[0]}${codec ? ` (${codec})` : ''}`;
+
+    const hint = [];
+    if (inIframe) {
+      hint.push('พรีวิวแบบฝังอาจบล็อกการดาวน์โหลด — ถ้าไฟล์ไม่ขึ้น ให้เปิดหน้านี้ในแท็บใหม่ หรือกดขวาที่วิดีโอ → “บันทึกวิดีโอเป็น…”');
+    } else {
+      hint.push('ไฟล์ถูกสร้างในเครื่องคุณแล้ว ไม่มีการอัปโหลดขึ้นเซิร์ฟเวอร์');
+    }
+    if (codec && codec !== 'H.264') {
+      hint.push(`เบราว์เซอร์นี้เข้ารหัสได้เป็น ${codec} — ถ้าจะอัปโหลดลง Reels/TikTok แนะนำ Chrome บนเดสก์ท็อปเพื่อไฟล์ MP4 (H.264)`);
+    }
+    resultHint.textContent = hint.join(' · ');
+
+    closeOverlay(exportOverlay);
+    openOverlay(resultOverlay);
+    setStatus('✅ เรนเดอร์เสร็จแล้ว ดาวน์โหลดได้เลย');
+    studioBadge.textContent = 'พร้อมเรนเดอร์';
+    studioBadge.classList.remove('busy');
+    state.exporting = false;
+
+    try {
+      const a = document.createElement('a');
+      a.href = lastBlobUrl;
+      a.download = name;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    } catch (e) { /* ผู้ใช้กดดาวน์โหลดในหน้าต่างผลลัพธ์ได้ */ }
+  }
+
+  function cleanupExport() {
+    clearInterval(stopWatcher);
+    stopWatcher = null;
+    studioVideo.loop = true;
+    if (currentStream) {
+      currentStream.getTracks().forEach(t => t.stop());
+      currentStream = null;
+    }
+    currentRecorder = null;
+    state.exporting = false;
+    clock.freeze = false;
+    if (SINGLE) {
+      if (state.music !== 'none' && !state.audioPreview) stopSynth();
+    } else if (state.music !== 'none' && !state.audioPreview) {
+      musicEl.pause();
+    }
+  }
+
+  async function exportReels() {
+    if (state.exporting) return;
+    if (!activeNews) { toast('เลือกข่าวก่อน แล้วค่อยกดดาวน์โหลด', 'warn'); return; }
+
+    const mime = pickMime();
+    if (mime === null) {
+      toast('เบราว์เซอร์นี้ไม่รองรับการเรนเดอร์วิดีโอ — ลองใช้ Chrome หรือ Edge เวอร์ชันใหม่', 'err', 5000);
+      return;
+    }
+
+    const isVideo = studio.mode === 'video';
+    const dur = isVideo ? clipDuration() : clock.duration;
+
+    state.exporting = true;
+    studioBadge.textContent = 'กำลังเรนเดอร์…';
+    studioBadge.classList.add('busy');
+    exportProgressFill.style.width = '0%';
+    exportProgressText.textContent = 'กำลังเตรียมสตรีมวิดีโอ 9:16 …';
+    btnCancelExport.hidden = false;
+    openOverlay(exportOverlay);
+    setStatus('กำลังเรนเดอร์คลิป…');
+
+    if (!isVideo && !studio.image) {
+      exportProgressText.textContent = 'กำลังโหลดภาพข่าว…';
+      const ok = await waitForStudioImage(12000);
+      if (!ok) toast('ภาพข่าวโหลดช้า — ระบบจะเรนเดอร์พื้นหลังแทนภาพ', 'warn', 4000);
+    }
+
+    if (isVideo) {
+      studioVideo.loop = false;
+      studioVideo.pause();
+      await waitForVideoReady(studioVideo, 3);
+      await seekTo(studioVideo, 0);
+      await nextFrame();
+      if (!videoReady()) {
+        await waitForVideoReady(studioVideo, 2);
+        await nextFrame();
+      }
+    } else {
+      clock.freeze = true;
+      clock.playing = true;
+      clock.t = 0;
+      clock.lastTs = 0;
+      await nextFrame();
+    }
+
+    const stream = canvas.captureStream(30);
+    currentStream = stream;
+
+    if (state.music !== 'none' && ensureAudioGraph()) {
+      try {
+        if (audioCtx.state === 'suspended') await audioCtx.resume();
+        if (SINGLE) {
+          startSynth(state.music);
+        } else {
+          ensureElementSource();
+          musicEl.currentTime = 0;
+          await musicEl.play();
+        }
+      } catch (e) { /* เรนเดอร์แบบไม่มีเสียง */ }
+      const at = musicStreamDest.stream.getAudioTracks()[0];
+      if (at) stream.addTrack(at);
+    }
+
+    const opts = { videoBitsPerSecond: 9000000 };
+    if (mime) opts.mimeType = mime;
+    if (stream.getAudioTracks().length) opts.audioBitsPerSecond = 128000;
+
+    let recorder;
+    try {
+      recorder = new MediaRecorder(stream, opts);
+    } catch (e) {
+      try { recorder = new MediaRecorder(stream); }
+      catch (e2) {
+        cleanupExport();
+        closeOverlay(exportOverlay);
+        studioBadge.textContent = 'พร้อมเรนเดอร์';
+        studioBadge.classList.remove('busy');
+        toast('เริ่มตัวบันทึกวิดีโอไม่สำเร็จ: ' + e2.message, 'err', 5000);
+        return;
+      }
+    }
+    currentRecorder = recorder;
+
+    const chunks = [];
+    recorder.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+    recorder.onstop = async () => {
+      try {
+        const type = recorder.mimeType || mime || 'video/webm';
+        const blob = new Blob(chunks, { type });
+        const ext = type.includes('mp4') ? 'mp4' : 'webm';
+        const codec = await sniffCodec(blob);
+        cleanupExport();
+        finishExport(blob, ext, type, codec);
+      } catch (err) {
+        console.error('export finish failed', err);
+        cleanupExport();
+        closeOverlay(exportOverlay);
+        setStatus('รวมไฟล์ไม่สำเร็จ: ' + (err && err.message ? err.message : err), 'err');
+        studioBadge.textContent = 'พร้อมเรนเดอร์';
+        studioBadge.classList.remove('busy');
+      }
+    };
+    recorder.onerror = (ev) => console.error('recorder error', ev && ev.error);
+
+    recorder.start(200);
+    exportProgressText.textContent = 'กำลังเรนเดอร์วิดีโอ 9:16 พร้อมซับไตเติล…';
+
+    if (isVideo) {
+      try {
+        await studioVideo.play();
+      } catch (e) {
+        if (recorder.state !== 'inactive') recorder.stop();
+        cleanupExport();
+        closeOverlay(exportOverlay);
+        studioBadge.textContent = 'พร้อมเรนเดอร์';
+        studioBadge.classList.remove('busy');
+        toast('เล่นวิดีโอไม่ได้ จึงเรนเดอร์ไม่ได้', 'err');
+        return;
+      }
+    }
+
+    stopWatcher = setInterval(() => {
+      const t = currentTime();
+      const pct = Math.min(100, (t / dur) * 100);
+      exportProgressFill.style.width = pct.toFixed(1) + '%';
+      exportProgressText.textContent = `กำลังเรนเดอร์… ${Math.round(pct)}% (${t.toFixed(1)} / ${dur.toFixed(1)} วิ)`;
+
+      const done = isVideo
+        ? (studioVideo.ended || t >= dur - 0.05)
+        : (clock.t >= dur - 0.02);
+
+      if (recorder.state !== 'inactive' && done) {
+        clearInterval(stopWatcher);
+        stopWatcher = null;
+        if (isVideo) studioVideo.pause();
+        exportProgressFill.style.width = '100%';
+        exportProgressText.textContent = 'กำลังรวมไฟล์…';
+        setTimeout(() => {
+          if (recorder.state !== 'inactive') recorder.stop();
+        }, 240);
+      }
+    }, 100);
+
+    btnCancelExport.onclick = () => {
+      if (recorder.state !== 'inactive') recorder.stop();
+      cleanupExport();
+      closeOverlay(exportOverlay);
+      setStatus('ยกเลิกการเรนเดอร์', 'warn');
+      studioBadge.textContent = 'พร้อมเรนเดอร์';
+      studioBadge.classList.remove('busy');
+    };
+  }
+
+  $('#btnDownload').addEventListener('click', exportReels);
+
+  exportNote.textContent = inIframe
+    ? 'พรีวิวแบบฝังอาจบล็อกการดาวน์โหลด — เปิดหน้านี้ในแท็บใหม่เพื่อบันทึกไฟล์'
+    : 'เรนเดอร์ในเบราว์เซอร์ของคุณ • 1080×1920 (โหมด GitHub Pages)';
+
+  [resultOverlay, helpOverlay].forEach(ov => {
+    ov.addEventListener('click', e => { if (e.target === ov) closeOverlay(ov); });
+  });
+  $('#resultClose').addEventListener('click', () => closeOverlay(resultOverlay));
+  $('#helpClose').addEventListener('click', () => closeOverlay(helpOverlay));
+  $('#btnHelp').addEventListener('click', () => openOverlay(helpOverlay));
+
+  /* =======================================================
+     15) TICKER + CLOCK
+     ======================================================= */
+  function renderTicker() {
+    const heads = NEWS.slice(0, 8).map(n => `${n.title} — ${n.source}`);
+    const fallback = demoTicker();
+    const list = (heads.length ? heads : fallback).concat(heads.length ? heads : fallback);
+    tickerTrack.innerHTML = list.map(t => `<span>${esc(t)}</span>`).join('');
+  }
+
+  function tickClock() {
+    tickerClock.textContent = clockText();
+    if (lastUpdatedAt && updatedLabel) {
+      updatedLabel.textContent = `อัปเดตล่าสุด ${clockText(lastUpdatedAt)} น.`;
+    }
+  }
+
+  /* =======================================================
+     16) KEYBOARD
+     ======================================================= */
+  document.addEventListener('keydown', (e) => {
+    const tag = (e.target.tagName || '').toLowerCase();
+    const typing = tag === 'input' || tag === 'textarea' || tag === 'select';
+
+    if (e.key === 'Escape') {
+      closeOverlay(resultOverlay);
+      closeOverlay(helpOverlay);
+      if (!state.exporting) closeOverlay(exportOverlay);
+      return;
+    }
+    if (typing) return;
+    if (e.code === 'Space') { e.preventDefault(); togglePlay(); }
+    if (e.key === '/') { e.preventDefault(); searchInput.focus(); }
+  });
+
+  /* =======================================================
+     17) INIT
+     ======================================================= */
+  async function init() {
+    state.style = subtitleStyleSelect.value || 'yellow';
+    state.fit = fitSelect.value || 'cover';
+
+    renderChips();
+    renderFeed();
+    renderTicker();
+    tickClock();
+    setInterval(tickClock, 15000);
+
+    if (NEWS[0]) loadToStudio(NEWS[0].id, false);
+    refreshChunkInfo();
+    loop(performance.now());
+
+    // แสดงข่าวชุดล่าสุดที่ฝังมากับไฟล์ทันทีก่อน (ไม่ต้องรอเน็ต)
+    if (window.FAM_AI_SNAPSHOT && window.FAM_AI_SNAPSHOT.items && window.FAM_AI_SNAPSHOT.items.length) {
+      applyNewsList(window.FAM_AI_SNAPSHOT.items, {
+        live: false,
+        updated: window.FAM_AI_SNAPSHOT.updated,
+        label: 'ข่าวชุดล่าสุด • กำลังอัปเดต…',
+        updatedLabel: `ชุดข่าว ณ ${clockText(new Date(window.FAM_AI_SNAPSHOT.updated || Date.now()))} น.`
+      });
+    }
+
+    await loadNews({ silent: true });
+    if (!activeNews && NEWS[0]) loadToStudio(NEWS[0].id, false);
+
+    // ข่าวสด: รีเฟรชอัตโนมัติทุก 3 นาที
+    setInterval(() => loadNews({ silent: true }), 180000);
+
+    document.addEventListener('click', function unlock() {
+      if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+    }, { once: true });
+  }
+
+  init();
+})();
+
+</script>
+</body>
+</html>
