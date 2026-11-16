@@ -1012,8 +1012,8 @@ a { color: inherit; text-decoration: none; }
           <label for="voiceRateSelect">ความเร็วเสียงผู้ประกาศ</label>
           <select id="voiceRateSelect">
             <option value="1.15">ช้า (1.15×)</option>
-            <option value="1.3">เร็ว (1.30×)</option>
-            <option value="1.5" selected>เร็วมาก (1.50×) — แนะนำ</option>
+            <option value="1.3" selected>เร็ว (1.30×) — แนะนำ</option>
+            <option value="1.5">เร็วมาก (1.50×)</option>
             <option value="1.7">สปีดข่าวด่วน (1.70×)</option>
           </select>
         </div>
@@ -1151,7 +1151,7 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     sfxVol: 0.6,
     voiceOn: true,
     sfxOn: true,
-    rate: 1.5,          // ความเร็วเสียงผู้ประกาศ (1 = ปกติ)
+    rate: 1.3,          // ความเร็วเสียงผู้ประกาศ (1 = ปกติ)
     monitor: false      // เปิดลำโพงระหว่างฟัง/เรนเดอร์
   };
 
@@ -1702,18 +1702,28 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     return u8.buffer;
   }
 
+  // Decode one selected narration only. External MP3 files are cacheable and do not block page start.
   function loadNarration(src) {
     if (!src) return Promise.resolve(null);
     if (narrCache.has(src)) return Promise.resolve(narrCache.get(src));
     if (!ensure()) return Promise.resolve(null);
-    const cut = src.indexOf('base64,');
-    if (cut < 0) return Promise.resolve(null);
-    const ab = b64ToBuf(src.slice(cut + 7));
-    const done = buf => { narrCache.set(src, buf); return buf; };
-    if (ctx.decodeAudioData.length >= 1) {
-      return ctx.decodeAudioData(ab).then(done).catch(() => null);
+
+    const decode = ab => {
+      const done = buf => { narrCache.set(src, buf); return buf; };
+      if (ctx.decodeAudioData.length >= 1) return ctx.decodeAudioData(ab).then(done);
+      return new Promise((resolve, reject) => ctx.decodeAudioData(ab, b => resolve(done(b)), reject));
+    };
+
+    try {
+      const cut = src.indexOf('base64,');
+      if (cut >= 0) return decode(b64ToBuf(src.slice(cut + 7))).catch(() => null);
+      return fetch(src, { cache: 'force-cache' })
+        .then(res => { if (!res.ok) throw new Error('audio download failed'); return res.arrayBuffer(); })
+        .then(decode)
+        .catch(() => null);
+    } catch (e) {
+      return Promise.resolve(null);
     }
-    return new Promise(res => ctx.decodeAudioData(ab, b => res(done(b)), () => res(null)));
   }
 
   function playNarration(n) {
@@ -1790,6 +1800,8 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   function beginScene(opts) {
     const o = opts || {};
     if (!ensure()) return false;
+    // A new preview must not overlap voices left by a previous asynchronous decode.
+    stopVoice();
     scene.dur = o.dur || 10;
     scene.events = buildEvents({
       dur: scene.dur,
@@ -1936,7 +1948,7 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     music: 'ai',
     voiceOn: true,
     sfxOn: true,
-    voiceRate: 1.5,
+    voiceRate: 1.3,
     clipLength: 'auto',
     playing: true,
     exporting: false,
@@ -2195,7 +2207,12 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   function narrTimeline() {
     if (!narrActive()) return null;
     const r = narrRate();
-    const start = 1.55;
+    const category = (SND && SND.categoryClip)
+      ? SND.categoryClip((activeNews && (activeNews.topic || activeNews.category)) || '')
+      : 'general';
+    const rawCategoryDur = (window.FAM_CUE_DUR && window.FAM_CUE_DUR[category]) || 1.5;
+    // Keep a small gap after the category announcement; never overlap it with the real report.
+    const start = Math.max(1.95, 0.28 + (rawCategoryDur / r) + 0.18);
     const narrDur = activeNarr.dur / r;
     const tail = 2.0;
     let total = start + narrDur + tail;
@@ -2666,11 +2683,16 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     drawOverlays(t, dur);
 
     // ตัวขับเสียง: ยิงเสียงตามเวลาของคลิป (ใช้ทั้งพรีวิวและตอนเรนเดอร์)
-    if (SND && (state.playing || state.exporting) && SND.direct) SND.direct(t);
+    dispatchSceneAudio();
 
     if (scrubber.max !== String(dur)) scrubber.max = dur;
     if (!scrubbing) scrubber.value = String(Math.min(t, dur));
     previewTime.textContent = `${t.toFixed(1)} / ${dur.toFixed(1)} วิ`;
+  }
+
+  let lastPreviewPaint = 0;
+  function dispatchSceneAudio() {
+    if (SND && (state.playing || state.exporting) && SND.direct) SND.direct(currentTime());
   }
 
   function loop(ts) {
@@ -2687,10 +2709,19 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
       }
       if (!clock.freeze && clock.t >= clock.duration) {
         clock.t = clock.t % clock.duration;
-        if (!state.exporting) { try { startSceneSound(clock.duration); } catch (e) { /* noop */ } }
+        if (!state.exporting) { try { SND && SND.endScene(); startSceneSound(clock.duration); } catch (e) { /* noop */ } }
       }
     }
-    draw();
+
+    // The preview canvas is 1080×1920. Cap only mobile PREVIEW painting at 30 FPS;
+    // export keeps every available frame and audio is dispatched even on skipped paints.
+    const mobilePreview = !state.exporting && window.innerWidth <= 768;
+    if (!mobilePreview || !lastPreviewPaint || now - lastPreviewPaint >= 33) {
+      draw();
+      lastPreviewPaint = now;
+    } else {
+      dispatchSceneAudio();
+    }
     requestAnimationFrame(loop);
   }
 
@@ -3213,7 +3244,6 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
 
     activeNews = n;
     state.activeId = n.id;
-
     $$('.news-card', feedEl).forEach(c => c.classList.toggle('is-active', c.dataset.id === id));
 
     if (n.video) {
@@ -3224,37 +3254,41 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
       studioVideo.pause();
       studioVideo.src = n.video;
       studioVideo.load();
-      studioVideo.addEventListener('loadeddata', () => {
-        if (activeNews === n) studioVideo.play().catch(() => {});
-      }, { once: true });
     } else {
       studio.mode = 'image';
       studioVideo.pause();
-      resetClock(CLIP_DURATION);
       loadStudioImage(n.thumb);
     }
 
-    // ---- เสียงบรรยาย AI ของข่าวนี้ (พากย์บทสรุปจริง) ----
+    // Prepare the selected report first. Do not start a placeholder scene and restart it after decoding.
     activeNarr = narrationFor(n);
     const myToken = ++narrNarrToken;
-    if (activeNarr && SND && SND.loadNarration) {
-      SND.loadNarration(activeNarr.src)
-        .then(() => { if (myToken === narrNarrToken) startSceneSound(); })
-        .catch(() => {});
-    }
-
-    if (n.video) resetClock(CLIP_DURATION);
+    const narrationReady = (activeNarr && SND && SND.loadNarration)
+      ? SND.loadNarration(activeNarr.src)
+      : Promise.resolve(null);
 
     subtitleInput.value = (activeNarr && activeNarr.script) || n.caption || n.title;
-    if (!n.video) resetClock(clipDuration());
     categoryInput.value = `ข่าวด่วน • ${n.topic}`;
     refreshChunkInfo();
     refreshNarrInfo();
     previewSourceLabel.textContent = `${n.source} • ${n.title}`;
     scrubber.value = '0';
     state.playing = true;
+    clock.playing = false; // prevent the timeline from advancing while narration is decoding
 
-    if (SND) { SND.endScene(); try { startSceneSound(CLIP_DURATION); } catch (e) { /* noop */ } }
+    const startSelectedScene = () => {
+      if (myToken !== narrNarrToken || activeNews !== n) return;
+      if (studio.mode === 'video') {
+        studioVideo.currentTime = 0;
+        studioVideo.play().catch(() => {});
+      }
+      resetClock(clipDuration());
+      if (SND) {
+        SND.endScene();
+        startSceneSound(clipDuration());
+      }
+    };
+    narrationReady.then(startSelectedScene, startSelectedScene);
 
     flashStatus(`✨ โหลดข่าว “${n.topic}” เข้าสตูดิโอแล้ว พร้อมเรนเดอร์`);
     if (shouldScroll && window.innerWidth <= 1024) {
@@ -3484,6 +3518,7 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   let currentStream = null;
   let stopWatcher = null;
   let lastBlobUrl = null;
+  let captureFrameLoop = null;
 
   const openOverlay = el => el.classList.add('open');
   const closeOverlay = el => el.classList.remove('open');
@@ -3608,6 +3643,10 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   function cleanupExport() {
     clearInterval(stopWatcher);
     stopWatcher = null;
+    if (captureFrameLoop) {
+      cancelAnimationFrame(captureFrameLoop);
+      captureFrameLoop = null;
+    }
     studioVideo.loop = true;
     if (currentStream) {
       currentStream.getTracks().forEach(t => t.stop());
@@ -3624,6 +3663,29 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
         startSceneSound(clipDuration());
       }
     }
+  }
+
+  // On several Android browsers, automatic canvas capture can emit only its first frame.
+  // Request frames explicitly at 30 FPS whenever the browser supports CanvasCaptureMediaStreamTrack.requestFrame().
+  function captureCanvasForExport() {
+    const manualStream = canvas.captureStream(0);
+    const track = manualStream.getVideoTracks()[0];
+    if (track && typeof track.requestFrame === 'function') {
+      let last = 0;
+      const pump = ts => {
+        if (!state.exporting) return;
+        if (!last || ts - last >= (1000 / 30)) {
+          try { track.requestFrame(); } catch (e) { /* stream ended */ return; }
+          last = ts;
+        }
+        captureFrameLoop = requestAnimationFrame(pump);
+      };
+      captureFrameLoop = requestAnimationFrame(pump);
+      return manualStream;
+    }
+    // Safari / older browsers that have no requestFrame keep the standard automatic stream.
+    manualStream.getTracks().forEach(t => t.stop());
+    return canvas.captureStream(30);
   }
 
   async function exportReels() {
@@ -3672,7 +3734,7 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
       await nextFrame();
     }
 
-    const stream = canvas.captureStream(30);
+    const stream = captureCanvasForExport();
     currentStream = stream;
 
     /* ---- ต่อแทร็กเสียงเข้าวิดีโอ (ต้องทำก่อน recorder.start) ---- */
@@ -3742,7 +3804,9 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
 
     exportT0 = performance.now();
     clock.t = 0;
-    recorder.start(200);
+    // Do not request 200ms MP4 fragments: Android galleries commonly read only the first fragment as 0.1 sec.
+    // One finalized blob at recorder.stop() carries correct duration metadata.
+    recorder.start();
     exportProgressText.textContent = 'กำลังเรนเดอร์วิดีโอ 9:16 พร้อมซับไตเติล…';
 
     if (isVideo) {
