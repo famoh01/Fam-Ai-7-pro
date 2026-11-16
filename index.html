@@ -876,6 +876,10 @@ a { color: inherit; text-decoration: none; }
 
 </style>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e60000'/%3E%3Ctext x='32' y='44' font-size='30' font-family='sans-serif' font-weight='700' fill='%23fff' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+
+<!-- FFmpeg is loaded only when creating the final YouTube MP4. -->
+<script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.12.10/dist/umd/ffmpeg.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ffmpeg/util@0.12.1/dist/umd/index.js"></script>
 </head>
 <body>
 
@@ -3553,16 +3557,17 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   /* =======================================================
      14) EXPORT
      ======================================================= */
-  // YouTube mobile preview is most compatible with a finalized MP4 (H.264/AAC).
-  // We record ONE finalized file at stop(), never short 200 ms fragments, so Android keeps the true duration.
+  // Chrome on Android can report MP4 support but create a fragmented MP4 that Gallery reads as 0.1 sec.
+  // WebM/VP8 is a single, standards-compliant stream in Chrome and uploads directly to YouTube.
   const MIME_CANDIDATES = [
+    'video/webm;codecs=vp8,opus',
+    'video/webm;codecs=vp9,opus',
+    'video/webm',
+    // Safari and a few non-Chrome browsers may need one of these MP4 fallbacks.
     'video/mp4;codecs=avc1.42E01E,mp4a.40.2',
     'video/mp4;codecs=avc1.4D401E,mp4a.40.2',
     'video/mp4;codecs=h264',
-    'video/mp4',
-    'video/webm;codecs=vp8,opus',
-    'video/webm;codecs=vp9,opus',
-    'video/webm'
+    'video/mp4'
   ];
 
   function pickMime() {
@@ -3579,6 +3584,8 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   let stopWatcher = null;
   let lastBlobUrl = null;
   let captureFrameLoop = null;
+  let youtubeTranscoder = null;
+  let youtubeTranscoderReady = null;
 
   const openOverlay = el => el.classList.add('open');
   const closeOverlay = el => el.classList.remove('open');
@@ -3748,6 +3755,57 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     return canvas.captureStream(30);
   }
 
+  // Chrome Android captures a reliable WebM stream. Convert that finished stream locally to the
+  // H.264/AAC MP4 that the YouTube mobile app previews and accepts. No video is uploaded to a third party.
+  async function transcodeForYouTube(webmBlob) {
+    if (!window.FFmpegWASM || !window.FFmpegUtil) {
+      throw new Error('โหลดตัวแปลง MP4 ไม่สำเร็จ — ตรวจสอบอินเทอร์เน็ตแล้วลองใหม่');
+    }
+    const { FFmpeg } = window.FFmpegWASM;
+    const { toBlobURL } = window.FFmpegUtil;
+    if (!youtubeTranscoderReady) {
+      youtubeTranscoderReady = (async () => {
+        const ffmpeg = new FFmpeg();
+        ffmpeg.on('progress', ({ progress }) => {
+          const pct = Math.max(0, Math.min(99, Math.round((progress || 0) * 100)));
+          exportProgressFill.style.width = pct + '%';
+          exportProgressText.textContent = `กำลังแปลงเป็น MP4 สำหรับ YouTube… ${pct}%`;
+        });
+        const core = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core@0.12.6/dist/umd';
+        await ffmpeg.load({
+          coreURL: await toBlobURL(core + '/ffmpeg-core.js', 'text/javascript'),
+          wasmURL: await toBlobURL(core + '/ffmpeg-core.wasm', 'application/wasm')
+        });
+        youtubeTranscoder = ffmpeg;
+        return ffmpeg;
+      })();
+    }
+    const ffmpeg = await youtubeTranscoderReady;
+    const input = 'fam-input.webm';
+    const output = 'fam-youtube.mp4';
+    exportProgressFill.style.width = '0%';
+    exportProgressText.textContent = 'กำลังโหลดตัวแปลง MP4 ในเครื่องครั้งแรก…';
+    try {
+      await ffmpeg.writeFile(input, new Uint8Array(await webmBlob.arrayBuffer()));
+      exportProgressText.textContent = 'กำลังเข้ารหัส MP4 H.264/AAC คุณภาพสูง…';
+      await ffmpeg.exec([
+        '-i', input,
+        '-map', '0:v:0', '-map', '0:a?',
+        '-vf', 'scale=1080:1920:flags=lanczos,setsar=1',
+        '-r', '30',
+        '-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '19',
+        '-profile:v', 'high', '-level', '4.1', '-pix_fmt', 'yuv420p',
+        '-c:a', 'aac', '-b:a', '160k',
+        '-movflags', '+faststart', output
+      ]);
+      const data = await ffmpeg.readFile(output);
+      return new Blob([data], { type: 'video/mp4' });
+    } finally {
+      try { await ffmpeg.deleteFile(input); } catch (e) { /* noop */ }
+      try { await ffmpeg.deleteFile(output); } catch (e) { /* noop */ }
+    }
+  }
+
   async function exportReels() {
     if (state.exporting) return;
     if (!activeNews) { toast('เลือกข่าวก่อน แล้วค่อยกดดาวน์โหลด', 'warn'); return; }
@@ -3774,10 +3832,6 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     }
 
     const mime = pickMime();
-    if (mime && !mime.includes('mp4')) {
-      toast('เบราว์เซอร์นี้ไม่รองรับการสร้าง MP4 โดยตรง — อัปเดต Chrome แล้วลองอีกครั้ง', 'err', 6000);
-      return;
-    }
     if (mime === null) {
       toast('เบราว์เซอร์นี้ไม่รองรับการเรนเดอร์วิดีโอ — ลองใช้ Chrome หรือ Edge เวอร์ชันใหม่', 'err', 5000);
       return;
@@ -3845,10 +3899,9 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     /* ---- เริ่มลำดับเสียงของคลิปนี้ ---- */
     try { startSceneSound(dur); } catch (e) { /* noop */ }
 
-    // 1080×1920 H.264 at 12 Mbps: visibly crisp text and news images for YouTube Shorts.
-    const opts = { videoBitsPerSecond: 12000000 };
+    const opts = { videoBitsPerSecond: 9000000 };
     if (mime) opts.mimeType = mime;
-    if (stream.getAudioTracks().length) opts.audioBitsPerSecond = 160000;
+    if (stream.getAudioTracks().length) opts.audioBitsPerSecond = 128000;
 
     let recorder;
     try {
@@ -3870,18 +3923,25 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     recorder.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
     recorder.onstop = async () => {
       try {
-        const type = recorder.mimeType || mime || 'video/webm';
-        const blob = new Blob(chunks, { type });
-        const ext = type.includes('mp4') ? 'mp4' : 'webm';
-        const codec = await sniffCodec(blob);
-        const acodec = await sniffAudio(blob);
+        const rawType = recorder.mimeType || mime || 'video/webm';
+        const rawBlob = new Blob(chunks, { type: rawType });
+        // Stop capture/audio before CPU-intensive local conversion to keep mobile memory available.
+        if (currentStream) { currentStream.getTracks().forEach(t => t.stop()); currentStream = null; }
+        if (SND) SND.endScene();
+        exportProgressFill.style.width = '0%';
+        exportProgressText.textContent = 'กำลังเตรียมแปลงเป็น MP4 สำหรับ YouTube…';
+        const mp4Blob = await transcodeForYouTube(rawBlob);
+        const codec = await sniffCodec(mp4Blob) || 'H.264';
+        const acodec = await sniffAudio(mp4Blob) || 'AAC';
         cleanupExport();
-        finishExport(blob, ext, type, codec, acodec);
+        finishExport(mp4Blob, 'mp4', 'video/mp4', codec, acodec);
       } catch (err) {
-        console.error('export finish failed', err);
+        console.error('MP4 conversion failed', err);
         cleanupExport();
         closeOverlay(exportOverlay);
-        setStatus('รวมไฟล์ไม่สำเร็จ: ' + (err && err.message ? err.message : err), 'err');
+        const msg = err && err.message ? err.message : 'หน่วยความจำไม่พอหรือการเข้ารหัสไม่สำเร็จ';
+        setStatus('แปลง MP4 ไม่สำเร็จ: ' + msg, 'err');
+        toast('แปลง MP4 ไม่สำเร็จ — ปิดแอปอื่น แล้วลองคลิป 20 วินาทีอีกครั้ง', 'err', 6500);
         studioBadge.textContent = 'พร้อมเรนเดอร์';
         studioBadge.classList.remove('busy');
       }
@@ -3945,7 +4005,7 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
 
   exportNote.textContent = inIframe
     ? 'พรีวิวแบบฝังอาจบล็อกการดาวน์โหลด — เปิดหน้านี้ในแท็บใหม่เพื่อบันทึกไฟล์'
-    : 'เรนเดอร์ในเบราว์เซอร์ของคุณ • 1080×1920 • จะสร้าง MP4 H.264/AAC ความคมชัดสูงสำหรับ YouTube Shorts';
+    : 'เรนเดอร์ในเบราว์เซอร์ของคุณ • 1080×1920 • จะบันทึก WEBM ชั่วคราว แล้วแปลงในมือถือเป็น MP4 H.264/AAC สำหรับ YouTube (ครั้งแรกต้องโหลดตัวแปลงเพิ่ม)';
 
   [resultOverlay, helpOverlay].forEach(ov => {
     ov.addEventListener('click', e => { if (e.target === ov) closeOverlay(ov); });
