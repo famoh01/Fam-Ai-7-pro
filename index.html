@@ -1165,6 +1165,8 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   let noiseBuf = null;
   const narrCache = new Map();   // src -> AudioBuffer
   let narrNode = null;
+  let narrElement = null;          // HTMLAudioElement fallback for Android MP3 decoding
+  let narrElementSource = null;
   let ready = false;
 
   /* ---------------- graph helpers ---------------- */
@@ -1687,6 +1689,11 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
 
   function stopVoice() {
     if (narrNode) { try { narrNode.stop(); } catch (e) { /* noop */ } narrNode = null; }
+    if (narrElement) {
+      try { narrElement.pause(); narrElement.currentTime = 0; } catch (e) { /* noop */ }
+      narrElement = null;
+      narrElementSource = null;
+    }
     Object.keys(elements).forEach(k => {
       try { elements[k].pause(); elements[k].currentTime = 0; } catch (e) { /* noop */ }
     });
@@ -1727,20 +1734,44 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   }
 
   function playNarration(n) {
-    if (!cfg.voiceOn || !n) return;
+    if (!cfg.voiceOn || !n || !ensure()) return;
     const buf = narrCache.get(n.src);
-    if (!buf) return;
     try {
-      if (narrNode) { try { narrNode.stop(); } catch (e) { /* noop */ } }
-      const s = ctx.createBufferSource();
-      s.buffer = buf;
-      s.playbackRate.value = n.rate || 1;
-      s.connect(voiceBus);
+      if (narrNode) { try { narrNode.stop(); } catch (e) { /* noop */ } narrNode = null; }
+      if (narrElement) { try { narrElement.pause(); narrElement.currentTime = 0; } catch (e) { /* noop */ } }
+
+      // Preferred path: decoded AudioBuffer, which is ideal for mixing into the exported stream.
+      if (buf) {
+        const s = ctx.createBufferSource();
+        s.buffer = buf;
+        s.playbackRate.value = n.rate || 1;
+        s.connect(voiceBus);
+        const send = ctx.createGain(); send.gain.value = 0.08;
+        s.connect(send); send.connect(revSend);
+        s.start(ctx.currentTime + 0.02);
+        narrNode = s;
+        return;
+      }
+
+      // Android occasionally rejects decodeAudioData for freshly generated MP3 data URLs.
+      // HTMLAudioElement has a separate, more compatible decoder; route it through Web Audio
+      // so it is still included in the downloaded WEBM, not only heard in the preview.
+      const el = new Audio();
+      el.src = n.src;
+      el.preload = 'auto';
+      el.playsInline = true;
+      el.setAttribute('playsinline', '');
+      el.preservesPitch = true;
+      el.playbackRate = n.rate || 1;
+      const mediaSource = ctx.createMediaElementSource(el);
+      mediaSource.connect(voiceBus);
       const send = ctx.createGain(); send.gain.value = 0.08;
-      s.connect(send); send.connect(revSend);
-      s.start(ctx.currentTime + 0.02);
-      narrNode = s;
-    } catch (e) { /* noop */ }
+      mediaSource.connect(send); send.connect(revSend);
+      narrElement = el;
+      narrElementSource = mediaSource;
+      const p = el.play();
+      if (p && p.catch) p.catch(() => { /* autoplay is unlocked by the Download button */ });
+    } catch (e) { /* no usable decoder in this browser */ }
   }
 
   /* ---------------- director (ลำดับเสียงในคลิป) ---------------- */
@@ -1767,7 +1798,8 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
     const ev = [];
     const nar = opts.narration;
 
-    if (nar && opts.voice !== false && narrCache.has(nar.src)) {
+    // Schedule narration even if decodeAudioData fails; playNarration has an Android-safe HTMLAudio fallback.
+    if (nar && opts.voice !== false) {
       // โหมดผู้ประกาศอ่านข่าวจริง
       ev.push({ t: 0.02, fn: () => sfx('riser', 0.7) });
       ev.push({ t: 0.55, fn: () => sfx('impact') });
@@ -1965,6 +1997,7 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   let loadingNews = false;
   let activeNews = null;
   let activeNarr = null;
+  let liveVoiceMapReady = Promise.resolve(null);
   let exportT0 = 0;   // เวลาเริ่มเรนเดอร์ (wall clock)      // เสียงบรรยาย AI ของข่าวที่เลือก
   let narrNarrToken = 0;
 
@@ -2178,18 +2211,25 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   const VOICE_BY_TITLE = (typeof window !== 'undefined' && window.FAM_NEWS_VOICE_BY_TITLE) ? window.FAM_NEWS_VOICE_BY_TITLE : null;
 
   function loadLiveVoiceMap() {
-    const tag = document.createElement('script');
-    tag.src = 'voices.js?t=' + Date.now();
-    tag.async = true;
-    tag.onload = () => {
-      const live = window.FAM_LIVE_NEWS_VOICE;
-      if (!live || typeof live !== 'object') return;
-      Object.assign(NEWS_VOICE, live);
-      // If the current card now has a generated voice, reload it once to attach narration.
-      if (activeNews && live[activeNews.id]) loadToStudio(activeNews.id, false);
-    };
-    tag.onerror = () => { /* voices.js will exist after the first successful GitHub Action run */ };
-    document.head.appendChild(tag);
+    liveVoiceMapReady = new Promise(resolve => {
+      const tag = document.createElement('script');
+      tag.src = 'voices.js?t=' + Date.now();
+      tag.async = true;
+      tag.onload = () => {
+        const live = window.FAM_LIVE_NEWS_VOICE;
+        if (live && typeof live === 'object') {
+          Object.assign(NEWS_VOICE, live);
+          // If the current card now has a generated voice, reload it once to attach narration.
+          if (activeNews && live[activeNews.id]) loadToStudio(activeNews.id, false);
+          resolve(live);
+        } else {
+          resolve(null);
+        }
+      };
+      tag.onerror = () => resolve(null);
+      document.head.appendChild(tag);
+    });
+    return liveVoiceMapReady;
   }
 
   function djb2(text) {
@@ -3634,7 +3674,7 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
       hint.push('ไฟล์ถูกสร้างในเครื่องคุณแล้ว ไม่มีการอัปโหลดขึ้นเซิร์ฟเวอร์');
     }
     if (exportAudio) {
-      hint.push('ไฟล์นี้มีแทร็กเสียงจริง (เพลง + ผู้ประกาศ AI) — เปิดฟังได้ใน Chrome, VLC, Facebook, TikTok และอัปโหลดลง Reels ได้เลย');
+      hint.push('ไฟล์นี้มีแทร็กเสียงจริง (เพลง + ผู้ประกาศ AI) — เปิดฟังได้ใน Chrome, VLC, Facebook, TikTok และอัปโหลดลง YouTube ได้เลย');
     }
     if (exportAudio && acodec === 'Opus' && mime.indexOf('mp4') >= 0) {
       hint.push('เบราว์เซอร์นี้ใส่เสียงเป็น Opus ในไฟล์ MP4 — แกลเลอรีบางรุ่นจะเปิดแบบไม่มีเสียง ให้อัปโหลดตรงเข้าแอป (TikTok/FB/Reels) หรือใช้ Chrome เวอร์ชันใหม่ซึ่งจะได้เสียง AAC');
@@ -3712,6 +3752,27 @@ window.FAM_NEWS_VOICE_BY_TITLE = {"3352105316":"5463181f12da","2924322839":"04bd
   async function exportReels() {
     if (state.exporting) return;
     if (!activeNews) { toast('เลือกข่าวก่อน แล้วค่อยกดดาวน์โหลด', 'warn'); return; }
+
+    // voices.js is generated separately and can be several MB. Never export a silent clip just because
+    // the user tapped Download before that voice map or its selected MP3 finished preparing.
+    if (liveVoiceMapReady) {
+      toast('กำลังเตรียมเสียงบรรยาย…', 'ok', 2600);
+      await Promise.race([
+        liveVoiceMapReady,
+        new Promise(resolve => setTimeout(() => resolve(null), 15000))
+      ]);
+      const current = narrationFor(activeNews);
+      if (current && (!activeNarr || current.src !== activeNarr.src)) {
+        activeNarr = current;
+        // Keep the generated narration script in sync unless the user deliberately edited their text.
+        if (!subtitleInput.value.trim() || (activeNarr && currentCaptionText() !== current.script)) {
+          subtitleInput.value = current.script;
+        }
+        if (SND && SND.loadNarration) await SND.loadNarration(current.src);
+      } else if (current && SND && SND.loadNarration) {
+        await SND.loadNarration(current.src);
+      }
+    }
 
     const mime = pickMime();
     if (mime === null) {
