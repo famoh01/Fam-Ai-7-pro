@@ -1,16 +1,26 @@
 {
- "updated": "2026-11-21T22:20:19.874503+00:00",
+ "updated": "2026-11-21T23:17:43.027075+00:00",
  "count": 60,
  "items": [
   {
-   "id": "news_10479377",
-   "title": "มาช่า วัฒนพานิช เปิดศึกฟาดฟันคู่ปรับเก่า ลูกเกด เมทินี ประเดิมกติกาโหด",
-   "desc": "มาช่า วัฒนพานิช แท็กทีม เปิ้ล เปิดศึกคู่ปรับเก่า ลูกเกด เมทินี เชือดคนออกครั้งแรกของซีซั่น!รายการ Warrior สมรภูมิโซเชียล ซีซั่น 3 เวลา 16.30 น. ช่อง 3 โปรแกรมรายการทีวี ช่อง3 04.55 น. เที่ยวละไมไทยแลนด์เวิลด์ – สัปดาห์นี้ “พี่อู-ภาณุ” และ “",
-   "topic": "ข่าวทั่วไป",
+   "id": "nnews_5984931",
+   "title": "รัฐบาลประกาศสงครามสู้มลพิษแม่น้ำ งัดมาตรการสมช.แบนสารตั้งต้นแรร์เอิร์ท 2ธ.ค.เป็นเขตควบคุมมลพิษ",
+   "desc": "รัฐบาลประกาศสงครามสู้มลพิษแม่น้ำ งัดมาตรการสมช.แบนสารตั",
+   "topic": "การเมือง",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/politics/news_5984931",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/99-10.jpg",
+   "published": 1795302938.0
+  },
+  {
+   "id": "news_10480352",
+   "title": "อิราโอลา เผยแล้ว เอกีตีเก กลับมาช่วย ลิเวอร์พูล ได้เมื่อไร",
+   "desc": "อันโดนี อิราโอลา กุนซือของ ลิเวอร์พูล ทีมดังแห่งพรีเมียร์ ลีก อังกฤษ ออกมาอัปเดตอาการของ อูโก เอกีตีเก กองหน้าชาวฝรั่งเศส โดยคาดว่าเขาจะกลับมาช่วยทีมได้หลังปีใหม่ อูโก เอกีตีเก กองหน้าดีกรีทีมชาติฝรั่งเศส ย้ายจากไอน์ทรัก แฟรงก์เฟิร์ต มาอยู่",
+   "topic": "กีฬา",
    "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/newspaper-column/tv-guide/news_10479377",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/16-9-Red-36.jpg",
-   "published": 1795295732.0
+   "link": "https://www.khaosod.co.th/sports/news_10480352",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/%E0%B8%9B%E0%B8%81%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7-%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94-2026-11-22T054009.589.jpg",
+   "published": 1795301206.0
   },
   {
    "id": "np1VkUyeksoc5",
@@ -20,7 +30,37 @@
    "source": "bangkokbiznews",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PSG5HQkR1dmFvWm5oM2Fjc1NBVF96T1NpbV9BUURpTm1Ka2ZpeDVHSndqLS1MTUhGa2lTOXduRGV2V3V2Y0pBbUNTaWExVlF4YjZ0YUs4cXlRU1NFS0p1VkUyeks?oc=5",
    "image": "",
-   "published": 1795294964.0
+   "published": 1795300365.0
+  },
+  {
+   "id": "nnews_5984917",
+   "title": "หน้า 1 หนังสือพิมพ์มติชน วันนี้",
+   "desc": "หน้า 1 หนังสือพิมพ์มติชน วันนี้ – คดีสินบนทอง 246",
+   "topic": "ข่าวทั่วไป",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/newspaper-cover/news_5984917",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/MCB012311BER-scaled.jpg",
+   "published": 1795300216.0
+  },
+  {
+   "id": "news_10480345",
+   "title": "ผลฟุตบอล 21 พ.ย. 2569 เรอัล มาดริด แซงชนะ เซลตา บีโก – ดอร์ตมุนด์ บุกเฉือน กลัดบัก",
+   "desc": "ผลฟุตบอลวันเสาร์ที่ 21 พฤศจิกายน 2569 เรอัล มาดริด แซงชนะ เซลตา บีโก ทำแต้มเท่า บาร์เซโลนา จ่าฝูงลา ลีกา สเปน ส่วน โบรุสเซีย ดอร์ตมุนด์ บุกเฉือน โบรุสเซีย มึนเชนกลัดบัก แซง บาเยิร์น มิวนิก นำหัวตารางบุนเดสลีกา เยอรมนี ผลฟุตบอลประจำวันที่ 21",
+   "topic": "กีฬา",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/sports/news_10480345",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/real-madrid-223.jpg",
+   "published": 1795299825.0
+  },
+  {
+   "id": "news_10479377",
+   "title": "มาช่า วัฒนพานิช เปิดศึกฟาดฟันคู่ปรับเก่า ลูกเกด เมทินี ประเดิมกติกาโหด",
+   "desc": "มาช่า วัฒนพานิช แท็กทีม เปิ้ล เปิดศึกคู่ปรับเก่า ลูกเกด เมทินี เชือดคนออกครั้งแรกของซีซั่น!รายการ Warrior สมรภูมิโซเชียล ซีซั่น 3 เวลา 16.30 น. ช่อง 3 โปรแกรมรายการทีวี ช่อง3 04.55 น. เที่ยวละไมไทยแลนด์เวิลด์ – สัปดาห์นี้ “พี่อู-ภาณุ” และ “",
+   "topic": "ข่าวทั่วไป",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/newspaper-column/tv-guide/news_10479377",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/16-9-Red-36.jpg",
+   "published": 1795295732.0
   },
   {
    "id": "nnews_5985198",
@@ -231,6 +271,26 @@
    "link": "https://www.khaosod.co.th/around-thailand/news_10480323",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/dhjmtg.jpg",
    "published": 1795278235.0
+  },
+  {
+   "id": "nlBbk1DT2goc5",
+   "title": "[ไกด์เกม] เจาะลึกวิธีปล้นร้านค้าใน GTA 6 ปล้นที่ไหนได้บ้าง รับมือพนักงานยังไง และวิธีหนีตำรวจให้เนียน",
+   "desc": "[ไกด์เกม] เจาะลึกวิธีปล้นร้านค้าใน GTA 6 ปล้นที่ไหนได้บ้าง รับมือพนักงานยังไง และวิธีหนีตำรวจให้เนียน Online Station GTA 6 เพิ่มระบบ empathy mechanisms ครั้งแรกของซีรีส์ games.gg Grand Theft Auto 6: วิธีเอารถคืนจากตำรวจ games.gg [ไกด์เกม] เ",
+   "topic": "เทคโนโลยี",
+   "source": "Online Station",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81T2x0a1lWRFp0SlRjdzB5cGRrZHp4YmlCS1ZXUDZGS3NkelpZVUpTME9pQ1N6TUdoZFc3bVQ1WUJia2NvZVcxQU8xUHozazhVYzlBTnpTRUdZWGc2ZUlBbk1DT2g?oc=5",
+   "image": "",
+   "published": 1795278120.0
+  },
+  {
+   "id": "nJveXZHZDAoc5",
+   "title": "เซเลนสกีลั่น โจมตีสะพานไครเมียเป็นการตอบโต้ที่ “ยุติธรรม” แล้ว",
+   "desc": "เซเลนสกีลั่น โจมตีสะพานไครเมียเป็นการตอบโต้ที่ “ยุติธรรม” แล้ว thairath.co.th รัสเซียถล่มยูเครนอย่างหนัก ตอบโต้หลังถูกโจมตีสะพาน MGR Online รัสเซียถล่มยูเครน ขีปนาวุธตกโปแลนด์ นาโตประณามละเมิดเขตแดนอากาศ ไทยโพสต์ ถึงแม้จะไม่ได้ทำลายอุโมงค์เ",
+   "topic": "ข่าวทั่วไป",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NSWQtWmRUTmNBdVd1YlE0dkpMdHYxZWVGSnQ0Q3VDSTdkcUttTy1HVnhLb2JjU1I4ZzlOS0Z3OXo4Wk5oY0JmS1djZ09tZXloeXIycGJveXZHZDA?oc=5",
+   "image": "",
+   "published": 1795278020.0
   },
   {
    "id": "news_10480316",
@@ -535,72 +595,12 @@
   {
    "id": "n2MDVGc2dVoc5",
    "title": "เดือนเดียว Nvidia หุ้นร่วงไปแล้วเกิน -40% โดยเมื่อวาน คืนเดียวลงถึง -14%",
-   "desc": "เดือนเดียว Nvidia หุ้นร่วงไปแล้วเกิน -40% โดยเมื่อวาน คืนเดียวลงถึง -14% Longtunman IPO Anthropic ไม่ช่วย หุ้น AI ถูกเทขายหนัก ฉุดตลาดหุ้นสหรัฐฯ เข้าสู่ภาวะปรับฐาน | การเงินธนาคาร LINE TODAY ตลาดหุ้นทั่วโลกดิ่งแรง กลุ่มเทคฯ เจอเทขายหนัก ทอง",
+   "desc": "เดือนเดียว Nvidia หุ้นร่วงไปแล้วเกิน -40% โดยเมื่อวาน คืนเดียวลงถึง -14% Longtunman IPO Anthropic ไม่ช่วย หุ้น AI ถูกเทขายหนัก ฉุดตลาดหุ้นสหรัฐฯ เข้าสู่ภาวะปรับฐาน | การเงินธนาคาร LINE TODAY “ดาวโจนส์” ปิดร่วง 949 จุด! Nasdaq ดิ่ง 5% เซ่นขา",
    "topic": "เศรษฐกิจ",
    "source": "Longtunman",
    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LTElYNXRscnNWZ1U3eTA0aWV3RkNwbVRncUJ1RW9IbURvMUF5d1NYT3lIdUlsdmVfSnhoekQ4Zkx2MDVGc2dV?oc=5",
    "image": "",
    "published": 1795265805.0
-  },
-  {
-   "id": "nstatementart",
-   "title": "ไทย-สหรัฐฯ ลงนาม Joint Statement ความตกลงการค้าต่างตอบแทน (ART)",
-   "desc": "ไทย-สหรัฐฯ ลงนาม Joint Statement ความตกลงการค้าต่างตอบแทน (ART)",
-   "topic": "ต่างประเทศ",
-   "source": "ไทยพับลิก้า",
-   "link": "https://thaipublica.org/2026/11/kresearch-infographic-thai-usa-joint-statement-art/",
-   "image": "https://thaipublica.org/wp-content/uploads/2026/11/PR-INFO-THAILAND-USA-ART-450x860.webp",
-   "published": 1795265566.0
-  },
-  {
-   "id": "nenews2100318",
-   "title": "ในหลวง-พระราชินี ทรงเปิดอาคารพิพิธภัณฑ์ ‘ออมสินพิพิธ’ – ทอดพระเนตรนิทรรศการ “ออมสินของแผ่นดิน”",
-   "desc": "ในหลวง–พระราชินี ทรงเปิดอาคารพิพิธภัณฑ์ “ออมสินพิพิธ” และทอดพระเนตรนิทรรศการ “ออมสินของแผ่นดิน” วันนี้ (21 พ.ย. 69) เวลา 17.19 น. พระบาทสมเด็จพระเจ้าอยู่หัว และสมเด็จพระนางเจ้า ฯ พระบรมราชินี เสด็จพระราชดำเนินไปทรงเปิดอาคารพิพิธภัณฑ์ “ออมสิ",
-   "topic": "ข่าวทั่วไป",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/royal-house/news-2100318",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/IMG_2216.jpeg",
-   "published": 1795265436.0
-  },
-  {
-   "id": "nnews_5985064",
-   "title": "‘แพท’ แฮปปี้ชีวิตแม่ลูกสอง ชม ‘พี’ ทำหน้าที่พ่อเต็มร้อย เผยฮอร์โมนปกติแล้ว หลังมีภาวะ Baby Blues",
-   "desc": "‘แพท’ แฮปปี้ชีวิตคุณแม่ลูกสอง ชม ‘พี&",
-   "topic": "บันเทิง",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5985064",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/654136512.jpg",
-   "published": 1795265194.0
-  },
-  {
-   "id": "news_10480250",
-   "title": "จับแล้ว! อินเดียเงินกู้ เพิ่งท้าทายระบบ ไม่กลัวตำรวจ ก่อนจนมุมที่ระยอง พบอยู่เกินกว่าพันวัน",
-   "desc": "จะเช็กเกลียว ดันเกลียวหวานซะเอง! ตำรวจจับเรียบร้อย อินเดียปล่อยเงินกู้ท้าทายระบบ หลังผยองบอก “ถ้าเป็นแค่สารวัตร ไม่ต้องมาจับ กระจอก” ไปจนมุมที่ระยอง เช็กในระบบงามไส้ อยู่เกินมาพันกว่าวัน วันที่ 21 พ.ย.69 พล.ต.ท.นพศิลป์ พูลสวัสดิ์ ผบช.สตม. ส",
-   "topic": "อาชญากรรม",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/crime/news_10480250",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/dfrtyfrfdd.jpg",
-   "published": 1795265159.0
-  },
-  {
-   "id": "n5drops2years",
-   "title": "ค่าเฉลี่ย PM2.5 ไทยลดลง 2 ปีต่อเนื่อง แต่ปี 2570 อาจเผชิญความเสี่ยงจากเอลนีโญ",
-   "desc": "ศูนย์วิจัยกสิกรไทยสรุปข้อมูลค่าเฉลี่ย PM2.5 ไทยลดลง 2 ปีต่อเนื่อง แต่ปี 2570 อาจเผชิญความเสี่ยงจากเอลนีโญ",
-   "topic": "ข่าวทั่วไป",
-   "source": "ไทยพับลิก้า",
-   "link": "https://thaipublica.org/2026/11/infographic-thai-pm25-drops-2-years/",
-   "image": "https://thaipublica.org/wp-content/uploads/2026/11/PR-SBU-522-THAILAND-PM2.5-450x860.webp",
-   "published": 1795264706.0
-  },
-  {
-   "id": "nnews_5983505",
-   "title": "ราศีใด ดาวศุกร์โคจรเจิดจรัส ได้ลาภหลายทาง แต่ระวังขัดแย้งกับพี่น้อง ปรับเปลี่ยนที่นอนจะดี",
-   "desc": "ปุสาคโม (22-28 พฤศจิกายน 2569) ลัคนา (ลั) ราศีเมษ ในรอบ",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/lifestyle/horoscope-lifestyle/news_5983505",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/%E0%B8%94%E0%B8%A7%E0%B8%871200-2.jpg",
-   "published": 1795264242.0
   }
  ]
 }
