@@ -1,7 +1,67 @@
 {
- "updated": "2026-11-21T15:24:39.873819+00:00",
+ "updated": "2026-11-21T16:24:16.713177+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "news_10480316",
+   "title": "สมาคมไทย-พม่าฯ นำหน่วยแพทย์เคลื่อนที่หู คอ จมูก ไปรักษาชาวเมียนมา",
+   "desc": "สมาคมไทย-พม่าฯ นำหน่วยแพทย์เคลื่อนที่หู คอ จมูก ไปรักษาชาวเมียนมา สมาคมไทย-พม่า เพื่อมิตรภาพ จัดโครงการหน่วยแพทย์เคลื่อนที่หู คอ จมูก ไปบริการตรวจรักษาและใช่เครื่องช่วยฟังแก่ชาวเมียนมา 3 วัน มีผู้มารับการตรวจรักษา 945 ราย ทีมแพทย์จากโรงพยาบ",
+   "topic": "สุขภาพ",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/monitor-news/news_10480316",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/rhsfgt.jpg",
+   "published": 1795276427.0
+  },
+  {
+   "id": "nnews_5985180",
+   "title": "‘สุโขทัย’ บุกถล่ม ‘ปัตตานี’ ถึงถิ่น 5-1 – ฉลามขี้ยวหักพ่ายอุทัยธานี 1-2",
+   "desc": "‘สุโขทัย’ บุกถล่ม ‘ปัตตานี’ ถึง",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/footballlocal/news_5985180",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-279.jpg",
+   "published": 1795276038.0
+  },
+  {
+   "id": "news_10480313",
+   "title": "มาร์ติน สเคอร์เทล อดีตกองหลัง ลิเวอร์พูล ทำนายสกอร์ หงส์แดง จะถล่ม แมนยู 3-0",
+   "desc": "มาร์ติน สเคอร์เทล อดีตกองหลัง ลิเวอร์พูล ทำนายสกอร์เกม “แดงเดือด” หนทำกำลังมาถึงนี้โดยชี้ “หงส์แดง” จะถล่ม แมนเชสเตอร์ ยูไนเต็ด 3-0 โดย สเคอร์เทล อดีตกองหลัง ลิเวอร์พูล เดินทางมาที่ประเทศไทยเมื่อวันที่ 21 พ.ย. เพื่อร่วมงานเปิดตัวคอลเลกชันพิ",
+   "topic": "กีฬา",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/sports/news_10480313",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/skrtel-2288.jpg",
+   "published": 1795276021.0
+  },
+  {
+   "id": "nomnode152235",
+   "title": "ไมโครซอฟท์เปิดตัว Aion 1.0 Instruct โมเดลขนาดเล็กสำหรับ On-Device AI",
+   "desc": "ไมโครซอฟท์เปิดตัว Aion 1.0 Instruct โมเดลขนาดเล็กสำหรับ On-Device AI Body ไมโครซอฟท์เปิดตัวโมเดลขนาดเล็กสำหรับรันแบบ on-device ตัวใหม่ชื่อ Aion 1.0 Instruct โดยจะมาแทน Phi Silica ที่ใช้มาตั้งแต่ปี 2024 ในเครื่องตระกูล Copilot+ PC Aion 1.0 I",
+   "topic": "เทคโนโลยี",
+   "source": "Blognone",
+   "link": "https://www.blognone.com/node/152235",
+   "image": "",
+   "published": 1795275104.0
+  },
+  {
+   "id": "nomnode152234",
+   "title": "ร้านเกมในอังกฤษขาย GTA 6 ได้แค่ 5 กล่อง พอไม่มีแผ่น คนไปซื้อแบบดิจิทัลกันหมด",
+   "desc": "ร้านเกมในอังกฤษขาย GTA 6 ได้แค่ 5 กล่อง พอไม่มีแผ่น คนไปซื้อแบบดิจิทัลกันหมด Body แม้ GTA 6 ทำเงินเฉพาะวันแรกวันเดียวได้สูงถึง 3.79 พันล้านดอลลาร์ แต่ไม่ใช่ว่าทุกคนจะได้ประโยชน์จาก GTA เสมอไป BBC สัมภาษณ์เจ้าของร้านเกม Super Game Shack ในเม",
+   "topic": "เทคโนโลยี",
+   "source": "Blognone",
+   "link": "https://www.blognone.com/node/152234",
+   "image": "",
+   "published": 1795274166.0
+  },
+  {
+   "id": "nomnode152233",
+   "title": "Canva เพิ่มทางเลือก ปิดฟีเจอร์ AI ทั้งหมดได้ในคลิกเดียว สำหรับคนไม่ต้องการ AI",
+   "desc": "Canva เพิ่มทางเลือก ปิดฟีเจอร์ AI ทั้งหมดได้ในคลิกเดียว สำหรับคนไม่ต้องการ AI Body Canva เพิ่มตัวเลือกใหม่ในหน้า Settings ชื่อ AI Controls หรือการปิดการทำงานของฟีเจอร์ AI ทั้งหมดในปุ่มเดียว เหตุผลของ Canva คือแม้ผู้ใช้ Canva นิยมใช้ฟีเจอร์ ",
+   "topic": "เทคโนโลยี",
+   "source": "Blognone",
+   "link": "https://www.blognone.com/node/152233",
+   "image": "",
+   "published": 1795273897.0
+  },
   {
    "id": "nnews_5985151",
    "title": "ในหลวง-พระราชินี ทรงรับการทูลเกล้าฯ ถวายปริญญาดุษฎีบัณฑิตกิตติมศักดิ์ และพระราชทานเข็มศิลปวิทยา",
@@ -51,16 +111,6 @@
    "link": "https://www.khaosod.co.th/sports/news_10480305",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/eak.jpg",
    "published": 1795271550.0
-  },
-  {
-   "id": "nCS1JZQkZRoc5",
-   "title": "ไม่แม่นยำ! แพทย์เตือนตรวจ ‘ซีที ดีเอ็นเอ’ คัดกรอง ‘มะเร็งเต้านม’",
-   "desc": "ไม่แม่นยำ! แพทย์เตือนตรวจ ‘ซีที ดีเอ็นเอ’ คัดกรอง ‘มะเร็งเต้านม’ bangkokbiznews บำรุงราษฎร์และไวทัลไลฟ์ ผนึกกำลังพันธมิตร จัดกิจกรรม “PINK RIDE 2026” รณรงค์สร้างความตระหนักรู้เกี่ยวกับมะเร็งเต้านม Bumrungrad International Hospital เรื่อง “ร",
-   "topic": "สุขภาพ",
-   "source": "bangkokbiznews",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GN3gzYkRXQnhZZzI2Mm1fcTJiQWlONlBNNXcydjc5VHV0c2NrV2ZWOUJoY1BTcGZhVG1BU2V2M1pFR0F3ZTh6QXRveDI5ZFZkSWFjdm5EazlLSWFqWGtfeW1LbC1CS1JZQkZR?oc=5",
-   "image": "",
-   "published": 1795271347.0
   },
   {
    "id": "nnews_5985117",
@@ -121,6 +171,16 @@
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yNXQ4Q05xOXF1bWY0VzhfQ1dmdGJOSlVQaDdqUy1yc0FxejV1T1g3bHNHOGUtc2s2a3hJNXd6YVhhX3I1UjNlel85U1ozM3p2b2xRYjhaZHVoWXZp?oc=5",
    "image": "",
    "published": 1795270062.0
+  },
+  {
+   "id": "n1hJTV9lNAoc5",
+   "title": "2 อดีตนายกฯ “ทักษิณ–แพทองธาร” ร่วมชมคอนเสิร์ตใหญ่ “30 ปี โลโซ”",
+   "desc": "2 อดีตนายกฯ “ทักษิณ–แพทองธาร” ร่วมชมคอนเสิร์ตใหญ่ “30 ปี โลโซ” อมรินทร์ทีวี ช่อง 34 สน.หัวหมาก แนะวางแผนเดินทาง เสาร์ที่ 21 พ.ย.นี้ \"คอนเสิร์ต 30 ปี โลโซ\" สนามราชมังคลากีฬาสถาน | สวพ.FM91 LINE TODAY 30 ปียังรอ! LOSO กับคอนเสิร์ตใหญ่อีกครั้ง",
+   "topic": "การเมือง",
+   "source": "อมรินทร์ทีวี ช่อง 34",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sOXJybWVRQnpmMV9mTEh4SDVoeVhTVkxjTmN1YUdtbXBlbGl6dV9YdnhKMFpuQ3o1YlAyRUljTDNlazRyaVNBeVIxM3ZQcFNtN1hJTV9lNA?oc=5",
+   "image": "",
+   "published": 1795269600.0
   },
   {
    "id": "ntnews1113213",
@@ -243,6 +303,16 @@
    "published": 1795266605.0
   },
   {
+   "id": "nONWpwTmxDoc5",
+   "title": "ศธจ.เพชรบุรี เข้าร่วมพิธีสมโภชผ้าพระกฐินพระราชทาน ประจำปี 2569",
+   "desc": "ศธจ.เพชรบุรี เข้าร่วมพิธีสมโภชผ้าพระกฐินพระราชทาน ประจำปี 2569 สำนักงานปลัดกระทรวงศึกษาธิการ ลพบุรี กฐินพระราชทานถวายพระสงฆ์จำพรรษากาลถ้วนไตรมาสวัดกวิศรารามราชวรวิหาร ทอล์คนิวส์ ออนไลน์ (ศธจ.มหาสารคาม)ร่วมพิธีถวายผ้าพระกฐินพระราชทานของกระทร",
+   "topic": "ข่าวทั่วไป",
+   "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+   "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNY2w5TzVYUkdpRFRqUWJ4ZFpEVFRjVTVRcTZzaVRJWDFncnE3SkZMMXpUT3g4T3FnVVRaOUk5bjhpVW9iMHJGXzlGSVhaVmwxYlJVSFprbEt3VERyNzRMU1c5cU10YzFmbE9tN21Fb3pTVXJZSUJsalY5TjFFd3ZEd29ZYWNlckZZQ0ctQXhacGw2N0hUOTh0RERsenlVMkdncENDUjFoazlkQnpVVGpmaUxYTHRXUDNWck04cFZ2bGM1MDFTMGp0TV9oaTFKR0c1VS1JMFdIb0x1a0ZlNVlFWFlNWVNnak0tLWhRMi1VQ2NtYm55cW00eTF1VnlodFBfQXdRd2ZlblAzUFJXUW8yY1Bhb01JTktLelRFZlBRN3U0MlZfdEZkcl9Tc2gwX1FEalROeXpONWpwTmxD?oc=5",
+   "image": "",
+   "published": 1795266603.0
+  },
+  {
    "id": "nsnews1113162",
    "title": "“สุชาติ” เปิด 4 มาตรการเข้ม! ชงประกาศเขตควบคุมมลพิษ 2 ธ.ค. สกัดสารเคมีชายแดน เร่งเจาะบาดาล 24 จุด–ทำแผนที่พื้นที่ปนเปื้อน แก้วิกฤตแม่น้ำกก ตามข้อสั่งการนายก",
    "desc": "นายสุชาติ ชมกลิ่น รัฐมนตรีว่าการกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม เปิดเผยว่า กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม (ทส.) เตรียมเสนอแผนปฏิบัติการและมาตรการแก้ไขปัญหาสารปนเปื้อนในแม่น้ำกกและแหล่งน้ำภาคเหนือตอนบน ตามข้อสั่งการของนายอนุทิน ",
@@ -251,16 +321,6 @@
    "link": "https://www.thaipost.net/public-relations-news/1113162/",
    "image": "https://storage-wp.thaipost.net/2026/11/S__40632956.jpg",
    "published": 1795266450.0
-  },
-  {
-   "id": "nONWpwTmxDoc5",
-   "title": "ศธจ.เพชรบุรี เข้าร่วมพิธีสมโภชผ้าพระกฐินพระราชทาน ประจำปี 2569",
-   "desc": "ศธจ.เพชรบุรี เข้าร่วมพิธีสมโภชผ้าพระกฐินพระราชทาน ประจำปี 2569 สำนักงานปลัดกระทรวงศึกษาธิการ ลพบุรี กฐินพระราชทานถวายพระสงฆ์จำพรรษากาลถ้วนไตรมาสวัดกวิศรารามราชวรวิหาร ทอล์คนิวส์ ออนไลน์ (ศธจ.มหาสารคาม)ร่วมพิธีถวายผ้าพระกฐินพระราชทานของกระทร",
-   "topic": "ข่าวทั่วไป",
-   "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
-   "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNY2w5TzVYUkdpRFRqUWJ4ZFpEVFRjVTVRcTZzaVRJWDFncnE3SkZMMXpUT3g4T3FnVVRaOUk5bjhpVW9iMHJGXzlGSVhaVmwxYlJVSFprbEt3VERyNzRMU1c5cU10YzFmbE9tN21Fb3pTVXJZSUJsalY5TjFFd3ZEd29ZYWNlckZZQ0ctQXhacGw2N0hUOTh0RERsenlVMkdncENDUjFoazlkQnpVVGpmaUxYTHRXUDNWck04cFZ2bGM1MDFTMGp0TV9oaTFKR0c1VS1JMFdIb0x1a0ZlNVlFWFlNWVNnak0tLWhRMi1VQ2NtYm55cW00eTF1VnlodFBfQXdRd2ZlblAzUFJXUW8yY1Bhb01JTktLelRFZlBRN3U0MlZfdEZkcl9Tc2gwX1FEalROeXpONWpwTmxD?oc=5",
-   "image": "",
-   "published": 1795266311.0
   },
   {
    "id": "ntnews1113160",
@@ -295,7 +355,7 @@
   {
    "id": "n2MDVGc2dVoc5",
    "title": "เดือนเดียว Nvidia หุ้นร่วงไปแล้วเกิน -40% โดยเมื่อวาน คืนเดียวลงถึง -14%",
-   "desc": "เดือนเดียว Nvidia หุ้นร่วงไปแล้วเกิน -40% โดยเมื่อวาน คืนเดียวลงถึง -14% Longtunman IPO Anthropic ไม่ช่วย หุ้น AI ถูกเทขายหนัก ฉุดตลาดหุ้นสหรัฐฯ เข้าสู่ภาวะปรับฐาน | การเงินธนาคาร LINE TODAY ตลาดหุ้นทั่วโลกดิ่งแรง กลุ่มเทคฯ เจอเทขายหนัก ทอง",
+   "desc": "เดือนเดียว Nvidia หุ้นร่วงไปแล้วเกิน -40% โดยเมื่อวาน คืนเดียวลงถึง -14% Longtunman ตลาดหุ้นทั่วโลกดิ่งแรง กลุ่มเทคฯ เจอเทขายหนัก ทองคำร่วง 2.81% แตะระดับต่ำสุดรอบ 14 เดือน Matichon Online แผ่วลงอย่างแรง! หุ้น Anthropic วันที่สองหล่นลง 8.5%",
    "topic": "เศรษฐกิจ",
    "source": "Longtunman",
    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LTElYNXRscnNWZ1U3eTA0aWV3RkNwbVRncUJ1RW9IbURvMUF5d1NYT3lIdUlsdmVfSnhoekQ4Zkx2MDVGc2dV?oc=5",
@@ -411,6 +471,16 @@
    "link": "https://thaipublica.org/2026/11/kkp-research-super-el-nino/",
    "image": "https://thaipublica.org/wp-content/uploads/2026/11/เอลนีโญ1500x1000-860x573.webp",
    "published": 1795263830.0
+  },
+  {
+   "id": "nFYzbGQ1awoc5",
+   "title": "\"กำนันมะโน\" ตอกย้ำปัญหาราคาน้ำมัน-ยาเสพติด เผย “สนธิ” ร่วมขึ้นปราศรัย 22 พ.ย.69",
+   "desc": "\"กำนันมะโน\" ตอกย้ำปัญหาราคาน้ำมัน-ยาเสพติด เผย “สนธิ” ร่วมขึ้นปราศรัย 22 พ.ย.69 thairath.co.th ขุดน้ำมันได้เอง ทำไมต้องส่งออก-นำเข้า? เปิดความจริงโรงกลั่นไทย ข่าวหุ้นธุรกิจออนไลน์ ‘กำนันมะโน’ ไปสังเกตการณ์ม็อบเยาวชนวานนี้ ชื่นชมแสดงออกเพื่อ",
+   "topic": "เศรษฐกิจ",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE04VDk5SVB6QThoTlFUbHA1Y3g5RWJjYW54UlB0NHlLc0tRcTlfY3dSZWVXYnFsX1RYQjV3MUhFLWVjMloxVy1wcWFvV1J3MlVnakxQMHVmX0tWekFEZFYzbGQ1aw?oc=5",
+   "image": "",
+   "published": 1795263752.0
   },
   {
    "id": "nnews_5985008",
@@ -531,76 +601,6 @@
    "link": "https://www.prachachat.net/economic/news-2099935",
    "image": "https://www.prachachat.net/wp-content/uploads/2026/11/P0223.jpg",
    "published": 1795263086.0
-  },
-  {
-   "id": "ncnews2100065",
-   "title": "ปตท.เดินต่อแผน Smart Exit โละธุรกิจไม่ถนัด-เซฟเงิน 2.8 หมื่นล้าน",
-   "desc": "ปตท.เดินหน้ากระชับองค์กร ปรับพอร์ตเลิกธุรกิจไม่ทำกำไร ชี้แผน Smart Exit ช่วยรักษาเงิน 28,500 ล้าน แถมดึงเงินสดกลับได้อีก 14,000 ล้าน เลี่ยงขาดทุนได้ปีละ 1,500 ล้าน ลั่นลุยต่อสถานีชาร์จอีวี โฟกัสธุรกิจหลัก-โครงสร้างพื้นฐานพลังงาน ขณะที่โรงกล",
-   "topic": "เศรษฐกิจ",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/economic/news-2100065",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/5-1POK-3.jpg",
-   "published": 1795263056.0
-  },
-  {
-   "id": "news_10480207",
-   "title": "ชกไม่มีมุม- ม็อบเริ่มคึกคัก บิ๊กราญรับมือแบบไหน",
-   "desc": "ขณะที่ม็อบกำนันมะโนจากภาคใต้ เข้ามาชุมนุมประชิดทำเนียบรัฐบาลมายาวนานกว่า 2 สัปดาห์แล้ว เพื่อเรียกร้องให้ลดราคาน้ำมันลง 10 บาท มาเมื่อวันศุกร์ที่แล้ว มีม็อบเจน Z ชุมนุมที่อนุสาวรีย์ประชาธิปไตย เรียกร้องระบบการศึกษาที่ไม่มีความเสมอภาค มากันอย",
-   "topic": "ข่าวทั่วไป",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/newspaper-column/blunt-opinion/news_10480207",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/1-CHH-scaled.jpg",
-   "published": 1795262853.0
-  },
-  {
-   "id": "nnews_5984992",
-   "title": "ในหลวง-พระราชินี ทรงเปิดอาคารพิพิธภัณฑ์ ‘ออมสินพิพิธ” รำลึก ร.6 ผู้พระราชทานกำเนิดคลังออมสิน",
-   "desc": "ในหลวง-พระราชินี ทรงเปิดอาคารพิพิธภัณฑ์ ‘ออมสินพิ",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/royal/news_5984992",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/159.jpg",
-   "published": 1795262833.0
-  },
-  {
-   "id": "nnews_5985009",
-   "title": "สวนสยาม ทุ่มหมดตัว เดิมพันหนีดีลหมื่นล้าน อีกครั้งของ ‘นักสู้’ คืนชีพสวนสนุกคนไทย",
-   "desc": "สวนสยาม ทุ่มหมดตัว เดิมพันหนีดีลหมื่นล้านอีกครั้งของ ‘น",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/clips/news_5985009",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/maxresdefault.jpg",
-   "published": 1795262783.0
-  },
-  {
-   "id": "news_10480195",
-   "title": "ชื่นชม แท็กซี่น้ำใจงาม เก็บเงิน1.3 แสนได้ ประสานสวพ.FM 91 ส่งคืนนักธุรกิจจิวเวอรี่ชาวอินเดีย",
-   "desc": "ชื่นชม แท็กซี่น้ำใจงาม เก็บเงิน1.3 แสนได้ ประสานสวพ.FM 91 ส่งคืนนักธุรกิจจิวเวอรี่ชาวอินเดีย วันที่ 21 พ.ย.2569 ที่สถานีวิทยุพิทักษ์สันติราษฎร์ สวพ.FM91 กองตำรวจสื่อสาร สำนักงานตำรวจแห่งชาติ คุณสกล ถาวรกาญจน์ ประธานเจ้าหน้าที่บริหาร ฝ่ายสื่",
-   "topic": "เศรษฐกิจ",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/special-stories/news_10480195",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/taxigood.jpg",
-   "published": 1795262696.0
-  },
-  {
-   "id": "news_10480201",
-   "title": "บทบรรณาธิการ – เสียงม็อบ Gen Z",
-   "desc": "ในการชุมนุมกลุ่มเยาวชนคนรุ่นใหม่หรือม็อบ Gen Z ประกาศ 4 ข้อเรียกร้องหลัก คือ ความเท่าเทียมทางการศึกษา ประชาธิปไตยในโรงเรียน การให้เยาวชนมีส่วนร่วมกำหนดอนาคตตนเอง และการเปลี่ยนแปลงระบบการศึกษาที่ไม่ควรผลิตคนเพื่อป้อนตลาดแรงงานและทุนเพียงอย่า",
-   "topic": "ข่าวทั่วไป",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/politics/hot-topics/news_10480201",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/1-bn-scaled.jpg",
-   "published": 1795262045.0
-  },
-  {
-   "id": "nnews_5984990",
-   "title": "ปลอดภัยแล้ว อุทยานตะรุเตา ฝ่าคลื่นลมแรง ช่วยนักท่องเที่ยว 22 ชีวิต เรือขัดข้องกลางทะเล",
-   "desc": "ปลอดภัยแล้ว อุทยานตะรุเตา ฝ่าคลื่นลมแรง ช่วยนักท่องเที่",
-   "topic": "ท่องเที่ยว",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/news_5984990",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/465651-1.jpg",
-   "published": 1795261994.0
   }
  ]
 }
