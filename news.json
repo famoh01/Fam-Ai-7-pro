@@ -1,7 +1,67 @@
 {
- "updated": "2026-11-22T14:41:49.411397+00:00",
+ "updated": "2026-11-22T15:37:37.821203+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "news_10481089",
+   "title": "ชาวบ้านผงะ เจอชิ้นส่วนมนุษย์ถูกฆ่ายัดกระสอบทิ้งซอยย่านลาดพร้าว หลังตามหาต้นตอกลิ่นเหม็นโชย",
+   "desc": "ชาวบ้านผงะ พบชิ้นส่วนมนุษย์ถูกฆ่ายัดกระสอบ ทิ้งในซอย ย่านลาดพร้าว หลังตามหาต้นตอกลิ่นเหม็นโชย เป็นเพศหญิง ลักษณะถูกจับนั่งยอง เมื่อเวลา 21.00 น. วันที่ 22 พ.ย.2569 ผู้สื่อข่าวรายงาน ชาวบ้านพบชิ้นส่วนมนุษย์ภายในซอยลาดพร้าว 109 แยก 5 แขวงคลอง",
+   "topic": "อาชญากรรม",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/breaking-news/news_10481089",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/426501977_811032171053533_1702112213740950331_n_0.jpg",
+   "published": 1795360551.0
+  },
+  {
+   "id": "nnews_5985912",
+   "title": "บาร์ซ่าโกงตาย! โดนนำ 2 ประตู รัว 3 เม็ดครึ่งหลัง แซงชนะบียาร์รีล 3-2",
+   "desc": "บาร์ซ่าโกงตาย! โดนนำ 2 ประตู รัว 3 เม็ดครึ่งหลัง แซงชนะ",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/footballinter/footballintereuro/news_5985912",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/2026-11-22T143419Z_670150616_UP1EMBM14H5X3_RTRMADP_3_.jpg",
+   "published": 1795360403.0
+  },
+  {
+   "id": "nbymeapooh107",
+   "title": "เรื่องเล่าจากลุงหมีปุ๊ ( 107)… รักสามเส้าของคีตกวีในยุคโรแมนติก",
+   "desc": "เรื่องเล่าจากลุงหมีปุ๊ ( 107)… รักสามเส้าของคีตกวีในยุคโรแมนติก",
+   "topic": "ยานยนต์",
+   "source": "ไทยพับลิก้า",
+   "link": "https://thaipublica.org/2026/11/stories-picked-by-meapooh107/",
+   "image": "https://thaipublica.org/wp-content/uploads/2026/11/Thaipublica_เรื่องเล่าจากลุงหมีปุ๊107-02-860x573.webp",
+   "published": 1795359924.0
+  },
+  {
+   "id": "nGX0N3a0hEoc5",
+   "title": "ฟุตบอลชายหาดไทย พ่าย ญี่ปุ่น 3-5 ลุ้นเข้ารอบในฐานะทีมอันดับ3ที่ดีที่สุด",
+   "desc": "ฟุตบอลชายหาดไทย พ่าย ญี่ปุ่น 3-5 ลุ้นเข้ารอบในฐานะทีมอันดับ3ที่ดีที่สุด TrueVisions ดูพาดหัวและความคิดเห็นเพิ่มเติมใน Google News",
+   "topic": "กีฬา",
+   "source": "TrueVisions",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2NFVYY0lLVTZWNENkaW1KRHhGTGxPZE5mR0RxR2RfNEUwN3VWanFPN0k5S0NNX0lIZzRnUDU5NTVyd0x0bWhzbEtGX0N3a0hE?oc=5",
+   "image": "",
+   "published": 1795359620.0
+  },
+  {
+   "id": "neople1113571",
+   "title": "ที่แท้ก็ ‘มะโน ๓ นิ้ว’!",
+   "desc": "“๒๒ พ.ย.๖๙” คือเมื่อวาน เป็นวันสุดท้าย ที่เปิดให้ประชาชนเข้ากราบพระบรมศพ The post ที่แท้ก็ ‘มะโน ๓ นิ้ว’! appeared first on .",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/columnist-people/1113571/",
+   "image": "https://storage-wp.thaipost.net/2024/03/plewseengern.jpg",
+   "published": 1795359053.0
+  },
+  {
+   "id": "news_10481085",
+   "title": "เสียชีวิตสลด 3 ศพ กระบะหลงทางพุ่งตกคลองชลประทาน ผญบ.-ชาวบ้านโดดน้ำช่วยยื้อชีวิตแต่ไม่ทัน",
+   "desc": "สุดสลดกระบะหลงทาง พุ่งตกคลองชลประทาน ผู้ใหญ่บ้าน-พลเมืองดีโดดน้ำช่วยยื้อชีวิตแต่ไม่ทัน เสียชีวิต 3 ศพ ชาวบ้าน เผย เห็นผู้หญิงเป็นคนขับ ไปถามทางที่ร้านค้าบอกจะไปอำเภอเสนา จ.พระนครศรีอยุธยา เมื่อเวลา 19.30 น. วันที่ 22 พ.ย.2569 ร.ต.ท.สันติ ธู",
+   "topic": "ข่าวทั่วไป",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/breaking-news/news_10481085",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/car-5.jpg",
+   "published": 1795358997.0
+  },
   {
    "id": "news_10481071",
    "title": "โสภณ เปิดใจเบื้องหลังเวที AIPA ซัดเขมรเหมือนเด็กงอแง กล่าวหาไทยไร้มนุษยธรรม ย้ำเราไม่ได้รังแกใคร",
@@ -73,16 +133,6 @@
    "published": 1795356245.0
   },
   {
-   "id": "nM4OXJtZWcoc5",
-   "title": "\"ช้างศึกชายหาด \" พ่าย ญี่ปุ่น 3-5 จบอันดับ 3 กลุ่ม A มี 3 แต้ม ยังมีลุ้นเข้ารอบ 8 ทีม ฟุตบอลชายหาด ชิงแชมป์เอเชีย 2026 ที่ประเทศไทย",
-   "desc": "\"ช้างศึกชายหาด \" พ่าย ญี่ปุ่น 3-5 จบอันดับ 3 กลุ่ม A มี 3 แต้ม ยังมีลุ้นเข้ารอบ 8 ทีม ฟุตบอลชายหาด ชิงแชมป์เอเชีย 2026 ที่ประเทศไทย Mainstand เต็มที่แล้ว! ทีมชาติไทย พ่าย ญี่ปุ่น 3-5 ตกรอบศึกฟุตบอลชายหาดชิงแชมป์เอเชีย 2026 ผู้จัดการออนไลน์ ",
-   "topic": "กีฬา",
-   "source": "Mainstand",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EVU1iSE9SVEVCNWdpdFZmVk96bXJKZFExZkxJR1FTcVE4V0JWRV9nSlAyYTZxa2YyT3haUG9aaVdMUnZPN041U2J6cWlIeGJlV3owaWM4OXJtZWc?oc=5",
-   "image": "",
-   "published": 1795356233.0
-  },
-  {
    "id": "news_10481058",
    "title": "แข้งเทพ เปิดรังเฉือนอยุธยาทะยานขึ้นจ่าฝูง – เชียงรายฟอร์มดุถล่มลำพูนศึกไทยลีก",
    "desc": "แข้งเทพ ทรู แบงค็อก ยูไนเต็ด ต้องลุ้นเหนื่อยกว่าจะเฉือนเอาชนะอยุธยา ยูไนเต็ด เก็บแต้มเท่าจ่าฝูง ด้านเชียงรายถล่มลำพูนยับเยินศึกไทยลีก ฟุตบอลบีวายดี ซีไลออน 6 ลีกหนึ่ง (ไทยลีก 1) เมื่อ 22 พ.ย. ที่ทรู บีจี สเตเดียม “แข้งเทพ”ทรู แบงค็อก ยูไนเต",
@@ -143,16 +193,6 @@
    "published": 1795355163.0
   },
   {
-   "id": "nGVfYnd4Ywoc5",
-   "title": "4 พฤติกรรมประจำวันที่อันตรายกว่าการสูบบุหรี่",
-   "desc": "4 พฤติกรรมประจำวันที่อันตรายกว่าการสูบบุหรี่ Vietnam.vn",
-   "topic": "ข่าวทั่วไป",
-   "source": "Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Db3JmaEpNaHdhZHNBbGFFTEMwTVc1NWdMcjVoWmlXeWgyQlNnUnNzVUlOaTh5U2Q0M2lqWi10RTdSLWJBWU13RmdLbnNqR1NHUTZyUzdGaTZKT3RydTdyWWRxQ2ZWQTh2eDE4ZFRvcnJZR2V0RGVfYnd4Yw?oc=5",
-   "image": "",
-   "published": 1795355152.0
-  },
-  {
    "id": "nnews_5984818",
    "title": "ลัคนาราศีใด ญาติใกล้ชิดนำลาภมาให้จากทางไกล รักชื่นมื่น ผู้ใหญ่จะให้ความหวังในสิ่งที่เป็นไปได้",
    "desc": "ดาวกับดวง ประจำวันจันทร์ที่ 23 พฤศจิกายน 2569 โดยพิมพ์พ",
@@ -203,6 +243,16 @@
    "published": 1795354083.0
   },
   {
+   "id": "nEzeW5qRlkoc5",
+   "title": "“ยศชนัน” ดึงภาคประชาสังคมร่วมวงเจรจาจีน–เมียนมา",
+   "desc": "“ยศชนัน” ดึงภาคประชาสังคมร่วมวงเจรจาจีน–เมียนมา thairath.co.th ภาคประชาชนจี้รัฐบาลเร่งแก้สารพิษข้ามแดน ยื่น 17 ข้อเสนอแก้ปัญหาที่ต้นตอ pptvhd36 (คลิป)“ดร.เชน”อู้เมือง!รับน้ำกกเปลี่ยนชัด แต่ย้ำต้องยึดวิทยาศาสตร์ไล่บี้ให้สุดห่วงโซ่อุตฯมลพิษข้",
+   "topic": "ต่างประเทศ",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1USVdlcVJvZXRjNk1JR3RtcElmYzJ2azBqNnF0b0o3c3FsVG9CbEROSHNGSDdodTI3ams0V2NqSUZpeWNXN21fRXhHN3NNb3pPbWM3MWEzeW5qRlk?oc=5",
+   "image": "",
+   "published": 1795354069.0
+  },
+  {
    "id": "ntnews1113558",
    "title": "‘ไทย’ ล้ม ‘สวิส’ 3-1 คู่ สร้างประวัติศาสตร์คว้าตั๋วเทนนิสทีมหญิงโลก 2027 รอบคัดเลือก เวิลด์กรุ๊ป",
    "desc": "ทัพนักหวดสาวไทยเปิดบ้านล้มทีมแกร่ง สวิตเซอร์แลนด์ 3-1 ค The post ‘ไทย’ ล้ม ‘สวิส’ 3-1 คู่ สร้างประวัติศาสตร์คว้าตั๋วเทนนิสทีมหญิงโลก 2027 รอบคัดเลือก เวิลด์กรุ๊ป appeared first on .",
@@ -221,6 +271,16 @@
    "link": "https://www.matichon.co.th/politics/news_5985885",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/%E0%B9%80%E0%B8%97%E0%B8%A7%E0%B8%A4%E0%B8%97-1.jpg",
    "published": 1795353857.0
+  },
+  {
+   "id": "nnews_5985911",
+   "title": "แข้งเทพแซงชนะอยุธยา 2-1 ยึดจ่าฝูง แต้มเท่าประจวบ เอฟซี",
+   "desc": "แข้งเทพแซงชนะอยุธยา 2-1 ยึดจ่าฝูง แต้มเท่าประจวบ เอฟซี",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/footballlocal/news_5985911",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/S__64217236_0_0.jpg",
+   "published": 1795353059.0
   },
   {
    "id": "news_10481030",
@@ -341,16 +401,6 @@
    "link": "https://www.matichon.co.th/politics/news_5985853",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/S__16916570_0.jpg",
    "published": 1795351244.0
-  },
-  {
-   "id": "ntnews1113482",
-   "title": "‘อาร์เตตา’ เสียดาย ‘ปืนใหญ่’ ชวดสามคะแนน หลังบุกเจ๊า ‘นิวคาสเซิล’",
-   "desc": "มิเกล อาร์เตตา กุนซืออาร์เซน่อล เสียดายหลัง “ปืนใ The post ‘อาร์เตตา’ เสียดาย ‘ปืนใหญ่’ ชวดสามคะแนน หลังบุกเจ๊า ‘นิวคาสเซิล’ appeared first on .",
-   "topic": "กีฬา",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/sport-news/1113482/",
-   "image": "https://storage-wp.thaipost.net/2026/11/23-11-รูปข่าว-7.jpg",
-   "published": 1795351171.0
   },
   {
    "id": "nnews_5985843",
@@ -505,7 +555,7 @@
   {
    "id": "nZ6aU1QdlUoc5",
    "title": "'ดร.เชน' เคลียร์พื้นที่แล็บโลหะหนัก เตรียมแกะรอยพิษแม่น้ำเชียงราย",
-   "desc": "'ดร.เชน' เคลียร์พื้นที่แล็บโลหะหนัก เตรียมแกะรอยพิษแม่น้ำเชียงราย ไทยโพสต์ รัฐบาลลุยสกัด “สารหนูแม่น้ำกก - สาย” ดันฝายอัจฉริยะลดพิษ 94.6% นำร่อง 18 เดือน ปกป้องนาข้าว 2.7 หมื่นไร่ LINE TODAY ให้ 5 เต็ม 100 แก้มลพิษข้ามแดน ฝ่ายค้าน จี้ รัฐบา",
+   "desc": "'ดร.เชน' เคลียร์พื้นที่แล็บโลหะหนัก เตรียมแกะรอยพิษแม่น้ำเชียงราย ไทยโพสต์ รัฐบาลลุยสกัด “สารหนูแม่น้ำกก - สาย” ดันฝายอัจฉริยะลดพิษ 94.6% นำร่อง 18 เดือน ปกป้องนาข้าว 2.7 หมื่นไร่ LINE TODAY ‘ยศชนัน’ ตรวจแล็บโลหะหนัก มฟล. ชูหลักฐานวิทยาศาสต",
    "topic": "ข่าวทั่วไป",
    "source": "ไทยโพสต์",
    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yaWpVMnRtRFFVVUFWOUNaSlVRVkZVVy1xWFpkOTk3Q0VrQ3JRaUJqdlBsdUFHUHFJQ1dxMGhrVmNMMDhwNXdFbnNVRWstYnBZTkRwUVZ6aU1QdlU?oc=5",
@@ -551,56 +601,6 @@
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPV29kT0s0UXBXUWlOYVBFaWZiOHByaWU2bHRibU5CeksyMEpWbUlRQ3BjWS1aVmRla254S2xFU205dlR1a3VJOEVQTW0xeWZrcmRabDZ3WlozY2htVnRaYThHNVFMbVd3ek5ITjJ1ZHpkYlpFN0VTOHIzb294aTdvSmtfTmtaSk04RXV4eTQxdVc?oc=5",
    "image": "",
    "published": 1795345735.0
-  },
-  {
-   "id": "news_10480944",
-   "title": "เอกซเรย์เจอเต็ม ๆ! สาวนิวซีแลนด์วัย 27 ปี พลาดกลืนส้อมทั้งคันลงกระเพาะ",
-   "desc": "สุดหวาดเสียว! สาวนิวซีแลนด์วัย 27 ปี พลาดกลืนส้อมทั้งคันลงท้อง ขณะพยายามกระตุ้นตัวเองให้อาเจียน หมอเอกซเรย์เจอคากระเพาะ ก่อนผ่าตัดนำออกสำเร็จ กลายเป็นกรณีทางการแพทย์สุดเหลือเชื่อ เมื่อหญิงสาววัย 27 ปี ในนิวซีแลนด์ ต้องเข้ารับการผ่าตัดอย่างเ",
-   "topic": "ต่างประเทศ",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/around-the-world-news/news_10480944",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/NZ-C.jpg",
-   "published": 1795345680.0
-  },
-  {
-   "id": "nnews_5985758",
-   "title": "รวบ ‘หัวหน้าคอกม้า’ แก๊งคอลฯ หลอกหญิง 62 สูญกว่า 4 ล้าน คุมถอนเงิน-ซื้อทองส่งต่อเครือข่าย",
-   "desc": "รวบ ‘หัวหน้าคอกม้า’ แก๊งคอลฯ หลอกหญิง 62 สูญกว่า 4 ล้าน",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/crime/news_5985758",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1200.1-127.jpg",
-   "published": 1795345513.0
-  },
-  {
-   "id": "nnews_5985761",
-   "title": "ชาวสงขลา เปิดเวทีหนุน กำนันมะโน จี้รัฐลดน้ำมัน10 บาท ซัด โรงกลั่นกำไรพุ่งสวนทางกับปชช.",
-   "desc": "ชาวสงขลารวมพลังกลางสายฝน เปิดเวทีหนุน “กำนันมะโน” ส่งเส",
-   "topic": "เศรษฐกิจ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/region/news_5985761",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/cats-158.jpg",
-   "published": 1795345351.0
-  },
-  {
-   "id": "nnews_5985781",
-   "title": "เวมบี้ทำสถิติเอ็นบีเอ เผยโชว์ออฟอวดเซเลนา โกเมซ",
-   "desc": "เวมบี้ทำสถิติเอ็นบีเอ เผยโชว์ออฟอวดเซเลนา โกเมซ วิคเตอร",
-   "topic": "กีฬา",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sport/sport-inter/news_5985781",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/nba.jpg",
-   "published": 1795345320.0
-  },
-  {
-   "id": "nnews_5985546",
-   "title": "ฟูอาดี้ พิศสุวรรณ I ไทย-พม่า ต้องกล้าหาญทางความมั่นคง สังคมอัดอั้น Just a Matter of Time",
-   "desc": "ประชาธิปไตยสองสี ตอนที่ 138 อธึกกิต แสวงสุข หรือ ใบตองแ",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/matichon-tv/news_5985546",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%95%E0%B8%A2%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B5_%E0%B8%9F%E0%B8%B9%E0%B8%AD%E0%B8%B2%E0%B8%94%E0%B8%B5%E0%B9%89-%E0%B8%9E%E0%B8%B4%E0%B8%A8%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%93-.jpg",
-   "published": 1795345206.0
   }
  ]
 }
