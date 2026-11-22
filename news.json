@@ -1,7 +1,27 @@
 {
- "updated": "2026-11-22T22:00:06.458584+00:00",
+ "updated": "2026-11-22T22:44:27.000975+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "nnews_5985874",
+   "title": "หน้า 1 หนังสือพิมพ์มติชน วันนี้",
+   "desc": "",
+   "topic": "ข่าวทั่วไป",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/newspaper-cover/news_5985874",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/MCB012411JAI-scaled.jpg",
+   "published": 1795384858.0
+  },
+  {
+   "id": "nnews_5985942",
+   "title": "อินเตอร์ มิลาน บุกเสมออตาลันต้าสุดมัน 4-4",
+   "desc": "อินเตอร์ มิลาน บุกเสมออตาลันต้าสุดมัน 4-4 อินเตอร์ มิลา",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/footballinter/footballintereuro/news_5985942",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/2026-11-22T202304Z_1061311804_UP1EMBM1KMFAQ_RTRMADP_3_.jpg",
+   "published": 1795384831.0
+  },
   {
    "id": "nDRENfRzdnoc5",
    "title": "GTA 6: รวมสูตรโกงทั้งหมดบน PS5 และ Xbox พร้อมวิธีปลดล็อก",
@@ -11,6 +31,16 @@
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPV2hCT20xOEVWeDZ4YkxVZnFiTGF0YnRsV3FnbXVPalU0eWlOMjNPTW4wUDZtcnF3cV84R0NINWU0WHFEOVpPQ2tWdUR1cllZRTBnM1RhcldGS19NTkVTNjYzd2NLd1JrR2dheE5RVkxKVVZESVlKbVdEcVdmQVdaNndUdTZrNG8tSFpTQ3FiYVlwbW90c0ttNmxveEU1MG9hZTFFdHNyZWQ1ZVU5UGNJS3hCVkkza2xkaEZZSmQwMUNZLV9DRENfRzdn?oc=5",
    "image": "",
    "published": 1795383486.0
+  },
+  {
+   "id": "nzA1Nmx0VQoc5",
+   "title": "สหรัฐฯก็กันแฮกเกอร์ไม่ได้",
+   "desc": "สหรัฐฯก็กันแฮกเกอร์ไม่ได้ thairath.co.th “ทรัมป์” มองแฮกฐานข้อมูล FBI อาจเป็นผลดี หวังเปิดโปงข้อมูลทุจริตเลือกตั้ง | การเงินธนาคาร LINE TODAY FBI กำลังสืบสวนเหตุการณ์เจาะระบบฐานข้อมูลอาชญากรรม thairath.co.th FBI ถูกเจาะระบบฐานข้อมูลอาชญากรร",
+   "topic": "ต่างประเทศ",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wT3JLYkh5WEpxVEZJb3JJNWk5Nk5QRUxxdG1oZloxRTFTZXlYaEhTZFFDajlkVU1CTGt6RGpoVkxsU2tmTlNzUm80eUo3TzZJYzA1Nmx0VQ?oc=5",
+   "image": "",
+   "published": 1795381860.0
   },
   {
    "id": "nnews_5985932",
@@ -23,16 +53,6 @@
    "published": 1795381767.0
   },
   {
-   "id": "nUNqZWdidwoc5",
-   "title": "มองโลกผ่านการท่องเที่ยว ตอน 3 : รามายณะและรามเกียรติ์: วัฒนธรรมที่ไม่เคยหยุดเดินทาง",
-   "desc": "มองโลกผ่านการท่องเที่ยว ตอน 3 : รามายณะและรามเกียรติ์: วัฒนธรรมที่ไม่เคยหยุดเดินทาง bangkokbiznews รู้จัก \"แรนบีร์ กาปูร์\" พระรามแห่ง Ramayana ทายาทตระกูลดารา สามีของนางเอกคังคุไบ Sanook กำลังมาเเรง! เปิดวาร์ปผู้รับบทพระราม ที่เเท้คือสามีคั",
-   "topic": "ต่างประเทศ",
-   "source": "bangkokbiznews",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZUEJ1S1JEVWlBaGh0SVRuUExCT3h3eTAzdzZ3R1VOZEdqc25tQ0NKbFdHcWtwRU5DcXd0eS1KQnkzSHJvZ1hDM3hVSUNZNURKOEhSSUNqZWdidw?oc=5",
-   "image": "",
-   "published": 1795379554.0
-  },
-  {
    "id": "nk1lcjRLdwoc5",
    "title": "สารหนูในเชียงราย สกสว.ใช้ระบบ ววน. อัจฉริยะชี้ต้นตอสารพิษ",
    "desc": "สารหนูในเชียงราย สกสว.ใช้ระบบ ววน. อัจฉริยะชี้ต้นตอสารพิษ bangkokbiznews “ยศชนัน” ดึงภาคประชาสังคมร่วมวงเจรจาจีน–เมียนมา thairath.co.th ภาคประชาชนจี้รัฐบาลเร่งแก้สารพิษข้ามแดน ยื่น 17 ข้อเสนอแก้ปัญหาที่ต้นตอ pptvhd36 สธ. ยันยังไม่พบผู้ป่วยพ",
@@ -41,6 +61,16 @@
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ySklQMWxOTndNU05WMnRnbnA3MFlpdXIzeHV3bUFEUDNMT0FuOFVKb2dZZnFMY2pVN0RMMkRUcTlscjRxLUQxYnpEWmNCMUozTU9uQ3VoZmxBUEMzMW9tSk1lcjRLdw?oc=5",
    "image": "",
    "published": 1795379347.0
+  },
+  {
+   "id": "n05cllOa3coc5",
+   "title": "ออปชันเชน | ข้อมูลราคา & ข่าวสารหุ้น TSLA 261106 350.00C (TSLA261106C350000)",
+   "desc": "ออปชันเชน | ข้อมูลราคา & ข่าวสารหุ้น TSLA 261106 350.00C (TSLA261106C350000) Moomoo ทําไมหุ้น Tesla Inc ถึงร่วงลงในวันนี้? Investing.com หุ้น Tesla ทดสอบเส้น SMA 50 วัน ขณะที่การขยาย Cybercab หนุนแนวโน้มระยะยาว Traders Union HSBC อัปเกรด Te",
+   "topic": "เศรษฐกิจ",
+   "source": "Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOVTRVOXZBckpEcDFMWm9nSEJMU3ZoQnVuakhMNUxBTG5YRVM5TGFNdE9ZbW5vdGVTZlNpRnFWb1ltcVN2bE0wRTJGcFpWc0JzTkpTM0FGMVZFSnlYOUc5WW5OWGxDT1FEaGY2OGJMRlhwUEZqQXZFM2RtTVROMndUYzRQN1AwZjdaQ0tHSUhKU1l0QXNVeGVHQmh2cWM2T3hJcGV5UGFTQkQwc2VnUDgtNTNTS3JUMGQ4LUJKTlVnZkJpX3ZLeGZvOEw5NllDY2N4dVVLMk9pMy1yUVBaTU5zaGlTVjVLMHppeUlzS0tfaVBSdlN2eTJfaENUVVdrbTFGUTF2ck51bkNNLXdLanZYZmZBUm5NSHd5OGNSTE9XN3pKamtpaUJwMVoyZ1ZzU2NPand5b0JaY0dXQjlKLWxZaDFIMTQxSm11YnBaS0hIV1R4RS1tTDA0aGtsWklCZURXSnhCTTQ4Y0RYZzI2OVp3RUxLeC05cllOa3c?oc=5",
+   "image": "",
+   "published": 1795379030.0
   },
   {
    "id": "nJKekREeUEoc5",
@@ -115,7 +145,7 @@
   {
    "id": "nkh4LW5XQQoc5",
    "title": "ผลบอลลิเวอร์พูล เปิดบ้านถล่ม แมนยู 10 คน 4-0 ศึกแดงเดือด",
-   "desc": "ผลบอลลิเวอร์พูล เปิดบ้านถล่ม แมนยู 10 คน 4-0 ศึกแดงเดือด pptvhd36 ฟุตบอลพรีเมียร์ลีก อังกฤษ ลิเวอร์พูลพบแมนยู ศึกแดงเดือด หงส์ปะทะผีหนีตาย Thai PBS LIVE ดูบอลสด ลิเวอร์พูล พบ แมนยู แดงเดือดวันนี้ (22 พ.ย. 69) 23.30 น. พรีเมียร์ลีก 2026-27 t",
+   "desc": "ผลบอลลิเวอร์พูล เปิดบ้านถล่ม แมนยู 10 คน 4-0 ศึกแดงเดือด pptvhd36 ลิเวอร์พูล 4-0 แมนยู : ริโอ-เวียร์ตซ์ ฟอร์มเทพ! หงส์ฝังผีคาแอนฟิลด์เกม \"แดงเดือด\" Siamsport สรุปตารางคะแนนพรีเมียร์ลีก 2026 ล่าสุดหลัง ลิเวอร์พูล ถล่ม แมนยู ศึกแดงเดือด thair",
    "topic": "กีฬา",
    "source": "pptvhd36",
    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01dS1Rb1JjSjBOMWN5Z1hDTkNtTlBtUWRVNzN5dm1Ra01yaDdxSnkxMGRBcHhtS25lWnpQZWtGODh3U2N2WWpTVzFDcHJqRkh4LW5XQQ?oc=5",
@@ -141,6 +171,16 @@
    "link": "https://www.khaosod.co.th/breaking-news/news_10481115",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/xzasd.jpg",
    "published": 1795370586.0
+  },
+  {
+   "id": "nUNqZWdidwoc5",
+   "title": "มองโลกผ่านการท่องเที่ยว ตอน 3 : รามายณะและรามเกียรติ์: วัฒนธรรมที่ไม่เคยหยุดเดินทาง",
+   "desc": "มองโลกผ่านการท่องเที่ยว ตอน 3 : รามายณะและรามเกียรติ์: วัฒนธรรมที่ไม่เคยหยุดเดินทาง bangkokbiznews รู้จัก \"แรนบีร์ กาปูร์\" พระรามแห่ง Ramayana ทายาทตระกูลดารา สามีของนางเอกคังคุไบ Sanook กำลังมาเเรง! เปิดวาร์ปผู้รับบทพระราม ที่เเท้คือสามีคั",
+   "topic": "ต่างประเทศ",
+   "source": "bangkokbiznews",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZUEJ1S1JEVWlBaGh0SVRuUExCT3h3eTAzdzZ3R1VOZEdqc25tQ0NKbFdHcWtwRU5DcXd0eS1KQnkzSHJvZ1hDM3hVSUNZNURKOEhSSUNqZWdidw?oc=5",
+   "image": "",
+   "published": 1795368753.0
   },
   {
    "id": "neople1113548",
@@ -383,6 +423,16 @@
    "published": 1795357591.0
   },
   {
+   "id": "nBFUGZTRXcoc5",
+   "title": "“เท่าพิภพ” ให้กำลังใจ “ไอซ์ รักชนก”เชื่อ “ฟ้าจะเป็นใจให้ไอซ์รอด”",
+   "desc": "“เท่าพิภพ” ให้กำลังใจ “ไอซ์ รักชนก”เชื่อ “ฟ้าจะเป็นใจให้ไอซ์รอด” thairath.co.th ไอซ์ รักชนก…คนอย่างนี้แหละ! ไทยโพสต์ ศาลอุทธรณ์นัดฟังคำพิพากษา \"ไอซ์ รักชนก\" คดี 112 พรุ่งนี้ 23 พ.ย. Thai PBS “โรม” ถ่ายทอดมุม “คนธรรมดา” ของ “รักชนก ศรีนอก” ก",
+   "topic": "ข่าวทั่วไป",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kZ1MzWk9QdXp4UW8wMnVQemt2Zk5YdTdLdktiaDlJaUhZOXkwWXE3bDhrdDRnSDBFSlNkbll3ZzdQWjJKdXhZRkJSdHFiRnNxNUh6ZDBFUGZTRXc?oc=5",
+   "image": "",
+   "published": 1795357260.0
+  },
+  {
    "id": "nnews_5985908",
    "title": "ไทยพ่ายญี่ปุ่น 3-5 ยังมีลุ้นเข้ารอบเป็นอันดับ 3 ที่ดีที่สุด ศึกฟุตบอลชายหาด เอเอฟซี เอเชี่ยนคัพ",
    "desc": "ไทยพ่ายญี่ปุ่น 3-5 ยังมีลุ้นเข้ารอบเป็นอันดับ 3 ที่ดีที",
@@ -435,7 +485,7 @@
   {
    "id": "nTRscUVnagoc5",
    "title": "พยากรณ์อากาศ 24 ชม.ข้างหน้า 'เหนือ' เย็นตอนเช้า 'ใต้' ฝนลดลง 'กทม.' อุณหภูมิต่ำสุด 23 องศาฯ",
-   "desc": "พยากรณ์อากาศ 24 ชม.ข้างหน้า 'เหนือ' เย็นตอนเช้า 'ใต้' ฝนลดลง 'กทม.' อุณหภูมิต่ำสุด 23 องศาฯ ไทยโพสต์ เตือน 7 จังหวัดภาคใต้ เฝ้าระวังดินถล่ม-น้ำป่าไหลหลาก 22–24 พ.ย.นี้ Thai PBS พยากรณ์อากาศประจำวันที่ 22 พฤศจิกายน 2569 กรุงเทพและปริมณฑล มีเ",
+   "desc": "พยากรณ์อากาศ 24 ชม.ข้างหน้า 'เหนือ' เย็นตอนเช้า 'ใต้' ฝนลดลง 'กทม.' อุณหภูมิต่ำสุด 23 องศาฯ ไทยโพสต์ เตือน 7 จังหวัดภาคใต้ เฝ้าระวังดินถล่ม-น้ำป่าไหลหลาก 22–24 พ.ย.นี้ Thai PBS กรมอุตุนิยมวิทยา เตือนฉบับสุดท้าย 24-25 พ.ย.นี้ ไทยตอนบนอากาศเย",
    "topic": "ข่าวทั่วไป",
    "source": "ไทยโพสต์",
    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vYWw3cHhvNE5BQWQ3YlNpVjUyYW5TVjdjTzVPck5MYXBCMHJGX0lDSDZBXzhSc1hfVzJHdTB0TzZmaTJPVjV6d1Rla3dJRTRscUVnag?oc=5",
@@ -551,56 +601,6 @@
    "link": "https://www.matichon.co.th/politics/news_5985885",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/%E0%B9%80%E0%B8%97%E0%B8%A7%E0%B8%A4%E0%B8%97-1.jpg",
    "published": 1795353857.0
-  },
-  {
-   "id": "nnews_5985911",
-   "title": "แข้งเทพแซงชนะอยุธยา 2-1 ยึดจ่าฝูง แต้มเท่าประจวบ เอฟซี",
-   "desc": "แข้งเทพแซงชนะอยุธยา 2-1 ยึดจ่าฝูง แต้มเท่าประจวบ เอฟซี",
-   "topic": "กีฬา",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sport/footballlocal/news_5985911",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/S__64217236_0_0.jpg",
-   "published": 1795353059.0
-  },
-  {
-   "id": "news_10481030",
-   "title": "รวบ 4 เยาวชน ตระเวนขโมยรถข้ามจังหวัด ทำมา 8 ครั้ง นำไปขาย คันไหนถูกใจเก็บไว้แต่งซิ่ง",
-   "desc": "รวบ 4 เยาวชน ตระเวนขโมยรถข้ามจังหวัด ทำมา 8 ครั้ง นำรถไปขาย บางคันถูกใจเก็บไว้แต่งซิ่ง อ้างอยากมีรถขี่เหมือนเด็กคนอื่นบ้าง 22 พ.ย. 69 – ที่ สภ.จอมเทียน จ.ชลบุรี พ.ต.อ.พิสิทธิ์ ตั้งศิริเสถียร ผกก.สภ.นาจอมเทียน พร้อม พ.ต.ท.อดิศร กองโกย รอง ผก",
-   "topic": "ยานยนต์",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/around-thailand/news_10481030",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/njt.jpg",
-   "published": 1795352901.0
-  },
-  {
-   "id": "news_10481022",
-   "title": "“ยศชนัน” พบปะรับฟัง เตือนใจ ดีเทศน์ และตัวแทนผู้ได้รับผลกระทบด้านน้ำในแม่สาย เชียงราย",
-   "desc": "ยศชนัน วงศ์สวัสดิ์ รองนายกรัฐมนตรี และรมว.อุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม พบปะรับฟัง เตือนใจ ดีเทศน์ และตัวแทนผู้ได้รับผลกระทบด้านน้ำในแม่สาย เชียงราย ยันนำทุกข้อเสนอไปแก้ไขปัญหาเพื่อหาทางออกร่วมกัน วันที่ 22 พ.ย.2569 ศ.ดร.ยศชนัน วงศ",
-   "topic": "การเมือง",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/politics/news_10481022",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Yotchanan.jpg",
-   "published": 1795352496.0
-  },
-  {
-   "id": "nnews_5985873",
-   "title": "เตือน 7 จังหวัดภาคใต้ เฝ้าระวังดินโคลนถล่ม-น้ำป่า 22-24 พ.ย. เฮ้งกำชับกรมธรณีติดตามใกล้ชิด",
-   "desc": "‘สุชาติ’ เตือนประชาชน 7 จังหวัดภาคใต้ เฝ้าร",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/news_5985873",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/86010457806-1.jpg",
-   "published": 1795352486.0
-  },
-  {
-   "id": "nnews_5985556",
-   "title": "เริ่มแล้ว! วิบากกรมที่ กกต.ต้องเจอ ฝากประชาชนออกมาร่วมสู้เพื่อความยุติธรรม",
-   "desc": "รายการเอื้อยTalk คุยกับ นรินท์พงศ์ จินาภักดิ์ นายกสมาคม",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/matichon-tv/news_5985556",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%AD%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%97%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B8%99%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B8%9E%E0%B8%87%E0%B8%A8%E0%B9%8C-%E0%B8%88%E0%B8%B4%E0%B8%99%E0%B8%B2%E0%B8%A0%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B4%E0%B9%8C.jpg",
-   "published": 1795352413.0
   }
  ]
 }
