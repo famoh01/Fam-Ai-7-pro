@@ -1,16 +1,46 @@
 {
- "updated": "2026-11-23T17:53:01.266741+00:00",
+ "updated": "2026-11-23T18:51:49.549409+00:00",
  "count": 60,
  "items": [
   {
-   "id": "nlIOUI5UnEoc5",
-   "title": "ตัวแก้ไดรเวอร์ Nvidia ที่เขียนไฟล์ถล่ม SSD ยังไม่หายจริง ทางรอดคือถอยกลับรุ่น 621.01",
-   "desc": "ตัวแก้ไดรเวอร์ Nvidia ที่เขียนไฟล์ถล่ม SSD ยังไม่หายจริง ทางรอดคือถอยกลับรุ่น 621.01 GameMonday",
+   "id": "nqanlnTlNUoc5",
+   "title": "โปรแกรมถ่ายทอดสดประจำวันอังคารที่ 24 พฤศจิกายน 69",
+   "desc": "โปรแกรมถ่ายทอดสดประจำวันอังคารที่ 24 พฤศจิกายน 69 TrueVisions ชี้ 4 ตัวเต็งบอลน่าเชียร์ 23 พ.ย. 69 : ทีเด็ดบอลวันนี้ คัดเน้น ๆ ฟิออเรนติน่า, เบรนท์ฟอร์ด ลุ้นเฮ! Siamsport โปรแกรมกีฬาวันนี้ พร้อมช่องถ่ายทอดสด วันอาทิตย์ที่ 22 พฤศจิกายน 69 TN",
    "topic": "ข่าวทั่วไป",
-   "source": "GameMonday",
-   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45TmJTSDhaLU1WSzYtTlNXQVgxbHcwTzljeGdlU1AwVVM5NmpITlQyXzJHckthS1p1WFhFWFZ0WndjVmJRR0lIOUI5UnE?oc=5",
+   "source": "TrueVisions",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVcnBBVnRXZGc5bk9WeVZhY3gxc09CLUNPYzdzRFZiNVpmSmxCZjlrMFJnZF9qN3l6T3FDWmlpcFdiUlVFRDZiM0dqanlnTlNU?oc=5",
    "image": "",
-   "published": 1795455421.0
+   "published": 1795458491.0
+  },
+  {
+   "id": "noeE9IWklMoc5",
+   "title": "RingConn เปิดตัว The One Ring แหวนอัจฉริยะรุ่นลิมิเต็ด The Lord of the Rings ลวดลายเหมือนในหนัง ไม่มีเวทมนตร์แต่อัจฉริยะ",
+   "desc": "RingConn เปิดตัว The One Ring แหวนอัจฉริยะรุ่นลิมิเต็ด The Lord of the Rings ลวดลายเหมือนในหนัง ไม่มีเวทมนตร์แต่อัจฉริยะ DroidSans",
+   "topic": "ข่าวทั่วไป",
+   "source": "DroidSans",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fcG83cF92LU5nc19PR2dUSmdwT3dMNWxxcGkxYW5wTFpOdnVnR3hWZVMtSHRMQ2duR212VExTMVRFYU1fYkhGT1IzTE4ycUZUdVVaOGRFaXE1Q2RobVMwZjMxZVRLbHVURjBQSUdoeE9IWklM?oc=5",
+   "image": "",
+   "published": 1795457567.0
+  },
+  {
+   "id": "nnews_5982713",
+   "title": "แกะรอยต่างแดน : การค้นพบพื้นมหาวิหารโบราณในซูดาน หนึ่งในโบสถ์ยุคกลางที่ใหญ่ที่สุด",
+   "desc": "แกะรอยต่างแดน : การค้นพบพื้นมหาวิหารโบราณในซูดาน หนึ่งใ",
+   "topic": "ต่างประเทศ",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/foreign/indepth/news_5982713",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/sudan1.jpg",
+   "published": 1795457206.0
+  },
+  {
+   "id": "news_10482266",
+   "title": "จับลูกวินจยย.ข่าวดัง ต่อยตร.คอมมานโดในร้านโอเกะหนีคุกหลายคดี เผยพ่อฝากขอโทษบอกไม่น่าทำลงไปเลย",
+   "desc": "ผู้การคอมมานโด จัดให้รวบลูกชายวินจยย. ข่าวดังตบตำรวจในร้านคาราโอเกะที่เมืองทอง หนีหมายจับบัญชีม้า หลอกลงทุน-กู้เงิน เสียหายกว่า 2.2 ล้านบาท เผยพ่อฝากขอโทษไม่น่าทำลงไปเลย วันที่ 23 พ.ย.2569 พล.ต.ต.อรุณ วชิรศรีสุกัญยา ผบก.ปพ. พ.ต.อ.อภิชน ขันก",
+   "topic": "อาชญากรรม",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/around-thailand/news_10482266",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/ssd.jpg",
+   "published": 1795456179.0
   },
   {
    "id": "nobndSQlFCoc5",
@@ -21,6 +51,16 @@
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Yb3p5b0JwcEJELU84N0dxSl9GNE5DV2kyZ0JpQjNrLWczTUczMVVFSkhsOWRydThzbWtZYXkxYmVxTkM0dlhuaVBfcGZ6MWtQMnZDemRobndSQlFC?oc=5",
    "image": "",
    "published": 1795455000.0
+  },
+  {
+   "id": "nnews_5987219",
+   "title": "สมาคมนักเรียนเก่าสุทธิวรารามประกาศอัดฉีดสิงห์สะพานปลาลุ้นแชมป์กีฬา 7HD",
+   "desc": "สมาคมนักเรียนเก่าสุทธิวรารามประกาศอัดฉีดสิงห์สะพานปลาลุ",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/footballlocal/news_5987219",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/6-%E0%B8%A3%E0%B8%A3.%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg",
+   "published": 1795454984.0
   },
   {
    "id": "news_10482259",
@@ -155,7 +195,7 @@
   {
    "id": "nTbFRkS2VRoc5",
    "title": "วิบากกรรม‘รักชนก’คุก3ปีคดีม.112 สู้ในชั้นฎีการักษาพื้นที่ทางการเมือง",
-   "desc": "วิบากกรรม‘รักชนก’คุก3ปีคดีม.112 สู้ในชั้นฎีการักษาพื้นที่ทางการเมือง ไทยโพสต์ แกลเลอรีรูปภาพ เจาะทรัพย์สิน ไอซ์ รักชนก ศรีนอก นักการเมืองรุ่นใหม่ กับเงินทองที่มีแบบรวยชิลๆ Sanook “ไอซ์ รักชนก” ประกาศจองกฐินซักฟอก “ไชยชนก” หัวแก้วหัวแหวนลูกพ",
+   "desc": "วิบากกรรม‘รักชนก’คุก3ปีคดีม.112 สู้ในชั้นฎีการักษาพื้นที่ทางการเมือง ไทยโพสต์ “ไอซ์ รักชนก” ได้ประกัน คงสถานะ สส. ศาลอนุญาตปล่อยตัวชั่วคราว คดีมาตรา 112 thairath.co.th เจาะทรัพย์สิน ไอซ์ รักชนก ศรีนอก นักการเมืองรุ่นใหม่ กับเงินทองที่มีแบบร",
    "topic": "การเมือง",
    "source": "ไทยโพสต์",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzTzh0QVN6cGJwZVRwOG5nR3dCaVlYeDdJelQwOW5uMUktZVA1bS1YcXRjSjEtRFd2bmhRZ1J5b0g4UEwzbnpaTTI1T1pyNDV5TEVPeWJESDMzVDBySDJ5YXR0amE4NUlTbFRkS2VR?oc=5",
@@ -273,16 +313,6 @@
    "published": 1795444800.0
   },
   {
-   "id": "nUNlcF9wZwoc5",
-   "title": "FTSE 100 วันนี้: หุ้นปรับขึ้นนําโดยธนาคารและเหมืองทองคํา ขณะที่ PMI อังกฤษดีกว่าคาด",
-   "desc": "FTSE 100 วันนี้: หุ้นปรับขึ้นนําโดยธนาคารและเหมืองทองคํา ขณะที่ PMI อังกฤษดีกว่าคาด Investing.com ภาวะตลาดหุ้นลอนดอน : ดัชนี FTSE (^FTSE) — 20 พ.ย. 2569 efinanceThai ตลาดหุ้นยุโรปฟื้นตัว รับแรงซื้อคืนกลุ่มเทคฯ-เหมืองแร่ หลังร่วงหนักสัปดาห์ท",
-   "topic": "เศรษฐกิจ",
-   "source": "Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OUEMyRW9UNmY1c0RQOTRoWURBdHpWeUVBVm9kUjE4TEgxcWdfZDRkOE8yYjdsSXh3bkhMMndxckdzcjJTbGhvWlRGUlhFaEV1cVZmZVZFZzlERFNYSnlJUG9Cc1IxS2ZqLUNlcF9wZw?oc=5",
-   "image": "",
-   "published": 1795444650.0
-  },
-  {
    "id": "nnews_5987200",
    "title": "ด่วน! บอร์ด Nvidia ตั้ง เจนเซน หวง กลับมาดำรงตำแหน่ง หุ้นพุ่งทันที 25%",
    "desc": "ด่วน! บอร์ด Nvidia ตั้ง เจนเซน หวง กลับมาดำรงตำแหน่ง หุ",
@@ -393,16 +423,6 @@
    "published": 1795442000.0
   },
   {
-   "id": "nBqSnhFSFEoc5",
-   "title": "ฆ่าหั่นศพสาวยัดกระสอบ เป็นฝีมือผัวชาวเมียนมา พบอำพรางสุดโหด",
-   "desc": "ฆ่าหั่นศพสาวยัดกระสอบ เป็นฝีมือผัวชาวเมียนมา พบอำพรางสุดโหด thairath.co.th พบหลักฐานสำคัญ คาดเป็นคนร้ายฆ่าหั่นศพสาว หิ้วกระสอบขนาดใหญ่ ใกล้จุดเกิดเหตุ thairath.co.th ผบช.น.เผยรู้ตัวชายเมียนมาฆ่าหั่นศพภรรยาลาดพร้าว 109 พบคราบเลือดในห้องพัก T",
-   "topic": "อาชญากรรม",
-   "source": "thairath.co.th",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9neGNOWklTNkx3VXNnT28xMW5SdG5sTkJfeVBDVUVxdDkwWHZPN3pVcklvaUV5V1pUcHdFTWEyNEVVYTdxeVVmRExWdDh6dmNoejBqSnhFSFE?oc=5",
-   "image": "",
-   "published": 1795441835.0
-  },
-  {
    "id": "n3xa0djyih36g",
    "title": "กรมพัฒนาที่ดิน โชว์สูตรดิน คนเมืองกิน ”กระเพาะสะอาด“ @อีจันแฟร์",
    "desc": "ลูกค้าชอบบูธอีสมาก! กรมพัฒนาที่ดิน โชว์สูตรดิน คนเมืองกิน ”กระเพาะสะอาด“ @อีจันแฟร์ x มูนริมเลค 2026 presented by ลอตเตอรี่พลัส",
@@ -451,6 +471,16 @@
    "link": "https://www.khaosod.co.th/around-thailand/news_10481995",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/tu-1.jpg",
    "published": 1795440766.0
+  },
+  {
+   "id": "nyVzJVeEV1oc5",
+   "title": "ราคาน้ำมันโลกดิ่งกว่า 1% จับตาการขนส่งน้ำมันในตะวันออกกลาง : อินโฟเควสท์",
+   "desc": "ราคาน้ำมันโลกดิ่งกว่า 1% จับตาการขนส่งน้ำมันในตะวันออกกลาง : อินโฟเควสท์ สำนักข่าวอินโฟเควสท์ ‘ส่งออกน้ำมันดิบโลก’ ทุบสถิติ 47 ล้านบาร์เรลต่อวัน ‘เส้นทางอ้อม’ ดันต้นทุนขนส่งพุ่ง | The Bangkok Insight LINE TODAY Deutsche Bank คาดราคาน้ํามันเ",
+   "topic": "เศรษฐกิจ",
+   "source": "สำนักข่าวอินโฟเควสท์",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBva3NtZENkYnFtRW1janRGOWN5emNYS2RCdjBkQkV3aElXTDc5UjZUQkJoRHJycU8xYnAwQnlVdVM3YnZ6SmwxcXVyVzJVeEV1?oc=5",
+   "image": "",
+   "published": 1795440592.0
   },
   {
    "id": "news_10482164",
@@ -513,6 +543,16 @@
    "published": 1795439428.0
   },
   {
+   "id": "nR1dUdLdmcoc5",
+   "title": "ปิดตลาดราคาทอง วันนี้ (23 พ.ย.69) ผันผวน 31 ครั้ง บวก 1,200 บาท | สวพ.FM91",
+   "desc": "ปิดตลาดราคาทอง วันนี้ (23 พ.ย.69) ผันผวน 31 ครั้ง บวก 1,200 บาท | สวพ.FM91 LINE TODAY ปิดตลาดราคาทอง วันนี้ (23 พ.ย.69) ผันผวน 31 ครั้ง บวก 1,200 บาท LINE TODAY ทำไมทุกอย่างถึงร่วงพร้อมกัน? เปิดเบื้องหลังแรงขาย หุ้น ทอง คริปโตฯ สะเทือนตลาดก",
+   "topic": "เศรษฐกิจ",
+   "source": "LINE TODAY",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04ZVVCTlBnWnlrUkhrbmYwbmF1WjBuVUJoa0s3bS15QjZQcy1ha2RsdW01MDVkemRiNzRTamJjS0FTTFNra09uZElZUk4zaVZkMWJSd0NjeFlPek9scDJjdVZjUTl2ZGhGZTVDX185enNLWmtxaGY2R1R1dUdLdmc?oc=5",
+   "image": "",
+   "published": 1795439231.0
+  },
+  {
    "id": "news_10482149",
    "title": "‘วัชระพล’ ยัน ลอยกระทงพืชสวนโลกอุดรฯ พร้อมแล้ว ชู 6 จุดเช็กอิน",
    "desc": "‘วัชระพล’ ยัน ลอยกระทงพืชสวนโลกอุดรฯ พร้อมแล้ว ชู 6 จุดเช็กอิน แสงจันทร์-ลอยกระทงดิจิทัล บริการชุดไทยฟรี คาดประชาชนร่วมงานคึกคัก 23 พ.ย. 69 – นายวัชระพล ขาวขำ รมช.เกษตรและสหกรณ์ ในฐานะ สส.อุดรธานี พรรคเพื่อไทย ลงพื้นที่ตรวจความพร้อมการจัดงา",
@@ -561,46 +601,6 @@
    "link": "https://www.matichon.co.th/local/news_5987124",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/6541635115132.jpg",
    "published": 1795438339.0
-  },
-  {
-   "id": "nnews_5987099",
-   "title": "รมว.ยุติธรรม โชว์วิสัยทัศน์เวที UNODC ชู 4 แนวทาง ลดเหลื่อมล้ำ ผนึกจีนปราบอาชญากรรม",
-   "desc": "รมว.ยุติธรรม นำคณะร่วมเวทีประชุมระดับนานาชาติว่าด้วยการ",
-   "topic": "ต่างประเทศ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/crime/news_5987099",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/5989.jpg",
-   "published": 1795438258.0
-  },
-  {
-   "id": "nnews_5987126",
-   "title": "ม.หอการค้าไทย เปิดเวทีเยาวชนทั่วประเทศ ป.1-ม.3 แข่งสุนทรพจน์-ร้องเพลงภาษาอังกฤษ",
-   "desc": "ม.หอการค้าไทย เปิดเวทีเยาวชนทั่วประเทศ ป.1-ม.3 แข่งสุนท",
-   "topic": "บันเทิง",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/education/news_5987126",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/65416351-2.jpg",
-   "published": 1795438078.0
-  },
-  {
-   "id": "nnews_5987117",
-   "title": "เอพริล จับมือ อีซี่โก เปิดเมนูใหม่ ‘แซนวิชเปี๊ยะปิ้งหมูแดง’ มั่นใจตลาดเบเกอรี่ยังโต ปี70 เป้าขาย 2.3 พันล้าน",
-   "desc": "เอพริล จับมือ อีซี่โก พัฒนาอาหารพร้อมรับประทาน นำร่องแซ",
-   "topic": "เศรษฐกิจ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/economy/news_5987117",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/498465-3.jpg",
-   "published": 1795437768.0
-  },
-  {
-   "id": "nnews_5987100",
-   "title": "เปิดภาพวงจรปิด ไล่ไทม์ไลน์ มัดตัว ‘สามีเมียนมา’ วัย 21 สังหารโหดภรรยา ขนศพทิ้งลาดพร้าว",
-   "desc": "ล่าผัวพม่าฆ่าเมียหั่นศพ ภาพวงจรปิดมัดขนศพทิ้ง เมื่อเวลา",
-   "topic": "อาชญากรรม",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/news_5987100",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/46546351-3.jpg",
-   "published": 1795437141.0
   }
  ]
 }
