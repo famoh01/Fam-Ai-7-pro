@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:16:59.773110+00:00",
+ "updated": "2026-11-25T22:17:47.117406+00:00",
  "count": 60,
  "items": [
   {
@@ -153,16 +153,6 @@
    "published": 1795626062.0
   },
   {
-   "id": "nRNRVdleHcoc5",
-   "title": "ม็อบรื้อเวที/ไอเดียร์ฟ้องไอซ์",
-   "desc": "ม็อบรื้อเวที/ไอเดียร์ฟ้องไอซ์ ไทยโพสต์ \"รักชนก\" ขอบคุณ \"สุชาดา\" ทำเรื่องไม่เงียบ ท้าเปิดหลักฐานสู้ในชั้นศาล \"สามีทำอาชีพอะไร\" thaich8.com ‘โรม’ ซัด ‘โสภณ’ มัดมือมัดเท้าทำ กมธ. อ่อนแอ หลังหน่วยงานเมินเข้าแจงปมสินบน 40 ล้าน | The Reporters LI",
-   "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlN1p0WUNYUHYtMXFWZF9fZllzaTZjRG5pcFZfVGF1NG50OU1IWjFVTjVlbFdFWmEzTUlUYWJfRFJVbHBtaWpvM0hFSzYyMkgxM2lhaVRNRVdleHc?oc=5",
-   "image": "",
-   "published": 1795626062.0
-  },
-  {
    "id": "ntradeprobe02",
    "title": "USTR เสนอใช้มาตรา 301 เก็บภาษีสินค้าไทยรอบใหม่ 18%",
    "desc": "สำนักงานผู้แทนการค้าสหรัฐฯ (USTR) ได้พิจารณาวินิจฉัยว่า การกระทำ นโยบาย และแนวปฏิบัติของประเทศไทยที่เกี่ยวข้องกับกำลังการผลิตและการผลิตส่วนเกินเชิงโครงสร้างในภาคการผลิตนั้น ไม่สมเหตุสมผลและเป็นภาระหรือข้อจำกัดต่อการค้าของสหรัฐฯ จึงเข้าข่ายส",
@@ -181,16 +171,6 @@
    "link": "https://www.khaosod.co.th/breaking-news/news_10484644",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/USA-1-1.jpg",
    "published": 1795624456.0
-  },
-  {
-   "id": "nLUTUzWWpRoc5",
-   "title": "ดาวโจนส์/S&P 500/Nasdaq ทรุดหนัก กังวลภาษีทรัมป์, แรงขายหุ้นเทคฯ",
-   "desc": "ดาวโจนส์/S&P 500/Nasdaq ทรุดหนัก กังวลภาษีทรัมป์, แรงขายหุ้นเทคฯ RYT9 ดาวโจนส์ฟิวเจอร์ส ร่วงกว่า 680 จุด แรงเทขายหุ้น AI ปะทุอีกระลอก Nvidia–Anthropic นำตลาดดิ่ง LINE TODAY Market Alert: ตลาดหุ้นเกาหลีใต้ร่วงหนัก ล้างกำไรรีบาวด์เกลี้ยง กอดค",
-   "topic": "เศรษฐกิจ",
-   "source": "RYT9",
-   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9manhWUHF3R0w4M2JURjN0dHV2OE1yUTFfWENoNXYtN0hvSGFObGpBMk56UUdIZnNCTGZuRWFSU29uS1FLUTUzWWpR?oc=5",
-   "image": "",
-   "published": 1795624453.0
   },
   {
    "id": "news_10484645",
@@ -373,6 +353,16 @@
    "published": 1795618839.0
   },
   {
+   "id": "nW1BMGdsVQoc5",
+   "title": "Nasdaq Composite ร่วงหนักกว่า 4% ระหว่างวัน หลัง NVDA, ANT, MU, CRWV และหุ้นกลุ่ม AI ตัวอื่นๆ กลับมาโดนเทขายกันอีกรอบ",
+   "desc": "Nasdaq Composite ร่วงหนักกว่า 4% ระหว่างวัน หลัง NVDA, ANT, MU, CRWV และหุ้นกลุ่ม AI ตัวอื่นๆ กลับมาโดนเทขายกันอีกรอบ Moomoo ดาวโจนส์ฟิวเจอร์ส ร่วงกว่า 680 จุด แรงเทขายหุ้น AI ปะทุอีกระลอก Nvidia–Anthropic นำตลาดดิ่ง LINE TODAY Market Alert",
+   "topic": "เศรษฐกิจ",
+   "source": "Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVFkycWpiTkQ3LVNTS2djNkx1VEZXNUhoemd3cEgzNklYaXdqVHhkeEZURjdlWS1iNGFXOG1UMXJBY1RpSU85SDdFMGFNQmtJMVN5MndFM1RVbC0zcExieTNCaklNcXJCYlVWekx0WlNFSDkwSmRSUWFUdGRSb2FjX184YmR4OHMxZ3N2bWltSFFjSGJ6QUpCQmNhb2F3VnBFNW1BMGdsVQ?oc=5",
+   "image": "",
+   "published": 1795618828.0
+  },
+  {
    "id": "news_10484588",
    "title": "EA FC 27 ใช้ AI นำเสียง จอห์น มอตสัน นักพากย์ผู้ล่วงลับ กลับมาใส่เกมดัง",
    "desc": "EA SPORT นำเอาเสียงพากย์ของ จอห์น มอตสัน ผู้บรรยายฟุตบอลระดับตำนาน กลับมาใส่ในเกม EA FC 27 เกมฟุตบอลชื่อดัง จอห์น มอตสัน ซึ่งผ่านการพากย์ฟุตบอลโลก 10 สมัย ฟุตบอลชิงแชมป์แห่งชาติยุโรป 10 สมัย และนัดชิงชนะเลิศเอฟเอคัพ 29 สมัย ให้กับ บีบีซี สป",
@@ -391,6 +381,16 @@
    "link": "https://www.khaosod.co.th/around-thailand/news_10484589",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/cardead1-1.jpg",
    "published": 1795618454.0
+  },
+  {
+   "id": "nWtzWnExdwoc5",
+   "title": "NVIDIA Corp (NVDA) หุ้น เปิด ลง 8.39% เมื่อวันที่ 25 พ.ย.: ปัจจัยขับเคลื่อนเบื้องหลังการเคลื่อนไหว",
+   "desc": "NVIDIA Corp (NVDA) หุ้น เปิด ลง 8.39% เมื่อวันที่ 25 พ.ย.: ปัจจัยขับเคลื่อนเบื้องหลังการเคลื่อนไหว TradingKey คองเกรสจ่อเรียก \"เจนเซน หวง\" สอบปมสายลับจีน \"ทรัมป์\" ลั่นพร้อมอภัยโทษ Thai PBS สื่อจีนแซ่ซ้อง \"เจนเซน หวง\" คัมแบ็ค เตือนให้ระวังกา",
+   "topic": "เศรษฐกิจ",
+   "source": "TradingKey",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOc1loLTg3cER1Yi1wVXBhTm5xYUFEdnIySmJaaVRaWUZPSnZSZF92LWMwMGdzRTZqYjZoRHpjSDVUb0FkU1o3emRzdmNmckZ4RGRWazVWWXRsR09xM0VaVWh4VDloTTlOYk1UZ2l3ZlIyNHNVZmpUMWZubGRyNm13LVdpd3lFUGYyeWtzWnExdw?oc=5",
+   "image": "",
+   "published": 1795618208.0
   },
   {
    "id": "news_10484358",
@@ -533,6 +533,16 @@
    "published": 1795614097.0
   },
   {
+   "id": "ntKczZScHMoc5",
+   "title": "“สุขสมรวย” สั่ง สทบ. ตั้งกรรมการกลางสอบโครงการ SML บ้านหนาดใต้ กาฬสินธุ์",
+   "desc": "“สุขสมรวย” สั่ง สทบ. ตั้งกรรมการกลางสอบโครงการ SML บ้านหนาดใต้ กาฬสินธุ์ thairath.co.th รมต.สำนักนายกฯ สั่งสอบโครงการ SML บ้านหนาดใต้ Head Topics แฉยับ! \"ขบวนการสับขาหลอก\" กองทุนหมู่บ้านกาฬสินธุ์ งบ 3 แสน หักหัวคิวเหลือ 9.3 หมื่น หวั่นลามทั",
+   "topic": "ข่าวทั่วไป",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DeXRpdEhkSDJOV25pUnN6cFBsSkZwVEpwMEQ2TmxQVzhtOXdGUWFDOFFMa0FCS2t3dlFyVEFzV0EzS0dfQ2d0YzlsWEpSY3M4dmNvWktKczZScHM?oc=5",
+   "image": "",
+   "published": 1795613930.0
+  },
+  {
    "id": "news_10484529",
    "title": "“เก้า – พีพี ปุญญ์ปรีดี – ตรี” แท็กทีมเปิดตัวสุดยิ่งใหญ่ เผยเคล็ดลับดูดีในแบบตัวเอง",
    "desc": "เรียกเสียงฮือฮาและแสงแฟลชได้แบบรัวๆ เมื่อ 3 นักแสดงตัวท็อปแห่งยุคอย่าง “เก้า นพเก้า เดชาพัฒนคุณ”, “พีพี ปุญญ์ปรีดี คุ้มพร้อม รอดสวาสดิ์” และ “ตรี ภรภัทร ศรีขจรเดชา” โคจรมาพบกันในงานกาล่าสุดยิ่งใหญ่แห่งปี “AVA PHARMA HONORS & PREMIERE GALA 2",
@@ -591,16 +601,6 @@
    "link": "https://www.khaosod.co.th/politics/news_10484522",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/ice-1.jpg",
    "published": 1795613207.0
-  },
-  {
-   "id": "news_10484532",
-   "title": "ผบช.ทท. ลงพื้นที่ Korean Town สุขุมวิท รับฟังเสียงชุมชนเกาหลี สั่งเพิ่มมาตรการเชิงรุกดูแลนักท่องเที่ยว",
-   "desc": "ผบช.ทท. ลงพื้นที่ Korean Town สุขุมวิท รับฟังเสียงชุมชนเกาหลี สั่งเพิ่มมาตรการเชิงรุกดูแลนักท่องเที่ยว หลังมีแก๊งล้วงกระเป๋าโผล่สร้างความเดือดร้อน วันที่ 25 พ.ย.69 ภายหลัง นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี มอบนโยบายการบริหารราชการแก่ข้าราชกา",
-   "topic": "ท่องเที่ยว",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/crime/news_10484532",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/koreatown.jpg",
-   "published": 1795613123.0
   }
  ]
 }
