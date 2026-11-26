@@ -1,7 +1,407 @@
 {
- "updated": "2026-11-26T01:43:34.668450+00:00",
+ "updated": "2026-11-26T02:48:05.104010+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "nenews2102393",
+   "title": "หุ้นไทยลุ้นรีบาวด์ ภาษีสหรัฐ 18% กระทบจำกัด InnovestX เปิด 4 ธีมลงทุน",
+   "desc": "InnovestX คาดหุ้นไทยวันนี้แกว่งตัวสลับฟื้น แม้เผชิญแรงกดดันจากมาตรการภาษีสหรัฐ แต่ประเมินผลกระทบต่อไทยจำกัด พร้อมจับตาแรงซื้อกองทุนลดหย่อนภาษีช่วงปลายปี ให้กรอบดัชนี 1,415-1,445 จุด ชู CPALL-HANA หุ้นเด่น บริษัทหลักทรัพย์ อินโนเวสท์ เอกซ์ จ",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/finance/news-2102393",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/stock-9.jpg",
+   "published": 1795661252.0
+  },
+  {
+   "id": "ncnews2102387",
+   "title": "ภาษีทรัมป์ 18% ไทยยังไม่เสียเปรียบอาเซียน หอการค้าเร่งดันข้าว-กุ้ง-ทูน่ายกเว้นภาษี",
+   "desc": "หอการค้าไทยวิเคราะห์ภาษีทรัมป์ มาตรา 301 รอบใหม่ ไทยยังไม่เสียเปรียบคู่แข่งอาเซียน ชี้ภาระภาษีเพิ่มเพียง 5.5 จุดเปอร์เซ็นต์ หากเป็นไปตามข้อเสนอ ขณะที่สินค้ากว่าครึ่งหนึ่งของมูลค่าส่งออกไปสหรัฐอยู่ในรายการเสนอให้ยกเว้นภาษี หนุนรัฐบาลเร่งเจรจ",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/economic/news-2102387",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-187.jpg",
+   "published": 1795661079.0
+  },
+  {
+   "id": "nnews_5990362",
+   "title": "เผย 5 เหตุผล สนง.ผู้แทนการค้าสหรัฐ เรียกเก็บภาษีไทย ม.301",
+   "desc": "เผย 5 เหตุผล สนง.ผู้แทนการค้าสหรัฐ เรียกเก็บภาษีไทย ม.3",
+   "topic": "เศรษฐกิจ",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/foreign/news_5990362",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/jg.jpg",
+   "published": 1795660896.0
+  },
+  {
+   "id": "ncnews2102380",
+   "title": "สหรัฐเปิดร่างภาษี 301 ไทยไม่เกิน 18% ไม่เก็บซ้ำแรงงานบังคับ เวียดนามเจอ 35%",
+   "desc": "“ศุภจี” เปิดผลไต่สวนมาตรา 301 กรณีกำลังการผลิตส่วนเกิน สหรัฐเสนอเก็บภาษีไทยไม่เกิน 18% รวมภาษีกรณีแรงงานบังคับแล้ว ไม่บวกเพิ่ม อยู่ระดับเดียวกับมาเลเซีย อินโดนีเซีย และกัมพูชา ขณะที่เวียดนามเจอ 35% สิงคโปร์ 20% ชี้ Joint Statement หนุนไทยรั",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/economic/news-2102380",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-186.jpg",
+   "published": 1795660869.0
+  },
+  {
+   "id": "nnews_5990360",
+   "title": "หลักฐานมัดตัว ‘ภรรยา’ สารภาพลงมือสังหารโหดสามี อดีตผญบ. มัดมือเท้า ทิ้งสระท้ายหมู่บ้าน",
+   "desc": "ไม่รอดหลักฐานมัดฆาตกร ฆ่าโหดอดีตผู้ใหญ่บ้าน อยู่กินกันม",
+   "topic": "เศรษฐกิจ",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/region/news_5990360",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/45451-1.jpg",
+   "published": 1795660866.0
+  },
+  {
+   "id": "nenews2102374",
+   "title": "ทองผันผวนอีกระยะ ‘ฮั่วเซ่งเฮง’ มองแนวโน้มวันนี้ (26 พ.ย.) Sideways กรอบ 57,100-57,800 บาท",
+   "desc": "“ฮั่วเซ่งเฮง” ประเมินราคาทองคำผันผวนอีกระยะ เผชิญแรงเทขาย-ถูก Call Margin มองแนวโน้มวันนี้ (26 พ.ย.) แกว่ง Sideways แนวต้านที่ 3,600 ดอลลาร์ แนวรับ 3,530 ดอลลาร์ ทองคำแท่ง แนวต้าน 57,800 บาท แนวรับ 57,100 บาท ผู้สื่อข่าวรายงานว่า ฮั่วเซ่ง …",
+   "topic": "ข่าวทั่วไป",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/finance/news-2102374",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/10/gold-1.jpg",
+   "published": 1795660559.0
+  },
+  {
+   "id": "nsnews1115760",
+   "title": "‘สติธร’ ชี้ไทยผ่านด่านแรก OECD สัญญาณบวกปฏิรูปประเทศ เชื่อเป้าหมายสมาชิกปี 2571 เป็นไปได้",
+   "desc": "ดร.สติธร ธนานิธิโชติ อาจารย์ประจำคณะรัฐศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย กล่าวถึงความคืบหน้าของประเทศไทยในการเข้าเป็นสมาชิกองค์การเพื่อความร่วมมือทางเศรษฐกิจและการพัฒนา (OECD) ว่า การผ่านการประเมินรอบแรกถือเป็นเรื่องที่น่ายินดีและเป็นความก้าวหน้",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/public-relations-news/1115760/",
+   "image": "https://storage-wp.thaipost.net/2026/11/153649.jpg",
+   "published": 1795660300.0
+  },
+  {
+   "id": "news_10484655",
+   "title": "เหยื่อร้านหม้อไฟ “ระเบิด” ในฮานอยพุ่ง 7 ศพ รพ.เผย 2 คนกะโหลกเปิดอาการดีขึ้น",
+   "desc": "เหยื่อร้านหม้อไฟ – เว็บไซต์ข่าว ต๋วยแจ๋ รายงานวันที่ 26 พ.ย. ถึงความคืบหน้าเหตุระเบิดที่ร้านหม้อไฟบนถนนเหวียน วัน ตุยเอ็ต เขตดงดา ในกรุงฮานอย ประเทศเวียดนาม เมื่อวันที่ 24 พ.ย. ซึ่งคาดว่ามีสาเหตุมาจากก๊าซระเบิดว่า ยอดผู้เสียชีวิตเพิ่มเป็น 7",
+   "topic": "ต่างประเทศ",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/around-the-world-news/news_10484655",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Hanoigasexplosiondeathtollrises-02.jpg",
+   "published": 1795660254.0
+  },
+  {
+   "id": "ncnews2102369",
+   "title": "ราคาน้ำมันดิบปรับเพิ่ม หลังความตึงเครียดในตะวันออกกลางทวีความรุนแรงขึ้น",
+   "desc": "ราคาน้ำมันดิบปรับตัวเพิ่มขึ้น หลังความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางทวีความรุนแรงขึ้น จากการยกระดับความขัดแย้งระหว่างซาอุดีอาระเบียและกลุ่มฮูตี หน่วยวิเคราะห์สถานการณ์ราคาน้ำมัน บมจ.ไทยออยล์ ระบุว่า ปัจจัยที่ส่งผลกระทบกับราคามีดังน",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/economic/news-2102369",
+   "image": "https://www.prachachat.net/wp-content/uploads/2024/10/Oil-1.jpg",
+   "published": 1795660219.0
+  },
+  {
+   "id": "nlPVzVIdW0oc5",
+   "title": "แมนยู 10 คนเจ๊าสปอร์ติง หงส์บุกชนะบรูช",
+   "desc": "แมนยู 10 คนเจ๊าสปอร์ติง หงส์บุกชนะบรูช ททบ. 5 ผลบอลสด แมนยู โดน สปอร์ติ้ง ลิสบอน ไล่เจ๊า ศึก UCL มีโดนแดงนาทีบาป thairath.co.th โปเช็ตติโน่ ภูมิใจในตัวลูกทีมเกมแมนยู บุกเสมอ สปอร์ติ้ง pptvhd36 \"ผีแดง\" สุดเซ็งโดน \"สปอร์ติง\" ไล่เจ๊าท้ายเกม เด",
+   "topic": "ข่าวทั่วไป",
+   "source": "ททบ. 5",
+   "link": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxQX2ZKdEpEd3VzRkJFdXpZSHYzOUdmXzVOZlI3NVhvNzU4UU01bGlxNHRkbTJvNENYZDRXMjFidVBLWWFGMl82cU5tWVYwSTRRZkk2TTZDdzNnemZ2ZXM2U01xVzFwMkRmLVdESl82UE9KbXFxUnhfWEtpSS1iMkg4Y2w4bV9jVEdWYUF4NnF2SldtVDk2cko3bHlzbWg1d0lIZU9iaXUwR3ZUVjJWamVldkkwZDdHX2VDYzFhcjgwMnB4Mllhd3gwNzFNMmtPeXdrSjM5TnlBaXNGZzdsLWFPQzNwSl9wSWFDTl9aZmJUOW4wTWFwRFNfUjdMRXQyZDIyTk02TmctNXFKZFkwNzl6UEhIal83SjJwY2p3OTdWSlhMbVVPMy1NRUFtb3o5Tk5ZZzVyWjZuTmxoMGdlNXhkajBTUDZfR1VMVjBVVFhCV293NHQyTkNFVnJNU2tGU0VOUElaOUVDMzdNcEx5anhsMVpLTi1wcUtIX0FWUUtRTnBzSFJCZ2JUbl9nclFfV1h4RkR4V3pkZzJYMnF3TWY2MUstMEpVSHQ4NlRLREdxcGM4eGd6dlh5SjZkUlZ3dDVjQ0lILWJ1SnJWdGdwMUJTX3pIMm5HSGVuOXlPVzVIdW0?oc=5",
+   "image": "",
+   "published": 1795660080.0
+  },
+  {
+   "id": "nsnews2101671",
+   "title": "โจทย์เศรษฐกิจกับความเปราะบางแรงงาน",
+   "desc": "สภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ หรือสภาพัฒน์ เปิดรายงานภาวะสังคมไตรมาส 3/2569 พบว่าผู้ว่างงานเพิ่มขึ้นอยู่ที่ 4.3 แสนคน หรือเพิ่มขึ้น 41.4% จากช่วงเดียวกันของปีก่อน เป็นกลุ่มที่เคยทำงาน 2.5 แสนคน และไม่เคยทำงาน 1.85 แสนคน โดย 7.8 หมื่นค",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/columns/news-2101671",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/2-2-2.jpg",
+   "published": 1795659757.0
+  },
+  {
+   "id": "n0news2101677",
+   "title": "ผลประโยชน์ ย่อมมาก่อนเสมอ",
+   "desc": "เป็นข่าวใหญ่ทั่วโลกเมื่อวันจันทร์ 23 พ.ย. ที่ผ่านมา เมื่อเจนเซน หวง ผู้ก่อตั้งและซีอีโอ NVIDIA กลับมารับตำแหน่งอีกครั้ง หลังลาออกไปเพียง 11 วัน เจนเซน หวง ผู้ก่อตั้งและประธานเจ้าหน้าที่บริหาร CEO บริษัท NVIDIA ผู้ผลิตชิปประมวลผลและเทคโนโลยี",
+   "topic": "ข่าวทั่วไป",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/columns/opinion-column-10/news-2101677",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/2-3-1.jpg",
+   "published": 1795659731.0
+  },
+  {
+   "id": "nynews1115750",
+   "title": "รัฐบาลตีปี๊บยกเครื่องอุตสาหกรรมยานยนต์!",
+   "desc": "'เอกภพ' ชี้รัฐบาล 'อนุทิน' ยกเครื่องอุตสาหกรรมยานยนต์ หนึ่งนโยบายตอบหลายเป้าหมาย ปรับภาษีดึงค่ายรถลงทุน เพิ่มการใช้ชิ้นส่วนในไทย รักษาฐานผลิต งาน 7.5 แสนคน สหภาพแรงงานขานรับ The post รัฐบาลตีปี๊บยกเครื่องอุตสาหกรรมยานยนต์! appeared first on",
+   "topic": "เศรษฐกิจ",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/economy-news/1115750/",
+   "image": "https://storage-wp.thaipost.net/2026/11/20261126082316_3886.jpg",
+   "published": 1795659674.0
+  },
+  {
+   "id": "nnews_5990351",
+   "title": "รัฐบาล เตือนชาวใต้ เฝ้าระวังฝนหนัก 27-30 พ.ย. เสี่ยงท่วม กำชับจนท.รัฐ เตรียมรับมือ",
+   "desc": "รัฐบาล เตือนชาวใต้ ระวังฝนตกหนักถึงหนักมาก 27–30 พ.ย. เ",
+   "topic": "การเมือง",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/politics/news_5990351",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/6465.jpg",
+   "published": 1795659615.0
+  },
+  {
+   "id": "nenews2101389",
+   "title": "สศช.จี้แก้ปัญหา ‘แรงงานไทย’ เสี่ยงเครียด-ซึมเศร้า-หมดไฟ",
+   "desc": "สศช. ชี้อัตราว่างงานไตรมาส 3 ปี ‘69 พุ่ง-คนว่างงานเพิ่มขึ้น 41.4% ขณะที่ผู้ขอรับประโยชน์ทดแทนกรณีว่างงานในระบบประกันสังคมเพิ่มขึ้นระดับเดียวกับช่วงโควิด จี้แก้ปัญหาภาคเกษตรผลิตภาพแรงงานต่ำ-คนไทย 53 ล้านคน ทำงานเกินเวลา เสี่ยง “เครียด-ซึมเศร",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/finance/news-2101389",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/working.jpg",
+   "published": 1795659543.0
+  },
+  {
+   "id": "nhnews2100947",
+   "title": "‘ทรู’ พลิกโครงสร้าง ‘ทุนมนุษย์’ ปรับวิธีทำงานปั้นคนตั้งแต่วัยเรียน",
+   "desc": "การนำ AI มาใช้เป็นส่วนหนึ่งในเวิร์กโฟลว์ทำให้การจัดสรร “เวิร์กฟอร์ซ” หรือจำนวนคนทำงานของหลายองค์กรเปลี่ยนไป จากที่เคยเป็นโครงสร้างแบบ “พีระมิด” มีพนักงานระดับจูเนียร์มากสุด แล้วไล่ระดับเป็นพนักงานระดับกลาง และผู้บริหารระดับสูง ก็เปลี่ยนเป็น",
+   "topic": "เทคโนโลยี",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/tech/news-2100947",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/15-1POK-4.jpg",
+   "published": 1795659397.0
+  },
+  {
+   "id": "nsnews1115746",
+   "title": "สำเร็จอีกขั้น! โฆษกรัฐบาล ยกผลพวง Joint Statement ภาษีสหรัฐฯ เหลือ 18%",
+   "desc": "นายเอกภพ เพียรพิเศษ โฆษกประจำสำนักนายกรัฐมนตรี โพสต์ข้อความผ่านเฟซบุ๊กว่า ภาษีสหรัฐประกาศแล้ว ไทยได้โปรโมชั่น 18% ต่ำกว่าอัตราเดิมที่ 19% The post สำเร็จอีกขั้น! โฆษกรัฐบาล ยกผลพวง Joint Statement ภาษีสหรัฐฯ เหลือ 18% appeared first on .",
+   "topic": "เศรษฐกิจ",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/politics-news/1115746/",
+   "image": "https://storage-wp.thaipost.net/2026/09/S__5464087.jpg",
+   "published": 1795659324.0
+  },
+  {
+   "id": "nsnews2102359",
+   "title": "รัฐบาล ชี้ยกเครื่องอุตสาหกรรมยานยนต์ สัญญาณบวกดึงลงทุน-เพิ่ม Local Content",
+   "desc": "โฆษกรัฐบาล ชี้ นายกฯ ลุยยกเครื่องอุตสาหกรรมยานยนต์ ตอบหลายเป้าหมาย ปรับภาษีดึงค่ายรถลงทุน-เพิ่มการใช้ชิ้นส่วนในไทย – รักษาฐานผลิต งาน 7.5 แสนคน เผยค่ายรถญี่ปุ่นเล็งลงทุนไทย ปี 69 – 73 กว่า 1.3 แสนล้าน ขณะที่สหภาพแรงงาน ขานรับพร้อมปรับทักษะร",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/politics/news-2102359",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%995-scaled-1.jpg",
+   "published": 1795659267.0
+  },
+  {
+   "id": "nenews2102361",
+   "title": "ราคาทองวันนี้ (26 พ.ย. 69) ปรับขึ้น 350 บาท ทองรูปพรรณบาทละ 58,350 บาท",
+   "desc": "ราคาทองคำวันนี้ (26 พ.ย. 2569) ปรับขึ้น 350 บาท เมื่อเทียบกับราคาปิดวานนี้ ทองรูปพรรณขายออกที่บาทละ 58,350 บาท อ้างอิงข้อมูลล่าสุดจากสมาคมค้าทองคำ ที่เผยแพร่ผ่านทางเว็บไซต์ เมื่อเวลา 09.01 น. ที่ผ่านมา ทองคำแท่งมีราคารับซื้อในประเทศอยู่ที่บ",
+   "topic": "ข่าวทั่วไป",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/finance/news-2102361",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/08/gold-1.jpg",
+   "published": 1795659028.0
+  },
+  {
+   "id": "news_10484731",
+   "title": "ราคาทองวันนี้ 26 พ.ย.69 ประกาศ ราคาทองคำวันนี้ พุ่งขึ้น รีบตัดสินใจ",
+   "desc": "ราคาทองวันนี้ 26 พ.ย.69 สมาคมค้าทองคำ ประกาศ ราคาทองคำวันนี้ อัปเดตตลาดทองคำ พุ่งขึ้น เทียบราคาปิดวานนี้ ใครสนรีบเลย ทองรูปพรรณขายออกบาทละ 58,350 บาท ราคาทองคำประจำวันที่ 26 พ.ย.2569 บวกเพิ่ม 350 บาท เปรียบเทียบกับราคาสุดท้ายของเมื่อวันที่ ",
+   "topic": "ข่าวทั่วไป",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/breaking-news/news_10484731",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Gold-price-today-24.jpg",
+   "published": 1795658938.0
+  },
+  {
+   "id": "nnews_5990333",
+   "title": "รัฐบาล ลุยแก้เชิงรุก สารพิษน้ำกก-สาย-รวก บี้ต้นทางเหมืองรัฐฉาน ดึง เมียนมา-จีน ร่วมแก้",
+   "desc": "‘รัฐบาล’ เปิดเกมรุกตัดวงจรสารพิษลุ่มน้ำกก-ส",
+   "topic": "การเมือง",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/politics/news_5990333",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/a13-9.jpg",
+   "published": 1795658911.0
+  },
+  {
+   "id": "nnews_5990336",
+   "title": "ไฟลุกท่วม! รถบรรทุกผลิตภัณฑ์ปิโตรเลียมพลิกคว่ำ อียิปต์ดับสยอง 31 เจ็บ 21",
+   "desc": "ไฟลุกท่วม! รถบรรทุกผลิตภัณฑ์ปิโตรเลียมพลิกคว่ำ อียิปต์ด",
+   "topic": "ต่างประเทศ",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/foreign/news_5990336",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/cr.jpg",
+   "published": 1795658890.0
+  },
+  {
+   "id": "nRjVFJXQ2soc5",
+   "title": "ราคาทองคําพฤหัส 26 พฤศจิกายน 2569 เปิดตลาดเพิ่มขึ้นบริเวณ 57,550",
+   "desc": "ราคาทองคําพฤหัส 26 พฤศจิกายน 2569 เปิดตลาดเพิ่มขึ้นบริเวณ 57,550 ราคาทองคําวันนี้ Night Recap Gold Spot 25-11-2569 ฮั่วเซ่งเฮง เช็กราคาทองวันนี้ 26 พฤศจิกายน 2569 ล่าสุด ราคาปรับเพิ่ม 350 บาท ทองรูปพรรณขายออกบาทละ 58,350 บาท LINE TODAY แนวโ",
+   "topic": "เศรษฐกิจ",
+   "source": "ราคาทองคําวันนี้",
+   "link": "https://news.google.com/rss/articles/CBMilAVBVV95cUxPR241N3MwT2JIRndUbzMzN2otdnp5bENIU2J3eC1xN3AwVEl2ajA1aHFSYU9fUmhVR3VSMTg2LXlGRHQ3OTRtdEFvN3RoTWlCamNKNkhtLWt3TVZWbVlFbmZrV0hOeGlxWjA3NXlKVFNNcWF4dkJ2c2EzZm5UWnJBVUM1WnE5eHFiZHJka0YtUTVvVkNZYTRwZ1RDdWFzaXNUNjBaazgzUlJHQ3JCYXZtdXY5b1gwQzVCYnRiZE1pR19fM0xHWGhVTDl5aVFjVm1zdGNfU004VjVEbFRMQzh6dl80UEVyVHdicURnM3VqcEFfNEkzd1pfOVhtajNkVjZzZFFoQWxaRHJCZVdVZUthUU5GRF9rOEYyOXNGWmJQa2JKV3Y0Y21EZTQ5TklGOXVvTDJQd1k5Z1d2MnVidlJlSndmZkVEUHo3WnZZa0prUEd2ci1laS1ubW5Md0ZPMEZhZGVpNGxzdFJKaDZQNHdFZ05IUkl4UHdnQUFtejBMTnZKVmp3eElzVU5ybm1UUDBkY3Fha0hyUk9FY2pUM01KalN3ZTBBdlZ5NEl4UEpIcURqODdKd3Y1MGs2aHBqREt0XzJ2R0FkOWltcVI4TW9Vak1KODJrSEY3OG43bXhHaFhjNjBNcVpmRDBXeExZZmlUaUducDU5MDVGM1ByRWlqVDZ5MXNmeUtrRkpwc19NdUdSNFFwY3VoTVY2bGxRQU1XU1VOOHJvemtLVTY0TmZlbm14MUhQX1JZc0xvb0plTjhnUEdaV2pfUnQ5cTByTUFyUTVxdWdXZkR2RHBwYU1WOUM4dnZ2S2lodTU1TlVkTFR5S25yOEhPcjF4bVd1LThrckpIRDFPTmE1R0FBbGRjVFJXQ2s?oc=5",
+   "image": "",
+   "published": 1795658834.0
+  },
+  {
+   "id": "nomnode152257",
+   "title": "FC 27 นำเสียงนักพากย์ชื่อดัง John Motson กลับมาอีกครั้งด้วย AI",
+   "desc": "FC 27 นำเสียงนักพากย์ชื่อดัง John Motson กลับมาอีกครั้งด้วย AI Body เกมฟุตบอล EC Sports FC 27 เพิ่มฟีเจอร์ใหม่ที่น่าสนใจคือ นำเสียงคอมเมนเตเตอร์ชื่อดัง John Motson กลับมาอีกครั้งด้วย AI John Motson เป็นนักพากย์ฟุตบอลชาวอังกฤษ ที่พากย์บอลทาง",
+   "topic": "เทคโนโลยี",
+   "source": "Blognone",
+   "link": "https://www.blognone.com/node/152257",
+   "image": "",
+   "published": 1795658831.0
+  },
+  {
+   "id": "nnews_5990332",
+   "title": "รัฐบาล เปิดโอกาสผู้เสพยา สมัครใจบำบัด ก่อนยกเลิกเกณฑ์ครอบครองน้อย เป็นดำเนินคดีทันที",
+   "desc": "รัฐบาล เปิดโอกาสผู้เสพยาสมัครใจบำบัด ก่อนยกเลิกเกณฑ์การ",
+   "topic": "การเมือง",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/politics/news_5990332",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1651351.jpg",
+   "published": 1795658776.0
+  },
+  {
+   "id": "nnews_5990334",
+   "title": "Hi-Kool เปิดตัว First Class ฟิล์มกรองแสงพรีเมียม ป้องกันความร้อน 74% ตั้งเป้า 20 ล้าน ใน 1 ปี",
+   "desc": "Hi-Kool เปิดตัว First Class ฟิล์มกรองแสงพรีเมียม ป้องกั",
+   "topic": "ข่าวทั่วไป",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/publicize/news_5990334",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/12121.jpg",
+   "published": 1795658690.0
+  },
+  {
+   "id": "nGZTakFobwoc5",
+   "title": "ถอดรหัสปมฉาว ‘เจนเซน หวง’ เสี่ยงจุดชนวนวิกฤตหุ้น AI แค่ไหน? ส่องปัจจัยพื้นฐานปะทะ Sentiment พร้อมกางแผนจัดพอร์ตเอาตัวรอด",
+   "desc": "ถอดรหัสปมฉาว ‘เจนเซน หวง’ เสี่ยงจุดชนวนวิกฤตหุ้น AI แค่ไหน? ส่องปัจจัยพื้นฐานปะทะ Sentiment พร้อมกางแผนจัดพอร์ตเอาตัวรอด thestandard.co คองเกรสจ่อเรียก \"เจนเซน หวง\" สอบปมสายลับจีน \"ทรัมป์\" ลั่นพร้อมอภัยโทษ Thai PBS สื่อจีนแซ่ซ้อง \"เจนเซน หว",
+   "topic": "เศรษฐกิจ",
+   "source": "thestandard.co",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFQW5EazctZ2x0VVpSX2JUVXI4bk5qZ3ZQYUZLYUIyLTFWX3AtT1JqU1ZjV0hqRHNEbEdNd1F6NEZXcnhMbXRXbXVCR3dySFNMZ3hhQ0VqX2tLZW1HNVlaZS1pS2FDeklxdGZTakFobw?oc=5",
+   "image": "",
+   "published": 1795658682.0
+  },
+  {
+   "id": "news_10484726",
+   "title": "อวสาน หอยทอด กินไป 5-6 คำ เขี่ยเจอจังๆ อ้วกแทบพุ่ง ไปต่อไม่ไหว",
+   "desc": "อวสาน หอยทอด กินไป 6 คำ เขี่ยไปเขี่ยมาแทบช็อก เจอสิ่งแปลกปลอม คิดว่าเป็นหอยแมลงภู่ สังเกตดูใกล้ ๆ อ้วกแทบพุ่ง รสชาติพอได้ เจอแบบนี้พอเลย วันที่ 26 พ.ย.2569 ผู้สื่อข่าวรายงานว่า มีผู้ใช้เฟซบุ๊กรายหนึ่งโพสต์ภาพพร้อมข้อความลงในกลุ่มเฟซบุ๊กเพจ ",
+   "topic": "ข่าวทั่วไป",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/around-thailand/news_10484726",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Oyster-Omelet.jpg",
+   "published": 1795658653.0
+  },
+  {
+   "id": "nynews1115742",
+   "title": "ผุด ‘มิสเตอร์ลำไย’ คุมเข้มแผนจัดการลำไยนอกฤดู 6.7 แสนตัน",
+   "desc": "รัฐบาลเร่งเครื่องเชิงรุก ตั้ง 'มิสเตอร์ลำไย' คุมเข้มแผนจัดการลำไยนอกฤดู 6.7 แสนตัน ล่วงหน้า เตรียมพร้อมรับมือผลผลิตล้นตลาด ธ.ค.นี้ The post ผุด ‘มิสเตอร์ลำไย’ คุมเข้มแผนจัดการลำไยนอกฤดู 6.7 แสนตัน appeared first on .",
+   "topic": "เศรษฐกิจ",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/economy-news/1115742/",
+   "image": "https://storage-wp.thaipost.net/2026/11/20261126083833_7582.jpg",
+   "published": 1795658601.0
+  },
+  {
+   "id": "nomnode152255",
+   "title": "WhatsApp เพิ่มฟีเจอร์ตั้งเวลาส่งข้อความล่วงหน้า รองรับสูงสุด 14 วัน",
+   "desc": "WhatsApp เพิ่มฟีเจอร์ตั้งเวลาส่งข้อความล่วงหน้า รองรับสูงสุด 14 วัน Body WhatsApp ประกาศเพิ่มฟีเจอร์ตั้งเวลาส่งข้อความล่วงหน้า รองรับทั้งแชทแบบส่วนตัวและแชทแบบกลุ่ม สามารถใช้งานได้ใน WhatsApp บน iOS และ Android ขั้นตอนการใช้งาน เมื่อพิมพ์ข้",
+   "topic": "ข่าวทั่วไป",
+   "source": "Blognone",
+   "link": "https://www.blognone.com/node/152255",
+   "image": "",
+   "published": 1795658527.0
+  },
+  {
+   "id": "nnews_5989464",
+   "title": "‘วีรสุข’ จี้ทวงค่าแรงวันละ 400 บาท ดัน 5 จว.ปริมณฑลอัพขึ้นเท่ากทม. ย้ำอย่าปล่อยลูกจ้างรายได้น้อยรอถึงปี 70",
+   "desc": "‘วีรสุข’ จี้ทวงค่าแรงวันละ 400 บาท ดัน 5 จว.ปริมณฑลอัพข",
+   "topic": "ข่าวทั่วไป",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/local/quality-life/news_5989464",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/IMG_5561.jpeg",
+   "published": 1795658446.0
+  },
+  {
+   "id": "news_10481838",
+   "title": "‘ศปถ.-คมนาคม-สสส.’ เปิดเวทีปลดล็อกถนนปลอดภัย ระดมภาคีอุดจุดเสี่ยง หยุดความสูญเสียบนท้องถนน",
+   "desc": "ทุกครั้งที่สตาร์ตรถหรือก้าวเท้าข้ามทางม้าลาย ชีวิตของคนไทยกำลังแขวนอยู่บนเส้นด้าย เพราะแต่ละปีมีผู้คนกว่า 16,000 ราย ต้องสังเวยชีวิตให้กับความประมาทและจุดเสี่ยงบนท้องถนน ทิ้งไว้เพียงคราบน้ำตาของคนข้างหลังและความสูญเสียทางเศรษฐกิจที่พุ่งสูงถ",
+   "topic": "เทคโนโลยี",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/monitor-news/news_10481838",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/1-5-1-scaled.jpg",
+   "published": 1795658441.0
+  },
+  {
+   "id": "nnews_5986802",
+   "title": "‘ศปถ.-คมนาคม-สสส.’ ผนึกเครือข่าย ปลดล็อกถนนปลอดภัย ตั้งเป้าลดตายเหลือ 12 คนต่อแสนฯ ในปี 2570",
+   "desc": "ทุกๆ 30 นาที มีคนไทย 1 คน ต้องสังเวยชีวิตบนท้องถนน และใ",
+   "topic": "เทคโนโลยี",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/bullet-news-today/news_5986802",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-4-2-scaled.jpg",
+   "published": 1795658405.0
+  },
+  {
+   "id": "news_10484725",
+   "title": "กษิดิศ ล้มหัวกระแทกพื้น ขอถอนตัว ศึกโยโกฮามา ชาลเลนเจอร์ 75",
+   "desc": "กษิดิศ สำเร็จ ล้มหัวกระแทกพื้นจากจังหวะวิ่งไล่บอล ขอถอนตัว เทนนิสอาชีพชาย โยโกฮามา ชาลเลนเจอร์ 75 “บูม” กษิดิศ สำเร็จ นักเทนนิสไทย มืออันดับ 352 ของโลก ต้องยุติเส้นทางในการแข่งขันประเภทชายเดี่ยว เทนนิสอาชีพชาย เอทีพี ชาลเลนเจอร์ ระดับ 75 รา",
+   "topic": "กีฬา",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/sports/news_10484725",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/fqrw.jpg",
+   "published": 1795658293.0
+  },
+  {
+   "id": "nenews1115738",
+   "title": "รัฐบาลเปิดเกมรุกตัดวงจรสารพิษเปิด Risk map เช็กข้อมูลเรียลไทม์ 27 พ.ย. นี้",
+   "desc": "รัฐบาลเปิดเกมรุก ตัดวงจรสารพิษลุ่มน้ำกก-สาย-รวก ไล่บี้ต้นทางเหมืองรัฐฉาน ดึงเมียนมา – จีนร่วมแก้ปัญหา พร้อมเตรียมเปิด Risk map เช็กข้อมูลเรียลไทม์ 27 พ.ย. นี้ The post รัฐบาลเปิดเกมรุกตัดวงจรสารพิษเปิด Risk map เช็กข้อมูลเรียลไทม์ 27 พ.ย. น",
+   "topic": "เทคโนโลยี",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/x-cite-news/1115738/",
+   "image": "https://storage-wp.thaipost.net/2026/11/20261126083833_7582.jpg",
+   "published": 1795658281.0
+  },
+  {
+   "id": "news_10484718",
+   "title": "บุ้ง ใบหยก ประกาศถอนตัวจากทีมผู้สร้างพระปิดตาฯ เหตุอยู่ระหว่างตรวจสอบเส้นเงิน",
+   "desc": "ไม่อยากให้มีผลกระทบต่อวัดและองค์หลวงปู่! บุ้ง ใบหยก ประกาศถอนตัวจากการเป็นทีมผู้สร้างพระปิดตาฯ เหตุอยู่ระหว่างการตรวจสอบเส้นทางการเงิน เพื่อความโปร่งใส หลังจากเป็นหนึ่งในกลุ่มเดียวกับ หนุ่ม กรรชัย ที่ร่วมบริจาคเงินและจะต้องเข้าไปชี้แจงกับดี",
+   "topic": "บันเทิง",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/entertainment/news_10484718",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/bungbaistopmonk2611699998.jpg",
+   "published": 1795658127.0
+  },
+  {
+   "id": "nnews_5990317",
+   "title": "นิกร นั่ง ประธาน กมธ.แก้ข้อบังคับสภา ลุยสังคายนารวด 4 ฉบับ เปิดรายชื่อคนการเมืองร่วมทีม",
+   "desc": "นิกร นั่ง ประธาน กมธ.แก้ข้อบังคับสภา ลุยสังคายนารวด 4 ฉ",
+   "topic": "การเมือง",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/politics/news_5990317",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/151651-3.jpg",
+   "published": 1795658013.0
+  },
+  {
+   "id": "nomnode152256",
+   "title": "FCC อนุมัติโครงการ Starmind ของ SpaceX ยิงดาวเทียม 1 ล้านดวงเป็นศูนย์ข้อมูลในอวกาศ",
+   "desc": "FCC อนุมัติโครงการ Starmind ของ SpaceX ยิงดาวเทียม 1 ล้านดวงเป็นศูนย์ข้อมูลในอวกาศ Body FCC หรือ กสทช. สหรัฐ อนุมัติแผนการของ SpaceX ในการยิงดาวเทียม 1 ล้านดวงขึ้นเพื่อเป็น \"ศูนย์ข้อมูลในอวกาศ\" โครงการนี้มีชื่อเรียกว่า Starmind เป็นฝูงดาวเท",
+   "topic": "เทคโนโลยี",
+   "source": "Blognone",
+   "link": "https://www.blognone.com/node/152256",
+   "image": "",
+   "published": 1795657698.0
+  },
+  {
+   "id": "ntnews1115729",
+   "title": "‘อัยยวัฒน์’ เผย เสนอขาย ‘เลสเตอร์’ จริง แต่ไม่มีคนซื้อ ยืนยันพร้อมบริหารทีมต่อ",
+   "desc": "อัยยวัฒน์ ศรีวัฒนประภา เจ้าของทีม “เดอะ ฟ็อกซ์ The post ‘อัยยวัฒน์’ เผย เสนอขาย ‘เลสเตอร์’ จริง แต่ไม่มีคนซื้อ ยืนยันพร้อมบริหารทีมต่อ appeared first on .",
+   "topic": "กีฬา",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/sport-news/1115729/",
+   "image": "https://storage-wp.thaipost.net/2026/11/AFP__20220519__32AJ2PF__v2__MidRes__FblEngPrChelseaLeicester.jpg",
+   "published": 1795657649.0
+  },
+  {
+   "id": "nnews_5990310",
+   "title": "รถติดสาหัส! เช็กเส้นทางติดหนัก ด่านดาวคะนอง-พระราม 2-สะพานภูมิพล-หน้าม.ราม-พหลโยธินยังหนึบ",
+   "desc": "จราจรเช้าวันพฤหัสฯ รถติดสาหัส! เช็กเส้นทางรถติดหนัก ด่า",
+   "topic": "ยานยนต์",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/local/news_5990310",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/a9-6.jpg",
+   "published": 1795657470.0
+  },
   {
    "id": "ntnews1115721",
    "title": "สิ้นตำนาน ‘สะพานเทพหัสดิน’ พังถล่ม! เรือโป๊ะกระแทกส่วนที่ยังเหลืออยู่เสียหายจมแม่น้ำบางปะกง",
@@ -11,6 +411,26 @@
    "link": "https://www.thaipost.net/district-news/1115721/",
    "image": "https://storage-wp.thaipost.net/2026/11/230222.jpg",
    "published": 1795657372.0
+  },
+  {
+   "id": "news_10484717",
+   "title": "ราคาน้ำมันวันนี้ 26 พ.ย.69 อัปเดตล่าสุด ปั๊มไหนราคาเท่าไหร่บ้าง",
+   "desc": "ราคาน้ำมันวันนี้ 26 พ.ย.69 อัปเดตล่าสุด เบนซิน-แก๊สโซฮอล์ ลิตรละกี่บาท 5 สถานีบริการ ปั๊มไหนราคาเท่าไหร่บ้าง มีผลแล้วตั้งแต่เวลา 05.00 น.วันนี้ วันที่ 26 พ.ย.2569 ผู้สื่อข่าวรายงานว่า สำนักงานนโยบายและแผนพลังงาน (สนพ.) กระทรวงพลังงาน มีการร",
+   "topic": "เศรษฐกิจ",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/breaking-news/news_10484717",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Todays-oil-prices.jpg",
+   "published": 1795657226.0
+  },
+  {
+   "id": "nEd2cjdkUQoc5",
+   "title": "ปิดสะพานต่างระดับสวนเลียบ ถนนราชพฤกษ์ ขาออก พบรอยร้าวเสาตอม่อ",
+   "desc": "ปิดสะพานต่างระดับสวนเลียบ ถนนราชพฤกษ์ ขาออก พบรอยร้าวเสาตอม่อ bangkokbiznews พบรอยแตกร้าว\"สะพานสวนเลียบ\"ถ.ราชพฤกษ์ขาออก ทช.ปิดใช้ เร่งตรวจสอบ ผู้จัดการออนไลน์ เช็กเส้นทางเลี่ยง ปิดต่างระดับสวนเลียบ กับ คู่หูจราจร : 24 พฤศจิกายน 2569 | สวพ.F",
+   "topic": "ข่าวทั่วไป",
+   "source": "bangkokbiznews",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hLVF4M1Z6Ui1oMS1lRmtMenk1TTRrOW12MHZoSjFOTzNxZjd6LTZpV3k0dUVMLUxLaVo1WTFScW44aThDNDRkZXo5YTdTS3lscGh2ZjN3UkRBdmtJR0dBREd2cjdkUQ?oc=5",
+   "image": "",
+   "published": 1795657140.0
   },
   {
    "id": "nnews_5990308",
@@ -31,16 +451,6 @@
    "link": "https://www.matichon.co.th/foreign/news_5990307",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/smk-2.jpg",
    "published": 1795656676.0
-  },
-  {
-   "id": "nIyRUVEV0Uoc5",
-   "title": "GalaxyCore เปิดตัว GC68F0 เซ็นเซอร์กล้องจตุรัส 1:1 ความละเอียด 68MP สำหรับกล้องหน้ามือถือรุ่นใหม่! - iPhone-Droid",
-   "desc": "GalaxyCore เปิดตัว GC68F0 เซ็นเซอร์กล้องจตุรัส 1:1 ความละเอียด 68MP สำหรับกล้องหน้ามือถือรุ่นใหม่! iPhone-Droid",
-   "topic": "เทคโนโลยี",
-   "source": "Google News",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOHFZTlB2djQ3UGpxWTE0ZWJHUnNpX0FSNEYyYWpJOXpLdVBBMU1qN0g5MTFxdmwxUmhBWThUbmpmRDM0dW5KYW9xWGFfYmVkWmxhSWRCazdONmduMWRiSnh6VVVYYzlVaTNDNnN6UlRhemhuY3JCSU5RTUg4MDhpLWIyRUVEV0U?oc=5",
-   "image": "",
-   "published": 1795656648.0
   },
   {
    "id": "news_10484514",
@@ -73,16 +483,6 @@
    "published": 1795656521.0
   },
   {
-   "id": "nUcwZ24yawoc5",
-   "title": "วิธีตั้งเวลาส่งข้อความ WhatsApp ใหม่ล่าสุด",
-   "desc": "วิธีตั้งเวลาส่งข้อความ WhatsApp ใหม่ล่าสุด iT24Hrs by ปานระพี",
-   "topic": "ข่าวทั่วไป",
-   "source": "iT24Hrs by ปานระพี",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pbEpnYk5EYjlhSGR0T3R3N2FrbGxEVTdZWHFpUzJhbzFwY1c4Z3FuejFLQ2c0RVIzTmp4N1JWODRROTJ6bFJpWGZ3VkhRZUZFTGlPYlRHLXoyQ29KVUcwZ24yaw?oc=5",
-   "image": "",
-   "published": 1795656193.0
-  },
-  {
    "id": "ncnews2102351",
    "title": "สมาคมผู้เลี้ยงฯ ยืนยัน ‘ไข่ไก่’ ไทยยึดมาตรฐานสากล อย่าเชื่อ ‘คลิป’ สร้างความเข้าใจผิด",
    "desc": "สมาคมผู้เลี้ยงไก่ไข่ภาคใต้ ยืนยันการผลิตไข่ไก่ไทยยึดมาตรฐานสากล กรมปศุสัตว์กำกับดูแล ชี้คลิปจัดอันดับไข่ในซูเปอร์มาร์เก็ตขาดหลักฐาน หวั่นสร้างความเข้าใจผิด กระทบความเชื่อมั่น นายสุเทพ สุวรรณรัตน์ นายกสมาคมผู้เลี้ยงไก่ไข่ภาคใต้ เปิดเผยว่า ปั",
@@ -91,6 +491,16 @@
    "link": "https://www.prachachat.net/economic/news-2102351",
    "image": "https://www.prachachat.net/wp-content/uploads/2026/11/74837.jpg",
    "published": 1795656161.0
+  },
+  {
+   "id": "nxUXpCLUZZoc5",
+   "title": "ราคาน้ำมันโลกพุ่ง WTI ปิด 83.68 เหรียญ เบรนท์ทะยาน 3.51% ผวาฮูตีโจมตีโรงกลั่นซาอุฯ",
+   "desc": "ราคาน้ำมันโลกพุ่ง WTI ปิด 83.68 เหรียญ เบรนท์ทะยาน 3.51% ผวาฮูตีโจมตีโรงกลั่นซาอุฯ Thansettakij “ฮูตี” โจมตีอาคารกองทุนความมั่งคั่งซาอุดีอาระเบีย ขู่โจมตีท่าเรือตามแนวชายฝั่งทะเลแดง LINE TODAY ราคาน้ำมันดิบปรับเพิ่ม หลังความตึงเครียดในตะวัน",
+   "topic": "เศรษฐกิจ",
+   "source": "Thansettakij",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAteWg5N1hGeThQNTV0U0p4MVVlbGZMdnVMTkVWMU43bHZIOFB0QUxHOXhqQ05pQVEyOVQ3dnFvUkVCbXJ1TmE0bG9udzlucEdyZFRLTXlzVHQxUXpCLUZZ?oc=5",
+   "image": "",
+   "published": 1795656000.0
   },
   {
    "id": "nnews_5990300",
@@ -153,26 +563,6 @@
    "published": 1795655176.0
   },
   {
-   "id": "nsnews1115383",
-   "title": "ครูบาศรีวิชัยนักบุญแห่งล้านนา ตอนที่ 14",
-   "desc": "ครูบาศรีวิชัยนักบุญแห่งล้านนา ตอนที่ 14 The post ครูบาศรีวิชัยนักบุญแห่งล้านนา ตอนที่ 14 appeared first on .",
-   "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/public-relations-news/1115383/",
-   "image": "",
-   "published": 1795655129.0
-  },
-  {
-   "id": "nENWb2JMVQoc5",
-   "title": "ทองโลกฟื้นตัวรับบอนด์ยีลด์ลดลง เมินตัวเลข GDP-เงินเฟ้อสหรัฐแข็งแกร่ง",
-   "desc": "ทองโลกฟื้นตัวรับบอนด์ยีลด์ลดลง เมินตัวเลข GDP-เงินเฟ้อสหรัฐแข็งแกร่ง ราคาทองคําวันนี้ Night Recap Gold Spot 25-11-2569 ฮั่วเซ่งเฮง เปิดตลาดราคาทอง เช้าวันนี้ (25 พ.ย. 69) ร่วงลง 1,000 บาท | สวพ.FM91 LINE TODAY ราคาทองครึ่งสลึง 25/11/69 กี่บ",
-   "topic": "ต่างประเทศ",
-   "source": "ราคาทองคําวันนี้",
-   "link": "https://news.google.com/rss/articles/CBMiuwZBVV95cUxQOG5DYVFwU1lrRG96Tk9kNG1rY011aW5qaDQ3ZGNselNOTlVxd0FhbEZEN09yNnprYUNIX0ZhYmd1dlg1SmI3dVZaa2xSeTdPM09TMUVCX2JMeExNMmVNM3Fwazcyd0dhVVJqY2JDaGhzQlZkWjZjR1FDUVpNTGZJa3o0WXo1Z1hVVlBEODh0cFZHVGRva1pKMTViWVQ0THVxcndLWXpOZDJHLXpHaExvazlpdnJ6NmQzLVdlMWRQaHA5NC1fQ0ZhbTJTMF9wa0Y5QmMteU1aTFZSaHU5M3JlczJRTmV2SlJjSHJlX0ROWUw4XzZmN2NfOWZ3b1FnNi1BSjQxU3FqUjQ5bno4MURMS1pOQVMzMTE3M3J0cnlOSzczZlVvRVF3SVpnY2tiOXZmNkl5Zno5X3ZINkFnOUkyQ1dHNENlNGtjQ3dwUHdKNjdvb3Q4U042OElqb2VzbVZ5czNtRFRxSTVObHM2ekl5dm5PUTAzSlczWWNjRER5R2lkeVJKblNZakhhWFd2ZGJkdWdOVFpRYldLNzZDcEdIVWJNeXVPbHRfMDRFVmF1MlFFMTdZTExtdUc5cFdwTVlfWVp1c1NIWmVBTWZEUU9jTTFObjNVc1hXZnNCT0xiWi1yV0haWk9nNmVhMGdyRDEzNDVuVkpzRVJHMTl0RF9ROHd0Sm40VkxlZmZzU3NiQXJ1SG1yT0QtcWd6X1h3S1ZVbVFxSS1vMzZCcjFzUDBlazQ0NG54elE1cW1VTTB6UHRWWlNCelRtc1NCRk53Rkl6MlY1aFl5bmdtMTFSUktOTGVaZzhOdmxPWFg2djVpbWNTYlJ6VllGZzB3eVRKLTZJaU9GeTFJRGpfdUpYQjdVbXMyVWota1NoZ2ZhNVJaSHRtN01lLXRHdVdsV3dxSmhRd01Hd3RaQ0VOdVdFZnNzTk5SRkhuODA2MTZfaF9QRnUzc05zTk9MRmtPdDFmWHNLZEZ5eGt6c2NDZDY2M0IzYTRzTk5BXzJUV25Da3hQNTJHTEJZRzRucUVnUVdjLVpJZzEwU3NhMUxFWGx1LUVPWVFxNUszcTJnUW13bFNlOENwSVVkMENWb2JMVQ?oc=5",
-   "image": "",
-   "published": 1795654931.0
-  },
-  {
    "id": "news_10484707",
    "title": "วู้ดดี้ ชมความสวยภรรยา ดิว อริสรา แต่งชุดไทยไปถ่ายบัตรประชาชนใหม่ ใช้นามสกุลสามี",
    "desc": "เริ่มต้นบทใหม่ที่สำคัญของชีวิต! วู้ดดี้ ชมความสวยภรรยา ดิว อริสรา แต่งชุดไทยไปถ่ายบัตรประชาชนใหม่ เปลี่ยนมาใช้นามสกุลสามีอย่างเป็นทางการ นางอริสรา ล่ำซำ หลังจาก วู้ดดี้ ล่ำซำ โพสต์ภาพกับ ดิว อริสรา ภรรยาในชุดไทย พร้อมชมความสวยภรรยา แต่งชุดไ",
@@ -181,6 +571,16 @@
    "link": "https://www.khaosod.co.th/entertainment/news_10484707",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/duearislamsam2611699998.jpg",
    "published": 1795654781.0
+  },
+  {
+   "id": "nlPYzFtTGooc5",
+   "title": "ราคาน้ำมันบางจาก 26 พ.ย. 2569 แก๊สโซฮอล์ 95/91 ลด 70 สต. E20 ลด 50 สต.",
+   "desc": "ราคาน้ำมันบางจาก 26 พ.ย. 2569 แก๊สโซฮอล์ 95/91 ลด 70 สต. E20 ลด 50 สต. Autotirechecking พรุ่งนีน้ำมันลดราคา! กลุ่มเบนซิน ปรับลดราคา 70 สต./ลิตร , แก๊สโซฮอล์ E20 ปรับลดราคา 50 สต./ลิตร มีผล 26 พ.ย. LINE TODAY ลดราคาน้ำมัน เบนซิน-แก๊สโซฮอล์ w",
+   "topic": "เศรษฐกิจ",
+   "source": "Autotirechecking",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4bGxmWXBPMFFSc2pjZDVjMHdMOGJHck9XX1dacmlTTEpsX2Q1a3c2aUZaUU1hdFhDampnNGJFMm1rcTVCaUhENjcxMG1IN3ItM05sNkx6R3hBX1JBZnBJcXlqNTR0OG5PT3RfSTJ2UjQ1QUJvc3lPYzFtTGo?oc=5",
+   "image": "",
+   "published": 1795654743.0
   },
   {
    "id": "nomnode152254",
@@ -201,406 +601,6 @@
    "link": "https://www.matichon.co.th/foreign/news_5990297",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-overlay.png",
    "published": 1795653974.0
-  },
-  {
-   "id": "nTRodVZBdwoc5",
-   "title": "'ปู มัณฑนา' ขอใช้สิทธิอุทธรณ์ หลังโดนคุก 14 ปี คดีหมิ่นประมาท 'หนุ่ม กรรชัย'",
-   "desc": "'ปู มัณฑนา' ขอใช้สิทธิอุทธรณ์ หลังโดนคุก 14 ปี คดีหมิ่นประมาท 'หนุ่ม กรรชัย' CH3Plus.com ศาลสั่งจำคุก 14 ปี \"ปู มัณฑนา\" หมิ่นประมาท \"หนุ่ม กรรชัย\" Thai PBS “มาดามสามพี” ยกมือไหว้! วอน “หนุ่ม กรรชัย” เปิดโอกาสไกล่เกลี่ย ลั่นหาก “ปู มัณฑนา” ไ",
-   "topic": "อาชญากรรม",
-   "source": "CH3Plus.com",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04dmN2dmVFNW1lY3lvN1FNRGRpU1VKbWZYU0lfWnJKMTRYZFllZzNfTGVIMlFKYnA5bnNTbUlMamNIRjBqRFl1YUc5ZksyVm5KYUVSOTRodVZBdw?oc=5",
-   "image": "",
-   "published": 1795653766.0
-  },
-  {
-   "id": "nnews_5990287",
-   "title": "เช็กราคาน้ำมันวันนี้ 26 พ.ย.69 เบนซิน-ดีเซลทุกปั๊ม ลดลงเหลือเท่าไหร่",
-   "desc": "เช็กราคาน้ำมันวันนี้ 26 พ.ย.69 เบนซิน-ดีเซลทุกปั๊ม ลดลง",
-   "topic": "เศรษฐกิจ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/economy/news_5990287",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/a4-9.jpg",
-   "published": 1795653638.0
-  },
-  {
-   "id": "nnews_5990288",
-   "title": "USTR เผยภาษีใหม่ 14 คู่ค้า เกรียร์ยัน ภาษีรวมไม่เกินข้อตกลงการค้า ยังไม่มีผลทันที",
-   "desc": "USTR เผยภาษีใหม่ 14 คู่ค้า เกรียร์ยัน ภาษีรวมไม่เกินข้อ",
-   "topic": "เศรษฐกิจ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/foreign/news_5990288",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/ttr.jpg",
-   "published": 1795653540.0
-  },
-  {
-   "id": "ntnews1115701",
-   "title": "รวบ 4 โจ๋แสบ ฉกข้าวเปลือกริมถนน อ้างหาเงินเที่ยวงานวัด ชาวนาลั่นเอาเรื่องถึงที่สุด",
-   "desc": "ผกก.ประโคนชัย นำทีมชุดสืบแกะรอยวงจรปิด รวบ 4 โจ๋แสบวัย 15-17 ปี ย่องขโมยข้าวเปลือกตากริมถนน 120 กก. ขายได้ 1,620 บาท อ้างหาเงินเที่ยวงานลอยกระทง คุมทำแผนฯ ยกมือไหว้ขอโทษเจ้าของข้าว ชาวนาลั่นจำเป็นต้องเอาเรื่องหวั่นย่ามใจไปก่อเหตุซ้ำ ​ The p",
-   "topic": "ท่องเที่ยว",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/district-news/1115701/",
-   "image": "https://storage-wp.thaipost.net/2026/11/1795652895264.jpg",
-   "published": 1795653124.0
-  },
-  {
-   "id": "news_10484618",
-   "title": "สวิสเสียใจ! หลังคิมสั่งปิด-ขับไล่หัวหน้าสนง.การทูต-ปมประณามค่ายล้างสมองเด็ก",
-   "desc": "สวิสเสียใจ! – รอยเตอร์ รายงานวันที่ 26 พ.ย. ว่า รัฐบาลสวิตเซอร์แลนด์แสดงความเสียใจต่อการตัดสินใจของทางการเกาหลีเหนือหลังสั่งปิด สำนักงานการทูตของสวิตเซอร์แลนด์ ในกรุงเปียงยาง ทั้งที่เพิ่งเปิดทำการใหม่เพียงไม่กี่สัปดาห์เท่านั้น กระทรวงการต่า",
-   "topic": "ต่างประเทศ",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/around-the-world-news/news_10484618",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/SwissexpressregretatNKdecision-02.jpg",
-   "published": 1795653056.0
-  },
-  {
-   "id": "nnews_5989486",
-   "title": "‘ษัษฐรัมย์’ จี้ กกต.เร่งพิจารณาคำร้องคัดค้านเลือกตั้งบอร์ดประกันสังคม ล่าช้ากว่า 50 วัน ชี้กระทบผู้ประกันตน เสนอรับรอง 13 คนก่อน",
-   "desc": "‘ษัษฐรัมย์’ จี้ กกต.เร่งพิจารณาคำร้องคัดค้านเลือกตั้งบอ",
-   "topic": "การเมือง",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5989486",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/IMG_5564.jpeg",
-   "published": 1795653001.0
-  },
-  {
-   "id": "nomnode152253",
-   "title": "1Password รายงานปัญหาถูกแฮ็ก ได้ข้อมูลผู้ใช้งานบางส่วน แต่ Vault และรหัสผ่าน ไม่ได้รับผลกระทบ",
-   "desc": "1Password รายงานปัญหาถูกแฮ็ก ได้ข้อมูลผู้ใช้งานบางส่วน แต่ Vault และรหัสผ่าน ไม่ได้รับผลกระทบ Body 1Password รายงานเหตุการณ์ถูกเจาะข้อมูลระบบ โดยพบว่าผู้โจมตีใช้วิธีเข้าถึงข้อมูลผ่านบัญชี GitHub แบบองค์กรของพนักงานคนหนึ่ง จากนั้นได้พุชโค้ดเ",
-   "topic": "ข่าวทั่วไป",
-   "source": "Blognone",
-   "link": "https://www.blognone.com/node/152253",
-   "image": "",
-   "published": 1795652773.0
-  },
-  {
-   "id": "nsnews1115689",
-   "title": "DIPROM ชวนนักช็อปอุดหนุนสินค้าคุณภาพรับเทศกาลปีใหม่ เติมเต็มสังคมได้ไปต่อ กับงาน DIPROM CARE & SHARE",
-   "desc": "กรมส่งเสริมอุตสาหกรรม (DIPROM) ชวนประชาชนร่วมงาน “ดูแลโลก ใส่ใจสังคม สู่ความยั่งยืน (DIPROM CARE & SHARE)” เปิดพื้นที่ส่งเสริมผู้ประกอบการ SME/MSME ให้เติบโตตามแนวทาง ESG พร้อมช้อป ชิม สินค้าคุณภาพ อาหาร และเครื่องดื่มหลากหลายประเภท สนับสนุ",
-   "topic": "ต่างประเทศ",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/public-relations-news/1115689/",
-   "image": "https://storage-wp.thaipost.net/2026/11/social-post2-09_0.jpg",
-   "published": 1795652347.0
-  },
-  {
-   "id": "nenews2101652",
-   "title": "ทช.ทุ่ม 619 ล้านตัด‘ถนนบึงกาฬ’เชื่อมไทย-ลาว",
-   "desc": "กรมทางหลวงชนบททุ่ม 619 ล้าน เดินหน้าก่อสร้างถนนขนาด 2 ช่องจราจรสาย บก.3009 จ.บึงกาฬ ช่วงแยก ทล.212-บ้านโนนจำปาทอง อ.เซกา และบึงโขงหลง ระยะทางกว่า 46 กม. เชื่อมโยงพื้นที่เศรษฐกิจการค้าชายแดนไทย-ลาว เสริมศักยภาพคมนาคมภาคอีสานตอนบน หนุนภาคการท",
-   "topic": "ข่าวทั่วไป",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/real-estate/news-2101652",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/6-3POK.jpg",
-   "published": 1795652278.0
-  },
-  {
-   "id": "news_10484694",
-   "title": "หมอปลาย เตือนดวงวันเกิดเดือนสุดท้าย คนเกิดวันไหนระวังสิ่งต้องห้าม เกิดวันไหนข่าวดีเงินโชคลาภ",
-   "desc": "หมอปลาย เตือนดวงวันเกิด ช่วงเดือนสุดท้ายปี69 คนเกิดวันไหนมีเรื่องต้องระวัง สิ่งต้องห้ามควรหลีกเลี่ยง เกิดวันไหนข่าวดีเรื่องเงินโชคลาภ เกิดวันไหนงานปังสำเร็จ ดวงเดือนธันวาคมปี 2569 ปลายปีเป็นยังไงกันบ้าง กอล์ฟ เบญจพล เผย คลิป เช็กดวงวันเกิดก",
-   "topic": "ข่าวทั่วไป",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/horoscope/news_10484694",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/plaidaygolf2611699998.jpg",
-   "published": 1795652152.0
-  },
-  {
-   "id": "nenews1115681",
-   "title": "เตือนอย่าหลงเชื่อ! ข้อมูลบิดเบือนโจมตีสถาบัน โยงข่าวเอกชนถวายน้ำมันเชื้อเพลิงอากาศยาน",
-   "desc": "เพจเฟซบุ๊ก \"ปราชญ์ สามสี\" โพสต์ภาพกราฟิกพร้อมข้อความพบการบิดเบือนข้อมูลประเด็นวิกฤตพลังงานสู่การหมิ่นเบื้องสูงว่า \"จากน้ำมันแพง สู่การโจมตีสถาบันพระมหากษัตริย์ เปิดกลไกการบิดเบือนข้อมูลในสงครามข่าวสาร\" The post เตือนอย่าหลงเชื่อ! ข้อมูลบิดเ",
-   "topic": "เศรษฐกิจ",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/x-cite-news/1115681/",
-   "image": "https://storage-wp.thaipost.net/2026/11/926566127_2330626524362039_7394361988004197360_n.jpg",
-   "published": 1795652055.0
-  },
-  {
-   "id": "nUI3dTlUdwoc5",
-   "title": "ราคาน้ำมัน WTI 25/11/69 ปิดบวก 1.99% แตะ 83.68 ดอลลาร์ รับข่าวฮูตีโจมตีโรงกลั่นใหญ่ซาอุฯ ดันเบรนท์พุ่ง 3.51%",
-   "desc": "ราคาน้ำมัน WTI 25/11/69 ปิดบวก 1.99% แตะ 83.68 ดอลลาร์ รับข่าวฮูตีโจมตีโรงกลั่นใหญ่ซาอุฯ ดันเบรนท์พุ่ง 3.51% สยามรัฐ น้ำมันขึ้นแรงหลังฮูตีโจมตีซาอุฯ หุ้นสหรัฐฯปิดผสม-ทองคำปรับลด ผู้จัดการออนไลน์ “ฮูตี” โจมตีอาคารกองทุนความมั่งคั่งซาอุดีอาระ",
-   "topic": "เศรษฐกิจ",
-   "source": "สยามรัฐ",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PeHRQV2pGVFhyNmZxSUJzTkJ1TzJYZ05rUUdzWDNzcGRsVnU3eHJrWDZEYV90Y0QzQVNNRXZIeGlwNkd1bzA0NUI3dTlUdw?oc=5",
-   "image": "",
-   "published": 1795651800.0
-  },
-  {
-   "id": "nnews_5990281",
-   "title": "อากาศเปลี่ยนแปลง กรมอุตุฯ ขอปชช.ดูแลสุขภาพ เผยไทยตอนบนช่วงเช้าหนาว แต่บางแห่งฝนตก",
-   "desc": "อากาศเปลี่ยนแปลง กรมอุตุฯ ขอปชช.ดูแลสุขภาพ เผยไทยตอนบนอ",
-   "topic": "สุขภาพ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5990281",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/a1-11.jpg",
-   "published": 1795651596.0
-  },
-  {
-   "id": "nenews2101655",
-   "title": "พอลล์ กาญจนพาสน์ สูตรลงทุน ‘อิมแพ็ค’ ยุค ศก.ผันผวน",
-   "desc": "ด้วยความพร้อมของพื้นที่ “เมืองทองธานี” โดยเฉพาะโครงสร้างพื้นฐานภายในโครงการที่มีความพร้อมในทุกด้าน ทั้งการคมนาคม การเดินทางเข้า-ออก ที่มีรถไฟฟ้าสายสีชมพู (ส่วนต่อขยาย) เข้าพื้นที่ถึง 2 สถานีและการวางระบบเมืองสู่ Smart City ใช้เทคโนโลยีและข้",
-   "topic": "เศรษฐกิจ",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/real-estate/news-2101655",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/2-1-3.jpg",
-   "published": 1795651577.0
-  },
-  {
-   "id": "news_10484691",
-   "title": "กรมอุตุฯ ประกาศฉบับที่ 5 เตือน ฝนตกหนักถึงหนักมาก น้ำท่วมฉับพลัน",
-   "desc": "กรมอุตุฯ ประกาศฉบับที่ 5 เตือน ฝนตกหนักถึงหนักมาก ภาคใต้ฝนเพิ่มขึ้น น้ำท่วมฉับพลัน น้ำป่าไหลหลาก เผย ไทยตอนบน อากาศเย็นลง-ลมแรง 27-30 พ.ย.นี้ วันที่ 26 พ.ย.2569 กรมอุตุนิยมวิทยา ประกาศ เรื่อง ฝนตกหนักถึงหนักมากบริเวณภาคใต้ (มีผลกระทบในช่วงว",
-   "topic": "ข่าวทั่วไป",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/breaking-news/news_10484691",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Thai-Meteorological-Department-16.jpg",
-   "published": 1795651510.0
-  },
-  {
-   "id": "nlnews1115682",
-   "title": "ฝนยังติดใจไทย! วันนี้เจอเล็กน้อยส่วนยอดดอยอากาศเหลือเลขตัวเดียวแล้ว",
-   "desc": "กรมอุตุนิยมวิทยาได้พยากรณ์อากาศ 24 ชั่วโมงข้างหน้าในลักษณะทั่วไป The post ฝนยังติดใจไทย! วันนี้เจอเล็กน้อยส่วนยอดดอยอากาศเหลือเลขตัวเดียวแล้ว appeared first on .",
-   "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/general-news/1115682/",
-   "image": "https://storage-wp.thaipost.net/2026/11/daily-26-november-2026-0600.png",
-   "published": 1795651384.0
-  },
-  {
-   "id": "nenews1115677",
-   "title": "‘วัส’ ไขปมทำไมศาลรัฐธรรมนูญไม่รับคำร้อง กกต.ไว้พิจารณา!",
-   "desc": "วัส ติงสมิตร นักวิชาการอิสระ โพสต์เฟซบุ๊กในหัวข้อ The post ‘วัส’ ไขปมทำไมศาลรัฐธรรมนูญไม่รับคำร้อง กกต.ไว้พิจารณา! appeared first on .",
-   "topic": "การเมือง",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/x-cite-news/1115677/",
-   "image": "https://storage-wp.thaipost.net/2026/11/932411853_122136000003474964_2320188158936963221_n.jpg",
-   "published": 1795650952.0
-  },
-  {
-   "id": "n3a2dPcF9Eoc5",
-   "title": "ไฮไลท์บอลไทย BYD SEAL 5 LEAGUE TWO : เชียงใหม่ ยูฯ vs มหาสารคาม (25-11-69)",
-   "desc": "ไฮไลท์บอลไทย BYD SEAL 5 LEAGUE TWO : เชียงใหม่ ยูฯ vs มหาสารคาม (25-11-69) Ballthai.com หยุดไม่อยู่แล้ว! “เอเลียส เอ็มมานูเอล” ทัพเสือป่าราชา คว้าแข้งยอดเยี่ยมลีกสอง นัดที่ 11 สยามรัฐ เหล่าขุนพล\"เสือป่าราชา\"เดินทางเข้าสู่สนามกีฬามหาวิทยาลัย",
-   "topic": "กีฬา",
-   "source": "Ballthai.com",
-   "link": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxNLTY1NjJCSjk1Mk8tZFpjNXZ0SkNmMDNmSWd3UE1WSlJJLUdReWF5YjV5Z2tka1J0LUtqTjBTVGxzSTlEelBQeXdRQWlmX1hDbWR4OFI3M0FIdF9HWkFrbk1ncl9xQjhMYjNOT1lmcW9Zc29JM2sxLVBLN2JaNlhuc2xWZU5oMHpMbXNlVy1FN0VnbGdQcWVBeWhmNm03SEwta0JVaUV4aFVxYkJ1OGZUR2g0TzdGT1ltWE4wZVY4c0xHOVRCRUs4Q0RSWGlvMEFJMnRnTXV0U0ROb1FkWTU0U3h5MG5kN3VlSzFvQlI3ZGlZREdpajQxcUlVM1FnQUhmVFdSeFBkQzM5X1JiOEc1X0xBaF9vQURIZ1ppOFpxVmFrdVg2Z3gzN0xQQW02NlpDSWhtMjlMc0NsSHpWVS00WlFuaEhtX0xHN0dhQkpEU1ZtcUV5NXd2RER1N3YyVWdzSmp5bFVWaHhKd085QUhRZVdnUmR6UXdSSjJfMHF6T1pPbW91RDNKUWw1OXE4SFFpN0VIcWx4dEJXSXlCLTlVV2NFeFU0MEV1VHlYWXo1S3NZVmhzU1NRS1FPdk1iZl80X203cFVWNDlyQmFuQ2ZJX2VjUmltY3J4SUlwT0JHWVhhMnVpd3FadlF0cXQyWDkwd1dtaXJ3a2dPcF9E?oc=5",
-   "image": "",
-   "published": 1795650484.0
-  },
-  {
-   "id": "nnews_5989999",
-   "title": "คมนาคมนับถอยหลัง รถไฟฟ้า 17–45 บ. เปิดลงทะเบียน 15 ธ.ค.นี้ ผ่านแอพเป๋าตัง",
-   "desc": "คมนาคมนับถอยหลัง รถไฟฟ้า 17–45 บ. เปิดลงทะเบียน 15 ธ.ค.",
-   "topic": "เศรษฐกิจ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/economy/news_5989999",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/2-221.jpg",
-   "published": 1795650048.0
-  },
-  {
-   "id": "news_10484686",
-   "title": "สภาพอากาศวันนี้ กรมอุตุฯ เตือน ภาคใต้ ฝนตกหนักบางแห่ง ระวังอันตราย",
-   "desc": "สภาพอากาศวันนี้ กรมอุตุฯ เตือน ภาคใต้ ฝนตกหนักบางแห่ง ระวังอันตราย เผย ไทยตอนบน เตรียมรับมือ มวลอากาศเย็นระลอกใหม่ อากาศเย็น ลมแรง วันที่ 26 พ.ย.2569 กรมอุตุนิยมวิทยา พยากรณ์อากาศ 24 ชั่วโมงข้างหน้า ภาคใต้มีฝนลดลง แต่ยังคงมีฝนตกหนักบางแห่ง ",
-   "topic": "ข่าวทั่วไป",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/breaking-news/news_10484686",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Todays-weather-19.jpg",
-   "published": 1795649989.0
-  },
-  {
-   "id": "nnews_5989850",
-   "title": "มติศาลรธน.เอกฉันท์ ตีตกคำร้องปมอำนาจศาลฎีกา ชี้ละเมิดขอบเขตวินิจฉัย ‘กกต.-แสวง’ลุ้นคดีฮั้วสว.วันนี้ โจทย์ถอนฟ้องข้างน้อยกันเป็นพยาน",
-   "desc": "มติศาลรธน.เอกฉันท์ ตีตกคำร้องปมอำนาจศาลฎีกา ชี้ละเมิดขอ",
-   "topic": "การเมือง",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/politics/news_5989850",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-327.jpg",
-   "published": 1795648817.0
-  },
-  {
-   "id": "news_10484683",
-   "title": "กอบศักดิ์ ชี้ภาษีสหรัฐ 18% ไทยยังแข่งได้ เทียบเวียดนามโดนหนัก 35%",
-   "desc": "กอบศักดิ์ ชี้ภาษีสหรัฐ 18% ไทยยังสู้ได้ เทียบเวียดนามโดนหนัก 35% นายกอบศักดิ์ ภูตระกูล กรรมการรองผู้จัดการใหญ่ ธนาคารกรุงเทพ ในฐานะประธานกรรมการสภาธุรกิจตลาดทุนไทย (FETCO) โพสต์เฟซบุ๊กKobsak Pootrakool กรณีสหรัฐอเมริกาประกาศเก็บภาษีกำลังการ",
-   "topic": "เศรษฐกิจ",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/economics/news_10484683",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/usa-1-2.jpg",
-   "published": 1795647930.0
-  },
-  {
-   "id": "ntLQWw4Q2koc5",
-   "title": "สภาพอากาศวันนี้ ไทยตอนบนอากาศเย็นลง-ภาคใต้ฝนตกหนัก",
-   "desc": "สภาพอากาศวันนี้ ไทยตอนบนอากาศเย็นลง-ภาคใต้ฝนตกหนัก Thai PBS พยากรณ์อากาศประจำ วันที่ 26 พฤศจิกายน 2569 กรุงเทพและปริมณฑล เมฆบางส่วน โดยมีฝนเล็กน้อยบางแห่ง LINE TODAY กรมอุตุฯ ประกาศ ฉ.5 ภาคใต้ฝนตกหนักถึงหนักมาก 27-30 พ.ย.นี้ Thai PBS ประกาศ",
-   "topic": "ข่าวทั่วไป",
-   "source": "Thai PBS",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IRVNuWG1jX3pkaXBUREVlVHA0LU4zaFloWXdDMHdvaThQWjg1TEJKZlRtMnA1V0hkSHdBdFZmemRTSVpnZ25zLXNZNFlDRDJXc2tLQWw4Q2k?oc=5",
-   "image": "",
-   "published": 1795647926.0
-  },
-  {
-   "id": "nluaHNtUlUoc5",
-   "title": "Broadcom ออกแพตช์ช่องโหว่ Critical บน VMware vCenter อีกครั้ง เสี่ยงถูก Bypass การยืนยันตัวตน",
-   "desc": "Broadcom ออกแพตช์ช่องโหว่ Critical บน VMware vCenter อีกครั้ง เสี่ยงถูก Bypass การยืนยันตัวตน TechTalkThai",
-   "topic": "ข่าวทั่วไป",
-   "source": "TechTalkThai",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR3I1UzFqbnNOdUFCT0xkSjBORGtkaHVwejF6V3Jrd3dHb0M0cWdlRmZad2NtNlF0UU5yTGVvTTh4aVROR0pzN2ppbFhHTDExUHZDX3NCSzN2TDFRQ3ZPQ19Sb0VmaC1iTDBsWldoeFQwTXlYVGZRUzVDbk9SWFQzWE94NTdNanRJNjFadmhXLTVRMXU1b1RLaDk5eVR1c1ZESlluaHNtUlU?oc=5",
-   "image": "",
-   "published": 1795647828.0
-  },
-  {
-   "id": "nnews_5990184",
-   "title": "PUMA ชวนสัมผัสประสบการณ์ลูกหนังสุดพิเศษในงาน PUMA EPL WATCH PARTY",
-   "desc": "PUMA ชวนสัมผัสประสบการณ์ลูกหนังสุดพิเศษในงาน PUMA EPL W",
-   "topic": "กีฬา",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sport/footballinter/footballinterengland/news_5990184",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/43-2.jpg",
-   "published": 1795647650.0
-  },
-  {
-   "id": "nnews_5989953",
-   "title": "ไทย-พม่า-ฉาน-จีน ร่วมวางทีโออาร์ 5 ข้อ แก้สารพิษ ทส.ชูน้ำสะอาด-สุขภาพปชช. เมียนมายอมตั้ง 6 จุดตรวจ ก.อุตฯคุมเข้มที่มาแร่ ดีเดย์ม.ค.",
-   "desc": "ไทย-พม่า-ฉาน-จีน ร่วมวางทีโออาร์ 5 ข้อ แก้สารพิษ ทส.ชูน",
-   "topic": "ต่างประเทศ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/news_5989953",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/2-220.jpg",
-   "published": 1795647639.0
-  },
-  {
-   "id": "ncnews2102348",
-   "title": "พยากรณ์อากาศ (26 พ.ย.) ภาคใต้ฝนลดลง ประเทศไทยตอนบนอากาศเย็นตอนเช้า ฝุ่นละอองแนวโน้มลดลง",
-   "desc": "กรมอุตุฯ พยากรณ์อากาศวันนี้ (26 พ.ย.) ภาคใต้มีฝนลดลง ภาพรวม 40% ของพื้นที่ ประเทศไทยตอนบนอากาศเย็นในตอนเช้า ฝุ่นละอองในระยะนี้มีแนวโน้มลดลง ยู่ในเกณฑ์น้อยถึงปานกลาง กรมอุตุนิยมวิทยา พยากรณ์อากาศวันนี้ (26 พ.ย.) ภาคใต้มีฝนลดลง แต่ยังคงมีฝนตก",
-   "topic": "ข่าวทั่วไป",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/economic/news-2102348",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8-%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8-%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD-%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%9B%E0%B8%B8%E0%B8%A2.webp",
-   "published": 1795646520.0
-  },
-  {
-   "id": "nenews2102345",
-   "title": "ราคาบิตคอยน์วันนี้ (26 พ.ย.) ขยับขึ้น 0.14% อยู่ที่ 60,032 เหรียญสหรัฐ",
-   "desc": "ราคาบิตคอยน์ประจำวันนี้ (26 พ.ย. 69) ขยับขึ้น 0.14% เมื่อเทียบกับราคาเมื่อ 24 ชั่วโมงก่อน โดยมีราคา 60,032 เหรียญสหรัฐ หรือราว 2,044,539.84 บาท เปลี่ยนแปลง 3.77% ในช่วงเวลา 7 วัน ตามข้อมูลล่าสุด เมื่อ 5.25 น. ของวันนี้ ขณะที่เหรียญดิจิทัลคร",
-   "topic": "ต่างประเทศ",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/finance/news-2102345",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Bitcoin-1.webp",
-   "published": 1795645980.0
-  },
-  {
-   "id": "ncnews2102342",
-   "title": "ราคาน้ำมันวันนี้ (26 พ.ย.) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด",
-   "desc": "ราคาน้ำมันวันนี้ (26 พ.ย. 69) ตามข้อมูลจาก บมจ.บางจากฯ แก๊สโซฮอล์ 95 จำหน่ายที่ราคาลิตรละ 37.44 บาท ส่วนแก๊สโซฮอล์ 91 จำหน่ายที่ราคาลิตรละ 37.07 บาท รายงานราคาดีเซลล่าสุด ราคาอยู่ที่ 39.34 บาท ขณะที่ดีเซล B20 จำหน่ายอยู่ที่ลิตรละ 32.9 บาท ไ",
-   "topic": "เศรษฐกิจ",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/economic/news-2102342",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/BCP-Gas-Station-price-today-newlogo1200-800-1.jpg",
-   "published": 1795645716.0
-  },
-  {
-   "id": "nnews_5990211",
-   "title": "หน้า 1 หนังสือพิมพ์มติชน วันนี้",
-   "desc": "หน้า 1 หนังสือพิมพ์มติชน วันนี้ – ศาลรธน. เอกฉันท",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/newspaper-cover/news_5990211",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/MCB012711FAH-scaled.jpg",
-   "published": 1795645517.0
-  },
-  {
-   "id": "nenews2101645",
-   "title": "‘ธนารักษ์’ ประมูลที่ทำเลทอง ลุยปิดมหากาพย์ ‘หมอชิตคอมเพล็กซ์’",
-   "desc": "อธิบดีกรมธนารักษ์คนใหม่ “ธีรลักษ์ แสงสนิท” กางแผนพัฒนาที่ราชพัสดุ สร้างรายได้ระยะยาว เดินหน้าเปิดประมูลที่ดินทำเลทองย่านสาทร 5 ไร่ ขึ้นโรงแรม ศูนย์การค้า ปิดมหากาพย์หมอชิตคอมเพล็กซ์ นายธีรลักษ์ แสงสนิท อธิบดีกรมธนารักษ์ เปิดเผย “ประชาชาติธุ",
-   "topic": "ข่าวทั่วไป",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/real-estate/news-2101645",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/6-1POK-7.jpg",
-   "published": 1795645298.0
-  },
-  {
-   "id": "nsnews2102339",
-   "title": "สุขสมรวย สั่ง สทบ. สอบโครงการ SML ที่กาฬสินธุ์",
-   "desc": "‘สุขสมรวย’ สั่ง สทบ.ตั้งกรรมการกลางสอบโครงการ SML บ้านหนาดใต้ กาฬสินธุ์ ย้ำ สทบ.เป็นผู้เสียหาย เดินหน้าดำเนินคดีทุกคนที่เกี่ยวข้อง ไม่มีข้อยกเว้น นางสุขสมรวย วันทนียกุล รัฐมนตรีประจำสำนักนายกรัฐมนตรี ในฐานะประธานกรรมการกองทุนหมู่บ้านและชุมช",
-   "topic": "ข่าวทั่วไป",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/politics/news-2102339",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/889478480_1436552628647161_453835116815741204_n.jpg",
-   "published": 1795645210.0
-  },
-  {
-   "id": "nlnSE1BX2coc5",
-   "title": "ล้วงคองูเห่า!CIAและข่าวกรองUSโดนเจาะระบบ ทำข้อมูลบางส่วนรั่วไหลออกมา",
-   "desc": "ล้วงคองูเห่า!CIAและข่าวกรองUSโดนเจาะระบบ ทำข้อมูลบางส่วนรั่วไหลออกมา ผู้จัดการออนไลน์ แฮกระบบ CIA จนท.ยันไม่กระทบข้อมูลลับ ไม่ชัดฝีมือใคร Thai PBS แฮกเกอร์เจาะระบบ CIA เข้าถึงข้อมูลข่าวกรองที่ไม่ใช่ความลับ | การเงินธนาคาร LINE TODAY แฮกเกอร",
-   "topic": "ข่าวทั่วไป",
-   "source": "ผู้จัดการออนไลน์",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VX1BMcHRLaEdYa1JXNnFjcngtbkVzT3lLbWFCY0ZIbGt6WlY2ckJnZVJKdWU5ZlJ1a1Z6YnhyaFJLcDFsenlqNXJNRVV2aTlKUk9ibkFkVDlnSE1BX2c?oc=5",
-   "image": "",
-   "published": 1795645200.0
-  },
-  {
-   "id": "nnews_5990276",
-   "title": "แมนยู บุกเจ๊า สปอร์ติ้ง ลิสบอน แม้เหลือผู้เล่นน้อยกว่า – ลิเวอร์พูล ฟอร์มดุถล่มยับ ยูฟ่า แชมเปี้ยนส์ลีก",
-   "desc": "แมนยู บุกเจ๊า สปอร์ติ้ง ลิสบอน แม้เหลือผู้เล่นน้อยกว่า",
-   "topic": "กีฬา",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sport/footballinter/news_5990276",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/8790.jpg",
-   "published": 1795644936.0
-  },
-  {
-   "id": "news_10484678",
-   "title": "แมนฯ ยูไนเต็ดเหลือ 10 คนจบเจ๊าสปอร์ติง – ลิเวอร์พูลชนะขาดยูฟ่า แชมเปียนส์ ลีก",
-   "desc": "แมนเชสเตอร์ ยูไนเต็ด เหลือผู้เล่น 10 คน ก่อนจบเจ๊าสปอร์ติง ลิสบอน ขณะที่ลิเวอร์พูลบุกชนะคลับ บรูช อย่างขาดลอยในเกมยูฟ่า แชมเปียนส์ ลีก การแข่งขันฟุตบอลยูฟ่า แชมเปียนส์ ลีก 2026-27 รอบลีก เมื่อวันที่ 25 พฤศจิกายน สปอร์ติง ลิสบอน จากโปรตุเกส ",
-   "topic": "กีฬา",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/sports/news_10484678",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-25T214352Z_1575693112_UP1EMBP1OD2PM_RTRMADP_3_SOCCER-CHAMPIONS-SCP-MUN.jpg",
-   "published": 1795644879.0
-  },
-  {
-   "id": "n1pkUEJZdQoc5",
-   "title": "“ไอซ์ รักชนก” โต้ “สุชาดา”ปมแจ้งความ ยันไม่กล่าวหาเป็นสแกมเมอร์ แต่สงสัยหุ้นเว็บพนันออนไลน์ทับซ้อน",
-   "desc": "“ไอซ์ รักชนก” โต้ “สุชาดา”ปมแจ้งความ ยันไม่กล่าวหาเป็นสแกมเมอร์ แต่สงสัยหุ้นเว็บพนันออนไลน์ทับซ้อน ผู้จัดการออนไลน์ เข้าทางใคร? ไทยโพสต์ \"รักชนก\" ขอบคุณ \"สุชาดา\" ทำเรื่องไม่เงียบ ท้าเปิดหลักฐานสู้ในชั้นศาล \"สามีทำอาชีพอะไร\" thaich8.com ‘โรม",
-   "topic": "เศรษฐกิจ",
-   "source": "ผู้จัดการออนไลน์",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yaHhNakk4Uld1eUtJcElSdzBob0JQQndMYm90LV9NakFvV3FEc0VjZnZNTmt4ZElEd2RTZGxJRTJGd2l6QmprMWhIbXU3eloyQlhDTGZDcExrM1pkUEJZdQ?oc=5",
-   "image": "",
-   "published": 1795642800.0
-  },
-  {
-   "id": "nnews_5990174",
-   "title": "ความพ่ายแพ้คือบทเรียน! นุกนิก-ทิพย์ ส่งกำลังใจนักตบรุ่นเยาว์สู้ต่อ PMYC ยู15",
-   "desc": "ความพ่ายแพ้คือบทเรียน! นุกนิก-ทิพย์ ส่งกำลังใจนักตบรุ่น",
-   "topic": "กีฬา",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sport/thai-sport/news_5990174",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/8898-1.jpg",
-   "published": 1795633214.0
-  },
-  {
-   "id": "nxaE9OZHlnoc5",
-   "title": "กรุงบรัสเซลส์กำลังเผชิญกับความวุ่นวายจากการเจรจางบประมาณของเยอรมนี",
-   "desc": "กรุงบรัสเซลส์กำลังเผชิญกับความวุ่นวายจากการเจรจางบประมาณของเยอรมนี Vietnam.vn สหภาพยุโรปเสนอให้เก็บภาษีจากบริษัทเทคโนโลยีขนาดใหญ่ Vietnam.vn",
-   "topic": "ข่าวทั่วไป",
-   "source": "Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR3FRcldDYUs4VFZqSGg2ZEtlN19HaDl2Z3NULW5VVF9DZmxteGNLZzJheTFIZ3VjVnEtRUNPS3Y4U016dzFsdzFRQjdxV2Rma2ZjMlQzdUxVQk5KZU9DdDBxU2NUci1NNkxvc0dXTVc5R2hrck5YR0Q1WkhxaE9OZHln?oc=5",
-   "image": "",
-   "published": 1795626574.0
-  },
-  {
-   "id": "nnews_5989644",
-   "title": "นีล โรเบิร์ตสัน เสนอสนุกเกอร์ ใช้ช็อตคล็อก 30 วินาที แก้ปัญหาเกมช้า",
-   "desc": "นีล โรเบิร์ตสัน เสนอสนุกเกอร์ ใช้ช็อตคล็อก 30 วินาที แก",
-   "topic": "กีฬา",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sport/sport-inter/news_5989644",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-323.jpg",
-   "published": 1795626300.0
-  },
-  {
-   "id": "nd3U2NMRjQoc5",
-   "title": "ข้อมูลหลุดชี้ รัสเซียเสียทหารเฉียด 500,000 นาย ในสงครามยูเครน",
-   "desc": "ข้อมูลหลุดชี้ รัสเซียเสียทหารเฉียด 500,000 นาย ในสงครามยูเครน thairath.co.th BBC วิเคราะห์จากข้อมูลหลุด คาดทหารรัสเซีย 490,334 นายเสียชีวิตในสงครามยูเครน Thai PBS ตัวเลขของทางการรัสเซีย เผยว่ามีผู้เสียชีวิตเกือบ 5 แสนคนในสงครามยูเครน BBC ชา",
-   "topic": "ต่างประเทศ",
-   "source": "thairath.co.th",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PT00tWmhWY0xQN2lFcWZmYW5iYl9Hb2NlYnFzTzZHUDQybWY0YVI4alVXVlhRYUdNcHRfbGxvX195RXhpRnAwcEpFSG5ydEtMbTVWODd3U2NMRjQ?oc=5",
-   "image": "",
-   "published": 1795626155.0
   }
  ]
 }
