@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:48:48.556747+00:00",
+ "updated": "2026-11-27T21:48:54.034528+00:00",
  "count": 60,
  "items": [
   {
@@ -10,7 +10,7 @@
    "source": "ช่อง 7",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmT0V4WHllQjZ0dHNERzE5elhIT0ZQOU5yZGhVblRrWm0zdElmdFAzekJwWV9qcFlkT0lYZlVYNkZOV1dkVGFCODB3bw?oc=5",
    "image": "",
-   "published": 1795808475.0
+   "published": 1795810785.0
   },
   {
    "id": "nnews_5992742",
@@ -21,16 +21,6 @@
    "link": "https://www.matichon.co.th/sport/thai-sport/news_5992742",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/page234.jpg",
    "published": 1795806036.0
-  },
-  {
-   "id": "nEJDSDctWQoc5",
-   "title": "Monster Must Die เกมใหม่ Habby ผสม roguelike กับ tower defence",
-   "desc": "Monster Must Die เกมใหม่ Habby ผสม roguelike กับ tower defence GameMonday",
-   "topic": "เทคโนโลยี",
-   "source": "GameMonday",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5lOWV0dE1kNEpiWkxmazlYQzVmUGkwbElFaTNTVUhGWWJyNlkyN1Q3LVZBTFI0aEkzc2d6VC0zVHVYaTQ1TzFWVDRsNUhKTlo1MEJDSDctWQ?oc=5",
-   "image": "",
-   "published": 1795802045.0
   },
   {
    "id": "news_10486807",
@@ -173,16 +163,6 @@
    "published": 1795797634.0
   },
   {
-   "id": "n5OWlRYkhmoc5",
-   "title": "มาร์ก มาร์เกซ ประกาศเลิกแข่ง MotoGP",
-   "desc": "มาร์ก มาร์เกซ ประกาศเลิกแข่ง MotoGP Mainstand \"มาร์เกวซ\" อำลาโมโตจีพี บิดเรซสุดท้ายที่บาเลนเซีย ผู้จัดการออนไลน์ \"มาร์เกซ\" ประกาศรีไทร์หลังคว้าแชมป์ \"โมโตจีพี\" 8 สมัย เดลินิวส์ GOAT OF MotoGP ย้อนดูความยิ่งใหญ่ของหมายเลข 93 มาร์ก มาร์เกซ ก่",
-   "topic": "ข่าวทั่วไป",
-   "source": "Mainstand",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HWmJRcU1iR0pMX003Mm9fSEh1d0s2Z3I1TUxRR0psMlYyODExUk5rTTY0RDJKcE50QmxKWDBOMHY2VzMwR3p4WlJXVENxYThOR1hwaWNncEQtVElNOGZNaEM5OWlRYkhm?oc=5",
-   "image": "",
-   "published": 1795797271.0
-  },
-  {
    "id": "nnews_5993593",
    "title": "สถานทูตฉลองครบ 51 ปี วันสถานปนา สปป.ลาว 2 ธ.ค. ย้ำมิตรภาพ2 ประเทศ ไทยหุ้นส่วนการค้าสำคัญ",
    "desc": "สถานทูตฉลองครบ 51 ปี วันสถานปนา สปป.ลาว 2 ธ.ค. ย้ำมิตรภ",
@@ -293,6 +273,16 @@
    "published": 1795793004.0
   },
   {
+   "id": "nNlbDM1Mk0oc5",
+   "title": "“ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา",
+   "desc": "“ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา ผู้จัดการออนไลน์ ‘หนุ่ม กรรชัย’ ชี้เป็นบรรทัดฐาน คุก 14 ปี ‘ปู มัณฑนา’ แม้ด่าไม่เอ่ยชื่อ แต่เชื่อมโยงได้ก็มีความผิด เดลินิวส์ คงสุดแล้วจริงๆ!! ",
+   "topic": "ข่าวทั่วไป",
+   "source": "ผู้จัดการออนไลน์",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aTnUxdFA4M0pVYURabEtfTUEtbURkZTRKM3FSZFZQYUZ6aWx4NzBtXy1VVnFXZlEzLUQydThWdEp4cmNKdnlyX091Rm03Yk5kUFFTMjlKcmFiRkJnRWRZWGNlbDM1Mk0?oc=5",
+   "image": "",
+   "published": 1795792560.0
+  },
+  {
    "id": "nGYmlYX1pxoc5",
    "title": "ผลวอลเลย์บอลไทยลีก วันที่ 27 พ.ย. 69",
    "desc": "ผลวอลเลย์บอลไทยลีก วันที่ 27 พ.ย. 69 TrueVisions ดูพาดหัวและความคิดเห็นเพิ่มเติมใน Google News",
@@ -301,6 +291,16 @@
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Fb0IyNC1SZlk5cjF1QWJpQU45UFBFc0ZiSmxYX0JQa2d0Z2lzbkNVemlmLV9DTGM2c3V5aWM3SFhIOUdrZGJLcndGYmlYX1px?oc=5",
    "image": "",
    "published": 1795791965.0
+  },
+  {
+   "id": "nwc0ZEdldBoc5",
+   "title": "สาวนครนนท์ ควง หนุ่มอัสสัมชัญ ผงาดแชมป์วอลเลย์บอล PMYC U15 | Khaosod",
+   "desc": "สาวนครนนท์ ควง หนุ่มอัสสัมชัญ ผงาดแชมป์วอลเลย์บอล PMYC U15 | Khaosod LINE TODAY ปิดฉากเร้าใจ! “สาวนครนนท์-หนุ่มอัสสัมชัญ” ผงาดแชมป์ PMYC U15 ผู้จัดการออนไลน์ โค้งสุดท้าย! \"โบว์-เอย\" ส่งแรงใจเชียร์น้อง ๆ นักตบสู้ศึกลูกยาง PMYC ยู15 ปล่อยของใ",
+   "topic": "กีฬา",
+   "source": "LINE TODAY",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtMUZ6R3ZLRm5Hc1RubVBocnBITlp5NTBRcjJUdFdpbXd6b2c5WTduUkI2ZFB3aVo0ZEthdmVib0lRYzVFVGlXOVZ3Z1JraTBwc0ZEdldB?oc=5",
+   "image": "",
+   "published": 1795791916.0
   },
   {
    "id": "nnews_5993562",
@@ -361,16 +361,6 @@
    "link": "https://www.matichon.co.th/royal/news_5993566",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/888-7.jpg",
    "published": 1795791145.0
-  },
-  {
-   "id": "nDNEcxd2Fnoc5",
-   "title": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ",
-   "desc": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ อมรินทร์ทีวี ช่อง 34 “ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา ผู้จัดการออนไลน์ ‘หนุ่ม กรรชัย’ ชี้เป็นบรรทัดฐาน คุก 14 ปี ‘",
-   "topic": "ข่าวทั่วไป",
-   "source": "อมรินทร์ทีวี ช่อง 34",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YbElQalFHOUVKM1NxdzBIMXdrUERjdnNPd3Zhem5pOWpQWU5nbUFNU1NiZkFTdHZ0WnBmUW1ubmhleU1qbE5Wdk5tQXBTazVDNEcxd2Fn?oc=5",
-   "image": "",
-   "published": 1795791060.0
   },
   {
    "id": "nnews_5993557",
@@ -471,6 +461,16 @@
    "link": "https://www.matichon.co.th/local/education/news_5993497",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/IMG_1520-scaled.jpeg",
    "published": 1795789301.0
+  },
+  {
+   "id": "nIwVFdwUGMoc5",
+   "title": "ทีมประกันสังคมก้าวหน้า นั่งรอ 7 ชม. ขอคำวินิจฉัยตัดสิทธิ์ “ธนพงษ์” ยังไร้ความคืบหน้า",
+   "desc": "ทีมประกันสังคมก้าวหน้า นั่งรอ 7 ชม. ขอคำวินิจฉัยตัดสิทธิ์ “ธนพงษ์” ยังไร้ความคืบหน้า thairath.co.th ผู้ทรงคุณวุฒิบอร์ดประกันสังคม มีอำนาจแค่ไหน มีสิทธิโหวตหรือไม่ BBC ตอบโจทย์ - เบื้องหลังตัดสิทธิ์ \"ธนพงษ์\" พ้นบอร์ดประกันสังคม Thai PBS “บุณ",
+   "topic": "ข่าวทั่วไป",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUREcyY0x6SUFpSUwzc2pDWnFfQWNMTFNHZ2dnUkhVS2JxZGFoRGNPRlVEOVRlVUJfSG5vUjVlWk5ESTlxWXBQSnBaNmdDbm9FeFVWamIwVFdwUGM?oc=5",
+   "image": "",
+   "published": 1795788698.0
   },
   {
    "id": "news_10486758",
@@ -593,14 +593,14 @@
    "published": 1795786743.0
   },
   {
-   "id": "nnews_5993384",
-   "title": "เปิดนิทรรศการ ‘ชุมชนคนใส่ใจ’ ชูโมเดลเพื่อนบ้านรับฟังไม่ตัดสิน สร้างพื้นที่ปลอดภัยจากความรุนแรงในครอบครัว",
-   "desc": "เปิดนิทรรศการ ‘ชุมชนคนใส่ใจ’ ชูโมเดลเพื่อนบ",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5993384",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-354.jpg",
-   "published": 1795786040.0
+   "id": "nWZadmlKYwoc5",
+   "title": "ช็อก! 'มาร์เกวซ' ประกาศรีไทร์ 'โมโตจีพี' หลังคว้าแชมป์โลกสมัย 8 บิดที่บาเลนเซีย สนามสุดท้าย",
+   "desc": "ช็อก! 'มาร์เกวซ' ประกาศรีไทร์ 'โมโตจีพี' หลังคว้าแชมป์โลกสมัย 8 บิดที่บาเลนเซีย สนามสุดท้าย thaipost.net \"มาร์เกวซ\" อำลาโมโตจีพี บิดเรซสุดท้ายที่บาเลนเซีย ผู้จัดการออนไลน์ \"มาร์เกซ\" ประกาศรีไทร์หลังคว้าแชมป์ \"โมโตจีพี\" 8 สมัย เดลินิวส์ GOAT",
+   "topic": "ต่างประเทศ",
+   "source": "thaipost.net",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWXVDWHVkT2Utdjg5UUJzS3RYdWZEam5fQ1Y2a2c4RU0tbk1OU0xHNElpVTBVM1ZtUF82QmlKUnBxU0gtUmduSWhBX3FyekVVRWZadmlKYw?oc=5",
+   "image": "",
+   "published": 1795786112.0
   }
  ]
 }
