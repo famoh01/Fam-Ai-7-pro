@@ -1,7 +1,77 @@
 {
- "updated": "2026-11-27T15:36:28.805507+00:00",
+ "updated": "2026-11-27T16:43:35.941315+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "nnews_5993593",
+   "title": "สถานทูตฉลองครบ 51 ปี วันสถานปนา สปป.ลาว 2 ธ.ค. ย้ำมิตรภาพ2 ประเทศ ไทยหุ้นส่วนการค้าสำคัญ",
+   "desc": "สถานทูตฉลองครบ 51 ปี วันสถานปนา สปป.ลาว 2 ธ.ค. ย้ำมิตรภ",
+   "topic": "เศรษฐกิจ",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/local/quality-life/news_5993593",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/16546546545.jpg",
+   "published": 1795795832.0
+  },
+  {
+   "id": "nhereducation",
+   "title": "นักศึกษาเมียนมา…ตลาดใหญ่ของสถาบันอุดมศึกษาไทย",
+   "desc": "“ความสัมพันธ์ระหว่างไทยกับเมียนมา ไม่ได้หมายถึงเฉ",
+   "topic": "เศรษฐกิจ",
+   "source": "ไทยพับลิก้า",
+   "link": "https://thaipublica.org/2026/11/myanmar-students-big-market-thai-higher-education/",
+   "image": "https://thaipublica.org/wp-content/uploads/2026/11/การศึกษาเมียนมา6-860x574.webp",
+   "published": 1795795688.0
+  },
+  {
+   "id": "news_10486801",
+   "title": "แมนฯ ยูไนเต็ดใช้สิทธิ์ขยายสัญญา บรูโน แฟร์นานเดส เพิ่มอีก 1 ปี",
+   "desc": "แมนเชสเตอร์ ยูไนเต็ด ทำการใช้สิทธิ์ขยายสัญญา บรูโน แฟร์นานเดส ไปอีก 1 ปีแล้ว ทำให้สโมสรได้มีเวลาเพิ่มในการจัดการกับอนาคตของแข้งรายนี้ สำนักข่าวบีบีซีรายงานว่า “ปีศาจแดง”แมนเชสเตอร์ ยูไนเต็ด แห่งพรีเมียร์ลีก อังกฤษ ได้ทำการใช้สิทธิ์ขยายสัญญา",
+   "topic": "กีฬา",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/sports/news_10486801",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-03T204946Z_148463644_UP1EMB31LUWEN_RTRMADP_3_SOCCER-CHAMPIONS-MUN-ROM.jpg",
+   "published": 1795795682.0
+  },
+  {
+   "id": "nnews_5992727",
+   "title": "ชไมเคิลชี้ลัมเมนส์เสียความมั่นใจตั้งแต่บอลโลก ยังไม่กลับมาเป็นคนเดิม",
+   "desc": "ชไมเคิลชี้ลัมเมนส์เสียความมั่นใจตั้งแต่บอลโลก ยังไม่กลั",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/footballinter/footballinterengland/news_5992727",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/2026-10-31T125720Z_772893106_UP1EMAV0ZZHDD_RTRMADP_3_.jpg",
+   "published": 1795795326.0
+  },
+  {
+   "id": "news_10486798",
+   "title": "สุดช็อก งูเหลือมยาวกว่า 3 เมตร กำลังเลื้อยบนกำแพง เรียกกู้ภัยมาช่วยจับ ออกอาการดุร้าย จะพุ่งฉกเจ้าหน้าที่",
+   "desc": "สุดช็อก งูเหลือมยาวกว่า 3 เมตร กำลังเลื้อยบนกำแพง เรียกกู้ภัยมาช่วยจับ ออกอาการดุร้าย จะพุ่งฉกเจ้าหน้าที่ วันที่ 27 พ.ย.69 เจ้าหน้าที่กู้ภัยสว่างอริยะนครนายก ได้รับแจ้งจาก คุณชลิดา ว่ามีงูเหลือมเลื้อยขึ้นไปอยู่บนกำแพงรั้วสหกรณ์เกษตรจังหวัดน",
+   "topic": "ข่าวทั่วไป",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/around-thailand/news_10486798",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/gdbfbfvsd.jpg",
+   "published": 1795795219.0
+  },
+  {
+   "id": "nJTWJoWFNRoc5",
+   "title": "ครั้งแรกของโลก ฉีดสเต็มเซลล์เข้าสมองผู้ป่วยอัลไซเมอร์โดยตรง",
+   "desc": "ครั้งแรกของโลก ฉีดสเต็มเซลล์เข้าสมองผู้ป่วยอัลไซเมอร์โดยตรง Techsauce",
+   "topic": "ต่างประเทศ",
+   "source": "Techsauce",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVm83Y3A4X0tzNVFtVm1JVFg4SUprNU9Gb3BtaGhLM1FDQ2xnY25kN2dKWnNmYm9UR0U2cEtjTnVXNW5mcGc5UUpQTHhoZE1vdHExVkpfcmxWRUhVMnZuRmw3V0doNnBEWDRKRkZ0RzF2LWZkMHJ2a2RKYjBJTWJoWFNR?oc=5",
+   "image": "",
+   "published": 1795794276.0
+  },
+  {
+   "id": "news_10486794",
+   "title": "หนุ่มคล้ายคนเมา ขับเก๋งพุ่งชนท้ายรถจยย. ร่างสาววัย 19 กระเด็นตกข้างทางเสียชีวิต แฟนหนุ่มสุดช็อก",
+   "desc": "หนุ่มคล้ายคนเมา ขับเก๋งพุ่งชนท้ายรถจยย. ร่างสาววัย 19 กระเด็นตกข้างทางเสียชีวิต แฟนหนุ่มสุดช็อก รู้ข่าวผ่านโซเชียล รีบมาดูปล่อยโฮ เมื่อเวลา 19.10 น. วันที่ 27 พ.ย.69 ร.ต.อ.พิชานนท์ ปลื้มสุด รอง สว.(สอบสวน) สภ.เมืองนครพนม รับแจ้งมีอุบัติรถเก",
+   "topic": "ยานยนต์",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/around-thailand/news_10486794",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/frghyjhgdfsd.jpg",
+   "published": 1795793869.0
+  },
   {
    "id": "nnews_5993589",
    "title": "ราชกิจจานุเบกษา ประกาศ แต่งตั้ง เผด็จ ลายทอง นั่ง อธิบดีกรมทรัพยากรทางทะเลและชายฝั่ง",
@@ -41,16 +111,6 @@
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Fb0IyNC1SZlk5cjF1QWJpQU45UFBFc0ZiSmxYX0JQa2d0Z2lzbkNVemlmLV9DTGM2c3V5aWM3SFhIOUdrZGJLcndGYmlYX1px?oc=5",
    "image": "",
    "published": 1795791965.0
-  },
-  {
-   "id": "nwc0ZEdldBoc5",
-   "title": "สาวนครนนท์ ควง หนุ่มอัสสัมชัญ ผงาดแชมป์วอลเลย์บอล PMYC U15 | Khaosod",
-   "desc": "สาวนครนนท์ ควง หนุ่มอัสสัมชัญ ผงาดแชมป์วอลเลย์บอล PMYC U15 | Khaosod LINE TODAY ปิดฉากเร้าใจ! “สาวนครนนท์-หนุ่มอัสสัมชัญ” ผงาดแชมป์ PMYC U15 ผู้จัดการออนไลน์ โค้งสุดท้าย! \"โบว์-เอย\" ส่งแรงใจเชียร์น้อง ๆ นักตบสู้ศึกลูกยาง PMYC ยู15 ปล่อยของใ",
-   "topic": "กีฬา",
-   "source": "LINE TODAY",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtMUZ6R3ZLRm5Hc1RubVBocnBITlp5NTBRcjJUdFdpbXd6b2c5WTduUkI2ZFB3aVo0ZEthdmVib0lRYzVFVGlXOVZ3Z1JraTBwc0ZEdldB?oc=5",
-   "image": "",
-   "published": 1795791916.0
   },
   {
    "id": "nnews_5993562",
@@ -115,7 +175,7 @@
   {
    "id": "nDNEcxd2Fnoc5",
    "title": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ",
-   "desc": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ อมรินทร์ทีวี ช่อง 34 คงสุดแล้วจริงๆ!! ทนายแก้ว ยังอึ้ง ไม่เคยเจอศาลสั่ง จำคุก 14 ปี คดีหมิ่นประมาท LINE TODAY ‘หนุ่ม กรรชัย’ ชี้เป็นบรรทัดฐาน คุก 14 ปี ‘ปู มัณฑนา’ แม้ด่าไม่เอ่ยช",
+   "desc": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ อมรินทร์ทีวี ช่อง 34 “ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา ผู้จัดการออนไลน์ ‘หนุ่ม กรรชัย’ ชี้เป็นบรรทัดฐาน คุก 14 ปี ‘",
    "topic": "ข่าวทั่วไป",
    "source": "อมรินทร์ทีวี ช่อง 34",
    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YbElQalFHOUVKM1NxdzBIMXdrUERjdnNPd3Zhem5pOWpQWU5nbUFNU1NiZkFTdHZ0WnBmUW1ubmhleU1qbE5Wdk5tQXBTazVDNEcxd2Fn?oc=5",
@@ -273,16 +333,6 @@
    "published": 1795788008.0
   },
   {
-   "id": "nJYVktvdzkoc5",
-   "title": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน",
-   "desc": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน Thai PBS เปิดภาพต้นเพลิงไหม้ “ตลาดปัฐฯ” วอด! พ่อค้างงหนักคนเฝ้าตลาดมี แต่ไร้เสียงเตือน! ​ ผู้จัดการออนไลน์ ไฟไหม้ตลาดปัฐวิกรณ์วอดกว่า 500 ล็อก เสียหาย 70% ของพื้นที่ เขตบึ",
-   "topic": "เศรษฐกิจ",
-   "source": "Thai PBS",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9INVktWFVDQmtNR2JMTHVZa2FxdzN6X3FGWFRnM08yc09va0pnVW8tcHVWZ2ZkRE0wb0hOSzViRTBNWWRJdlV1bWVqMThIZ2hJRlJYVktvdzk?oc=5",
-   "image": "",
-   "published": 1795787891.0
-  },
-  {
    "id": "news_10486754",
    "title": "มาเรสกา เชื่อ แมนฯ ซิตี้ มีดีพอบุกชนะ อาร์เซนอล ได้ – ไม่ตระหนกทีมฟอร์มตก",
    "desc": "เอ็นโซ มาเรสกา เฮดโค้ช แมนเชสเตอร์ ซิตี้ แสดงความเชื่อมั่นว่า “เรือใบสีฟ้า” มีดีพอที่จะบุกเอาชนะ อาร์เซนอล ได้ในเกมพรีเมียร์ลีกคู่บิ๊กแมตช์สุดสัปดาห์นี้ พร้อมระบุไม่ตระหนกกับผลงานของทีมที่ตกลงไป โดย แมนฯ ซิตี้ มีโปรแกรมสำคัญในการบุกเยือน อา",
@@ -313,16 +363,6 @@
    "published": 1795787515.0
   },
   {
-   "id": "nlNYYnBLTAoc5",
-   "title": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย",
-   "desc": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย TNN Thailand บอลชายหาดชิงแชมป์เอเชียปลุกพังงาคึกคัก “เลิศศักดิ์” คาดเงินสะพัดกว่า 100 ล้านบาท thairath.co.th ไทยพ่ายโอมาน รองแชมป์เก่า 3-9 ตกรอบ 8 ทีมฟุตบอลชายหาดเอเชีย 2026 ผู้จัดการอ",
-   "topic": "กีฬา",
-   "source": "TNN Thailand",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoYTBtTGY1czRiQkUxalhMQTVISlBnUEJZT2FfbVRPUmpvc3c2Vm9rVTNremxRZlQ1RTJpZUdueXoyVm1wdkpBMFV2TDY2MlNYYnBLTA?oc=5",
-   "image": "",
-   "published": 1795787434.0
-  },
-  {
    "id": "nnews_5993394",
    "title": "ย้อนอ่านคำตอบ ‘วราวุธ’ รมว.อุตฯ เอาขยะอิเล็กทรอนิกส์ กำจัดที่ราชบุรีจริงไหม",
    "desc": "รัฐมนตรีว่าการกระทรวงอุตสาหกรรม ให้คำมั่นกับประชาชนชาวจ",
@@ -341,6 +381,16 @@
    "link": "https://www.khaosod.co.th/around-thailand/news_10486743",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Police-12.jpg",
    "published": 1795787174.0
+  },
+  {
+   "id": "n3ejNxY0Utoc5",
+   "title": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย",
+   "desc": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย TrueVisions ดูพาดหัวและความคิดเห็นเพิ่มเติมใน Google News",
+   "topic": "กีฬา",
+   "source": "TrueVisions",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tTEU0akxwTGIxTmIzTXZ0NXJGVjFhWnFwME9JeFRHX3JxdnlPVVpucVFVRWI5YlFVUU9rbHMtWXl5TW5oekZUOS03ejNxY0Ut?oc=5",
+   "image": "",
+   "published": 1795787157.0
   },
   {
    "id": "nnews_5993396",
@@ -393,6 +443,26 @@
    "published": 1795785488.0
   },
   {
+   "id": "n3hHNlhLdwoc5",
+   "title": "สนค.ประเมินมาตรการภาษีสหรัฐฯ สินค้าไทยยังแข่งขันได้ วาง 4 แผนดันไทยเข้า Supply Chain",
+   "desc": "สนค.ประเมินมาตรการภาษีสหรัฐฯ สินค้าไทยยังแข่งขันได้ วาง 4 แผนดันไทยเข้า Supply Chain จส. 100 ภาษีทรัมป์: เหตุใดมาตรการภาษีใหม่ของทรัมป์จึงเป็นภัยคุกคามน้อยกว่าที่คิด BBC เปิดกลุ่มสินค้าไทยกว่า 2,000 รายการ ที่สหรัฐฯ เสนอยกเว้นภาษี ม.301 Tha",
+   "topic": "เศรษฐกิจ",
+   "source": "จส. 100",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mRHVUM3dRM1JaLWVJV2lHYlNYbEVMVkowd2RpS1lFOEdUMDVzam9fUUp3ZlA4cE9QOU9oaXhqODRzbVFNeDllNDlfdU1lSHpmazA4Y3hHNlhLdw?oc=5",
+   "image": "",
+   "published": 1795785306.0
+  },
+  {
+   "id": "nNuNjFmQUEoc5",
+   "title": "ทส.ชงพื้นที่ใกล้ แม่น้ำกก-สาย-รวก เป็นเขตควบคุมมลพิษ คุมเข้มนำเข้า-ส่งออก เศษโลหะ",
+   "desc": "ทส.ชงพื้นที่ใกล้ แม่น้ำกก-สาย-รวก เป็นเขตควบคุมมลพิษ คุมเข้มนำเข้า-ส่งออก เศษโลหะ thairath.co.th ใช้ธรรมชาติฟื้นธรรมชาติ ทางออกระยะยาววิกฤตสารพิษแม่น้ำกก-อิง-สาย Thai PBS ไทยได้ตามหวังไหม ประชุมแก้ปัญหา มลพิษทางน้ำข้ามแดน BBC \"สุริยะ\" ส่ง \"",
+   "topic": "เศรษฐกิจ",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6eVRZY0pyZ3Yzc0c1RUtnbXpLNEdvb3RYb1R5bXRrc2V6emNtdmVzUVY4dWdUZ1pZbXZPU24xOENoRVBTd3J0WHo1V2ZZS1NFVHhXc3NuNjFmQUE?oc=5",
+   "image": "",
+   "published": 1795785260.0
+  },
+  {
    "id": "nnews_5993368",
    "title": "ปส.ตั้ง 2 สถาบัน สฉน.–สกร. รับมือเหตุฉุกเฉินนิวเคลียร์ เดินหน้าแผนจัดการกากกัมมันตรังสีแห่งชาติ",
    "desc": "ปส. เคาะตั้ง 2 สถาบันหลัก “สฉน.–สกร.” ยกระด",
@@ -421,16 +491,6 @@
    "link": "https://www.matichon.co.th/sport/footballlocal/news_5992827",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-346.jpg",
    "published": 1795784433.0
-  },
-  {
-   "id": "nzMVBMeGhvoc5",
-   "title": "ช่อง 7HD ก้าวเข้าสู่ปีที่ 60 บรรยากาศอบอุ่น หน่วยงานภาครัฐ-เอกชน ร่วมอวยพร | CH7ON ช่อง 7HD",
-   "desc": "ช่อง 7HD ก้าวเข้าสู่ปีที่ 60 บรรยากาศอบอุ่น หน่วยงานภาครัฐ-เอกชน ร่วมอวยพร | CH7ON ช่อง 7HD ch7.com ไทยพีบีเอส ร่วมยินดี 60 ปี ช่อง 7HD – สมทบทุน รพ.ราชวิถี เพื่อสังคม Thai PBS ยุ้ย จีรนันท์ พูดถึงความประทับใจที่มีต่อช่อง 7HD ตั้งแต่เล่นละค",
-   "topic": "ข่าวทั่วไป",
-   "source": "ch7.com",
-   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBYRllEdWw3R0cxWERKQWFHZjY0VWdlUmtKb2M3d1F3b0YzcldCRll5RjcwS2dsdjFWNEM3ZUplYkgzMVBMeGhv?oc=5",
-   "image": "",
-   "published": 1795784385.0
   },
   {
    "id": "nnews_5993340",
@@ -493,6 +553,16 @@
    "published": 1795783569.0
   },
   {
+   "id": "nM4WHVzc3coc5",
+   "title": "อุตุฯ เตือนฉบับ 8 ภาคใต้ฝนถล่ม 27-30 พ.ย. นี้",
+   "desc": "อุตุฯ เตือนฉบับ 8 ภาคใต้ฝนถล่ม 27-30 พ.ย. นี้ pptvhd36 พยากรณ์อากาศ ประจำวันที่ 27 พฤศจิกายน 2569 กรุงเทพและปริมณฑล เมฆบางส่วน โดยมีฝนเล็กน้อยบางแห่ง LINE TODAY ประกาศฉบับ 8 เตือนฝนตกหนักถึงหนักมากภาคใต้ อาจเกิดน้ำท่วมฉับพลัน-น้ำป่าไหลหลาก ",
+   "topic": "ข่าวทั่วไป",
+   "source": "pptvhd36",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQll2RWlnWG9RMFZUbHZRbWcxZVlPa19KZkFaN2xrRXQ5V2QybTdBTE9pR1pqLWwtU280YzNsSU5VRGkxazRQVm1RaEQ3TVNoNGdtMnMtQzBWcGhIcWtEcDUzSkVLUkV6c2E4SlJhNVpsVXcxb3hzS0FTYmljZmJPQmtUa3M4WHVzc3c?oc=5",
+   "image": "",
+   "published": 1795783080.0
+  },
+  {
    "id": "news_10486720",
    "title": "พันธบัตรออมพลัส เปิดจองรอบใหม่ 21 ธ.ค.นี้ หลังรอบแรกจัดสรรกว่า 1 หมื่นราย",
    "desc": "พันธบัตรออมพลัส เปิดจองรอบใหม่ 21 ธ.ค.นี้ หลังรอบแรกจัดสรรกว่า 1 หมื่นราย นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยว่า ผลจากการเปิดรับจองซื้อ “พันธบัตรออมพลัส” ปีงบประมาณ พ.ศ. 2570 ครั้งที่ 2 ประสบควา",
@@ -531,76 +601,6 @@
    "link": "https://www.matichon.co.th/politics/news_5993329",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-353.jpg",
    "published": 1795782838.0
-  },
-  {
-   "id": "nnews_5993337",
-   "title": "รวบชายวัย 42 คาสถานีรถไฟหัวหิน พบหมายจับคดีฉ้อโกง-ลักทรัพย์ 3 หมาย",
-   "desc": "ตำรวจทางหลวงประจวบคีรีขันธ์ รวบชายวัย 42 ปี คาสถานีรถไฟ",
-   "topic": "ยานยนต์",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/region/news_5993337",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/ljkk13-wed.jpg",
-   "published": 1795782789.0
-  },
-  {
-   "id": "nnews_5991464",
-   "title": "ราศีใด จะพบรักกับผู้เหมาะสม ปัญหาการเงินแก้ได้ด้วยความขยัน มีผู้อื่นเมตตา",
-   "desc": "ดาวกับดวง วันเสาร์ที่ 28 พฤศจิกายน 2569 ท่านผู้อ่านโปรด",
-   "topic": "เศรษฐกิจ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/lifestyle/horoscope-lifestyle/news_5991464",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/7.sat_-3.jpg",
-   "published": 1795782641.0
-  },
-  {
-   "id": "nenews2103722",
-   "title": "หมายกำหนดการพระราชพิธี พระราชทานเพลิงพระศพ เจ้าฟ้าพัชรกิติยาภาฯ",
-   "desc": "หมายกำหนดการพระราชพิธีพระราชทานเพลิงพระศพ สมเด็จพระเจ้าลูกเธอ เจ้าฟ้าพัชรกิติยาภา นเรนทิราเทพยวดี กรมหลวงราชสาริณีสิริพัชร มหาวัชรราชธิดา ระหว่างวันที่ 1-5 กุมภาพันธ์ 2570 ผู้สื่อข่าวรายงานว่า เฟซบุ๊กแฟนเพจ พระลาน เผยแพร่หมายกำหนดการพระราชพ",
-   "topic": "ข่าวทั่วไป",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/royal-house/news-2103722",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Princess-Bajrakitiyabha-Funeral.png",
-   "published": 1795782521.0
-  },
-  {
-   "id": "news_10486713",
-   "title": "ดร.ธนกฤต เปิดเรื่องเซอร์ไพรส์ พบ พิมพิมล มีชื่อเป็นเจ้าของบริษัทใหญ่ ส่วนสามีเป็นกรรมการบริษัท",
-   "desc": "ดร.ธนกฤต เปิดเรื่องเซอร์ไพรส์ พบ พิมพิมล มีชื่อเป็นเจ้าของบริษัทใหญ่ ส่วนสามีขับวิน แต่กลับเป็นกรรมการบริษัท หนุ่ม กรรชัย เผยหลังเข้าพบดีเอสไอ จนท.ถามเรื่องโอนเงินช่วยเหลือ เมื่อเวลา 18.20 น.วันที่ 27 พ.ย.69 นายภูดิท กำเนิดพลอย หรือ หนุ่ม ก",
-   "topic": "ข่าวทั่วไป",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/special-stories/news_10486713",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/jjjhgfdssdder.jpg",
-   "published": 1795782452.0
-  },
-  {
-   "id": "nsnews2103749",
-   "title": "กรุงเทพฯ ติดอันดับ 29 เมืองระดับโลก คัมแบ็ก Top 30 ในรอบ 6 ปี",
-   "desc": "กทม. เผยข่าวดี “กรุงเทพฯ” พุ่งติดอันดับ 29 เมืองระดับโลก Global Cities Index 2026 ดีขึ้นต่อเนื่อง 3 ปีซ้อน คัมแบ็ก Top 30 ครั้งแรกในรอบ 6 ปี นายเอกวรัญญู อัมระปาล ที่ปรึกษาของผู้ว่าราชการกรุงเทพมหานคร (กทม.) เปิดเผยว่า กรุงเทพมหานครได้รับ …",
-   "topic": "ต่างประเทศ",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/news/news-2103749",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Bangkok.png",
-   "published": 1795782047.0
-  },
-  {
-   "id": "n5GQnlqNDcoc5",
-   "title": "กรมอุตุฯ ออกประกาศ ฉ.8 เตือนภาคใต้ฝนตกหนักถึงหนักมาก ช่วง 27–30 พ.ย. 69 เสี่ยงน้ำท่วมฉับพลัน",
-   "desc": "กรมอุตุฯ ออกประกาศ ฉ.8 เตือนภาคใต้ฝนตกหนักถึงหนักมาก ช่วง 27–30 พ.ย. 69 เสี่ยงน้ำท่วมฉับพลัน เนชั่นทีวี สถานีข่าว 24 ชั่วโมง พยากรณ์อากาศ ประจำวันที่ 27 พฤศจิกายน 2569 กรุงเทพและปริมณฑล เมฆบางส่วน โดยมีฝนเล็กน้อยบางแห่ง LINE TODAY ประกาศฉบั",
-   "topic": "ข่าวทั่วไป",
-   "source": "เนชั่นทีวี สถานีข่าว 24 ชั่วโมง",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBGbFd3X1lMN3U3eXdtdjZVMmVLUXZ1b3NEU01oYktmQ1F2ZEo5cHpmSVdsV0ZpTlRhS2F4VGpKei1JRi1FbFZmdlZNV3ZDSGFNZU5GQnlqNDc?oc=5",
-   "image": "",
-   "published": 1795782000.0
-  },
-  {
-   "id": "n2d6brc82bcdi",
-   "title": "“สส.ไอเดียร์” หอบหลักฐานบุก ปอท.ให้ปากคำเพิ่ม ปมฟ้อง “ไอซ์ รักชนก”",
-   "desc": "จบที่ศาล! \"ไอเดียร์ สุชาดา\" ใส่เสื้อยืดถักเปียบุก ปอท.ให้ปากคำเพิ่มเอาผิด \"ไอซ์ รักชนก\" ปมโพสต์ข้อมูลเท็จ แจงปมสามีฟ้อง \"โรม\" ยันพร้อมให้ตรวจสอบอย่างสุจริต",
-   "topic": "การเมือง",
-   "source": "อีจัน",
-   "link": "https://www.ejan.co/politics/2d6brc82bcdi",
-   "image": "",
-   "published": 1795781990.0
   }
  ]
 }
