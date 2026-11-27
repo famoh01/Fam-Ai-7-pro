@@ -1,7 +1,17 @@
 {
- "updated": "2026-11-27T18:48:14.076725+00:00",
+ "updated": "2026-11-27T19:52:21.445627+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "nnews_5992742",
+   "title": "ไม้คิว-เกียรติศักดิ์ พร้อมบู๊ โมโตทรี สนามสุดท้าย ฮอนด้า ฟูลทีมลุย โมโตจีพี ที่ บาเลนเซีย",
+   "desc": "ไม้คิว-เกียรติศักดิ์ พร้อมบู๊ โมโตทรี สนามสุดท้าย ฮอนด้",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5992742",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/page234.jpg",
+   "published": 1795806036.0
+  },
   {
    "id": "news_10486807",
    "title": "ไฟไหม้โรงงานจีน ดับเพลิงระดมไปช่วย แต่คนดูแลกลับไม่ยอมให้เข้า ควันฟุ้งลอยรบกวนชาวบ้าน",
@@ -141,6 +151,16 @@
    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UeG05Z29oRGJ0c0NZSHVTcDlqZWxsdXkzaU9KV0h5MGF1X094TFFTS1M2b0RsaXJXSWs5S3Z5V2NXV2Uxa1A2MDdTSGw5dnVjUG5hQkR1aTdhWTg?oc=5",
    "image": "",
    "published": 1795797634.0
+  },
+  {
+   "id": "n5OWlRYkhmoc5",
+   "title": "มาร์ก มาร์เกซ ประกาศเลิกแข่ง MotoGP",
+   "desc": "มาร์ก มาร์เกซ ประกาศเลิกแข่ง MotoGP Mainstand \"มาร์เกวซ\" อำลาโมโตจีพี บิดเรซสุดท้ายที่บาเลนเซีย ผู้จัดการออนไลน์ \"มาร์ค มาร์เกซ\" ปิดฉากตำนานโมโต จีพี ที่บาเลนเซีย ในวันที่สถิติจารึกชื่อไว้ชั่วนิรันดร์ Siamsport GOAT OF MotoGP ย้อนดูความยิ่ง",
+   "topic": "ข่าวทั่วไป",
+   "source": "Mainstand",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HWmJRcU1iR0pMX003Mm9fSEh1d0s2Z3I1TUxRR0psMlYyODExUk5rTTY0RDJKcE50QmxKWDBOMHY2VzMwR3p4WlJXVENxYThOR1hwaWNncEQtVElNOGZNaEM5OWlRYkhm?oc=5",
+   "image": "",
+   "published": 1795797271.0
   },
   {
    "id": "nnews_5993593",
@@ -433,16 +453,6 @@
    "published": 1795789301.0
   },
   {
-   "id": "nIwVFdwUGMoc5",
-   "title": "ทีมประกันสังคมก้าวหน้า นั่งรอ 7 ชม. ขอคำวินิจฉัยตัดสิทธิ์ “ธนพงษ์” ยังไร้ความคืบหน้า",
-   "desc": "ทีมประกันสังคมก้าวหน้า นั่งรอ 7 ชม. ขอคำวินิจฉัยตัดสิทธิ์ “ธนพงษ์” ยังไร้ความคืบหน้า thairath.co.th ผู้ทรงคุณวุฒิบอร์ดประกันสังคม มีอำนาจแค่ไหน มีสิทธิโหวตหรือไม่ BBC “บุณยกร” โต้ “ษัษฐรัมย์” ชี้ ผู้ทรงคุณวุฒิบอร์ดประกันสังคมไม่มีสิทธิโหวต ",
-   "topic": "ข่าวทั่วไป",
-   "source": "thairath.co.th",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUREcyY0x6SUFpSUwzc2pDWnFfQWNMTFNHZ2dnUkhVS2JxZGFoRGNPRlVEOVRlVUJfSG5vUjVlWk5ESTlxWXBQSnBaNmdDbm9FeFVWamIwVFdwUGM?oc=5",
-   "image": "",
-   "published": 1795788698.0
-  },
-  {
    "id": "news_10486758",
    "title": "41 คนไทยหนีตาย หลังทหารพม่าจู่โจมบ่อนกาสิโน เมียวดี ซ่อนตัวก่อนลอบกลับไทย",
    "desc": "ทหารพม่าปราบปรามหนัก ทลายบ่อนกาสิโนฝั่งเมียวดี วัยรุ่นไทยสร้างตัวนับร้อยแตกกระเจิง หนีไปซ่อนตัว ก่อนอาศัยช่วงใกล้มืด หลบหนีข้ามแดนกลับไทย ทหารไทยจับได้ 41 คน วันที่ 27 พ.ย.69 ที่แนวชายแดนไทย-เมียนมา ริมตลิ่งแม่น้ำเมย โดยช่วงเช้ามืดที่ผ่านมา",
@@ -495,7 +505,7 @@
   {
    "id": "nJYVktvdzkoc5",
    "title": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน",
-   "desc": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน Thai PBS จับตาสถานการณ์ - เร่งสำรวจความเสียหายเพลิงไหม้ \"ตลาดปัฐวิกรณ์\" Thai PBS เปิดภาพต้นเพลิงไหม้ “ตลาดปัฐฯ” วอด! พ่อค้างงหนักคนเฝ้าตลาดมี แต่ไร้เสียงเตือน! ​ ผู้จัดการ",
+   "desc": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน Thai PBS รถติด! ถนนนวมินทร์ ขาเข้า ผ่านตลาดปัฐวิกรณ์ นวมินทร์ 72 | สวพ.FM91 LINE TODAY จับตาสถานการณ์ - เร่งสำรวจความเสียหายเพลิงไหม้ \"ตลาดปัฐวิกรณ์\" Thai PBS ไฟไหม้ตลาดปั",
    "topic": "เศรษฐกิจ",
    "source": "Thai PBS",
    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9INVktWFVDQmtNR2JMTHVZa2FxdzN6X3FGWFRnM08yc09va0pnVW8tcHVWZ2ZkRE0wb0hOSzViRTBNWWRJdlV1bWVqMThIZ2hJRlJYVktvdzk?oc=5",
@@ -583,24 +593,14 @@
    "published": 1795786040.0
   },
   {
-   "id": "news_10486742",
-   "title": "โปรแกรมบอล 27 พ.ย. 2569 ฟอเรสต์เปิดบ้านรอปะทะแข้งกับเชลซี",
-   "desc": "โปรแกรมบอล คืนนี้มีเกมพรีเมียร์ลีกที่น็อตติงแฮม ฟอเรสต์ เปิดบ้านเจอกับเชลซี นอกจากนี้ก็ยังมีเกมของบุนเดสลีกา, เซเรีย อา และลา ลีกา ให้ติดตามกันด้วย โปรแกรมบอล 27 พฤศจิกายน 2569 ฟุตบอลพรีเมียร์ลีก อังกฤษ น็อตติงแฮม ฟอเรสต์-เชลซี คู่นี้แข่งขั",
-   "topic": "กีฬา",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/sports/news_10486742",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-07T174314Z_1340788640_UP1EMB71D80RY_RTRMADP_3_SOCCER-ENGLAND-NFO-MCI.jpg",
-   "published": 1795785488.0
-  },
-  {
-   "id": "nnews_5993368",
-   "title": "ปส.ตั้ง 2 สถาบัน สฉน.–สกร. รับมือเหตุฉุกเฉินนิวเคลียร์ เดินหน้าแผนจัดการกากกัมมันตรังสีแห่งชาติ",
-   "desc": "ปส. เคาะตั้ง 2 สถาบันหลัก “สฉน.–สกร.” ยกระด",
-   "topic": "สุขภาพ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sdg-updates/news_5993368",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/2-239.jpg",
-   "published": 1795784978.0
+   "id": "nhQRVBnWG8oc5",
+   "title": "ผู้ทรงคุณวุฒิบอร์ดประกันสังคม มีอำนาจแค่ไหน มีสิทธิโหวตหรือไม่",
+   "desc": "ผู้ทรงคุณวุฒิบอร์ดประกันสังคม มีอำนาจแค่ไหน มีสิทธิโหวตหรือไม่ BBC “บุณยกร” โต้ “ษัษฐรัมย์” ชี้ ผู้ทรงคุณวุฒิบอร์ดประกันสังคมไม่มีสิทธิโหวต thairath.co.th คำให้การ ‘เด็กส้ม’ thaipost.net ธนพงษ์ยื่นขอคำวินิจฉัย กกต.ประกันสังคม ปมตัดสิทธิขาดค",
+   "topic": "ข่าวทั่วไป",
+   "source": "BBC",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ncjNhUzk5cG5HOXUzWDBMdmhDUEdyWVF0QTdpWk5DWUJrcmc0ZHdQQUE2WUlKQ0pqYWl6eHBjaDk5VEJOSWJqSjVPbFlvYkdGdHJYSmdMTHNFV1XSAWBBVV95cUxQY3Z6N0h4Z1BqUWc1dG84dGRCUlNEeGc5WmlOZzUxWS1sUHZwSTc4S0VaMEE0TXRIWHJsQTlOWUxNZFp5TElqSkNSSndVcXpNa3g3NDdBcERRTHhQRVBnWG8?oc=5",
+   "image": "",
+   "published": 1795785871.0
   }
  ]
 }
