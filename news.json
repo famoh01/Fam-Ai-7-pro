@@ -1,7 +1,17 @@
 {
- "updated": "2026-11-27T17:50:00.852113+00:00",
+ "updated": "2026-11-27T18:48:14.076725+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "news_10486807",
+   "title": "ไฟไหม้โรงงานจีน ดับเพลิงระดมไปช่วย แต่คนดูแลกลับไม่ยอมให้เข้า ควันฟุ้งลอยรบกวนชาวบ้าน",
+   "desc": "ปวดหัวจี๊ดเลย ไฟไหม้โรงงานจีน ดับเพลิงระดมไปช่วย แต่คนดูแลกลับไม่ยอมให้เข้า พยายามดับกันเอง ทำชาวบ้านได้รับผลกระทบ ควันลอยเข้าบ้าน ทำนอนไม่ได้ เตรียมประสานเจ้าหน้าที่เข้าตรวจสอบ วันที่ 27 พ.ย.69 ผู้สื่อข่าวรายงานว่า เกิดเหตุเพลิงไหม้ภายในโร",
+   "topic": "ต่างประเทศ",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/around-thailand/news_10486807",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/dfghfdfg.jpg",
+   "published": 1795801345.0
+  },
   {
    "id": "nnews_5992788",
    "title": "รถจักรยานยนต์ฮอนด้า ประกาศเป็นผู้สนับสนุนหลักถ่ายทอดสดฟุตบอลพรีเมียร์ลีก จัด Watch Party ที่ร้านผู้จำหน่ายทั่วประเทศ",
@@ -114,8 +124,8 @@
   },
   {
    "id": "news_10486804",
-   "title": "ซุ่มยิงกลางงานลอยกระทง ตำรวจเจ็บ 1 ชาวบ้านเจ็บอีก 1 จนท.แกะรอยวงจรปิดล่าคนร้าย",
-   "desc": "ซุ่มยิงกลางงานลอยกระทง ตำรวจเจ็บ 1 ชาวบ้านเจ็บอีก 1 จนท.แกะรอยวงจรปิดล่าคนร้าย วันที่ 27 พ.ย.69 ผู้สื่อข่าวรายงานว่า มีเหตุคนร้ายใช้อาวุธปืนซุ่มยิงในพื้นที่ลำใหม่ จ.ยะลา ระหว่างการจัดงานควันหลงเทศกาลลอยกระทง ส่งผลให้มีผู้ได้รับบาดเจ็บเบื้อง",
+   "title": "ซุ่มยิงกลางงานเทศกาล ตำรวจเจ็บ 1 ชาวบ้านเจ็บอีก 1 จนท.แกะรอยวงจรปิดล่าคนร้าย",
+   "desc": "ซุ่มยิงกลางงานเทศกาล ตำรวจเจ็บ 1 ชาวบ้านเจ็บอีก 1 จนท.แกะรอยวงจรปิดล่าคนร้าย เมื่อเวลา 21.00 น. วันที่ 27 พ.ย.69 ศูนย์วิทยุ สภ.ลำใหม่ อ.เมือง จ.ยะลา รับแจ้งเหตุคนร้ายใช้อาวุธปืนยิงเจ้าหน้าที่ตำรวจได้รับบาดเจ็บ ภายในงาน “มากันริมคลอง” ซึ่งจั",
    "topic": "อาชญากรรม",
    "source": "ข่าวสด",
    "link": "https://www.khaosod.co.th/around-thailand/news_10486804",
@@ -183,6 +193,16 @@
    "published": 1795795219.0
   },
   {
+   "id": "n0WG1TSFJRoc5",
+   "title": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด",
+   "desc": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด RYT9 ฟองสบู่ AI แตก? ทางรอดติดดอยหุ้นเทค | Market Today | การเงินธนาคาร LINE TODAY นักวิเคราะห์ข้อมูลชี้สัญญาณอันตราย 'ทองคำ-บิตคอยน์' ร่วงพร้อมกัน thaipost.net",
+   "topic": "เศรษฐกิจ",
+   "source": "RYT9",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBaVDNqa1hUdWZueEpFYjQtRjRkUkRuMU9TLVVabm13WTBhOTRwbUtkN0VtNElnb1JmNDRLX3RrQzVURGQ0WG1TSFJR?oc=5",
+   "image": "",
+   "published": 1795794836.0
+  },
+  {
    "id": "nJTWJoWFNRoc5",
    "title": "ครั้งแรกของโลก ฉีดสเต็มเซลล์เข้าสมองผู้ป่วยอัลไซเมอร์โดยตรง",
    "desc": "ครั้งแรกของโลก ฉีดสเต็มเซลล์เข้าสมองผู้ป่วยอัลไซเมอร์โดยตรง Techsauce",
@@ -201,16 +221,6 @@
    "link": "https://www.khaosod.co.th/around-thailand/news_10486794",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/frghyjhgdfsd.jpg",
    "published": 1795793869.0
-  },
-  {
-   "id": "nvQTFURXFaoc5",
-   "title": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด : อินโฟเควสท์",
-   "desc": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด : อินโฟเควสท์ สำนักข่าวอินโฟเควสท์ ฟองสบู่ AI แตก? ทางรอดติดดอยหุ้นเทค | Market Today | การเงินธนาคาร LINE TODAY นักวิเคราะห์ข้อมูลชี้สัญญาณอันตราย 'ทองคำ-บิตคอ",
-   "topic": "เศรษฐกิจ",
-   "source": "สำนักข่าวอินโฟเควสท์",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE90Y1VkTG5IQk9xOE92cmg2aUMxNEQyX25kMU9TbUtkNEhaTWlFUVRtSnpOOVhQcnFxVkpBR3kybE8yd3Jja1BjakdvQTFURXFa?oc=5",
-   "image": "",
-   "published": 1795793509.0
   },
   {
    "id": "nnews_5993589",
@@ -243,16 +253,6 @@
    "published": 1795793004.0
   },
   {
-   "id": "nNlbDM1Mk0oc5",
-   "title": "“ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา",
-   "desc": "“ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา ผู้จัดการออนไลน์ คงสุดแล้วจริงๆ!! ทนายแก้ว ยังอึ้ง ไม่เคยเจอศาลสั่ง จำคุก 14 ปี คดีหมิ่นประมาท LINE TODAY ‘หนุ่ม กรรชัย’ ชี้เป็นบรรทัดฐาน คุก 1",
-   "topic": "ข่าวทั่วไป",
-   "source": "ผู้จัดการออนไลน์",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aTnUxdFA4M0pVYURabEtfTUEtbURkZTRKM3FSZFZQYUZ6aWx4NzBtXy1VVnFXZlEzLUQydThWdEp4cmNKdnlyX091Rm03Yk5kUFFTMjlKcmFiRkJnRWRZWGNlbDM1Mk0?oc=5",
-   "image": "",
-   "published": 1795792560.0
-  },
-  {
    "id": "nGYmlYX1pxoc5",
    "title": "ผลวอลเลย์บอลไทยลีก วันที่ 27 พ.ย. 69",
    "desc": "ผลวอลเลย์บอลไทยลีก วันที่ 27 พ.ย. 69 TrueVisions ดูพาดหัวและความคิดเห็นเพิ่มเติมใน Google News",
@@ -261,16 +261,6 @@
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Fb0IyNC1SZlk5cjF1QWJpQU45UFBFc0ZiSmxYX0JQa2d0Z2lzbkNVemlmLV9DTGM2c3V5aWM3SFhIOUdrZGJLcndGYmlYX1px?oc=5",
    "image": "",
    "published": 1795791965.0
-  },
-  {
-   "id": "nwc0ZEdldBoc5",
-   "title": "สาวนครนนท์ ควง หนุ่มอัสสัมชัญ ผงาดแชมป์วอลเลย์บอล PMYC U15 | Khaosod",
-   "desc": "สาวนครนนท์ ควง หนุ่มอัสสัมชัญ ผงาดแชมป์วอลเลย์บอล PMYC U15 | Khaosod LINE TODAY ปิดฉากเร้าใจ! “สาวนครนนท์-หนุ่มอัสสัมชัญ” ผงาดแชมป์ PMYC U15 ผู้จัดการออนไลน์ โค้งสุดท้าย! \"โบว์-เอย\" ส่งแรงใจเชียร์น้อง ๆ นักตบสู้ศึกลูกยาง PMYC ยู15 ปล่อยของใ",
-   "topic": "กีฬา",
-   "source": "LINE TODAY",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtMUZ6R3ZLRm5Hc1RubVBocnBITlp5NTBRcjJUdFdpbXd6b2c5WTduUkI2ZFB3aVo0ZEthdmVib0lRYzVFVGlXOVZ3Z1JraTBwc0ZEdldB?oc=5",
-   "image": "",
-   "published": 1795791916.0
   },
   {
    "id": "nnews_5993562",
@@ -331,6 +321,16 @@
    "link": "https://www.matichon.co.th/royal/news_5993566",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/888-7.jpg",
    "published": 1795791145.0
+  },
+  {
+   "id": "nDNEcxd2Fnoc5",
+   "title": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ",
+   "desc": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ อมรินทร์ทีวี ช่อง 34 “ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา ผู้จัดการออนไลน์ คงสุดแล้วจริงๆ!! ทนายแก้ว ยังอึ้ง ไม่เคยเจอ",
+   "topic": "ข่าวทั่วไป",
+   "source": "อมรินทร์ทีวี ช่อง 34",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YbElQalFHOUVKM1NxdzBIMXdrUERjdnNPd3Zhem5pOWpQWU5nbUFNU1NiZkFTdHZ0WnBmUW1ubmhleU1qbE5Wdk5tQXBTazVDNEcxd2Fn?oc=5",
+   "image": "",
+   "published": 1795791060.0
   },
   {
    "id": "nnews_5993557",
@@ -411,16 +411,6 @@
    "link": "https://www.matichon.co.th/region/news_5993435",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/S__28704788-1.jpg",
    "published": 1795789923.0
-  },
-  {
-   "id": "nRfQ0E2RkEoc5",
-   "title": "ตลาดเสื้อผ้ามือสอง",
-   "desc": "ตลาดเสื้อผ้ามือสอง Workpoint TV",
-   "topic": "เศรษฐกิจ",
-   "source": "Workpoint TV",
-   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQVnZ0M1RvSllzVmVkMzllb0lUUWxWVHBZejE4Y1E4Vy04UzlvaW43X1IzOFdBOGNqejl6SHdUcm14bDRmRUVJQ19qaUtTeWMwcE5lVXdCRHU0d2taU1FkYUNWa3dGZk0yanRCUjlxWDdFRUhiWlNCSjVFSzZkMXZlcnh6VTM1SnJpS3FoNEgzeG9oTzNmcndmQm03aUM1MVVsdlhZMTlWOGVZc2MzNks0ZTgwTnFKZjhzalo5dk03Z1F6dlBtY3dMemNTeVp2cWxMSmdmRS1MWHhxaEpiQmRDTThvRWZLajBsT0s1S0RrbTh3NTBOTTFiQVpMVGg0aEZ6ZW1fNzZYdUt2SjJLMFJUY004RHE2SWtuSC1BaVp5T2RfQ0E2RkE?oc=5",
-   "image": "",
-   "published": 1795789476.0
   },
   {
    "id": "nnews_5993458",
@@ -505,7 +495,7 @@
   {
    "id": "nJYVktvdzkoc5",
    "title": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน",
-   "desc": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน Thai PBS เปิดภาพต้นเพลิงไหม้ “ตลาดปัฐฯ” วอด! พ่อค้างงหนักคนเฝ้าตลาดมี แต่ไร้เสียงเตือน! ​ ผู้จัดการออนไลน์ ไฟไหม้ตลาดปัฐวิกรณ์วอดกว่า 500 ล็อก เสียหาย 70% ของพื้นที่ เขตบึ",
+   "desc": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน Thai PBS จับตาสถานการณ์ - เร่งสำรวจความเสียหายเพลิงไหม้ \"ตลาดปัฐวิกรณ์\" Thai PBS เปิดภาพต้นเพลิงไหม้ “ตลาดปัฐฯ” วอด! พ่อค้างงหนักคนเฝ้าตลาดมี แต่ไร้เสียงเตือน! ​ ผู้จัดการ",
    "topic": "เศรษฐกิจ",
    "source": "Thai PBS",
    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9INVktWFVDQmtNR2JMTHVZa2FxdzN6X3FGWFRnM08yc09va0pnVW8tcHVWZ2ZkRE0wb0hOSzViRTBNWWRJdlV1bWVqMThIZ2hJRlJYVktvdzk?oc=5",
@@ -533,16 +523,6 @@
    "published": 1795787701.0
   },
   {
-   "id": "nlNYYnBLTAoc5",
-   "title": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย",
-   "desc": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย TNN Thailand บอลชายหาดชิงแชมป์เอเชียปลุกพังงาคึกคัก “เลิศศักดิ์” คาดเงินสะพัดกว่า 100 ล้านบาท thairath.co.th ไทยพ่ายโอมาน รองแชมป์เก่า 3-9 ตกรอบ 8 ทีมฟุตบอลชายหาดเอเชีย 2026 ผู้จัดการอ",
-   "topic": "กีฬา",
-   "source": "TNN Thailand",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoYTBtTGY1czRiQkUxalhMQTVISlBnUEJZT2FfbVRPUmpvc3c2Vm9rVTNremxRZlQ1RTJpZUdueXoyVm1wdkpBMFV2TDY2MlNYYnBLTA?oc=5",
-   "image": "",
-   "published": 1795787434.0
-  },
-  {
    "id": "nnews_5993394",
    "title": "ย้อนอ่านคำตอบ ‘วราวุธ’ รมว.อุตฯ เอาขยะอิเล็กทรอนิกส์ กำจัดที่ราชบุรีจริงไหม",
    "desc": "รัฐมนตรีว่าการกระทรวงอุตสาหกรรม ให้คำมั่นกับประชาชนชาวจ",
@@ -561,6 +541,16 @@
    "link": "https://www.khaosod.co.th/around-thailand/news_10486743",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/Police-12.jpg",
    "published": 1795787174.0
+  },
+  {
+   "id": "n3ejNxY0Utoc5",
+   "title": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย",
+   "desc": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย TrueVisions ดูพาดหัวและความคิดเห็นเพิ่มเติมใน Google News",
+   "topic": "กีฬา",
+   "source": "TrueVisions",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tTEU0akxwTGIxTmIzTXZ0NXJGVjFhWnFwME9JeFRHX3JxdnlPVVpucVFVRWI5YlFVUU9rbHMtWXl5TW5oekZUOS03ejNxY0Ut?oc=5",
+   "image": "",
+   "published": 1795787157.0
   },
   {
    "id": "nnews_5993396",
@@ -583,16 +573,6 @@
    "published": 1795786743.0
   },
   {
-   "id": "nWZadmlKYwoc5",
-   "title": "ช็อก! 'มาร์เกวซ' ประกาศรีไทร์ 'โมโตจีพี' หลังคว้าแชมป์โลกสมัย 8 บิดที่บาเลนเซีย สนามสุดท้าย",
-   "desc": "ช็อก! 'มาร์เกวซ' ประกาศรีไทร์ 'โมโตจีพี' หลังคว้าแชมป์โลกสมัย 8 บิดที่บาเลนเซีย สนามสุดท้าย thaipost.net \"มาร์เกวซ\" อำลาโมโตจีพี บิดเรซสุดท้ายที่บาเลนเซีย ผู้จัดการออนไลน์ GOAT OF MotoGP ย้อนดูความยิ่งใหญ่ของหมายเลข 93 มาร์ก มาร์เกซ ก่อนอำล",
-   "topic": "ต่างประเทศ",
-   "source": "thaipost.net",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWXVDWHVkT2Utdjg5UUJzS3RYdWZEam5fQ1Y2a2c4RU0tbk1OU0xHNElpVTBVM1ZtUF82QmlKUnBxU0gtUmduSWhBX3FyekVVRWZadmlKYw?oc=5",
-   "image": "",
-   "published": 1795786112.0
-  },
-  {
    "id": "nnews_5993384",
    "title": "เปิดนิทรรศการ ‘ชุมชนคนใส่ใจ’ ชูโมเดลเพื่อนบ้านรับฟังไม่ตัดสิน สร้างพื้นที่ปลอดภัยจากความรุนแรงในครอบครัว",
    "desc": "เปิดนิทรรศการ ‘ชุมชนคนใส่ใจ’ ชูโมเดลเพื่อนบ",
@@ -601,6 +581,26 @@
    "link": "https://www.matichon.co.th/local/quality-life/news_5993384",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-354.jpg",
    "published": 1795786040.0
+  },
+  {
+   "id": "news_10486742",
+   "title": "โปรแกรมบอล 27 พ.ย. 2569 ฟอเรสต์เปิดบ้านรอปะทะแข้งกับเชลซี",
+   "desc": "โปรแกรมบอล คืนนี้มีเกมพรีเมียร์ลีกที่น็อตติงแฮม ฟอเรสต์ เปิดบ้านเจอกับเชลซี นอกจากนี้ก็ยังมีเกมของบุนเดสลีกา, เซเรีย อา และลา ลีกา ให้ติดตามกันด้วย โปรแกรมบอล 27 พฤศจิกายน 2569 ฟุตบอลพรีเมียร์ลีก อังกฤษ น็อตติงแฮม ฟอเรสต์-เชลซี คู่นี้แข่งขั",
+   "topic": "กีฬา",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/sports/news_10486742",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-07T174314Z_1340788640_UP1EMB71D80RY_RTRMADP_3_SOCCER-ENGLAND-NFO-MCI.jpg",
+   "published": 1795785488.0
+  },
+  {
+   "id": "nnews_5993368",
+   "title": "ปส.ตั้ง 2 สถาบัน สฉน.–สกร. รับมือเหตุฉุกเฉินนิวเคลียร์ เดินหน้าแผนจัดการกากกัมมันตรังสีแห่งชาติ",
+   "desc": "ปส. เคาะตั้ง 2 สถาบันหลัก “สฉน.–สกร.” ยกระด",
+   "topic": "สุขภาพ",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sdg-updates/news_5993368",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/2-239.jpg",
+   "published": 1795784978.0
   }
  ]
 }
