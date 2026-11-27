@@ -1,7 +1,137 @@
 {
- "updated": "2026-11-27T16:43:35.941315+00:00",
+ "updated": "2026-11-27T17:50:00.852113+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "nnews_5992788",
+   "title": "รถจักรยานยนต์ฮอนด้า ประกาศเป็นผู้สนับสนุนหลักถ่ายทอดสดฟุตบอลพรีเมียร์ลีก จัด Watch Party ที่ร้านผู้จำหน่ายทั่วประเทศ",
+   "desc": "รถจักรยานยนต์ฮอนด้า ประกาศเป็นผู้สนับสนุนหลักถ่ายทอดสดฟ",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5992788",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-345.jpg",
+   "published": 1795799113.0
+  },
+  {
+   "id": "neople1117004",
+   "title": "‘มาตรฐานส้ม’",
+   "desc": "ที่ประกันสังคมเขามีอะไรให้ตื่นเต้นกันอยู่เรื่อยเลยนะครับ เรื่องปฏิทินว่าเร้าใจแล้ว ยังมีเรื่องที่ดรามากว่าอีก มันเริ่มจาก กกต.ประกันสังคมวินิจฉัยให้ \"ธนพงษ์ เชื้อเมืองพาน\" ผู้ได้คะแนนอันดับ ๑ จากการเลือกตั้งบอร์ดประกันสังคม ขาดคุณสมบัติ The",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/columnist-people/1117004/",
+   "image": "https://storage-wp.thaipost.net/2024/03/AnAorueang.jpg",
+   "published": 1795799071.0
+  },
+  {
+   "id": "neople1116956",
+   "title": "ทักษิณ…ร้องเรียนแทนชาวบ้าน!",
+   "desc": "เมื่อวานนี้อ่านโพสต์ของคุณทักษิณ ชินวัตร แล้วผมชอบอยู่ประโยคหนึ่งครับ The post ทักษิณ…ร้องเรียนแทนชาวบ้าน! appeared first on .",
+   "topic": "การเมือง",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/columnist-people/1116956/",
+   "image": "https://storage-wp.thaipost.net/2026/09/S__543727619.jpg",
+   "published": 1795799034.0
+  },
+  {
+   "id": "npaper1116998",
+   "title": "อนุทินจ่อแจงยิบ ปมสารพิษแม่น้ำ เร่งส่ง‘ชุดตรวจ’",
+   "desc": "จ่อแจงปมร้อนสิ่งแวดล้อม ผ่านรายการ “คุยกับนายกฯ อนุทิน” โฆษกรัฐบาลเผย นายกฯ เตรียมร่วมประชุม ACMECS ที่ฮานอย 28-29 พ.ย. The post อนุทินจ่อแจงยิบ ปมสารพิษแม่น้ำ เร่งส่ง‘ชุดตรวจ’ appeared first on .",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/one-newspaper/1116998/",
+   "image": "https://storage-wp.thaipost.net/2026/10/anutin-crop-5.jpg",
+   "published": 1795798915.0
+  },
+  {
+   "id": "npaper1117011",
+   "title": "ทักษิณถึงร้อง! โลว์คอสต์แพง คค.ชี้อยู่ในเรต",
+   "desc": "“ทักษิณ” ยังร้อง! บอกตั๋วโลว์คอสต์บินเชียงใหม่ช่วงลอยกระทงแพงหูฉี่ บางเว็บพุ่งเกือบ 3 หมื่น เผยยุคไทยรักไทยเคยเห็นตั๋ว 999 บาท วอนคมนาคมคุมราคาสูงสุด “พิพัฒน์” บอกยังไม่เกินเพดานสูงสุด “จุลพันธ์” รับแม้วติงในฐานะชาวบ้าน ตัวเองก็เคยเจอ “อัยก",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/one-newspaper/1117011/",
+   "image": "https://storage-wp.thaipost.net/2026/11/IMG_5727.jpeg",
+   "published": 1795798914.0
+  },
+  {
+   "id": "npaper1116996",
+   "title": "DSIลุยแกะเส้นเงินมูลนิธิกัน",
+   "desc": "“ดีเอสไอ” ลุยแกะเส้นเงินมูลนิธิ “กัน จอมพลัง” เตรียมให้แจงแบบม้วนเดียวจบอีกครั้ง แบบไม่จำกัดเวลา แต่เอกสารต้องครบ พร้อมเรียกเจ้าของร้านทอง “นับเงิน 888” แจงธุรกรรมปริศนาช่วงปี 68-69 “หนุ่ม กรรชัย-บุ้ง ใบหยก” เข้าพบดีเอสไอ ปมบริจาคเงินเข้าบั",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/one-newspaper/1116996/",
+   "image": "https://storage-wp.thaipost.net/2025/10/fugvlwv.jpg",
+   "published": 1795798913.0
+  },
+  {
+   "id": "npaper1116995",
+   "title": "เล็งถกUSAลดเพิ่ม15หมวด",
+   "desc": "“อนุทิน” เตรียมแจงยิบปมภาษีมาตรา 301 พร้อมร่ายความคืบหน้าเข้าโออีซีดี “ลลิดา” ย้ำกลุ่มสินค้าไทยกว่า 2,000 รายการที่สหรัฐเสนอให้ยกเว้นภาษี ลั่น พณ.ยังเดินหน้าเจรจาขอยกเว้นเพิ่มอีก 15 หมวดสินค้า The post เล็งถกUSAลดเพิ่ม15หมวด appeared first ",
+   "topic": "เศรษฐกิจ",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/one-newspaper/1116995/",
+   "image": "https://storage-wp.thaipost.net/2026/11/lalida-crop.jpeg",
+   "published": 1795798913.0
+  },
+  {
+   "id": "npaper1116997",
+   "title": "‘จุลพันธ์’สอนส้ม ธนพงษ์ขอดิ้นต่อ",
+   "desc": "\"จุลพันธ์\" โต้ตัดสิทธิ \"ธนพงษ์\" ไม่เกี่ยวการเมือง แจงทำตามกฎหมาย หลักฐานศาลมัดขาดคุณสมบัติ จ่อเรียกคืนเบี้ยประชุมนั่งบอร์ดสมัยที่แล้ว The post ‘จุลพันธ์’สอนส้ม ธนพงษ์ขอดิ้นต่อ appeared first on .",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/one-newspaper/1116997/",
+   "image": "https://storage-wp.thaipost.net/2026/11/S__325574662.jpg",
+   "published": 1795798907.0
+  },
+  {
+   "id": "npaper1116999",
+   "title": "บี้คดีน้องเนวิน-ภท. เจ๊แมว-ปชป.พาเหรดทวง/ศาลยังไม่ประทับรับฟ้องฮั้ว",
+   "desc": "“ปธ.โสภณ” เมินฝ่ายค้านขู่ฟัน “ม.157-จริยธรรม” ฐานดองคำร้องยื่น “ปธ.ศาลฎีกา” ตั้งไต่สวน ป.ป.ช.ปมอุ้ม \"ศักดิ์สยาม” ซุกหุ้น ปัดไม่ได้ยื้อเรื่อง รอคณะกรรมการพิจารณา The post บี้คดีน้องเนวิน-ภท. เจ๊แมว-ปชป.พาเหรดทวง/ศาลยังไม่ประทับรับฟ้องฮั้ว ap",
+   "topic": "อาชญากรรม",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/one-newspaper/1116999/",
+   "image": "https://storage-wp.thaipost.net/2026/11/domocrat.jpg",
+   "published": 1795798906.0
+  },
+  {
+   "id": "neople1117012",
+   "title": "บทเรียนแต่งตั้ง ตร.",
+   "desc": "เป็นอีกหนึ่งบทเรียน กระตุ้นเตือน “ผบ.สำราญ” ในการบริหารงานบุคคล โดยเฉพาะการแต่งตั้งโยกย้าย “ตำรวจ” ทุกครั้ง ต้องยึดกฎ ยึดระเบียบ ยึดกติกาอย่างเคร่งครัด ไม่ต้องไปเกรงใจหน้าอินทร์หน้าพรหม The post บทเรียนแต่งตั้ง ตร. appeared first on .",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/columnist-people/1117012/",
+   "image": "https://storage-wp.thaipost.net/2026/09/S__543711241.jpg",
+   "published": 1795798883.0
+  },
+  {
+   "id": "nbnews1116994",
+   "title": "ฉบับวันที่ 28 พฤศจิกายน 2569",
+   "desc": "หนังสือพิมพ์ ฉบับวันที่ 28 พฤศจิกายน 2569 ข่าวหน้าหนึ่ง The post ฉบับวันที่ 28 พฤศจิกายน 2569 appeared first on .",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/e-pub-news/1116994/",
+   "image": "https://storage-wp.thaipost.net/2026/11/28-p1-เสาร์.jpg",
+   "published": 1795798864.0
+  },
+  {
+   "id": "news_10486804",
+   "title": "ซุ่มยิงกลางงานลอยกระทง ตำรวจเจ็บ 1 ชาวบ้านเจ็บอีก 1 จนท.แกะรอยวงจรปิดล่าคนร้าย",
+   "desc": "ซุ่มยิงกลางงานลอยกระทง ตำรวจเจ็บ 1 ชาวบ้านเจ็บอีก 1 จนท.แกะรอยวงจรปิดล่าคนร้าย วันที่ 27 พ.ย.69 ผู้สื่อข่าวรายงานว่า มีเหตุคนร้ายใช้อาวุธปืนซุ่มยิงในพื้นที่ลำใหม่ จ.ยะลา ระหว่างการจัดงานควันหลงเทศกาลลอยกระทง ส่งผลให้มีผู้ได้รับบาดเจ็บเบื้อง",
+   "topic": "อาชญากรรม",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/around-thailand/news_10486804",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/dfdghthdthddrhfr.jpg",
+   "published": 1795798375.0
+  },
+  {
+   "id": "nR1aTdhWTgoc5",
+   "title": "ผู้นำอียูเสียงแตก ข้อตกลงงบประมาณระยะยาวฉบับใหม่ยังสรุปไม่ได้ เห็นต่างวงเงิน-การจัดสรรงบ",
+   "desc": "ผู้นำอียูเสียงแตก ข้อตกลงงบประมาณระยะยาวฉบับใหม่ยังสรุปไม่ได้ เห็นต่างวงเงิน-การจัดสรรงบ thairath.co.th EU พยายามลดความขัดแย้งเกี่ยวกับงบประมาณและการช่วยเหลือยูเครน VOV World สหภาพยุโรปกำลังเร่งดำเนินการเพื่อสรุปงบประมาณระยะยาวและแพ็คเกจควา",
+   "topic": "ข่าวทั่วไป",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UeG05Z29oRGJ0c0NZSHVTcDlqZWxsdXkzaU9KV0h5MGF1X094TFFTS1M2b0RsaXJXSWs5S3Z5V2NXV2Uxa1A2MDdTSGw5dnVjUG5hQkR1aTdhWTg?oc=5",
+   "image": "",
+   "published": 1795797634.0
+  },
   {
    "id": "nnews_5993593",
    "title": "สถานทูตฉลองครบ 51 ปี วันสถานปนา สปป.ลาว 2 ธ.ค. ย้ำมิตรภาพ2 ประเทศ ไทยหุ้นส่วนการค้าสำคัญ",
@@ -73,6 +203,16 @@
    "published": 1795793869.0
   },
   {
+   "id": "nvQTFURXFaoc5",
+   "title": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด : อินโฟเควสท์",
+   "desc": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด : อินโฟเควสท์ สำนักข่าวอินโฟเควสท์ ฟองสบู่ AI แตก? ทางรอดติดดอยหุ้นเทค | Market Today | การเงินธนาคาร LINE TODAY นักวิเคราะห์ข้อมูลชี้สัญญาณอันตราย 'ทองคำ-บิตคอ",
+   "topic": "เศรษฐกิจ",
+   "source": "สำนักข่าวอินโฟเควสท์",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE90Y1VkTG5IQk9xOE92cmg2aUMxNEQyX25kMU9TbUtkNEhaTWlFUVRtSnpOOVhQcnFxVkpBR3kybE8yd3Jja1BjakdvQTFURXFa?oc=5",
+   "image": "",
+   "published": 1795793509.0
+  },
+  {
    "id": "nnews_5993589",
    "title": "ราชกิจจานุเบกษา ประกาศ แต่งตั้ง เผด็จ ลายทอง นั่ง อธิบดีกรมทรัพยากรทางทะเลและชายฝั่ง",
    "desc": "ราชกิจจานุเบกษา ประกาศ แต่งตั้ง เผด็จ ลายทอง นั่ง อธิบด",
@@ -83,14 +223,14 @@
    "published": 1795793426.0
   },
   {
-   "id": "neople1117071",
-   "title": "คำให้การ ‘เด็กส้ม’",
-   "desc": "“กกต.ประกันสังคม” มีมติเป็นเอกฉันท์ ให้ “นายธนพงษ์ เชื้อเมืองพาน” คนของพรรคส้มเค้า หมดสิทธิ์เป็น “บอร์ดประกันสังคม” ชุดใหม่ The post คำให้การ ‘เด็กส้ม’ appeared first on .",
+   "id": "nIzdTQtQTgoc5",
+   "title": "\"Sea of Sorrow\" ภาคเสริมของ Hollow Knight: Silksong เตรียมอัปเดตฟรี 11 ธ.ค. นี้",
+   "desc": "\"Sea of Sorrow\" ภาคเสริมของ Hollow Knight: Silksong เตรียมอัปเดตฟรี 11 ธ.ค. นี้ GamingDose",
    "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/columnist-people/1117071/",
-   "image": "https://storage-wp.thaipost.net/2024/03/plewseengern.jpg",
-   "published": 1795793045.0
+   "source": "GamingDose",
+   "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOU2lGSUVVdmVvbnc0RlRxdEs5cHBRaFdYOE96dTJuZk91SWtsaHV1U3JZUnhLTUltOVI5aGRpWGUzUVpSTS1uTHBlcVI3OUdPNVRROHlyeGJSaFVKdDBIYjJXVnRiVFIwN0NaeDRpMi1TYUxNRVFOcENWdEV3SEFjV0t0ajBlSkM3VzkwbDctRlRFNTFlaldWWnVna20waktvdDlLUXgtZjl1dzNidnhZb0x5Q1M1ZlRaamhTWDl2cExCdTl3WHVheThLOEs0SlRPZ2tGSGlfMC1kaUFMRjh5Zlc1LWNvNmtEZ2RCMzdPNFJDT2t5bXNNNTJZbE5ZUFR4SThMNmhRRUtpNTg0b0FEYUFWR3JWak5hWmdLVXFDRG9WOFpwbnBPWnZvYU82MHNseXRsbnJueTRtSWtzYzZEdTIzdTQtQTg?oc=5",
+   "image": "",
+   "published": 1795793182.0
   },
   {
    "id": "news_10486789",
@@ -103,6 +243,16 @@
    "published": 1795793004.0
   },
   {
+   "id": "nNlbDM1Mk0oc5",
+   "title": "“ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา",
+   "desc": "“ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา ผู้จัดการออนไลน์ คงสุดแล้วจริงๆ!! ทนายแก้ว ยังอึ้ง ไม่เคยเจอศาลสั่ง จำคุก 14 ปี คดีหมิ่นประมาท LINE TODAY ‘หนุ่ม กรรชัย’ ชี้เป็นบรรทัดฐาน คุก 1",
+   "topic": "ข่าวทั่วไป",
+   "source": "ผู้จัดการออนไลน์",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aTnUxdFA4M0pVYURabEtfTUEtbURkZTRKM3FSZFZQYUZ6aWx4NzBtXy1VVnFXZlEzLUQydThWdEp4cmNKdnlyX091Rm03Yk5kUFFTMjlKcmFiRkJnRWRZWGNlbDM1Mk0?oc=5",
+   "image": "",
+   "published": 1795792560.0
+  },
+  {
    "id": "nGYmlYX1pxoc5",
    "title": "ผลวอลเลย์บอลไทยลีก วันที่ 27 พ.ย. 69",
    "desc": "ผลวอลเลย์บอลไทยลีก วันที่ 27 พ.ย. 69 TrueVisions ดูพาดหัวและความคิดเห็นเพิ่มเติมใน Google News",
@@ -111,6 +261,16 @@
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Fb0IyNC1SZlk5cjF1QWJpQU45UFBFc0ZiSmxYX0JQa2d0Z2lzbkNVemlmLV9DTGM2c3V5aWM3SFhIOUdrZGJLcndGYmlYX1px?oc=5",
    "image": "",
    "published": 1795791965.0
+  },
+  {
+   "id": "nwc0ZEdldBoc5",
+   "title": "สาวนครนนท์ ควง หนุ่มอัสสัมชัญ ผงาดแชมป์วอลเลย์บอล PMYC U15 | Khaosod",
+   "desc": "สาวนครนนท์ ควง หนุ่มอัสสัมชัญ ผงาดแชมป์วอลเลย์บอล PMYC U15 | Khaosod LINE TODAY ปิดฉากเร้าใจ! “สาวนครนนท์-หนุ่มอัสสัมชัญ” ผงาดแชมป์ PMYC U15 ผู้จัดการออนไลน์ โค้งสุดท้าย! \"โบว์-เอย\" ส่งแรงใจเชียร์น้อง ๆ นักตบสู้ศึกลูกยาง PMYC ยู15 ปล่อยของใ",
+   "topic": "กีฬา",
+   "source": "LINE TODAY",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtMUZ6R3ZLRm5Hc1RubVBocnBITlp5NTBRcjJUdFdpbXd6b2c5WTduUkI2ZFB3aVo0ZEthdmVib0lRYzVFVGlXOVZ3Z1JraTBwc0ZEdldB?oc=5",
+   "image": "",
+   "published": 1795791916.0
   },
   {
    "id": "nnews_5993562",
@@ -171,16 +331,6 @@
    "link": "https://www.matichon.co.th/royal/news_5993566",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/888-7.jpg",
    "published": 1795791145.0
-  },
-  {
-   "id": "nDNEcxd2Fnoc5",
-   "title": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ",
-   "desc": "มาแล้ว! \"ปู มัณฑนา\" โพสต์ขอโทษ \"หนุ่ม กรรชัย\" อย่างเป็นทางการ อมรินทร์ทีวี ช่อง 34 “ปู มัณฑนา” โพสต์ขอโทษ “หนุ่ม กรรชัย” อย่างเป็นทางการครั้งแรก หลังศาลสั่งจำคุก 14 ปี ไม่รอลงอาญา ผู้จัดการออนไลน์ ‘หนุ่ม กรรชัย’ ชี้เป็นบรรทัดฐาน คุก 14 ปี ‘",
-   "topic": "ข่าวทั่วไป",
-   "source": "อมรินทร์ทีวี ช่อง 34",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YbElQalFHOUVKM1NxdzBIMXdrUERjdnNPd3Zhem5pOWpQWU5nbUFNU1NiZkFTdHZ0WnBmUW1ubmhleU1qbE5Wdk5tQXBTazVDNEcxd2Fn?oc=5",
-   "image": "",
-   "published": 1795791060.0
   },
   {
    "id": "nnews_5993557",
@@ -263,6 +413,16 @@
    "published": 1795789923.0
   },
   {
+   "id": "nRfQ0E2RkEoc5",
+   "title": "ตลาดเสื้อผ้ามือสอง",
+   "desc": "ตลาดเสื้อผ้ามือสอง Workpoint TV",
+   "topic": "เศรษฐกิจ",
+   "source": "Workpoint TV",
+   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQVnZ0M1RvSllzVmVkMzllb0lUUWxWVHBZejE4Y1E4Vy04UzlvaW43X1IzOFdBOGNqejl6SHdUcm14bDRmRUVJQ19qaUtTeWMwcE5lVXdCRHU0d2taU1FkYUNWa3dGZk0yanRCUjlxWDdFRUhiWlNCSjVFSzZkMXZlcnh6VTM1SnJpS3FoNEgzeG9oTzNmcndmQm03aUM1MVVsdlhZMTlWOGVZc2MzNks0ZTgwTnFKZjhzalo5dk03Z1F6dlBtY3dMemNTeVp2cWxMSmdmRS1MWHhxaEpiQmRDTThvRWZLajBsT0s1S0RrbTh3NTBOTTFiQVpMVGg0aEZ6ZW1fNzZYdUt2SjJLMFJUY004RHE2SWtuSC1BaVp5T2RfQ0E2RkE?oc=5",
+   "image": "",
+   "published": 1795789476.0
+  },
+  {
    "id": "nnews_5993458",
    "title": "แรงงานบุกตรวจศูนย์ CI สมุทรสาคร-สมุทรปราการ ปมร้องซื้อสลิป-เก็บเงินเพิ่ม 1,200 บาท",
    "desc": "แรงงานบุกตรวจศูนย์ CI สมุทรสาคร-สมุทรปราการ ปมร้องซื้อส",
@@ -281,6 +441,16 @@
    "link": "https://www.matichon.co.th/local/education/news_5993497",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/IMG_1520-scaled.jpeg",
    "published": 1795789301.0
+  },
+  {
+   "id": "nIwVFdwUGMoc5",
+   "title": "ทีมประกันสังคมก้าวหน้า นั่งรอ 7 ชม. ขอคำวินิจฉัยตัดสิทธิ์ “ธนพงษ์” ยังไร้ความคืบหน้า",
+   "desc": "ทีมประกันสังคมก้าวหน้า นั่งรอ 7 ชม. ขอคำวินิจฉัยตัดสิทธิ์ “ธนพงษ์” ยังไร้ความคืบหน้า thairath.co.th ผู้ทรงคุณวุฒิบอร์ดประกันสังคม มีอำนาจแค่ไหน มีสิทธิโหวตหรือไม่ BBC “บุณยกร” โต้ “ษัษฐรัมย์” ชี้ ผู้ทรงคุณวุฒิบอร์ดประกันสังคมไม่มีสิทธิโหวต ",
+   "topic": "ข่าวทั่วไป",
+   "source": "thairath.co.th",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUREcyY0x6SUFpSUwzc2pDWnFfQWNMTFNHZ2dnUkhVS2JxZGFoRGNPRlVEOVRlVUJfSG5vUjVlWk5ESTlxWXBQSnBaNmdDbm9FeFVWamIwVFdwUGM?oc=5",
+   "image": "",
+   "published": 1795788698.0
   },
   {
    "id": "news_10486758",
@@ -333,6 +503,16 @@
    "published": 1795788008.0
   },
   {
+   "id": "nJYVktvdzkoc5",
+   "title": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน",
+   "desc": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน Thai PBS เปิดภาพต้นเพลิงไหม้ “ตลาดปัฐฯ” วอด! พ่อค้างงหนักคนเฝ้าตลาดมี แต่ไร้เสียงเตือน! ​ ผู้จัดการออนไลน์ ไฟไหม้ตลาดปัฐวิกรณ์วอดกว่า 500 ล็อก เสียหาย 70% ของพื้นที่ เขตบึ",
+   "topic": "เศรษฐกิจ",
+   "source": "Thai PBS",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9INVktWFVDQmtNR2JMTHVZa2FxdzN6X3FGWFRnM08yc09va0pnVW8tcHVWZ2ZkRE0wb0hOSzViRTBNWWRJdlV1bWVqMThIZ2hJRlJYVktvdzk?oc=5",
+   "image": "",
+   "published": 1795787891.0
+  },
+  {
    "id": "news_10486754",
    "title": "มาเรสกา เชื่อ แมนฯ ซิตี้ มีดีพอบุกชนะ อาร์เซนอล ได้ – ไม่ตระหนกทีมฟอร์มตก",
    "desc": "เอ็นโซ มาเรสกา เฮดโค้ช แมนเชสเตอร์ ซิตี้ แสดงความเชื่อมั่นว่า “เรือใบสีฟ้า” มีดีพอที่จะบุกเอาชนะ อาร์เซนอล ได้ในเกมพรีเมียร์ลีกคู่บิ๊กแมตช์สุดสัปดาห์นี้ พร้อมระบุไม่ตระหนกกับผลงานของทีมที่ตกลงไป โดย แมนฯ ซิตี้ มีโปรแกรมสำคัญในการบุกเยือน อา",
@@ -353,14 +533,14 @@
    "published": 1795787701.0
   },
   {
-   "id": "nsnews1117038",
-   "title": "เสริมภาษาอังกฤษพนักงานโรงแรม สร้างความมั่นใจรับการฟื้นตัวของท่องเที่ยวไทย",
-   "desc": "ONYX Hospitality Group แชร์ประสบการณ์ใช้ ELSA Business ฝึกภาษาอังกฤษให้เป็นกิจวัตร ช่วยพนักงานพัฒนาทักษะและกล้าสื่อสารกับผู้เข้าพัก The post เสริมภาษาอังกฤษพนักงานโรงแรม สร้างความมั่นใจรับการฟื้นตัวของท่องเที่ยวไทย appeared first on .",
-   "topic": "ท่องเที่ยว",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/public-relations-news/1117038/",
-   "image": "https://storage-wp.thaipost.net/2026/11/01_Hero_Radklao_Collage.jpg",
-   "published": 1795787515.0
+   "id": "nlNYYnBLTAoc5",
+   "title": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย",
+   "desc": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย TNN Thailand บอลชายหาดชิงแชมป์เอเชียปลุกพังงาคึกคัก “เลิศศักดิ์” คาดเงินสะพัดกว่า 100 ล้านบาท thairath.co.th ไทยพ่ายโอมาน รองแชมป์เก่า 3-9 ตกรอบ 8 ทีมฟุตบอลชายหาดเอเชีย 2026 ผู้จัดการอ",
+   "topic": "กีฬา",
+   "source": "TNN Thailand",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoYTBtTGY1czRiQkUxalhMQTVISlBnUEJZT2FfbVRPUmpvc3c2Vm9rVTNremxRZlQ1RTJpZUdueXoyVm1wdkpBMFV2TDY2MlNYYnBLTA?oc=5",
+   "image": "",
+   "published": 1795787434.0
   },
   {
    "id": "nnews_5993394",
@@ -383,16 +563,6 @@
    "published": 1795787174.0
   },
   {
-   "id": "n3ejNxY0Utoc5",
-   "title": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย",
-   "desc": "อิหร่าน ดวล ญี่ปุ่น นัดชิงฯ! ฟุตบอลชายหาดชิงแชมป์เอเชีย TrueVisions ดูพาดหัวและความคิดเห็นเพิ่มเติมใน Google News",
-   "topic": "กีฬา",
-   "source": "TrueVisions",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tTEU0akxwTGIxTmIzTXZ0NXJGVjFhWnFwME9JeFRHX3JxdnlPVVpucVFVRWI5YlFVUU9rbHMtWXl5TW5oekZUOS03ejNxY0Ut?oc=5",
-   "image": "",
-   "published": 1795787157.0
-  },
-  {
    "id": "nnews_5993396",
    "title": "เกือบ 4 ปีปลดล็อกกัญชา! YNAC จี้ดึงกลับยาเสพติด นักวิจัยชี้ร่างกฎหมายยังปิดตลาดมืดไม่อยู่",
    "desc": "เกือบ 4 ปีปลดล็อกกัญชา! YNAC จี้ดึงกลับยาเสพติด นักวิจั",
@@ -413,13 +583,13 @@
    "published": 1795786743.0
   },
   {
-   "id": "ntnews1117024",
-   "title": "ช็อก! ‘มาร์เกวซ’ ประกาศรีไทร์ ‘โมโตจีพี’ หลังคว้าแชมป์โลกสมัย 8 บิดที่บาเลนเซีย สนามสุดท้าย",
-   "desc": "มาร์ก มาร์เกวซ นักบิดสังกัด ดูคาติ ประกาศรีไทร์แบบสุดช็ The post ช็อก! ‘มาร์เกวซ’ ประกาศรีไทร์ ‘โมโตจีพี’ หลังคว้าแชมป์โลกสมัย 8 บิดที่บาเลนเซีย สนามสุดท้าย appeared first on .",
-   "topic": "กีฬา",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/sport-news/1117024/",
-   "image": "https://storage-wp.thaipost.net/2026/11/AFP__20261127__D8TK3QU__v1__MidRes__MotoPrixPorMotogpPractice.jpg",
+   "id": "nWZadmlKYwoc5",
+   "title": "ช็อก! 'มาร์เกวซ' ประกาศรีไทร์ 'โมโตจีพี' หลังคว้าแชมป์โลกสมัย 8 บิดที่บาเลนเซีย สนามสุดท้าย",
+   "desc": "ช็อก! 'มาร์เกวซ' ประกาศรีไทร์ 'โมโตจีพี' หลังคว้าแชมป์โลกสมัย 8 บิดที่บาเลนเซีย สนามสุดท้าย thaipost.net \"มาร์เกวซ\" อำลาโมโตจีพี บิดเรซสุดท้ายที่บาเลนเซีย ผู้จัดการออนไลน์ GOAT OF MotoGP ย้อนดูความยิ่งใหญ่ของหมายเลข 93 มาร์ก มาร์เกซ ก่อนอำล",
+   "topic": "ต่างประเทศ",
+   "source": "thaipost.net",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWXVDWHVkT2Utdjg5UUJzS3RYdWZEam5fQ1Y2a2c4RU0tbk1OU0xHNElpVTBVM1ZtUF82QmlKUnBxU0gtUmduSWhBX3FyekVVRWZadmlKYw?oc=5",
+   "image": "",
    "published": 1795786112.0
   },
   {
@@ -431,176 +601,6 @@
    "link": "https://www.matichon.co.th/local/quality-life/news_5993384",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-354.jpg",
    "published": 1795786040.0
-  },
-  {
-   "id": "news_10486742",
-   "title": "โปรแกรมบอล 27 พ.ย. 2569 ฟอเรสต์เปิดบ้านรอปะทะแข้งกับเชลซี",
-   "desc": "โปรแกรมบอล คืนนี้มีเกมพรีเมียร์ลีกที่น็อตติงแฮม ฟอเรสต์ เปิดบ้านเจอกับเชลซี นอกจากนี้ก็ยังมีเกมของบุนเดสลีกา, เซเรีย อา และลา ลีกา ให้ติดตามกันด้วย โปรแกรมบอล 27 พฤศจิกายน 2569 ฟุตบอลพรีเมียร์ลีก อังกฤษ น็อตติงแฮม ฟอเรสต์-เชลซี คู่นี้แข่งขั",
-   "topic": "กีฬา",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/sports/news_10486742",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-07T174314Z_1340788640_UP1EMB71D80RY_RTRMADP_3_SOCCER-ENGLAND-NFO-MCI.jpg",
-   "published": 1795785488.0
-  },
-  {
-   "id": "n3hHNlhLdwoc5",
-   "title": "สนค.ประเมินมาตรการภาษีสหรัฐฯ สินค้าไทยยังแข่งขันได้ วาง 4 แผนดันไทยเข้า Supply Chain",
-   "desc": "สนค.ประเมินมาตรการภาษีสหรัฐฯ สินค้าไทยยังแข่งขันได้ วาง 4 แผนดันไทยเข้า Supply Chain จส. 100 ภาษีทรัมป์: เหตุใดมาตรการภาษีใหม่ของทรัมป์จึงเป็นภัยคุกคามน้อยกว่าที่คิด BBC เปิดกลุ่มสินค้าไทยกว่า 2,000 รายการ ที่สหรัฐฯ เสนอยกเว้นภาษี ม.301 Tha",
-   "topic": "เศรษฐกิจ",
-   "source": "จส. 100",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mRHVUM3dRM1JaLWVJV2lHYlNYbEVMVkowd2RpS1lFOEdUMDVzam9fUUp3ZlA4cE9QOU9oaXhqODRzbVFNeDllNDlfdU1lSHpmazA4Y3hHNlhLdw?oc=5",
-   "image": "",
-   "published": 1795785306.0
-  },
-  {
-   "id": "nNuNjFmQUEoc5",
-   "title": "ทส.ชงพื้นที่ใกล้ แม่น้ำกก-สาย-รวก เป็นเขตควบคุมมลพิษ คุมเข้มนำเข้า-ส่งออก เศษโลหะ",
-   "desc": "ทส.ชงพื้นที่ใกล้ แม่น้ำกก-สาย-รวก เป็นเขตควบคุมมลพิษ คุมเข้มนำเข้า-ส่งออก เศษโลหะ thairath.co.th ใช้ธรรมชาติฟื้นธรรมชาติ ทางออกระยะยาววิกฤตสารพิษแม่น้ำกก-อิง-สาย Thai PBS ไทยได้ตามหวังไหม ประชุมแก้ปัญหา มลพิษทางน้ำข้ามแดน BBC \"สุริยะ\" ส่ง \"",
-   "topic": "เศรษฐกิจ",
-   "source": "thairath.co.th",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6eVRZY0pyZ3Yzc0c1RUtnbXpLNEdvb3RYb1R5bXRrc2V6emNtdmVzUVY4dWdUZ1pZbXZPU24xOENoRVBTd3J0WHo1V2ZZS1NFVHhXc3NuNjFmQUE?oc=5",
-   "image": "",
-   "published": 1795785260.0
-  },
-  {
-   "id": "nnews_5993368",
-   "title": "ปส.ตั้ง 2 สถาบัน สฉน.–สกร. รับมือเหตุฉุกเฉินนิวเคลียร์ เดินหน้าแผนจัดการกากกัมมันตรังสีแห่งชาติ",
-   "desc": "ปส. เคาะตั้ง 2 สถาบันหลัก “สฉน.–สกร.” ยกระด",
-   "topic": "สุขภาพ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sdg-updates/news_5993368",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/2-239.jpg",
-   "published": 1795784978.0
-  },
-  {
-   "id": "n2112si1x2vf3",
-   "title": "คนไทยสุดทนร้อง “กสทช.” ค่ายมือถือยัดโปรฯ ไม่แจ้ง แถมเก็บค่าบริการผิด",
-   "desc": "จ่ายแพงแต่เน็ตห่วย ? คนไทยสุดทนร้อง “กสทช.” ค่ายมือถือยัดโปรฯ ไม่แจ้ง แถมเก็บค่าบริการผิด มีคิดค่าบริการเสริมที่ไม่ได้สมัครต่อเนื่องนานถึง 12 เดือน บิลใครเกินอย่าลืมเช็ก",
-   "topic": "เศรษฐกิจ",
-   "source": "อีจัน",
-   "link": "https://www.ejan.co/economics/2112si1x2vf3",
-   "image": "",
-   "published": 1795784847.0
-  },
-  {
-   "id": "nnews_5992827",
-   "title": "ชนะเพื่อเข้าใกล้แชมป์! ห้องเย็นท่าข้าม ดวล แบงค็อก เอฟซี นัดชิงชนะเลิศ เกมแรก",
-   "desc": "ชนะเพื่อเข้าใกล้แชมป์! ห้องเย็นท่าข้าม ดวล แบงค็อก เอฟซ",
-   "topic": "กีฬา",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sport/footballlocal/news_5992827",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-346.jpg",
-   "published": 1795784433.0
-  },
-  {
-   "id": "nnews_5993340",
-   "title": "แฉบัญชีม้า ‘พรพิมล’ ทำงานร้านสะดวกซื้อ สามีวินจยย. แต่มีชื่อถือหุ้น-นั่งกก.บริษัทใหญ่",
-   "desc": "ธนกฤต แฉเซอร์ไพรส์ ระบุ บัญชีม้า พิมพิมล เจ้าตัวทำงานร้",
-   "topic": "เศรษฐกิจ",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/news_5993340",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1651651-7.jpg",
-   "published": 1795784346.0
-  },
-  {
-   "id": "ntnews1117017",
-   "title": "เทศกาลยี่เป็ง สร้างรายได้สะพัดเมืองเชียงใหม่ กว่า 4,617 ล้านบาท",
-   "desc": "ททท.เชียงใหม่ เผยข้อมูลช่วงเทศกาลลอยกระทงปีนี้ สร้างรายได้กว่า 4,617 ล้านบาท เนื่องจากประเพณียี่เป็งเชียงใหม่ ประจำปี 2569 ได้รับความสนใจจากนักท่องเที่ยว The post เทศกาลยี่เป็ง สร้างรายได้สะพัดเมืองเชียงใหม่ กว่า 4,617 ล้านบาท appeared firs",
-   "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/district-news/1117017/",
-   "image": "https://storage-wp.thaipost.net/2026/11/1000072665.jpg",
-   "published": 1795784275.0
-  },
-  {
-   "id": "news_10486678",
-   "title": "ปาซ ไม่ปิดโอกาสร่วมทัพ แมนยู แต่ต้องได้เล่นฟุตบอล ยูฟ่า แชมเปียนส์ ลีก",
-   "desc": "สื่อรายงาน นิโก ปาซ เพลย์เมกเกอร์พรสวรรค์ของ โคโม และทีมชาติอาร์เจนตินา ไม่ปิดโอกาสในการย้ายไปร่วมทัพ แมนเชสเตอร์ ยูไนเต็ด ในอนาคตแต่ภายใต้เงื่อนไขว่า เขาจะต้องได้เล่นฟุตบอลยูฟ่า แชมเปียนส์ ลีก โดน ปาซ ทำผลงานได้อย่างโดดเด่นในฤดูกาลนี้จนกลา",
-   "topic": "กีฬา",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/sports/news_10486678",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/nico-paz-556.jpg",
-   "published": 1795783969.0
-  },
-  {
-   "id": "news_10486733",
-   "title": "“พล.ต.อ.อิทธิพลฯ” ชื่นชมตำรวจจราจรโครงการพระราชดำริ–สภ.เมืองราชบุรี 2 นาย รับรางวัลเชิดชูเกียรติ",
-   "desc": "“พล.ต.อ.อิทธิพลฯ” ชื่นชมตำรวจจราจรโครงการพระราชดำริ–สภ.เมืองราชบุรี 2 นาย รับรางวัลเชิดชูเกียรติจากมูลนิธิบุณยะจินดาฯ วันนี้ (27 พฤศจิกายน 2569) เวลา 10.00 น. พล.ต.อ.อิทธิพล อัจฉริยะประดิษฐ์ รองผู้บัญชาการตำรวจแห่งชาติ และคุณหญิงกอแก้ว บุณย",
-   "topic": "อาชญากรรม",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/crime/news_10486733",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/3199187_0.jpg",
-   "published": 1795783902.0
-  },
-  {
-   "id": "nnews_5993360",
-   "title": "โปรดเกล้าฯ พ.ร.ฎ.ปิดประชุมรัฐสภาสมัยสามัญ ครั้งที่สอง",
-   "desc": "โปรดเกล้าฯ พ.ร.ฎ.ปิดประชุมรัฐสภาสมัยสามัญ ครั้งที่สอง &",
-   "topic": "การเมือง",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/politics/news_5993360",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1200_0-5.png",
-   "published": 1795783778.0
-  },
-  {
-   "id": "nenews2103770",
-   "title": "TIDLOR ปิดฉากซื้อหุ้นคืน ควัก 1.9 พันล้าน กวาดหุ้นกลับ 114.35 ล้านหุ้น",
-   "desc": "บมจ.ติดล้อ โฮลดิ้งส์ (TIDLOR) เปิดยอดซื้อหุ้นคืนตลอดโครงการ 6 เดือน รวม 114.35 ล้านหุ้น คิดเป็น 3.9486% ของหุ้นทั้งหมด ใช้เงินกว่า 1,977 ล้านบาท จับตาขั้นตอนต่อไป เตรียมชงบอร์ดกำหนดระยะเวลาจำหน่ายหุ้นคืน ภายใต้กรอบกฎหมายไม่เกิน 3 ปี หากขายไ",
-   "topic": "เศรษฐกิจ",
-   "source": "ประชาชาติธุรกิจ",
-   "link": "https://www.prachachat.net/finance/news-2103770",
-   "image": "https://www.prachachat.net/wp-content/uploads/2024/10/TIDLOR.jpg",
-   "published": 1795783569.0
-  },
-  {
-   "id": "nM4WHVzc3coc5",
-   "title": "อุตุฯ เตือนฉบับ 8 ภาคใต้ฝนถล่ม 27-30 พ.ย. นี้",
-   "desc": "อุตุฯ เตือนฉบับ 8 ภาคใต้ฝนถล่ม 27-30 พ.ย. นี้ pptvhd36 พยากรณ์อากาศ ประจำวันที่ 27 พฤศจิกายน 2569 กรุงเทพและปริมณฑล เมฆบางส่วน โดยมีฝนเล็กน้อยบางแห่ง LINE TODAY ประกาศฉบับ 8 เตือนฝนตกหนักถึงหนักมากภาคใต้ อาจเกิดน้ำท่วมฉับพลัน-น้ำป่าไหลหลาก ",
-   "topic": "ข่าวทั่วไป",
-   "source": "pptvhd36",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQll2RWlnWG9RMFZUbHZRbWcxZVlPa19KZkFaN2xrRXQ5V2QybTdBTE9pR1pqLWwtU280YzNsSU5VRGkxazRQVm1RaEQ3TVNoNGdtMnMtQzBWcGhIcWtEcDUzSkVLUkV6c2E4SlJhNVpsVXcxb3hzS0FTYmljZmJPQmtUa3M4WHVzc3c?oc=5",
-   "image": "",
-   "published": 1795783080.0
-  },
-  {
-   "id": "news_10486720",
-   "title": "พันธบัตรออมพลัส เปิดจองรอบใหม่ 21 ธ.ค.นี้ หลังรอบแรกจัดสรรกว่า 1 หมื่นราย",
-   "desc": "พันธบัตรออมพลัส เปิดจองรอบใหม่ 21 ธ.ค.นี้ หลังรอบแรกจัดสรรกว่า 1 หมื่นราย นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยว่า ผลจากการเปิดรับจองซื้อ “พันธบัตรออมพลัส” ปีงบประมาณ พ.ศ. 2570 ครั้งที่ 2 ประสบควา",
-   "topic": "เศรษฐกิจ",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/economics/news_10486720",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2025/11/ekniti-6.jpg",
-   "published": 1795782960.0
-  },
-  {
-   "id": "news_10486719",
-   "title": "เวียดนาม ระเบิดศึกซิ่งทางฝุ่นหนแรก ที่กว๋างจิ่ นักแข่งไทยร่วมวงไล่ล่าแชมป์ 2-6 ธ.ค.นี้",
-   "desc": "ยกระดับวงการมอเตอร์สปอร์ตเวียดนาม ระเบิดศึกแข่งขันแรลลี่สปรินท์ระดับนานาชาติเป็นครั้งแรก รายการ เปโตรเม็กซ์ เอ็กซ์ซีอาร์ สปรินท์ คัพ เวียดนาม 2026- เจิ่ง เซิน แรลลี่ (Petrolimex XCR Sprint Cup Vietnam 2026 – TRUONG SON RALLY) ระหว่างวันที่ ",
-   "topic": "กีฬา",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/sports/news_10486719",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/piovqr.jpg",
-   "published": 1795782907.0
-  },
-  {
-   "id": "news_10486712",
-   "title": "ปิดตำนาน กว่า 80 ปี ร้านอาหารไทยแม่หน่อย ร้านอร่อยคู่เมืองขอนแก่น หลังไร้ผู้สานต่อกิจการ",
-   "desc": "ปิดตำนาน กว่า 80 ปี ร้านอาหารไทยแม่หน่อย ร้านอร่อยคู่เมืองขอนแก่น หลังไร้ผู้สานต่อกิจการ ลูกค้าสุดเสียดาย พากันใจหาย เปิดวันสุดท้ายแห่อุดหนุนแน่นร้าน วันที่ 27 พ.ย.69 ที่ร้านอาหารไทยแม่หน่อย ถนนหน้าเมือง ต.ในเมือง อ.เมือง จ.ขอนแก่น ลูกค้าจำ",
-   "topic": "ข่าวทั่วไป",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/around-thailand/news_10486712",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/maenoi1.jpg",
-   "published": 1795782860.0
-  },
-  {
-   "id": "nnews_5993329",
-   "title": "วุฒิสภาประกาศ 45 พ่อ ดีเด่นแห่งชาติ อนุทิน-พ่อน้องเนเน่ กก.ชี้ตัดสินโดยยึดคุณธรรม-จริยธรรม",
-   "desc": "วุฒิสภาประกาศ 45 พ่อดีเด่นแห่งชาติ 69 “อนุทิน–วีระพงศ์–",
-   "topic": "การเมือง",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/politics/news_5993329",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-353.jpg",
-   "published": 1795782838.0
   }
  ]
 }
