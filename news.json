@@ -1,7 +1,147 @@
 {
- "updated": "2026-11-27T23:45:04.584599+00:00",
+ "updated": "2026-11-28T00:56:33.999844+00:00",
  "count": 60,
  "items": [
+  {
+   "id": "nnews_5993604",
+   "title": "อุตุฯ เตือน 14 จังหวัดใต้ เสี่ยงภัยฝนตกหนัก เหนืออากาศเย็น กทม.อุณหภูมิลด 1-2 องศา",
+   "desc": "อุตุฯ เตือน 14 จังหวัดใต้ เสี่ยงภัยฝนตกหนัก เหนืออากาศเ",
+   "topic": "ข่าวทั่วไป",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/local/news_5993604",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/86238.jpg",
+   "published": 1795827268.0
+  },
+  {
+   "id": "nnews_5993601",
+   "title": "อลอนโซ่รับเชลซีตกอยู่ในสถานการณ์ย่ำแย่ ขอทุกคนในทีมช่วยแก้ปัญหาให้ผลงานกลับมาดี",
+   "desc": "อลอนโซ่รับเชลซีตกอยู่ในสถานการณ์ย่ำแย่ ขอทุกคนในทีมช่วย",
+   "topic": "กีฬา",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/sport/footballinter/footballinterengland/news_5993601",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/545445654.jpg",
+   "published": 1795826953.0
+  },
+  {
+   "id": "nsnews1117145",
+   "title": "‘อนุทิน’ บินเวียดนามถกผู้นำ ACMECS เมินตอบปมตั๋วเครื่องบินแพง",
+   "desc": "นายกฯ นำคณะเดินทางไปกรุงฮานอย ร่วมประชุมผู้นำ ACMECS ครั้งที่ 11 เตรียมรับมอบตำแหน่งประธานต่อจากเมียนมา พร้อมหารือทวิภาคีผู้นำ 2 ประเทศ ก่อนขึ้นเครื่องพยักหน้ารับทราบแต่ไม่ตอบคำถามปมตั๋วเครื่องบินแพง The post ‘อนุทิน’ บินเวียดนามถกผู้นำ ACM",
+   "topic": "การเมือง",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/politics-news/1117145/",
+   "image": "https://storage-wp.thaipost.net/2026/11/S__77086730_0.jpg",
+   "published": 1795826612.0
+  },
+  {
+   "id": "news_10486816",
+   "title": "กรมอุตุนิยมวิทยา เตือนฉบับที่ 9 ฝนตกหนักถึงหนักมาก วันนี้หนักกว่าเดิม อุณหภูมิลดฮวบ 3 องศา",
+   "desc": "กรมอุตุนิยมวิทยา เตือนฉบับที่ 9 ฝนตกหนักถึงหนักมาก วันนี้หนักกว่าเมื่อวาน สภาพอากาศวันนี้ อุณหภูมิลดลง 1-3 องศาเซลเซียส ยอดดอยหนาวจัด เหลือเลขตัวเดียว วันที่ 28 พ.ย.2569 กรมอุตุนิยมวิทยา ประกาศกรมอุตุนิยมวิทยา เรื่อง ฝนตกหนักถึงหนักมากบริเว",
+   "topic": "ข่าวทั่วไป",
+   "source": "ข่าวสด",
+   "link": "https://www.khaosod.co.th/breaking-news/news_10486816",
+   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/weather-1-1.jpg",
+   "published": 1795825811.0
+  },
+  {
+   "id": "nlnews1117140",
+   "title": "รวบ 41 คนไทยลอบข้ามแดน หลังทหารเมียนมาบุกค้นบ่อนแกรนด์เมียวดี",
+   "desc": "ฉก.ราชมนู สนธิกำลังตำรวจและฝ่ายปกครอง จับกุมคนไทย 41 ราย ลักลอบข้ามแดน The post รวบ 41 คนไทยลอบข้ามแดน หลังทหารเมียนมาบุกค้นบ่อนแกรนด์เมียวดี appeared first on .",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/general-news/1117140/",
+   "image": "https://storage-wp.thaipost.net/2026/11/444444.jpeg",
+   "published": 1795825376.0
+  },
+  {
+   "id": "nenews1117135",
+   "title": "‘แก้วตา’ งัด 4 ข้อโต้ประกันสังคมก้าวหน้า จี้โชว์หลักฐานปม ‘ธนพงษ์’",
+   "desc": "อดีต สส.พรรคประชาชน เปิด 4 ประเด็นข้อมูลทีมประกันสังคมก้าวหน้าไม่สอดคล้องคำชี้แจงปลัดแรงงาน The post ‘แก้วตา’ งัด 4 ข้อโต้ประกันสังคมก้าวหน้า จี้โชว์หลักฐานปม ‘ธนพงษ์’ appeared first on .",
+   "topic": "การเมือง",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/x-cite-news/1117135/",
+   "image": "https://storage-wp.thaipost.net/2026/11/1795825031136.jpg",
+   "published": 1795825120.0
+  },
+  {
+   "id": "ncnews2103804",
+   "title": "ราคาน้ำมันวันนี้ (28 พ.ย. 69) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด",
+   "desc": "ราคาน้ำมันประจำวันนี้ (28 พ.ย. 69) อ้างอิงข้อมูลจาก ปั๊มน้ำมันบางจาก แก๊สโซฮอล์ 95 จำหน่ายที่ราคาลิตรละ 37.44 บาท ส่วนแก๊สโซฮอล์ 91 จำหน่ายที่ราคาลิตรละ 37.07 บาท สำหรับราคาน้ำมันดีเซลล่าสุด จำหน่ายที่ราคา 39.34 บาท ขณะที่ดีเซล B20 มีราคา ณ",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/economic/news-2103804",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/09/Oil.png",
+   "published": 1795824743.0
+  },
+  {
+   "id": "nlnews1117130",
+   "title": "ทภ.2 ถก RBC จี้กัมพูชาคุมกำลังชายแดน หลังพบโดรน-ทหารติดอาวุธประชิดแนวไทย",
+   "desc": "กองทัพภาคที่ 2 หารือฝ่ายกัมพูชาผ่านกลไก RBC ขอให้กำชับกำลังพลไม่ขยับแนว ไม่เพิ่มกำลัง และไม่ยั่วยุ พร้อมปฏิบัติตามถ้อยแถลง The post ทภ.2 ถก RBC จี้กัมพูชาคุมกำลังชายแดน หลังพบโดรน-ทหารติดอาวุธประชิดแนวไทย appeared first on .",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/general-news/1117130/",
+   "image": "https://storage-wp.thaipost.net/2026/11/55555.jpeg",
+   "published": 1795824393.0
+  },
+  {
+   "id": "n1news2103744",
+   "title": "ธุรกิจใหญ่ถอนทัพกัมพูชา เซเว่น-มาม่าปิดหมด-OR ยอดหด 70%",
+   "desc": "ธุรกิจเอกชนยักษ์ใหญ่-ปั๊มน้ำมัน ร้านค้าปลีก ทยอยถอยทัพจากกัมพูชา ร้านสะดวกซื้อ 7-Eleven ประกาศยุติการดำเนินธุรกิจทั้งหมด ธ.ค. นี้ “มาม่า” ทนพิษกระแสต้านไม่ไหวปิดฉากโรงงาน 20 ปี เฉือนกำไรหาย 2% OR-เหลือบริการปั๊ม ปตท. ร้านค้าปลีกไม่ถึงครึ่ง ",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/no1/news-2103744",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/online-2-copy-2.jpg",
+   "published": 1795824300.0
+  },
+  {
+   "id": "nenews2103802",
+   "title": "ราคาบิตคอยน์วันนี้ (28 พ.ย. 69) ปรับลง 1.04% อยู่ที่ 59,853 เหรียญสหรัฐ",
+   "desc": "ราคาบิตคอยน์ประจำวันนี้ (28 พ.ย. 69) ปรับลง -1.04% เมื่อเทียบกับราคาเมื่อ 24 ชั่วโมงก่อน อยู่ที่ 59,853 เหรียญสหรัฐ หรือราว 2,031,888.70 บาท เปลี่ยนแปลง 1.9% ในช่วงเวลา 7 วัน ตามข้อมูลล่าสุด เมื่อ 07.03 น. ของวันนี้ ขณะที่เหรียญดิจิทัลคริปโ",
+   "topic": "ต่างประเทศ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/finance/news-2103802",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/BItcoin.png",
+   "published": 1795824300.0
+  },
+  {
+   "id": "npqQTVYa1goc5",
+   "title": "สภาพอากาศวันนี้ ใต้ฝนตกหนัก เหนือ-อีสาน-กลาง-ตะวันออก อุณหภูมิลด 1-3 องศาฯ",
+   "desc": "สภาพอากาศวันนี้ ใต้ฝนตกหนัก เหนือ-อีสาน-กลาง-ตะวันออก อุณหภูมิลด 1-3 องศาฯ Thai PBS พยากรณ์อากาศ วันที่ 28 พฤศจิกายน 2569 กรุงเทพและปริมณฑล เมฆบางส่วน และอุณหภูมิจะลดลง 1-2 องศาเซลเซียส LINE TODAY อุตุฯ ประกาศฉบับ 9 เตือนภาคใต้ฝนเพิ่มขึ้น เ",
+   "topic": "ข่าวทั่วไป",
+   "source": "Thai PBS",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1SSWloM3RCWmhOdXNoRHU1LXFlUC1nUFE3d2IwV1ZDdWtzVWxHWnNQcFRPOUV4NzdpQWRzQ3NvLVpKdjIzbUdvcjZhRnp0UG8wbGpqQTVYa1g?oc=5",
+   "image": "",
+   "published": 1795823886.0
+  },
+  {
+   "id": "nenews1117124",
+   "title": "กอ.รมน.ภาค 4 ประณามคนร้ายยิงงาน ‘มากันริมคลอง’ กลางเมืองยะลา",
+   "desc": "กอ.รมน.ภาค 4 ส่วนหน้า ประณามผู้ก่อเหตุรุนแรงในงานกิจกรรมชุมชนที่จังหวัดยะลา The post กอ.รมน.ภาค 4 ประณามคนร้ายยิงงาน ‘มากันริมคลอง’ กลางเมืองยะลา appeared first on .",
+   "topic": "ข่าวทั่วไป",
+   "source": "ไทยโพสต์",
+   "link": "https://www.thaipost.net/x-cite-news/1117124/",
+   "image": "https://storage-wp.thaipost.net/2026/11/5555.png",
+   "published": 1795823544.0
+  },
+  {
+   "id": "n1news2103741",
+   "title": "ไทยต่อรองภาษีสหรัฐต่ำ 18% เอกชนลุ้นปิดดีลหวั่นสูงกว่านี้",
+   "desc": "ศุภจี เดินเกมต่อรองเจรจาขอลดภาษีอัตราภาษี 301 ให้ต่ำกว่า 18 % พร้อมเร่งเซ็นสัญญาจบดีล ART เพื่อขอแต้มต่อ หวั่นโดนภาษีสูงสุด 25% “คต.” ทำหนังสือโต้แย้งดีเดย์ 5 ม.ค.70 ขอเว้นภาษีเพิ่ม 15 หมวดสินค้า “ศูนย์วิจัยกสิกรไทย” มองสเต็ปแรกต้องให้ได้ 1",
+   "topic": "เศรษฐกิจ",
+   "source": "ประชาชาติธุรกิจ",
+   "link": "https://www.prachachat.net/no1/news-2103741",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/online-copy-9.jpg",
+   "published": 1795823100.0
+  },
+  {
+   "id": "nnews_5993516",
+   "title": "สว.สำรองฟ้องเอาผิด19 คนฮั้วเลือกสว. อนุทิน-เนวิน-กกต.-บิ๊กภท. เตรียม20พยาน ศาลอาญาคดีทุจริตฯนัดพร้อม21ธ.ค.",
+   "desc": "สว.สำรองฟ้องเอาผิด19 คนฮั้วเลือกสว. อนุทิน-เนวิน-กกต.-บ",
+   "topic": "การเมือง",
+   "source": "มติชน",
+   "link": "https://www.matichon.co.th/politics/news_5993516",
+   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/128-2-1.jpg",
+   "published": 1795822858.0
+  },
   {
    "id": "nlight1117117",
    "title": "อุตุฯ เตือนใต้ฝนถล่ม 14 จังหวัด ระวังน้ำท่วมฉับพลัน ไทยตอนบนเย็นลง",
@@ -43,6 +183,16 @@
    "published": 1795821274.0
   },
   {
+   "id": "n1MnBSOHVRoc5",
+   "title": "เปิดรับลงทะเบียน! ขอรับเงินเยียวยา วันนี้ – 26 ธ.ค.69 | TOJO NEWS",
+   "desc": "เปิดรับลงทะเบียน! ขอรับเงินเยียวยา วันนี้ – 26 ธ.ค.69 | TOJO NEWS LINE TODAY 24 ชั่วโมงข่าว 91 ประจำวันที่ 27 พฤศจิกายน 2569 | สวพ.FM91 LINE TODAY จับตาสถานการณ์ - เร่งสำรวจความเสียหายเพลิงไหม้ \"ตลาดปัฐวิกรณ์\" Thai PBS โรงเรียนบดินทรเดชา (ส",
+   "topic": "ข่าวทั่วไป",
+   "source": "LINE TODAY",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JanlLRzFhVnhBaFF4ZEJsN3B0eXk5YWNCcFk3NHcxbWJZSmlMdy1tTHJYTTdmSjUzbUNiNXI1V0tncngtVjFrWnJUUlAtakE1MnBSOHVR?oc=5",
+   "image": "",
+   "published": 1795820577.0
+  },
+  {
    "id": "nnews_5993406",
    "title": "พณ.ปลื้มส่งออกทะลุ10ล้านล. แค่ตค.พุ่ง27%สูงสุดรอบ5ปี ‘บีโอไอ’เคาะ3ข้อปลุกลงทุน",
    "desc": "พณ.ปลื้มส่งออกทะลุ10ล้านล. แค่ตค.พุ่ง27%สูงสุดรอบ5ปี &#",
@@ -71,16 +221,6 @@
    "link": "https://www.khaosod.co.th/sports/news_10486813",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/2026-11-27T213322Z_1325049002_UP1EMBR1NVKE5_RTRMADP_3_SOCCER-ENGLAND-NFO-CHE.jpg",
    "published": 1795818950.0
-  },
-  {
-   "id": "nGFCODB3bwoc5",
-   "title": "ONE ลุมพินี : เดชชวลิต ซิลค์มวยไทย บดเก๋า ยอดขุนพล คว้าชัย 6 ไฟต์รวด ศึก ONE ลุมพินี 180 & The Inner Circle 40",
-   "desc": "ONE ลุมพินี : เดชชวลิต ซิลค์มวยไทย บดเก๋า ยอดขุนพล คว้าชัย 6 ไฟต์รวด ศึก ONE ลุมพินี 180 & The Inner Circle 40 ช่อง 7 ผลไฟต์ต่อไฟต์ ศึก ONE ลุมพินี 180 & The Inner Circle 40 ONE Championship “เดชชวลิต” บดเก๋า “ยอดขุนพล”, “ทอม คีโอ” คว้าสัญญ",
-   "topic": "กีฬา",
-   "source": "ช่อง 7",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmT0V4WHllQjZ0dHNERzE5elhIT0ZQOU5yZGhVblRrWm0zdElmdFAzekJwWV9qcFlkT0lYZlVYNkZOV1dkVGFCODB3bw?oc=5",
-   "image": "",
-   "published": 1795810785.0
   },
   {
    "id": "nnews_5992742",
@@ -113,14 +253,14 @@
    "published": 1795801345.0
   },
   {
-   "id": "n0NpWl9Jdwoc5",
+   "id": "nmcjNOVTZBoc5",
    "title": "ราคาน้ำมันโลกผันผวน! เบรนท์ยืนเหนือ 95 ดอลลาร์ กังวลสงครามตะวันออกกลางกระทบอุปทาน | The Bangkok Insight",
    "desc": "ราคาน้ำมันโลกผันผวน! เบรนท์ยืนเหนือ 95 ดอลลาร์ กังวลสงครามตะวันออกกลางกระทบอุปทาน | The Bangkok Insight LINE TODAY หุ้นโลกผันผวน น้ำมันพุ่งรับความเสี่ยงตะวันออกกลาง ทองคำทรงตัว-ดอลลาร์อ่อนแรง LINE TODAY ราคาน้ำมันโลกดีดตัว รับข่าวโจมตีเรือบ",
    "topic": "เศรษฐกิจ",
    "source": "LINE TODAY",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxVVJQaFFTalQwUEVyWjZOR2hJUGJsV0dBUmpPNy1ib2dqekpkQ2xnWlpwU0xsbHd2TmgtU1BFdU9tdkpyLWhRcUl2S2NzNk5jd2lZcGpiSktYeUFYVExlTHlnbGtUN3hSQ2J3aGFIU1BBd3c2eXhSS0NpWl9Jdw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yVFdlZmhLYXlqSUw0VW9SSEFpQTlWdEk4WjNpN1FnOFdsbW5sd0dZbVE2VDRNeG44Q1I0QjJZUFdyQUthRkpMQklsSHJqZldmcjNOVTZB?oc=5",
    "image": "",
-   "published": 1795799988.0
+   "published": 1795799919.0
   },
   {
    "id": "nnews_5992788",
@@ -153,54 +293,24 @@
    "published": 1795799034.0
   },
   {
-   "id": "npaper1116998",
+   "id": "nkyaDYzRVEoc5",
    "title": "อนุทินจ่อแจงยิบ ปมสารพิษแม่น้ำ เร่งส่ง‘ชุดตรวจ’",
-   "desc": "จ่อแจงปมร้อนสิ่งแวดล้อม ผ่านรายการ “คุยกับนายกฯ อนุทิน” โฆษกรัฐบาลเผย นายกฯ เตรียมร่วมประชุม ACMECS ที่ฮานอย 28-29 พ.ย. The post อนุทินจ่อแจงยิบ ปมสารพิษแม่น้ำ เร่งส่ง‘ชุดตรวจ’ appeared first on .",
+   "desc": "อนุทินจ่อแจงยิบ ปมสารพิษแม่น้ำ เร่งส่ง‘ชุดตรวจ’ thaipost.net รัฐบาลส่งมอบชุดตรวจสารหนู รู้ผลไว ล็อตแรก 2,000 ชุด ธ.ค.นี้ Thai PBS \"ไทย-เมียนมา\" จับมือแก้ \"สารพิษข้ามแดน\" แผน 3 ปี ตรวจน้ำเข้ม \"แม่กก-สาย 12 จุด\" ส่งชุดตรวจสารหนู 10,000 ชุด รู",
    "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/one-newspaper/1116998/",
-   "image": "https://storage-wp.thaipost.net/2026/10/anutin-crop-5.jpg",
+   "source": "thaipost.net",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xUVVRTFp0aTdTbjZjbTlKMUpyX1FlUHNZYUdDT1cya0dic0dXUzBsODFxbEpiUGR0bnkwSWFvMVR3YkRkMHNrcHhpRmhneHBhVDk0akkyaDYzRVE?oc=5",
+   "image": "",
    "published": 1795798915.0
   },
   {
-   "id": "npaper1117011",
-   "title": "ทักษิณถึงร้อง! โลว์คอสต์แพง คค.ชี้อยู่ในเรต",
-   "desc": "“ทักษิณ” ยังร้อง! บอกตั๋วโลว์คอสต์บินเชียงใหม่ช่วงลอยกระทงแพงหูฉี่ บางเว็บพุ่งเกือบ 3 หมื่น เผยยุคไทยรักไทยเคยเห็นตั๋ว 999 บาท วอนคมนาคมคุมราคาสูงสุด “พิพัฒน์” บอกยังไม่เกินเพดานสูงสุด “จุลพันธ์” รับแม้วติงในฐานะชาวบ้าน ตัวเองก็เคยเจอ “อัยก",
-   "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/one-newspaper/1117011/",
-   "image": "https://storage-wp.thaipost.net/2026/11/IMG_5727.jpeg",
-   "published": 1795798914.0
-  },
-  {
-   "id": "npaper1116996",
-   "title": "DSIลุยแกะเส้นเงินมูลนิธิกัน",
-   "desc": "“ดีเอสไอ” ลุยแกะเส้นเงินมูลนิธิ “กัน จอมพลัง” เตรียมให้แจงแบบม้วนเดียวจบอีกครั้ง แบบไม่จำกัดเวลา แต่เอกสารต้องครบ พร้อมเรียกเจ้าของร้านทอง “นับเงิน 888” แจงธุรกรรมปริศนาช่วงปี 68-69 “หนุ่ม กรรชัย-บุ้ง ใบหยก” เข้าพบดีเอสไอ ปมบริจาคเงินเข้าบั",
-   "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/one-newspaper/1116996/",
-   "image": "https://storage-wp.thaipost.net/2025/10/fugvlwv.jpg",
-   "published": 1795798913.0
-  },
-  {
-   "id": "npaper1116995",
+   "id": "n5mb0xFMW8oc5",
    "title": "เล็งถกUSAลดเพิ่ม15หมวด",
-   "desc": "“อนุทิน” เตรียมแจงยิบปมภาษีมาตรา 301 พร้อมร่ายความคืบหน้าเข้าโออีซีดี “ลลิดา” ย้ำกลุ่มสินค้าไทยกว่า 2,000 รายการที่สหรัฐเสนอให้ยกเว้นภาษี ลั่น พณ.ยังเดินหน้าเจรจาขอยกเว้นเพิ่มอีก 15 หมวดสินค้า The post เล็งถกUSAลดเพิ่ม15หมวด appeared first ",
-   "topic": "เศรษฐกิจ",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/one-newspaper/1116995/",
-   "image": "https://storage-wp.thaipost.net/2026/11/lalida-crop.jpeg",
-   "published": 1795798913.0
-  },
-  {
-   "id": "npaper1116997",
-   "title": "‘จุลพันธ์’สอนส้ม ธนพงษ์ขอดิ้นต่อ",
-   "desc": "\"จุลพันธ์\" โต้ตัดสิทธิ \"ธนพงษ์\" ไม่เกี่ยวการเมือง แจงทำตามกฎหมาย หลักฐานศาลมัดขาดคุณสมบัติ จ่อเรียกคืนเบี้ยประชุมนั่งบอร์ดสมัยที่แล้ว The post ‘จุลพันธ์’สอนส้ม ธนพงษ์ขอดิ้นต่อ appeared first on .",
+   "desc": "เล็งถกUSAลดเพิ่ม15หมวด thaipost.net ภาษีทรัมป์: เหตุใดมาตรการภาษีใหม่ของทรัมป์จึงเป็นภัยคุกคามน้อยกว่าที่คิด BBC เปิดกลุ่มสินค้าไทยกว่า 2,000 รายการ ที่สหรัฐฯ เสนอยกเว้นภาษี ม.301 Thai PBS มีแต่ไทยที่ดีใจ!แทบทุกประเทศโวยวาย คัดค้านเพดานภาษี",
    "topic": "ข่าวทั่วไป",
-   "source": "ไทยโพสต์",
-   "link": "https://www.thaipost.net/one-newspaper/1116997/",
-   "image": "https://storage-wp.thaipost.net/2026/11/S__325574662.jpg",
-   "published": 1795798907.0
+   "source": "thaipost.net",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wVXJvZzRLemNyM0lwUDgzV2hUek1LWmV4QTZ3UVJGajdYWUZXSlhoSzVzanVxRWIwYkxQVUh5SnlrQ2FEVlhMbXVYVE5OS3JReWU5Y25mb0xFMW8?oc=5",
+   "image": "",
+   "published": 1795798913.0
   },
   {
    "id": "news_10486804",
@@ -331,16 +441,6 @@
    "link": "https://www.khaosod.co.th/special-stories/news_10486789",
    "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/poomatana.jpg",
    "published": 1795793004.0
-  },
-  {
-   "id": "niVUNuOUx3oc5",
-   "title": "กปภ. กางแผนรับมือสารหนูปนเปื้อน เร่งเปลี่ยนแหล่งน้ำดิบ เสริมความมั่นคงน้ำประปาเชียงราย",
-   "desc": "กปภ. กางแผนรับมือสารหนูปนเปื้อน เร่งเปลี่ยนแหล่งน้ำดิบ เสริมความมั่นคงน้ำประปาเชียงราย สยามรัฐ ดูพาดหัวและความคิดเห็นเพิ่มเติมใน Google News",
-   "topic": "ข่าวทั่วไป",
-   "source": "สยามรัฐ",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYY01rODhIdFA0cjI3aXIxNmFQWVl1LWFpaUl5SWZCZDE4QXRoZW13bUlWQk5IOUhSSjZmMUxHY1lOUUFVMkpiY2tVWllSdkhiVUNuOUx3?oc=5",
-   "image": "",
-   "published": 1795792920.0
   },
   {
    "id": "nCT3Vhallpoc5",
@@ -501,106 +601,6 @@
    "link": "https://www.matichon.co.th/lifestyle/tech/news_5993519",
    "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/punsong_20261127_212518_0000.png",
    "published": 1795789988.0
-  },
-  {
-   "id": "nnews_5993435",
-   "title": "ถอดรหัส2โมเดล ‘ห้วยคล้าย-ห้วยโพง’ ปิดทองหลังพระหวังพลิกฟื้นแหล่งน้ำชุมชน รับมือเอลนีโญ",
-   "desc": "ท่ามกลางความท้าทายภาคเกษตรกรรมในพื้นที่ภาคตะวันออกเฉียง",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/region/news_5993435",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/S__28704788-1.jpg",
-   "published": 1795789923.0
-  },
-  {
-   "id": "nnews_5993458",
-   "title": "แรงงานบุกตรวจศูนย์ CI สมุทรสาคร-สมุทรปราการ ปมร้องซื้อสลิป-เก็บเงินเพิ่ม 1,200 บาท",
-   "desc": "แรงงานบุกตรวจศูนย์ CI สมุทรสาคร-สมุทรปราการ ปมร้องซื้อส",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5993458",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-360.jpg",
-   "published": 1795789435.0
-  },
-  {
-   "id": "nnews_5993497",
-   "title": "จุฬาฯ-กทม. เปิดตัว ‘PET Inclusive Bangkok’ สร้างเมืองแห่งความสุขให้คนกับหมา",
-   "desc": "คณะสัตวแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ร่วมกับกรุงเทพม",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/education/news_5993497",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/IMG_1520-scaled.jpeg",
-   "published": 1795789301.0
-  },
-  {
-   "id": "news_10486758",
-   "title": "41 คนไทยหนีตาย หลังทหารพม่าจู่โจมบ่อนกาสิโน เมียวดี ซ่อนตัวก่อนลอบกลับไทย",
-   "desc": "ทหารพม่าปราบปรามหนัก ทลายบ่อนกาสิโนฝั่งเมียวดี วัยรุ่นไทยสร้างตัวนับร้อยแตกกระเจิง หนีไปซ่อนตัว ก่อนอาศัยช่วงใกล้มืด หลบหนีข้ามแดนกลับไทย ทหารไทยจับได้ 41 คน วันที่ 27 พ.ย.69 ที่แนวชายแดนไทย-เมียนมา ริมตลิ่งแม่น้ำเมย โดยช่วงเช้ามืดที่ผ่านมา",
-   "topic": "ข่าวทั่วไป",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/around-thailand/news_10486758",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/fgtyrgdds.jpg",
-   "published": 1795788589.0
-  },
-  {
-   "id": "nnews_5993429",
-   "title": "ทลายรังเว็บพนัน WTH168 รวบ 3 ผจก.-แอดมิน ค้นคอนโดกลางสุราษฎร์-เมืองคอน เงินหมุน 26 ล้าน!",
-   "desc": "ตร.ไซเบอร์ ลุยทลายรังเว็บพนันลุ่มน้ำตาปี WTH168 ออกหมาย",
-   "topic": "ข่าวทั่วไป",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/region/news_5993429",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/16546546565.jpg",
-   "published": 1795788465.0
-  },
-  {
-   "id": "news_10486672",
-   "title": "อุทัยธานี เอฟซี ไล่เจ๊า ศรีสะเกษ ยูไนเต็ด แบ่งทีมละแต้ม ศึกไทยลีก",
-   "desc": "การแข่งขันฟุตบอลไทยลีก เกมในวันศุกร์ ที่ 27 พ.ย. อุทัยธานี เอฟซี อันดับที่ 6 เปิดสนามอุทัยธานี สเตเดียม พบ ศรีสะเกษ ยูไนเต็ด อันดับ 12 ผลการแข่งขันปรากฎว่าเกมนี้ทั้งคู่เสมอกันไป 2-2 โดยเกมนี้ อุทัยธานีได้ประตูออกนำก่อน จากการสังหารจุดโทษของ",
-   "topic": "กีฬา",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/sports/news_10486672",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/thaileague-2.jpg",
-   "published": 1795788447.0
-  },
-  {
-   "id": "nnews_5993433",
-   "title": "‘พัฒนา’ เผยเหตุไฟไหม้โรงกลั่นบางจาก เหลือผู้ป่วย 7 ราย วิกฤต 4 ราย บริษัทรับผิดชอบค่ารักษาทั้งหมด",
-   "desc": "‘พัฒนา’ เผยเหตุไฟไหม้โรงกลั่นบางจาก เหลือผู้ป่วย 7 ราย",
-   "topic": "อาชญากรรม",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5993433",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-359.jpg",
-   "published": 1795788271.0
-  },
-  {
-   "id": "nnews_5992859",
-   "title": "‘โตโน่’ ส่งใจเชียร์บอล โรงเรียนพิมพ์ใจวิทย์ ขอนแก่น บ้านเกิดลุยศึกยช.ชิงถ้วยนายกฯ",
-   "desc": "‘โตโน่’ ส่งใจเชียร์บอล โรงเรียนพิมพ์ใจวิทย์",
-   "topic": "กีฬา",
-   "source": "มติชน",
-   "link": "https://www.matichon.co.th/sport/footballlocal/news_5992859",
-   "image": "https://www.matichon.co.th/wp-content/uploads/2026/11/1-348.jpg",
-   "published": 1795788008.0
-  },
-  {
-   "id": "nJYVktvdzkoc5",
-   "title": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน",
-   "desc": "ประกาศ \"เขตเพลิงไหม้\" ตลาดปัฐวิกรณ์ ห้ามเข้าพื้นที่-รื้อถอนใน 45 วัน Thai PBS 24 ชั่วโมงข่าว 91 ประจำวันที่ 27 พฤศจิกายน 2569 | สวพ.FM91 LINE TODAY จับตาสถานการณ์ - เร่งสำรวจความเสียหายเพลิงไหม้ \"ตลาดปัฐวิกรณ์\" Thai PBS เปิดภาพต้นเพลิงไหม้ ",
-   "topic": "เศรษฐกิจ",
-   "source": "Thai PBS",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9INVktWFVDQmtNR2JMTHVZa2FxdzN6X3FGWFRnM08yc09va0pnVW8tcHVWZ2ZkRE0wb0hOSzViRTBNWWRJdlV1bWVqMThIZ2hJRlJYVktvdzk?oc=5",
-   "image": "",
-   "published": 1795787891.0
-  },
-  {
-   "id": "news_10486754",
-   "title": "มาเรสกา เชื่อ แมนฯ ซิตี้ มีดีพอบุกชนะ อาร์เซนอล ได้ – ไม่ตระหนกทีมฟอร์มตก",
-   "desc": "เอ็นโซ มาเรสกา เฮดโค้ช แมนเชสเตอร์ ซิตี้ แสดงความเชื่อมั่นว่า “เรือใบสีฟ้า” มีดีพอที่จะบุกเอาชนะ อาร์เซนอล ได้ในเกมพรีเมียร์ลีกคู่บิ๊กแมตช์สุดสัปดาห์นี้ พร้อมระบุไม่ตระหนกกับผลงานของทีมที่ตกลงไป โดย แมนฯ ซิตี้ มีโปรแกรมสำคัญในการบุกเยือน อา",
-   "topic": "กีฬา",
-   "source": "ข่าวสด",
-   "link": "https://www.khaosod.co.th/sports/news_10486754",
-   "image": "https://www.khaosod.co.th/wpapp/uploads/2026/11/maresca-5666.jpg",
-   "published": 1795787780.0
   }
  ]
 }
